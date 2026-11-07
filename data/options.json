@@ -1,0 +1,1508 @@
+{
+ "meta": {
+  "title": "知识驱动选项系统",
+  "note": "选项不再由固定模板凑三条，而是由当前局已见过的真实知识条目、八维态势、地理气候、同期政权、家族职业与卷数共同生成。史实条目只作『依据』，抉择与后果一律标注为游戏推演。",
+  "randomness": "权重随态势浮动；每笔有小概率『意外改写』（结果里才揭示）；选项数量 3—6 条不固定。全部走确定性种子，同 seed + 同选择序列必得同一局。",
+  "decay": "同一行动原型重复选择，收益按 0.72 衰减，并催生新的分支，避免刷同一选项。",
+  "dimNote": "dimKind 覆盖全部维度；frontier24 的 24 维按默认行动类型挂到同 kind 的两条原型上，避免只生成泛化选项。",
+  "depthNote": "SP_LOCAL / SP_SURNAME / SP_PEOPLE 由 localities.json 与 peoples.json 填词；「立氏」为推演，不宣称真实血缘；人群条目不作生物种族分类。",
+  "depth2Note": "PY/RS/GM/WO/BC 五维已登记 dimKind 并挂入对应原型；本轮只加知识条目，不改任何选项数值、难度或史实。",
+  "interactionNote": "第三轮：新增 price / risk / mineral / weather / specimen 五条联动，把 PY/RS/GM/WO/BC 五个新维度从收集册带进选项；所有联动文本为推演，不改写真实技术史或制度史。",
+  "interaction2Note": "第四轮新增 SP_CROSSCHECK / SP_NAMECHECK：地方互证与得姓辨析；两存与异写并列均为推演读法，不作疆界判断、不作血统推断。"
+ },
+ "kinds": {
+  "build": {
+   "name": "营建",
+   "badge": "营",
+   "color": "#c9a227",
+   "hint": "投入粮与人力换长期产出，常有工期与失修风险"
+  },
+  "craft": {
+   "name": "工造",
+   "badge": "造",
+   "color": "#d08b5b",
+   "hint": "耗艺与材，成品可入市或传习"
+  },
+  "study": {
+   "name": "研习",
+   "badge": "学",
+   "color": "#7fb8d8",
+   "hint": "把未见的知识写回文明册，是后续选项的资本"
+  },
+  "trade": {
+   "name": "交易",
+   "badge": "市",
+   "color": "#7fc7a0",
+   "hint": "以有余易不足，受商路与同期政权影响"
+  },
+  "diplomacy": {
+   "name": "外交",
+   "badge": "使",
+   "color": "#d08bb5",
+   "hint": "遣使、立约、行礼，收益慢但能改写边境压力"
+  },
+  "migrate": {
+   "name": "迁徙",
+   "badge": "迁",
+   "color": "#9fb86a",
+   "hint": "换地理单元，带旧例走，人丁与聚落有取舍"
+  },
+  "inherit": {
+   "name": "传承",
+   "badge": "承",
+   "color": "#e0c07a",
+   "hint": "写回族谱与职业，卷末回响里看得见"
+  },
+  "quiz": {
+   "name": "考据",
+   "badge": "辨",
+   "color": "#b49ad9",
+   "hint": "判断是史实、断代争议还是传说追述"
+  },
+  "govern": {
+   "name": "治理",
+   "badge": "治",
+   "color": "#8fa3ad",
+   "hint": "立册、设官、定式，改的是衰减与增速"
+  },
+  "risk": {
+   "name": "冒险",
+   "badge": "险",
+   "color": "#e07a6a",
+   "hint": "高收益、明确失手概率，失败另有一套后果"
+  }
+ },
+ "archetypes": [
+  {
+   "id": "B01",
+   "kind": "build",
+   "dims": [
+    "HY",
+    "AG",
+    "D",
+    "MM",
+    "EN",
+    "CE",
+    "NH",
+    "SO"
+   ],
+   "text": "依「{title}」所载之法，{act}",
+   "act": "征夫开渠筑堤，分水灌田",
+   "eff": {
+    "food": 7,
+    "craft": 3
+   },
+   "cost": {
+    "might": -3,
+    "cohesion": -1
+   },
+   "risk": 0.22,
+   "fail": {
+    "food": -6,
+    "cohesion": -2
+   },
+   "req": {
+    "seenDim": 1
+   },
+   "unlock": "dim",
+   "job": "渠工",
+   "echo": "水到之处，田畴才认得人。",
+   "weight": 1.35,
+   "surprise": true
+  },
+  {
+   "id": "B02",
+   "kind": "build",
+   "dims": [
+    "HY",
+    "PU",
+    "D",
+    "CM",
+    "LO",
+    "NH",
+    "SO"
+   ],
+   "text": "照「{title}」的旧制，{act}",
+   "act": "铺设砖渠与公用水处，定下岁修之约",
+   "eff": {
+    "people": 4,
+    "cohesion": 4
+   },
+   "cost": {
+    "food": -4,
+    "wealth": -3
+   },
+   "risk": 0.18,
+   "fail": {
+    "people": -3
+   },
+   "req": {
+    "seenDim": 2
+   },
+   "unlock": "dim",
+   "job": "匠户",
+   "echo": "修一次不算难，难的是年年都修。",
+   "weight": 1.1
+  },
+  {
+   "id": "B03",
+   "kind": "build",
+   "dims": [
+    "EN",
+    "MC",
+    "MM",
+    "HO"
+   ],
+   "text": "仿「{title}」的机括，{act}",
+   "act": "架一轮水磨，把水力借到作坊里",
+   "eff": {
+    "craft": 8,
+    "wealth": 3
+   },
+   "cost": {
+    "food": -3,
+    "might": -2
+   },
+   "risk": 0.26,
+   "fail": {
+    "craft": -4,
+    "wealth": -2
+   },
+   "req": {
+    "seenDim": 1,
+    "craft": 38
+   },
+   "unlock": "dim",
+   "job": "机匠",
+   "echo": "轮子转起来以后，人手就腾出来了。",
+   "weight": 1.0,
+   "surprise": true
+  },
+  {
+   "id": "C01",
+   "kind": "craft",
+   "dims": [
+    "T",
+    "MC",
+    "HO",
+    "MM",
+    "TX",
+    "CE",
+    "J",
+    "DS",
+    "GM"
+   ],
+   "text": "取「{title}」的工序，{act}",
+   "act": "设坊试造，先出一件样子再论量产",
+   "eff": {
+    "craft": 7,
+    "wealth": 4
+   },
+   "cost": {
+    "food": -3,
+    "might": -2
+   },
+   "risk": 0.2,
+   "fail": {
+    "craft": -3
+   },
+   "req": {
+    "seenDim": 1
+   },
+   "unlock": "dim",
+   "job": "织匠",
+   "echo": "手艺落在物件上，比落在话里牢。",
+   "weight": 1.25
+  },
+  {
+   "id": "C02",
+   "kind": "craft",
+   "dims": [
+    "TX",
+    "V",
+    "CL",
+    "F",
+    "U",
+    "RI",
+    "DS",
+    "GM"
+   ],
+   "text": "按「{title}」的样式，{act}",
+   "act": "染一批织物，留作聘礼与远商之货",
+   "eff": {
+    "wealth": 6,
+    "faith": 2,
+    "lore": 2
+   },
+   "cost": {
+    "food": -4
+   },
+   "risk": 0.14,
+   "fail": {
+    "wealth": -3
+   },
+   "req": {
+    "seenDim": 1
+   },
+   "unlock": false,
+   "job": "染工",
+   "echo": "颜色是最先被远方认出的东西。",
+   "weight": 1.0
+  },
+  {
+   "id": "C03",
+   "kind": "craft",
+   "dims": [
+    "HO",
+    "CI",
+    "MC",
+    "Q",
+    "Y",
+    "MT"
+   ],
+   "text": "拆解「{title}」之器，{act}",
+   "act": "重造一座，并刻下刻度与校法",
+   "eff": {
+    "lore": 7,
+    "craft": 4
+   },
+   "cost": {
+    "wealth": -4
+   },
+   "risk": 0.3,
+   "fail": {
+    "lore": -3,
+    "craft": -2
+   },
+   "req": {
+    "seenDim": 2,
+    "lore": 35
+   },
+   "unlock": "dim",
+   "job": "司辰",
+   "echo": "能量出来的，才谈得上准。",
+   "weight": 0.95,
+   "surprise": true
+  },
+  {
+   "id": "S01",
+   "kind": "study",
+   "dims": [
+    "M",
+    "K",
+    "A",
+    "PH",
+    "LA",
+    "ID",
+    "HI",
+    "Q",
+    "Y",
+    "BI",
+    "Z",
+    "G",
+    "C",
+    "ED",
+    "CI",
+    "N",
+    "ME",
+    "SW",
+    "BK",
+    "MP",
+    "RH",
+    "WO",
+    "BC"
+   ],
+   "text": "遣人访「{title}」之学，{act}",
+   "act": "抄录、校雠，收进族里的册子",
+   "eff": {
+    "lore": 7,
+    "cohesion": 2
+   },
+   "cost": {
+    "food": -3,
+    "wealth": -2
+   },
+   "risk": 0.12,
+   "fail": {
+    "lore": -2
+   },
+   "req": {},
+   "unlock": "dim",
+   "job": "书记",
+   "echo": "册子厚了一寸，后人少走一步弯路。",
+   "weight": 1.4,
+   "surprise": true
+  },
+  {
+   "id": "S02",
+   "kind": "study",
+   "dims": [
+    "ID",
+    "HI",
+    "R",
+    "RI",
+    "LA",
+    "PH",
+    "BI",
+    "SW",
+    "BK",
+    "MP",
+    "RH",
+    "WO",
+    "BC"
+   ],
+   "text": "就「{title}」设一场辨问，{act}",
+   "act": "请两方各陈其说，只录分歧不判胜负",
+   "eff": {
+    "lore": 5,
+    "faith": 3,
+    "cohesion": 2
+   },
+   "cost": {
+    "wealth": -3
+   },
+   "risk": 0.16,
+   "fail": {
+    "cohesion": -3
+   },
+   "req": {
+    "lore": 30
+   },
+   "unlock": "dim",
+   "job": "讲者",
+   "echo": "争不清楚的地方，后来反最耐读。",
+   "weight": 1.05
+  },
+  {
+   "id": "S03",
+   "kind": "study",
+   "dims": [
+    "ED",
+    "CA",
+    "P",
+    "ME",
+    "PU",
+    "CI"
+   ],
+   "text": "依「{title}」立学，{act}",
+   "act": "择族中子弟入学，束脩由公中出",
+   "eff": {
+    "lore": 5,
+    "people": 3
+   },
+   "cost": {
+    "wealth": -5,
+    "food": -2
+   },
+   "risk": 0.1,
+   "fail": {
+    "wealth": -2
+   },
+   "req": {
+    "wealth": 28
+   },
+   "unlock": false,
+   "job": "生员",
+   "echo": "这一代读书，见效往往在下一代。",
+   "weight": 1.0
+  },
+  {
+   "id": "T01",
+   "kind": "trade",
+   "dims": [
+    "B",
+    "S",
+    "V",
+    "FI",
+    "LO",
+    "H",
+    "DP",
+    "F",
+    "CE",
+    "TC",
+    "MR",
+    "PY",
+    "RS"
+   ],
+   "text": "借「{title}」的商路，{act}",
+   "act": "发一批货，换回缺的粮与铁",
+   "eff": {
+    "wealth": 8,
+    "food": 3
+   },
+   "cost": {
+    "might": -2,
+    "cohesion": -1
+   },
+   "risk": 0.24,
+   "fail": {
+    "wealth": -6
+   },
+   "req": {
+    "seenDim": 1
+   },
+   "unlock": "dim",
+   "job": "行商",
+   "echo": "货走得远，旧例也得跟着改。",
+   "weight": 1.3,
+   "surprise": true
+  },
+  {
+   "id": "T02",
+   "kind": "trade",
+   "dims": [
+    "FI",
+    "LO",
+    "MT",
+    "CA",
+    "CM",
+    "S",
+    "TC",
+    "MR",
+    "PY",
+    "RS"
+   ],
+   "text": "按「{title}」立契，{act}",
+   "act": "设一本账，把赊欠与分成写明白",
+   "eff": {
+    "wealth": 5,
+    "cohesion": 4,
+    "lore": 2
+   },
+   "cost": {
+    "food": -2
+   },
+   "risk": 0.09,
+   "fail": {
+    "cohesion": -2
+   },
+   "req": {
+    "seenDim": 1
+   },
+   "unlock": false,
+   "job": "账房",
+   "echo": "账清楚了，争吵就少一半。",
+   "weight": 1.15
+  },
+  {
+   "id": "T03",
+   "kind": "trade",
+   "dims": [
+    "V",
+    "G",
+    "AG",
+    "Z",
+    "TX"
+   ],
+   "text": "以「{title}」所记之物，{act}",
+   "act": "囤一季新收，等来年青黄不接时再放",
+   "eff": {
+    "wealth": 6,
+    "food": 4
+   },
+   "cost": {
+    "cohesion": -3
+   },
+   "risk": 0.28,
+   "fail": {
+    "food": -5,
+    "cohesion": -2
+   },
+   "req": {
+    "food": 40
+   },
+   "unlock": false,
+   "job": "囤户",
+   "echo": "丰年谁都会笑，荒年才见账本。",
+   "weight": 0.9,
+   "surprise": true
+  },
+  {
+   "id": "D01",
+   "kind": "diplomacy",
+   "dims": [
+    "DP",
+    "O",
+    "RI",
+    "L",
+    "W",
+    "C",
+    "PR",
+    "PE"
+   ],
+   "text": "循「{title}」之礼，{act}",
+   "act": "遣使持书入邻境，请先息兵一年",
+   "eff": {
+    "cohesion": 5,
+    "wealth": 3,
+    "might": 2
+   },
+   "cost": {
+    "faith": -2
+   },
+   "risk": 0.2,
+   "fail": {
+    "might": -4,
+    "cohesion": -2
+   },
+   "req": {
+    "seenDim": 1
+   },
+   "unlock": "dim",
+   "job": "使者",
+   "echo": "不动刀的年份，也被写进了编年。",
+   "weight": 1.2,
+   "surprise": true
+  },
+  {
+   "id": "D02",
+   "kind": "diplomacy",
+   "dims": [
+    "DP",
+    "RI",
+    "O",
+    "W",
+    "MA",
+    "PR",
+    "PE"
+   ],
+   "text": "援「{title}」为例，{act}",
+   "act": "结一场盟，约定彼此不收纳逃户",
+   "eff": {
+    "cohesion": 6,
+    "people": 3
+   },
+   "cost": {
+    "wealth": -4,
+    "might": -2
+   },
+   "risk": 0.18,
+   "fail": {
+    "cohesion": -4
+   },
+   "req": {
+    "seenDim": 2
+   },
+   "unlock": false,
+   "job": "掌盟",
+   "echo": "盟约不牢，但足够让一季安稳。",
+   "weight": 1.0
+  },
+  {
+   "id": "D03",
+   "kind": "diplomacy",
+   "dims": [
+    "RI",
+    "DP",
+    "L",
+    "C",
+    "O"
+   ],
+   "text": "用「{title}」的仪节，{act}",
+   "act": "厚待过境使团，换一条可通行的路",
+   "eff": {
+    "wealth": 5,
+    "lore": 3
+   },
+   "cost": {
+    "food": -4,
+    "faith": -1
+   },
+   "risk": 0.15,
+   "fail": {
+    "wealth": -3
+   },
+   "req": {
+    "wealth": 25
+   },
+   "unlock": false,
+   "job": "傧相",
+   "echo": "礼数花的是粮，换回来的是路。",
+   "weight": 0.95
+  },
+  {
+   "id": "M01",
+   "kind": "migrate",
+   "dims": [
+    "MG",
+    "CL",
+    "DI",
+    "H",
+    "S",
+    "AG",
+    "TR",
+    "AD"
+   ],
+   "text": "闻「{title}」之地可居，{act}",
+   "act": "分一支人带旧例南迁，留一半守祖地",
+   "eff": {
+    "people": 5,
+    "food": 4
+   },
+   "cost": {
+    "cohesion": -5,
+    "faith": -2
+   },
+   "risk": 0.26,
+   "fail": {
+    "people": -5,
+    "cohesion": -2
+   },
+   "req": {
+    "people": 25
+   },
+   "unlock": "dim",
+   "job": "侨户",
+   "echo": "谱牒分了房，年节还按同一天过。",
+   "weight": 1.1,
+   "surprise": true
+  },
+  {
+   "id": "M02",
+   "kind": "migrate",
+   "dims": [
+    "MG",
+    "DI",
+    "PU",
+    "L",
+    "TR",
+    "AD"
+   ],
+   "text": "依「{title}」安置流人，{act}",
+   "act": "编户给田，三年不征",
+   "eff": {
+    "people": 7,
+    "cohesion": 3
+   },
+   "cost": {
+    "food": -5,
+    "wealth": -3
+   },
+   "risk": 0.22,
+   "fail": {
+    "food": -4,
+    "cohesion": -3
+   },
+   "req": {
+    "food": 35
+   },
+   "unlock": false,
+   "job": "落户",
+   "echo": "肯收留人的那一笔，后来总被提起。",
+   "weight": 1.0
+  },
+  {
+   "id": "I01",
+   "kind": "inherit",
+   "dims": [
+    "MA",
+    "FU",
+    "P",
+    "CA",
+    "SP",
+    "E",
+    "U",
+    "F",
+    "R",
+    "J",
+    "CH",
+    "GD",
+    "SN",
+    "GE"
+   ],
+   "text": "按「{title}」的旧例，{act}",
+   "act": "重修谱牒，把这一卷的抉择录在名下",
+   "eff": {
+    "cohesion": 7,
+    "faith": 3,
+    "lore": 2
+   },
+   "cost": {
+    "wealth": -3
+   },
+   "risk": 0.06,
+   "fail": {
+    "cohesion": -2
+   },
+   "req": {},
+   "unlock": false,
+   "job": "掌谱",
+   "echo": "名字写进去，就不算白过一世。",
+   "weight": 1.25
+  },
+  {
+   "id": "I02",
+   "kind": "inherit",
+   "dims": [
+    "CA",
+    "ED",
+    "MA",
+    "SP",
+    "RI",
+    "CH",
+    "GD",
+    "SN",
+    "GE"
+   ],
+   "text": "以「{title}」定家法，{act}",
+   "act": "立下分房与继立的规矩，先说清再分",
+   "eff": {
+    "cohesion": 6,
+    "lore": 3
+   },
+   "cost": {
+    "people": -2,
+    "faith": -1
+   },
+   "risk": 0.12,
+   "fail": {
+    "cohesion": -4
+   },
+   "req": {
+    "cohesion": 30
+   },
+   "unlock": "dim",
+   "job": "族长",
+   "echo": "规矩早立，比临事再争省得多。",
+   "weight": 1.05
+  },
+  {
+   "id": "I03",
+   "kind": "inherit",
+   "dims": [
+    "J",
+    "F",
+    "U",
+    "C",
+    "V",
+    "CL"
+   ],
+   "text": "留「{title}」一件，{act}",
+   "act": "择物入匣，附一张写明来历的纸",
+   "eff": {
+    "lore": 5,
+    "wealth": 2,
+    "faith": 2
+   },
+   "cost": {
+    "wealth": -2
+   },
+   "risk": 0.08,
+   "fail": {
+    "lore": -2
+   },
+   "req": {},
+   "unlock": false,
+   "job": "守藏",
+   "echo": "物在，来历就在。",
+   "weight": 0.9
+  },
+  {
+   "id": "Q01",
+   "kind": "quiz",
+   "dims": [
+    "A",
+    "N",
+    "R",
+    "HI",
+    "Q",
+    "Y",
+    "DI",
+    "MU",
+    "PS",
+    "LH",
+    "PA"
+   ],
+   "text": "就「{title}」设问：{act}",
+   "act": "此条是确证史实、断代争议，还是后世追述？",
+   "eff": {
+    "lore": 6
+   },
+   "cost": {
+    "wealth": -2
+   },
+   "risk": 0.0,
+   "fail": {},
+   "req": {
+    "seenDim": 1
+   },
+   "unlock": false,
+   "job": "考据",
+   "echo": "分不清的那部分，也该如实记着。",
+   "weight": 1.15,
+   "quiz": true
+  },
+  {
+   "id": "G01",
+   "kind": "govern",
+   "dims": [
+    "L",
+    "FI",
+    "CA",
+    "PU",
+    "CM",
+    "CI",
+    "ED",
+    "AG",
+    "MT",
+    "LO",
+    "ME",
+    "ST",
+    "PN",
+    "PC",
+    "RG",
+    "HB",
+    "AR",
+    "EL",
+    "IP"
+   ],
+   "text": "参「{title}」立一条章程，{act}",
+   "act": "设簿、定程、责成到人",
+   "eff": {
+    "cohesion": 5,
+    "wealth": 4,
+    "lore": 2
+   },
+   "cost": {
+    "might": -2,
+    "food": -2
+   },
+   "risk": 0.14,
+   "fail": {
+    "cohesion": -3
+   },
+   "req": {
+    "seenDim": 1
+   },
+   "unlock": false,
+   "job": "胥吏",
+   "echo": "章程比人稳，也比人冷。",
+   "weight": 1.2
+  },
+  {
+   "id": "G02",
+   "kind": "govern",
+   "dims": [
+    "PU",
+    "ME",
+    "DI",
+    "L",
+    "FI",
+    "ST",
+    "PN",
+    "PC",
+    "RG",
+    "HB",
+    "AR",
+    "EL",
+    "IP"
+   ],
+   "text": "仿「{title}」设一处公所，{act}",
+   "act": "病者分居、贫者给药，经费列入常支",
+   "eff": {
+    "people": 5,
+    "faith": 4,
+    "cohesion": 3
+   },
+   "cost": {
+    "wealth": -6,
+    "food": -3
+   },
+   "risk": 0.16,
+   "fail": {
+    "people": -3,
+    "wealth": -2
+   },
+   "req": {
+    "wealth": 30
+   },
+   "unlock": "dim",
+   "job": "医官",
+   "echo": "肯为不相干的人花的钱，最难省。",
+   "weight": 1.0
+  },
+  {
+   "id": "G03",
+   "kind": "govern",
+   "dims": [
+    "CM",
+    "LO",
+    "FI",
+    "CA",
+    "MT"
+   ],
+   "text": "照「{title}」通传之法，{act}",
+   "act": "置驿、给符、定程限，让消息不隔夜",
+   "eff": {
+    "lore": 4,
+    "might": 4,
+    "wealth": 2
+   },
+   "cost": {
+    "food": -3
+   },
+   "risk": 0.12,
+   "fail": {
+    "might": -2
+   },
+   "req": {
+    "seenDim": 1
+   },
+   "unlock": false,
+   "job": "驿卒",
+   "echo": "消息早到一天，局面就完全不同。",
+   "weight": 1.0
+  },
+  {
+   "id": "R01",
+   "kind": "risk",
+   "dims": [
+    "X",
+    "W",
+    "H",
+    "N",
+    "E",
+    "O",
+    "IS"
+   ],
+   "text": "赌「{title}」可用，{act}",
+   "act": "倾一季之储试一次远行，成败都写进编年",
+   "eff": {
+    "wealth": 12,
+    "lore": 6,
+    "might": 4
+   },
+   "cost": {
+    "food": -8,
+    "people": -3
+   },
+   "risk": 0.42,
+   "fail": {
+    "food": -6,
+    "people": -5,
+    "cohesion": -4
+   },
+   "req": {
+    "food": 45
+   },
+   "unlock": "dim",
+   "job": "远行者",
+   "echo": "那一笔没人敢劝，也没人肯忘。",
+   "weight": 0.8,
+   "surprise": true
+  },
+  {
+   "id": "R02",
+   "kind": "risk",
+   "dims": [
+    "W",
+    "O",
+    "X",
+    "N",
+    "DI",
+    "IS"
+   ],
+   "text": "趁「{title}」之隙，{act}",
+   "act": "先发制人，夺一处要害再谈别的",
+   "eff": {
+    "might": 10,
+    "wealth": 5
+   },
+   "cost": {
+    "cohesion": -4,
+    "food": -5
+   },
+   "risk": 0.38,
+   "fail": {
+    "might": -7,
+    "people": -4
+   },
+   "req": {
+    "might": 35
+   },
+   "unlock": false,
+   "job": "戍卒",
+   "echo": "赢了改边界，输了改族谱。",
+   "weight": 0.85,
+   "surprise": true
+  },
+  {
+   "id": "R03",
+   "kind": "risk",
+   "dims": [
+    "H",
+    "X",
+    "S",
+    "B",
+    "LO"
+   ],
+   "text": "循「{title}」的传闻，{act}",
+   "act": "备船出海，去核实那条没人走完的航线",
+   "eff": {
+    "wealth": 9,
+    "craft": 5,
+    "lore": 5
+   },
+   "cost": {
+    "wealth": -6,
+    "people": -2
+   },
+   "risk": 0.36,
+   "fail": {
+    "people": -4,
+    "wealth": -4
+   },
+   "req": {
+    "wealth": 35
+   },
+   "unlock": "dim",
+   "job": "舟师",
+   "echo": "海图上空着的那块，后来有了名字。",
+   "weight": 0.8,
+   "surprise": true
+  }
+ ],
+ "special": [
+  {
+   "id": "SP_GEO",
+   "kind": "migrate",
+   "text": "据舆地「{geo}」之势，{act}",
+   "act": "把聚居点挪到近水而避潦的台地",
+   "eff": {
+    "food": 5,
+    "people": 3
+   },
+   "cost": {
+    "cohesion": -3,
+    "wealth": -2
+   },
+   "risk": 0.2,
+   "fail": {
+    "food": -4
+   },
+   "req": {},
+   "unlock": false,
+   "job": "择地",
+   "echo": "地势选对了，后人省几代力气。",
+   "weight": 1.05,
+   "need": "geo"
+  },
+  {
+   "id": "SP_CLIM",
+   "kind": "govern",
+   "text": "遇「{climate}」之变，{act}",
+   "act": "开仓平粜、改种耐旱之作物，先渡这一季",
+   "eff": {
+    "people": 5,
+    "cohesion": 3
+   },
+   "cost": {
+    "food": -6,
+    "wealth": -3
+   },
+   "risk": 0.18,
+   "fail": {
+    "people": -4
+   },
+   "req": {},
+   "unlock": false,
+   "job": "备荒",
+   "echo": "那几年不好过，账上每一笔都记着。",
+   "weight": 1.15,
+   "need": "climate"
+  },
+  {
+   "id": "SP_POLITY",
+   "kind": "diplomacy",
+   "text": "同期并立「{polity}」遣人至，{act}",
+   "act": "按彼此都能接受的仪节回书，先不结盟",
+   "eff": {
+    "wealth": 4,
+    "lore": 3,
+    "cohesion": 2
+   },
+   "cost": {
+    "faith": -2
+   },
+   "risk": 0.16,
+   "fail": {
+    "wealth": -3
+   },
+   "req": {},
+   "unlock": false,
+   "job": "通译",
+   "echo": "并立的那几家，谁也吞不下谁。",
+   "weight": 1.0,
+   "need": "polity"
+  },
+  {
+   "id": "SP_PERSON",
+   "kind": "study",
+   "text": "同期人物「{person}」之名传入，{act}",
+   "act": "遣子弟往问学，只录所见，不攀附",
+   "eff": {
+    "lore": 6,
+    "cohesion": 2
+   },
+   "cost": {
+    "wealth": -3
+   },
+   "risk": 0.1,
+   "fail": {
+    "lore": -2
+   },
+   "req": {},
+   "unlock": false,
+   "job": "问学者",
+   "echo": "见过一面，够写半页。",
+   "weight": 0.9,
+   "need": "person"
+  },
+  {
+   "id": "SP_LOCAL",
+   "kind": "study",
+   "text": "翻「{local}」本地旧牍，{act}",
+   "act": "按本地方志所载的风土定这一季的差派",
+   "eff": {
+    "lore": 6,
+    "cohesion": 3
+   },
+   "cost": {
+    "wealth": -3
+   },
+   "risk": 0.14,
+   "fail": {
+    "lore": -3
+   },
+   "req": {},
+   "unlock": false,
+   "job": "掌故",
+   "echo": "一地有一地的旧账，照着办比凭空拟的稳。",
+   "weight": 1.1,
+   "need": "local"
+  },
+  {
+   "id": "SP_SURNAME",
+   "kind": "inherit",
+   "text": "依「{surname}」之例为本族立氏，{act}",
+   "act": "只取一个称法入册，不攀附远祖，也不认作血统凭据",
+   "eff": {
+    "cohesion": 6,
+    "lore": 4
+   },
+   "cost": {
+    "faith": -2
+   },
+   "risk": 0.1,
+   "fail": {
+    "cohesion": -3
+   },
+   "req": {},
+   "unlock": false,
+   "job": "谱牒",
+   "echo": "名是拿来记人的，不是拿来证明谁更纯。",
+   "weight": 1.05,
+   "need": "surname"
+  },
+  {
+   "id": "SP_PEOPLE",
+   "kind": "diplomacy",
+   "text": "与「{people}」比邻而居，{act}",
+   "act": "互市、通译、各依旧俗，不强作同异之论",
+   "eff": {
+    "wealth": 5,
+    "cohesion": 4,
+    "lore": 2
+   },
+   "cost": {
+    "might": -2
+   },
+   "risk": 0.2,
+   "fail": {
+    "cohesion": -4
+   },
+   "req": {},
+   "unlock": false,
+   "job": "通译",
+   "echo": "并居久了，分数的是旧账，不是血。",
+   "weight": 1.0,
+   "need": "people"
+  },
+  {
+   "id": "SP_PRICE",
+   "kind": "trade",
+   "text": "核「{price}」所见之价，{act}",
+   "act": "把这一季的折色、工价与粮价并写一册，先问用的是哪种钱",
+   "eff": {
+    "wealth": 6,
+    "lore": 3
+   },
+   "cost": {
+    "food": -2
+   },
+   "risk": 0.16,
+   "fail": {
+    "wealth": -4,
+    "lore": -2
+   },
+   "req": {},
+   "unlock": false,
+   "job": "估值",
+   "echo": "同是一石粮，用银、用钱、用券记下来，账就不是一本账。",
+   "weight": 1.05,
+   "need": "price",
+   "note": "名义价格与实际购买力不同层；本选项为推演，不改写真实价格史。"
+  },
+  {
+   "id": "SP_RISK",
+   "kind": "trade",
+   "text": "依「{risk}」之例，{act}",
+   "act": "与同路人先立一份分摊之约，写明谁担哪一段、失了怎么补",
+   "eff": {
+    "wealth": 5,
+    "cohesion": 4
+   },
+   "cost": {
+    "wealth": -3
+   },
+   "risk": 0.18,
+   "fail": {
+    "cohesion": -3,
+    "wealth": -2
+   },
+   "req": {},
+   "unlock": false,
+   "job": "承保",
+   "echo": "先把最坏那一笔写清楚，余下的路反倒好走。",
+   "weight": 1.05,
+   "need": "risk",
+   "note": "互助习惯与精算保单是不同层；本选项为推演，不宣称现代保险已出现。"
+  },
+  {
+   "id": "SP_MINERAL",
+   "kind": "craft",
+   "text": "按「{mineral}」所记辨一处矿脉，{act}",
+   "act": "只记层位、颜色与可采之状，不把名物当矿藏图",
+   "eff": {
+    "craft": 6,
+    "wealth": 3
+   },
+   "cost": {
+    "food": -3,
+    "might": -2
+   },
+   "risk": 0.2,
+   "fail": {
+    "craft": -3,
+    "food": -2
+   },
+   "req": {},
+   "unlock": false,
+   "job": "辨矿",
+   "echo": "石头不会自己说话，先把看见的和听来的分两行写。",
+   "weight": 1.02,
+   "need": "mineral",
+   "note": "古典矿物名物不等于近代地质学；本选项为推演，不作矿藏判断。"
+  },
+  {
+   "id": "SP_WEATHER",
+   "kind": "study",
+   "text": "参「{weather}」定这一季农时，{act}",
+   "act": "物候、仪器读数与旧谚各记一行，不把一次观测当年景定论",
+   "eff": {
+    "food": 6,
+    "lore": 3
+   },
+   "cost": {
+    "wealth": -2
+   },
+   "risk": 0.17,
+   "fail": {
+    "food": -4,
+    "lore": -2
+   },
+   "req": {},
+   "unlock": false,
+   "job": "候气",
+   "echo": "天时只给个大概，账要留着来年再对。",
+   "weight": 1.08,
+   "need": "weather",
+   "note": "观测、记录与预报是三种实践；本选项为推演，不作气候因果断言。"
+  },
+  {
+   "id": "SP_SPECIMEN",
+   "kind": "study",
+   "text": "依「{specimen}」给新见之物立一名，{act}",
+   "act": "先描其形、记其地与采集之人，名号暂附注不改旧目",
+   "eff": {
+    "lore": 6,
+    "craft": 2
+   },
+   "cost": {
+    "wealth": -2
+   },
+   "risk": 0.14,
+   "fail": {
+    "lore": -3
+   },
+   "req": {},
+   "unlock": false,
+   "job": "掌目",
+   "echo": "名是拿来找得到的，不是拿来把万物排成一条队。",
+   "weight": 1.04,
+   "need": "specimen",
+   "note": "采集、命名与分类阶元不同层；本选项为推演，不改写真实分类史。"
+  },
+  {
+   "id": "SP_CROSSCHECK",
+   "kind": "study",
+   "text": "拿「{local}」与「{local2}」两下对读，{act}",
+   "act": "一份记水道、一份记称谓，合不上的先两存，不硬断",
+   "eff": {
+    "lore": 7,
+    "cohesion": 3
+   },
+   "cost": {
+    "wealth": -3
+   },
+   "risk": 0.17,
+   "fail": {
+    "lore": -4,
+    "cohesion": -2
+   },
+   "req": {},
+   "unlock": false,
+   "job": "校雠",
+   "echo": "两种纸说的不是一回事时，先别急着替它们和好。",
+   "weight": 1.06,
+   "need": "local_mis",
+   "note": "互证是读法，不作疆界、领土或主权判断；本选项为推演，不冒充真实方志。"
+  },
+  {
+   "id": "SP_NAMECHECK",
+   "kind": "inherit",
+   "text": "核「{surname}」与「{nameNote}」之例，{act}",
+   "act": "把得姓多源、音译异写各记一行，同姓不硬并为一族",
+   "eff": {
+    "cohesion": 6,
+    "lore": 5
+   },
+   "cost": {
+    "faith": -2
+   },
+   "risk": 0.13,
+   "fail": {
+    "cohesion": -3,
+    "lore": -2
+   },
+   "req": {},
+   "unlock": false,
+   "job": "谱牒",
+   "echo": "名册上并在一起的，未必是一家；分开记着反倒清楚。",
+   "weight": 1.04,
+   "need": "surname_note",
+   "note": "姓氏不作血统推断，谱牒多有层累；本选项为推演，不攀附真实家族。"
+  }
+ ],
+ "dimKind": {
+  "P": "inherit",
+  "T": "craft",
+  "C": "study",
+  "B": "trade",
+  "R": "quiz",
+  "M": "study",
+  "K": "study",
+  "A": "quiz",
+  "U": "inherit",
+  "F": "inherit",
+  "J": "inherit",
+  "G": "study",
+  "V": "trade",
+  "N": "quiz",
+  "W": "risk",
+  "E": "inherit",
+  "L": "govern",
+  "S": "trade",
+  "H": "risk",
+  "X": "risk",
+  "Q": "study",
+  "Y": "study",
+  "D": "build",
+  "O": "diplomacy",
+  "Z": "study",
+  "BI": "study",
+  "PH": "study",
+  "ME": "govern",
+  "LA": "study",
+  "FI": "trade",
+  "CL": "migrate",
+  "DI": "migrate",
+  "LO": "trade",
+  "CA": "govern",
+  "ED": "study",
+  "MT": "govern",
+  "MA": "inherit",
+  "FU": "inherit",
+  "SP": "inherit",
+  "CE": "craft",
+  "PU": "govern",
+  "AG": "build",
+  "MM": "craft",
+  "EN": "craft",
+  "ID": "study",
+  "HI": "quiz",
+  "CM": "govern",
+  "RI": "diplomacy",
+  "TX": "craft",
+  "HY": "build",
+  "HO": "craft",
+  "MC": "craft",
+  "CI": "study",
+  "DP": "diplomacy",
+  "MG": "migrate",
+  "SW": "study",
+  "BK": "study",
+  "MP": "study",
+  "ST": "govern",
+  "PN": "govern",
+  "PC": "govern",
+  "RG": "govern",
+  "IS": "risk",
+  "PR": "diplomacy",
+  "CH": "inherit",
+  "DS": "craft",
+  "GD": "inherit",
+  "HB": "govern",
+  "NH": "build",
+  "SO": "build",
+  "TC": "trade",
+  "TR": "migrate",
+  "AR": "govern",
+  "RH": "study",
+  "MU": "quiz",
+  "EL": "govern",
+  "MR": "trade",
+  "IP": "govern",
+  "PS": "quiz",
+  "SN": "inherit",
+  "PE": "diplomacy",
+  "LH": "quiz",
+  "GE": "inherit",
+  "AD": "migrate",
+  "PA": "quiz",
+  "PY": "trade",
+  "RS": "trade",
+  "GM": "craft",
+  "WO": "study",
+  "BC": "study"
+ },
+ "surpriseRate": 0.14,
+ "decayRate": 0.72,
+ "optCount": [
+  3,
+  4,
+  4,
+  5,
+  5
+ ]
+}

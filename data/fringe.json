@@ -1,0 +1,1643 @@
+{
+ "meta": {
+  "rule": "四层严格分离：fact 史实 / text 文本传统 / hypothesis 未证实假说 / prehistory 史前可考",
+  "disclaimer": "未证实假说层只在「狂想档」出现，且每张卡都标无证据；默认关闭。"
+ },
+ "texts": [
+  {
+   "id": "TX01",
+   "y0": -520,
+   "y1": -280,
+   "rawYear": "前500—前300年",
+   "precision": "range",
+   "category": "地理志怪汇编",
+   "title": "《山海经》",
+   "summary": "成书为战国至汉初层累编成；山川、方物、神怪长期影响文学与地理想象，不能直接作某时代实地记录。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.cssn.cn/skgz/bwyc/202512/t20251219_5960818.shtml",
+     "quote": "“哥贝克力遗址可早至PPNA时期。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX02",
+   "y0": -420,
+   "y1": -281,
+   "rawYear": "前4世纪",
+   "precision": "approximate",
+   "category": "出土纪年史书",
+   "title": "古本《竹书纪年》",
+   "summary": "西晋整理自汲冢竹书，记夏商周至战国魏史；有古史价值，但异说需与金文等互证。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://book.youth.cn/zx/202501/t20250106_15754813.htm",
+     "quote": "“这部先秦时期的纪年体史书……记载到……魏襄王二十年。”",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX03",
+   "y0": 220,
+   "y1": 340,
+   "rawYear": "约280年",
+   "precision": "approximate",
+   "category": "出土纪年史书今本",
+   "title": "今本《竹书纪年》",
+   "summary": "明代流传本含后世辑佚与增补，不能等同西晋所整汲冢原书。",
+   "nature": "后世托名或伪书",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://book.youth.cn/zx/202501/t20250106_15754813.htm",
+     "quote": "“这部先秦时期的纪年体史书……记载到……魏襄王二十年。”",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX04",
+   "y0": -520,
+   "y1": -381,
+   "rawYear": "前5世纪",
+   "precision": "approximate",
+   "category": "史传",
+   "title": "《战国策》",
+   "summary": "记战国纵横辞令与策士活动，为重要史料；辞令多有拟作、修饰与结构化处理。",
+   "nature": "史料中含传说材料",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+     "quote": "“《三国演义》《水浒传》《西游记》等……大体可分为世代累积与文人独创两种类型。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX05",
+   "y0": -120,
+   "y1": 19,
+   "rawYear": "前1世纪",
+   "precision": "approximate",
+   "category": "纪传史",
+   "title": "《史记》",
+   "summary": "西汉成书，保存先秦至汉初制度、人物与传说；五帝、三皇等段落不能逐句当实录。",
+   "nature": "史料中含传说材料",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://ssroff.whu.edu.cn/info/1154/5524.htm",
+     "quote": "“希罗多德受到很多条件的限制……他靠自己财力……道听途说，十分不易。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX06",
+   "y0": -19,
+   "y1": 520,
+   "rawYear": "1—5世纪",
+   "precision": "range",
+   "category": "出土写本群",
+   "title": "敦煌写本群",
+   "summary": "大量可考经史、佛道、契约与文学写本，反映流传变化；单篇年代、底本与抄写年代须分开。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.hcx.gov.cn/ztzl/hcsz/hcxs/content_1330",
+     "quote": "“我国第一块有确切地点和层位的旧石器……揭开了中国旧石器时代工具研究的序幕。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX07",
+   "y0": 261,
+   "y1": 301,
+   "rawYear": "281年",
+   "precision": "exact",
+   "category": "出土叙事文本",
+   "title": "《穆天子传》",
+   "summary": "西晋自汲冢竹书整理，叙周穆王西行，混入神话与夸张，地理路线不可无校勘地坐实。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://big5.cctv.com/gate/big5/culture-travel.cctv.com/2018/10/29/ARTILeStbaOmDlCNOoj4nLfj181029.shtml",
+     "quote": "“此書是西晉太康二年……盜發古冢所得書也，皆竹簡素絲編。”",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX08",
+   "y0": -420,
+   "y1": -281,
+   "rawYear": "前4世纪",
+   "precision": "approximate",
+   "category": "出土文献",
+   "title": "清华简《尚书》类文献",
+   "summary": "战国写本提供《尚书》流传与文本校勘材料；并不等于整部传世《尚书》皆为先秦原貌。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://epaper.gmw.cn/wzb/html/2012-01/12/nw.D110000wzb_20120112_3-06.htm",
+     "quote": "“与传世的古文《尚书》中《咸有一德》篇进行比对后发现……没有任何共同之处。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX09",
+   "y0": 281,
+   "y1": 420,
+   "rawYear": "4世纪",
+   "precision": "approximate",
+   "category": "经部文本",
+   "title": "传世《古文尚书》",
+   "summary": "东晋梅赜所献本含二十五篇伪作，已被清代考据及出土材料进一步辨明。",
+   "nature": "后世托名或伪书",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://epaper.gmw.cn/wzb/html/2012-01/12/nw.D110000wzb_20120112_3-06.htm",
+     "quote": "“与传世的古文《尚书》中《咸有一德》篇进行比对后发现……没有任何共同之处。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    },
+    {
+     "url": "https://paper.people.com.cn/rmrbhwb/html/2022-05/20/content_25918925.htm",
+     "quote": "“这部伪《古文尚书》共计58篇，是将今文29篇编辑为33篇，另外伪造了25篇。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX10",
+   "y0": -1120,
+   "y1": -81,
+   "rawYear": "前11世纪—前2世纪",
+   "precision": "range",
+   "category": "出土档案文献",
+   "title": "甲骨文与金文",
+   "summary": "殷周实际存在并可考；内容有具体占卜、祭祀、赏赐等，仍需释读，不等于后世经传全貌。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://news.gscn.com.cn/system/2018/08/23/012003768.shtml",
+     "quote": "“据古希腊历史学家希罗多德推算，荷马生活在公元前850年左右。”",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX11",
+   "y0": 119,
+   "y1": 239,
+   "rawYear": "约179年",
+   "precision": "approximate",
+   "category": "编年史",
+   "title": "《东观汉记》",
+   "summary": "东汉官修，后散佚；后世辑本可补正史，但流传残损，不能据辑文复原原书。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.cssn.cn/skgz/bwyc/202512/t20251219_5960818.shtml",
+     "quote": "“建筑群A、B、C、D属于古早阶段，始建于PPNA时期（9600—8700 cal BC）。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX12",
+   "y0": 162,
+   "y1": 282,
+   "rawYear": "约222年",
+   "precision": "approximate",
+   "category": "志怪小说",
+   "title": "《列异传》",
+   "summary": "魏晋志怪可考，记异闻怪谈，是文学与观念史材料，不证明其中灵异事实。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+     "quote": "“世代累积型小说主要成书于明代，代表作有《三国演义》《水浒传》《西游记》等。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX13",
+   "y0": 297,
+   "y1": 440,
+   "rawYear": "317—420年",
+   "precision": "range",
+   "category": "志怪小说集",
+   "title": "《搜神记》",
+   "summary": "干宝约晋成帝时编集，保留神话、传说与异闻；原有三十卷散佚，今本经后人辑录。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/search/word?=%E6%90%9C%E7%A5%9E%E8%AE%B0",
+     "quote": "“《搜神记》……东晋干宝撰，成书于晋成帝时期。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX14",
+   "y0": 419,
+   "y1": 460,
+   "rawYear": "439—440年",
+   "precision": "exact",
+   "category": "志人小说集",
+   "title": "《世说新语》",
+   "summary": "南朝宋刘义庆组织编撰，记东汉至东晋士族言谈风尚；部分内容本于传闻。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E4%B8%96%E8%AF%B4%E6%96%B0%E8%AF%AD/5597",
+     "quote": "“《世说新语》……成书于宋文帝元嘉十六至十七年（公元439—440年）。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX15",
+   "y0": 381,
+   "y1": 620,
+   "rawYear": "5—6世纪",
+   "precision": "range",
+   "category": "笔记杂史",
+   "title": "《博物志》等西晋杂记",
+   "summary": "《博物志》约西晋成书，汇地理、异物与传闻；可提供文本史证据，不足证明所述异事。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+     "quote": "“早期版本的写定者……实际上是以忠奸对立的格局改造水浒故事。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX16",
+   "y0": 681,
+   "y1": 820,
+   "rawYear": "8世纪",
+   "precision": "approximate",
+   "category": "志怪传奇",
+   "title": "唐代传奇与笔记",
+   "summary": "《酉阳杂俎》等汇集可考文本，记录唐人世界观与异闻；叙事非史实报告。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E4%B8%96%E8%AF%B4%E6%96%B0%E8%AF%AD/5597",
+     "quote": "“内容博采《史记》《汉书》等前代典籍……部分内容出自传闻，并非全部符合史实。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX17",
+   "y0": 1281,
+   "y1": 1420,
+   "rawYear": "14世纪",
+   "precision": "approximate",
+   "category": "历史演义",
+   "title": "《三国演义》",
+   "summary": "罗贯中约元末明初编定，综合史书、讲史与戏剧；不是三国编年实录。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+     "quote": "“《水浒传》最早的名目即为《忠义水浒传》。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX18",
+   "y0": 1281,
+   "y1": 1420,
+   "rawYear": "14世纪",
+   "precision": "approximate",
+   "category": "世代累积小说",
+   "title": "《水浒传》",
+   "summary": "明初写定，宋江等人物与事件有历史影子，但人物群像、招安叙事多经长期层累加工。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+     "quote": "“《水浒传》最早的名目即为《忠义水浒传》。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX19",
+   "y0": 1481,
+   "y1": 1620,
+   "rawYear": "16世纪",
+   "precision": "approximate",
+   "category": "神魔小说",
+   "title": "《西游记》",
+   "summary": "明中期百回本形成，取经人物与唐玄奘西行史事仅构成文学素材，主体为神魔叙事。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+     "quote": "“《水浒传》最早的名目即为《忠义水浒传》。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX20",
+   "y0": 1441,
+   "y1": 1660,
+   "rawYear": "约16世纪",
+   "precision": "approximate",
+   "category": "神魔小说",
+   "title": "《封神演义》",
+   "summary": "明代成书，借商周更替讲神权与封神；其中神将、法宝、朝代细节均不能当史实。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+     "quote": "“《水浒传》最早的名目即为《忠义水浒传》。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX21",
+   "y0": 1652,
+   "y1": 1735,
+   "rawYear": "1672—1715年",
+   "precision": "range",
+   "category": "志怪小说集",
+   "title": "《聊斋志异》",
+   "summary": "蒲松龄约康熙年间长期撰写，记录文人想象、社会传闻与鬼狐叙事，不是志怪档案。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+     "quote": "“《水浒传》最早的名目即为《忠义水浒传》。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX22",
+   "y0": -485,
+   "y1": -365,
+   "rawYear": "约前425年",
+   "precision": "approximate",
+   "category": "史学著作",
+   "title": "希罗多德《历史》",
+   "summary": "前5世纪成书，保存希波战争及地中海风土异闻；作者“有闻必录”，细节需独立核验。",
+   "nature": "史料中含传说材料",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://ssroff.whu.edu.cn/info/1154/5524.htm",
+     "quote": "“他还秉承‘有闻必录’的原则，记下不同的说法，以供后人辨别。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX23",
+   "y0": -820,
+   "y1": -700,
+   "rawYear": "约前760年",
+   "precision": "approximate",
+   "category": "史诗",
+   "title": "《伊利亚特》",
+   "summary": "口头传统约前8世纪写定，叙特洛伊战争；考古可见特洛伊多层遗址，不等于木马等情节可证实。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=Mzg5MDEzNTQyNA==&mid=2248311742&idx=2&sn=3910046b15b45ff9963fdfe916fd41a6",
+     "quote": "“《伊利亚特》大约成书于公元前8世纪，距离事件已过去400多年。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    },
+    {
+     "url": "https://www.thepaper.cn/newsDetail_forward_10173324",
+     "quote": "“史诗都是古老的传说故事……于是添加了自己时代的细节。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX24",
+   "y0": -780,
+   "y1": -660,
+   "rawYear": "约前720年",
+   "precision": "approximate",
+   "category": "史诗",
+   "title": "《奥德赛》",
+   "summary": "与《伊利亚特》同为荷马传统，写奥德修斯返乡；地理与奇遇含现实经验，也含神话结构。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=Mzg5MDEzNTQyNA==&mid=2248311742&idx=2&sn=3910046b15b45ff9963fdfe916fd41a6",
+     "quote": "“《伊利亚特》大约成书于公元前8世纪，距离事件已过去400多年。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX25",
+   "y0": -2160,
+   "y1": -1240,
+   "rawYear": "约前2100—前1300年",
+   "precision": "range",
+   "category": "史诗文本",
+   "title": "《吉尔伽美什史诗》",
+   "summary": "古巴比伦与标准阿卡德本形成于前2千纪；洪水等母题有文化史价值，不能等同历史档案。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v268634.htm",
+     "quote": "“公元前1300年—公元前1000年时期……编写完成标准阿卡德版本。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX26",
+   "y0": -220,
+   "y1": 19,
+   "rawYear": "前2—前1世纪",
+   "precision": "range",
+   "category": "出土经卷",
+   "title": "《死海古卷》",
+   "summary": "1947年后发现的手抄文献真实存在，约前3世纪至前1世纪写本可考；其中《以诺书》属第二圣殿时期文本，非近代伪作。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v262590.htm",
+     "quote": "“死海古卷是泛称1947—1956年间，在死海西北基伯昆兰旷野的山洞发现的古代文献。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    },
+    {
+     "url": "https://www.thepaper.cn/newsdetail_Forward_6747703",
+     "quote": "“学术界认为，死海古卷是我们了解第二圣殿时期犹太教……的重要材料。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX27",
+   "y0": 1535,
+   "y1": 1575,
+   "rawYear": "1555年",
+   "precision": "exact",
+   "category": "预言诗集",
+   "title": "《诸世纪》",
+   "summary": "诺查丹玛斯于16世纪确实写定并出版；预言解读多事后附会，不能作未来史实记录。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/view/68660.html?wtp=tt",
+     "quote": "“诺查丹玛斯于1550年开始创作《诸世纪》……1555年出版了初版预言集。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX28",
+   "y0": 1076,
+   "y1": 1196,
+   "rawYear": "约1136年",
+   "precision": "approximate",
+   "category": "拉丁文“诸王史”",
+   "title": "《不列颠诸王史》",
+   "summary": "蒙茅斯的杰弗里将凯尔特传说、世系与创作合为不列颠诸王叙事，是亚瑟王传统的重要来源。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E4%B8%8D%E5%88%97%E9%A2%A0%E8%AF%B8%E7%8E%8B%E5%8F%B2/3937522",
+     "quote": "“该书讲述了不列颠所有国王的事迹……核心与高潮部分是首次系统性地塑造了亚瑟王的传奇形象。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX29",
+   "y0": 781,
+   "y1": 920,
+   "rawYear": "9世纪",
+   "precision": "approximate",
+   "category": "编年史",
+   "title": "《不列颠人的历史》",
+   "summary": "内尼厄斯传统下最早集中记亚瑟“战争领袖”的文本；传说与史料层叠，无法据此证明圆桌、石中剑等细节。",
+   "nature": "史料中含传说材料",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E4%B8%8D%E5%88%97%E9%A2%A0%E8%AF%B8%E7%8E%8B%E5%8F%B2/3937522",
+     "quote": "“该书讲述了不列颠所有国王的事迹……核心与高潮部分是首次系统性地塑造了亚瑟王的传奇形象。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX30",
+   "y0": 1081,
+   "y1": 1520,
+   "rawYear": "12—15世纪",
+   "precision": "range",
+   "category": "骑士文学",
+   "title": "亚瑟王传奇文本",
+   "summary": "《布鲁特传奇》《亚瑟王之死》等中世文本真实流传，人物与圣杯叙事为文学建构。",
+   "nature": "文学文本",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E4%B8%8D%E5%88%97%E9%A2%A0%E8%AF%B8%E7%8E%8B%E5%8F%B2/3937522",
+     "quote": "“该书讲述了不列颠所有国王的事迹……核心与高潮部分是首次系统性地塑造了亚瑟王的传奇形象。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX31",
+   "y0": 1181,
+   "y1": 1420,
+   "rawYear": "13世纪末—14世纪初",
+   "precision": "range",
+   "category": "旅行记录",
+   "title": "《马可·波罗游记》",
+   "summary": "成书为文本事实，含元代地名、物产等可核验内容；作者未见于同期中文记载，来华范围与细节仍有争议。",
+   "nature": "史料中含传说材料",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://news.nankai.edu.cn/mtnk/system/2015/10/15/000251374.shtml",
+     "quote": "“在中国的文献中找不到马可·波罗……马可·波罗久居中国却不懂汉语。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX32",
+   "y0": 1270,
+   "y1": 1410,
+   "rawYear": "约1330—1350年",
+   "precision": "range",
+   "category": "游历叙事",
+   "title": "《伊本·白图泰游记》",
+   "summary": "文本确有口述、笔录与后期整理层；行程极广，但时间、地名与重复段落需校勘。",
+   "nature": "史料中含传说材料",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.peopleapp.com/rmharticle/30023465835",
+     "quote": "“冯·丹尼肯在1968年出版的《众神的战车》一书，才真正把远古宇航员理论普及。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX33",
+   "y0": 585,
+   "y1": 705,
+   "rawYear": "约645年",
+   "precision": "approximate",
+   "category": "日本史书",
+   "title": "《日本书纪》",
+   "summary": "日本奈良时代官修史书，保存神话、天皇系谱与传说的早期形态；开国之祖等叙事不能直读为史。",
+   "nature": "史料中含传说材料",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+     "quote": "“《三国演义》《水浒传》《西游记》等……大体可分为世代累积与文人独创两种类型。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX34",
+   "y0": 660,
+   "y1": 780,
+   "rawYear": "约720年",
+   "precision": "approximate",
+   "category": "日本史书",
+   "title": "《古事记》",
+   "summary": "与《日本书纪》共同保存神代、天皇传承与歌谣；成书可考，不等于其中神异与年代均经证实。",
+   "nature": "史料中含传说材料",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+     "quote": "“《三国演义》《水浒传》《西游记》等……大体可分为世代累积与文人独创两种类型。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX35",
+   "y0": 1640,
+   "y1": 1760,
+   "rawYear": "约1700年",
+   "precision": "approximate",
+   "category": "传世谱牒",
+   "title": "族谱与家谱",
+   "summary": "明清族谱为重要地方社会材料，但始祖追溯、名人附会与迁徙故事常混入后见之明。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.cssn.cn/skgz/bwyc/202512/t20251219_5960818.shtml",
+     "quote": "“学界对于其是否为长期使用的居住遗迹尚无定论。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX36",
+   "y0": 1540,
+   "y1": 1660,
+   "rawYear": "约1600年",
+   "precision": "approximate",
+   "category": "地方志",
+   "title": "地方志",
+   "summary": "保存山川、制度、人物与地方传闻；需与档案、碑刻、考古互证，不可把方志全篇等同事实。",
+   "nature": "可考文本但与史实有别",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://www.cssn.cn/skgz/bwyc/202512/t20251219_5960818.shtml",
+     "quote": "“学界对于其是否为长期使用的居住遗迹尚无定论。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX37",
+   "y0": 1390,
+   "y1": 1510,
+   "rawYear": "约1450年",
+   "precision": "approximate",
+   "category": "谶纬文本",
+   "title": "《推背图》流传本",
+   "summary": "同名或相似图谶至迟宋代已有，现存清及以后版本多异；唐代作者、金圣叹批本均缺可靠证据。",
+   "nature": "后世托名或伪书",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://news.qq.com/rain/a/CRI2019051600167500",
+     "quote": "“如今托名于刘伯温的《烧饼歌》，在《明史》或《诚意伯文集》中都无处可寻。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX38",
+   "y0": 1840,
+   "y1": 1960,
+   "rawYear": "约1900年",
+   "precision": "approximate",
+   "category": "谶纬文本",
+   "title": "《烧饼歌》现存本",
+   "summary": "后世托名刘基，清末民初方见流传，预测性文句为后加、改写与附会。",
+   "nature": "后世托名或伪书",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://news.qq.com/rain/a/CRI2019051600167500",
+     "quote": "“如今托名于刘伯温的《烧饼歌》，在《明史》或《诚意伯文集》中都无处可寻。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "TX39",
+   "y0": 1540,
+   "y1": 1660,
+   "rawYear": "约1600年",
+   "precision": "approximate",
+   "category": "托名谶语",
+   "title": "明中后期谶纬文本",
+   "summary": "以预言、图解形式流传，版本层累明显；其历史价值在文本与传播，不证明预言能力。",
+   "nature": "后世托名或伪书",
+   "layer": "text",
+   "disclaimer": "文本真实存在、成书年代可考，不等于文本所述内容为真；此条按文学／文本传统呈现，不计入史实。",
+   "sources": [
+    {
+     "url": "https://news.qq.com/rain/a/CRI2019051600167500",
+     "quote": "“如今托名于刘伯温的《烧饼歌》，在《明史》或《诚意伯文集》中都无处可寻。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  }
+ ],
+ "hypotheses": [
+  {
+   "id": "HY01",
+   "name": "亚特兰蒂斯真实存在",
+   "proposed": "约前360年",
+   "claim": "柏拉图《蒂迈欧篇》《克里提亚篇》所写亚特兰蒂斯是真实古文明与岛屿",
+   "standing": "神话文本的哲学寓言",
+   "evidence": "柏拉图文本存在；海底地形、地质与考古均无“亚特兰蒂斯”证据支持。",
+   "layer": "hypothesis",
+   "disclaimer": "无考古／文献／可重复证据支持。此为明确标注的虚构推演素材，不是史实，也不是学界认可的主张。",
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%85%8B%E9%87%8C%E7%89%B9%E9%98%BF%E6%96%AF/67939822",
+     "quote": "“《蒂迈欧篇》大约创作于公元前360年前后。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "HY02",
+   "name": "姆大陆",
+   "proposed": "19世纪",
+   "claim": "太平洋曾有相连大陆及高度文明，约1.2万年前沉没",
+   "standing": "19世纪推测假说",
+   "evidence": "海洋地质、板块与测深资料不支持近期沉没的大陆；无考古证据支持。",
+   "layer": "hypothesis",
+   "disclaimer": "无考古／文献／可重复证据支持。此为明确标注的虚构推演素材，不是史实，也不是学界认可的主张。",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v5404312.htm",
+     "quote": "“近代对利莫里亚存在与否的讨论始于19世纪后半叶。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "HY03",
+   "name": "利穆里亚",
+   "proposed": "19世纪",
+   "claim": "印度洋存在失落大陆，曾连接马达加斯加、印度等地",
+   "standing": "19世纪推测假说",
+   "evidence": "最初为生物地理设想，后被板块构造取代；无沉没文明证据。",
+   "layer": "hypothesis",
+   "disclaimer": "无考古／文献／可重复证据支持。此为明确标注的虚构推演素材，不是史实，也不是学界认可的主张。",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v5404312.htm",
+     "quote": "“近代对利莫里亚存在与否的讨论始于19世纪后半叶。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "HY04",
+   "name": "史前超文明／史前高科技",
+   "proposed": "20世纪",
+   "claim": "远古已有全球联网的高科技文明，遗迹是其遗物",
+   "standing": "无证据的超常假说",
+   "evidence": "各文明建筑可用本地材料、工具、劳动组织与时代技术解释；无史前电子设备、工业体系等可重复证据。",
+   "layer": "hypothesis",
+   "disclaimer": "无考古／文献／可重复证据支持。此为明确标注的虚构推演素材，不是史实，也不是学界认可的主张。",
+   "sources": [
+    {
+     "url": "https://www.peopleapp.com/rmharticle/30023465835",
+     "quote": "“冯·丹尼肯确立了远古宇航员理论家至今仍然引用的论点。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "HY05",
+   "name": "古代宇航员",
+   "proposed": "1968年",
+   "claim": "冯·丹尼肯主张外星人曾教授或介入古代建造与宗教",
+   "standing": "伪考古",
+   "evidence": "解读依赖年代误置、图像误读与选择性证据；考古学、天文学均无支持。",
+   "layer": "hypothesis",
+   "disclaimer": "无考古／文献／可重复证据支持。此为明确标注的虚构推演素材，不是史实，也不是学界认可的主张。",
+   "sources": [
+    {
+     "url": "https://www.peopleapp.com/rmharticle/30023465835",
+     "quote": "“冯·丹尼肯确立了远古宇航员理论家至今仍然引用的论点。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "HY06",
+   "name": "金字塔外星建造说",
+   "proposed": "20世纪",
+   "claim": "吉萨金字塔由外星人建造，超出当时人力与技术",
+   "standing": "伪考古",
+   "evidence": "采石、运输、坡度坡道、工具与工匠聚落均有考古证据；无外星技术遗存。",
+   "layer": "hypothesis",
+   "disclaimer": "无考古／文献／可重复证据支持。此为明确标注的虚构推演素材，不是史实，也不是学界认可的主张。",
+   "sources": [
+    {
+     "url": "https://www.peopleapp.com/rmharticle/30023465835",
+     "quote": "“冯·丹尼肯确立了远古宇航员理论家至今仍然引用的论点。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "HY07",
+   "name": "纳斯卡线条外星说",
+   "proposed": "20世纪",
+   "claim": "地画是外星飞行器跑道或导航标志",
+   "standing": "无证据的超常假说",
+   "evidence": "图案可见的社会、仪式与水／农耕解释更充分；无可识别航天器、燃料、控制设施证据。",
+   "layer": "hypothesis",
+   "disclaimer": "无考古／文献／可重复证据支持。此为明确标注的虚构推演素材，不是史实，也不是学界认可的主张。",
+   "sources": [
+    {
+     "url": "https://www.peopleapp.com/rmharticle/30023465835",
+     "quote": "“冯·丹尼肯确立了远古宇航员理论家至今仍然引用的论点。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "HY08",
+   "name": "史前核战争说",
+   "proposed": "20世纪",
+   "claim": "古代遗址显示远古核爆或核战争",
+   "standing": "已被考古证据否证",
+   "evidence": "所谓“玻璃化”多为雷击熔岩或自然熔融；无相符放射性沉降、核爆矿藏与工业遗存。",
+   "layer": "hypothesis",
+   "disclaimer": "无考古／文献／可重复证据支持。此为明确标注的虚构推演素材，不是史实，也不是学界认可的主张。",
+   "sources": [
+    {
+     "url": "https://www.peopleapp.com/rmharticle/30023465835",
+     "quote": "“冯·丹尼肯确立了远古宇航员理论家至今仍然引用的论点。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "HY09",
+   "name": "巨石阵德鲁伊／外星说",
+   "proposed": "17—20世纪",
+   "claim": "巨石阵由德鲁伊建造或由外星人搬运",
+   "standing": "伪考古",
+   "evidence": "巨石阵约前3000—前1500年多层建造；德鲁伊文本年代明显较晚，与巨石阵建造期不符。",
+   "layer": "hypothesis",
+   "disclaimer": "无考古／文献／可重复证据支持。此为明确标注的虚构推演素材，不是史实，也不是学界认可的主张。",
+   "sources": [
+    {
+     "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/",
+     "quote": "Stonehenge was built in several stages, from around 3000 BC to 1500 BC.",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "HY10",
+   "name": "《山海经》外星解读",
+   "proposed": "20世纪",
+   "claim": "书中的远方国族、异兽与路线是外星文明记录",
+   "standing": "无证据的超常假说",
+   "evidence": "无语言学、文本校勘或考古证据支持外星来源；内容可置于战国地理想象与知识网络讨论。",
+   "layer": "hypothesis",
+   "disclaimer": "无考古／文献／可重复证据支持。此为明确标注的虚构推演素材，不是史实，也不是学界认可的主张。",
+   "sources": [
+    {
+     "url": "https://www.thepaper.cn/newsDetail_forward_10173324",
+     "quote": "“《伊利亚特》有可能写于公元前8世纪后期，或者更晚些。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "HY11",
+   "name": "百慕大三角超常说",
+   "proposed": "20世纪",
+   "claim": "该海域存在异常的失踪机制，涉及外星、时空或失落的科技",
+   "standing": "已被考古证据否证",
+   "evidence": "海岸警卫队、保险与航行统计未发现异常失踪率；可归因于天气、海况、导航与报告偏差。",
+   "layer": "hypothesis",
+   "disclaimer": "无考古／文献／可重复证据支持。此为明确标注的虚构推演素材，不是史实，也不是学界认可的主张。",
+   "sources": [
+    {
+     "url": "https://www.uscg.mil/Our-Organization/United-States-Coast-Guard-Worldwide/Headquarters-District-7/District-7-Units/Air-Force-as-a-Navy-Officer/Bermuda-Triangle/",
+     "quote": "“There is nothing mysterious about it. The Bermuda Triangle is not a place where large numbers of ships and planes ‘mysteriously’ disappear.”",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "HY12",
+   "name": "施里曼找到《伊利亚特》的特洛伊",
+   "proposed": "1871年起",
+   "claim": "施里曼所定层位就是荷马所写特洛伊，木马等细节均可坐实",
+   "standing": "已被考古证据否证",
+   "evidence": "希沙利克确有青铜时代城市，但施里曼将更早层误认；木马无可辨识遗存。",
+   "layer": "hypothesis",
+   "disclaimer": "无考古／文献／可重复证据支持。此为明确标注的虚构推演素材，不是史实，也不是学界认可的主张。",
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=Mzg5MDEzNTQyNA==&mid=2248311742&idx=2&sn=3910046b15b45ff9963fdfe916fd41a6",
+     "quote": "“《伊利亚特》大约成书于公元前8世纪，距离事件已过去400多年。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    },
+    {
+     "url": "https://www.thepaper.cn/newsDetail_forward_10173324",
+     "quote": "“史诗都是古老的传说故事……于是添加了自己时代的细节。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  }
+ ],
+ "prehistory": [
+  {
+   "id": "PRE01",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约330万年前",
+   "title": "早期石器",
+   "summary": "埃塞俄比亚发现的石制工具表明人类祖先已能有意打制工具；不是“史前高科技”。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "https://humanorigins.si.edu/evidence/behavior/tools",
+     "quote": "“Stone tools are our most enduring source of evidence of early human behavior.”",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE02",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约210万—前1万年",
+   "title": "旧石器时代石器",
+   "summary": "打制石核、手斧、刮削器与细石器在各大陆遗址中可考，显示技术与原料选择的长期演化。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "https://humanorigins.si.edu/evidence/behavior/tools",
+     "quote": "“Stone tools are our most enduring source of evidence of early human behavior.”",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE03",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约100万—前40万年",
+   "title": "早期用火迹象",
+   "summary": "遗址中炭屑、烧骨与受热石器显示接触火，但“偶然利用”与“有意识生火”证据需分层。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDk4MTE3Nw==&mid=2650448311&idx=6&sn=56badb1d8647ea06e3dfaa22cbc9dc53",
+     "quote": "“这一早期人类有意识生火行为的证据，其年代或可追溯至40万年前。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE04",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约40万年前",
+   "title": "有意识用火证据",
+   "summary": "英国巴恩哈姆遗址见受热沉积物、燧石与黄铁矿，支持当时人携取与制造火种的能力。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDk4MTE3Nw==&mid=2650448311&idx=6&sn=56badb1d8647ea06e3dfaa22cbc9dc53",
+     "quote": "“这一早期人类有意识生火行为的证据，其年代或可追溯至40万年前。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE05",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约40万—前4万年",
+   "title": "尼安德特人",
+   "summary": "欧洲、西亚化石与考古材料可考；会制作石器、用火、埋葬和使用赭石，是现代人的近亲而非直系祖先。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MzIwMDU5MzE5NQ==&mid=2247540294&idx=2&sn=642d42b12cddc7acd0c7ddde64f8fec1",
+     "quote": "“约40万到4万年前，欧洲和西亚生活着尼安德特人。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE06",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约30万—前1万年",
+   "title": "智人演化与扩散",
+   "summary": "非洲早期现代人化石、石器传统与古DNA共同支持智人非洲起源及后续扩散。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MzIwMDU5MzE5NQ==&mid=2247540294&idx=2&sn=642d42b12cddc7acd0c7ddde64f8fec1",
+     "quote": "“约40万到4万年前，欧洲和西亚生活着尼安德特人。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE07",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约6万—前4万年",
+   "title": "智人走出非洲的后续扩散",
+   "summary": "黎凡特、阿拉伯与欧亚遗址显示晚期智人迁徙；早期走出非洲事件可更早，需按化石与DNA分别讨论。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MzIwMDU5MzE5NQ==&mid=2247540294&idx=2&sn=642d42b12cddc7acd0c7ddde64f8fec1",
+     "quote": "“约40万到4万年前，欧洲和西亚生活着尼安德特人。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE08",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约前1.2万年—前9500年",
+   "title": "农业革命（新月沃地）",
+   "summary": "纳吐夫与PPNA遗址见野生谷物的管理、磨制工具与定居增强；驯化是长期过程，不是单次发明。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "https://www.cssn.cn/skgz/bwyc/202512/t20251219_5960818.shtml",
+     "quote": "“哥贝克力遗址可早至PPNA时期。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE09",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约前7000年",
+   "title": "早期陶器",
+   "summary": "东亚、东亚南方及日本列岛等地均有较早陶器；其独立出现说明陶器并非单一文明馈赠。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "https://humanorigins.si.edu/evidence/behavior/tools",
+     "quote": "“Stone tools are our most enduring source of evidence of early human behavior.”",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE10",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约前8500年",
+   "title": "哥贝克力石阵",
+   "summary": "土耳其东南部遗址有巨石圈、T形石柱与动物浮雕；其宗教、劳动组织与社会复杂度已有实物，没有文字或金属文明证据。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "https://www.cssn.cn/skgz/bwyc/202512/t20251219_5960818.shtml",
+     "quote": "“哥贝克力遗址可早至PPNA时期。”",
+     "rank": "机构／学术",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE11",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约前3000—前1500年",
+   "title": "巨石阵建造",
+   "summary": "英格兰遗址有分阶段的土坑、木构与石构，测年与遗骸显示来自不同时期的人群活动。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/",
+     "quote": "Stonehenge was built in several stages, from around 3000 BC to 1500 BC.",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE12",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约前2.6万—前1.9万年",
+   "title": "末次冰盛期",
+   "summary": "冰盖扩张、海面下降形成白令陆桥；智人与动物可经陆路往返，但不是“全球文明走廊”的传说。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "https://www.usgs.gov/faqs/what-was-beringia",
+     "quote": "“Beringia was a land bridge that connected Siberia and Alaska during the last ice age.”",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE13",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约前1.5万年",
+   "title": "白令陆桥通行",
+   "summary": "海平面与沉积、古生态证据支持陆桥存在；人群何时、沿哪条路线进入美洲仍由考古与DNA不断修正。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "https://www.usgs.gov/faqs/what-was-beringia",
+     "quote": "“Beringia was a land bridge that connected Siberia and Alaska during the last ice age.”",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE14",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约前1万—前4000年",
+   "title": "猛犸象灭绝",
+   "summary": "欧亚、北美遗址与骨骼记录显示晚更新世猛犸象逐渐消失；气候、植被变化与人类狩猎均纳入解释。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "https://www.smithsonianmag.com/science-nature/why-elephant-relatives-died-out-180980529/",
+     "quote": "“Woolly mammoths survived until 4,000 years ago on Wrangel Island.”",
+     "rank": "其他",
+     "report": "fr"
+    }
+   ]
+  },
+  {
+   "id": "PRE15",
+   "y0": -5000,
+   "y1": -4999,
+   "rawYear": "约前1.7万年",
+   "title": "晚期尼安德特人",
+   "summary": "伊比利亚与欧亚其他地点的测年显示尼安德特人至约4万年前已无可靠存续证据；不同地区年代须逐项复核。",
+   "layer": "prehistory",
+   "displayOnly": true,
+   "ancient": true,
+   "disclaimer": "有考古证据的史前人类活动；与史前超文明假说严格区分。",
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MzIwMDU5MzE5NQ==&mid=2247540294&idx=2&sn=642d42b12cddc7acd0c7ddde64f8fec1",
+     "quote": "“约40万到4万年前，欧洲和西亚生活着尼安德特人。”",
+     "rank": "百科／媒体",
+     "report": "fr"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "fr_1": {
+   "url": "https://www.thepaper.cn/newsDetail_forward_10173324",
+   "quote": "“《伊利亚特》有可能写于公元前8世纪后期，或者更晚些。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_2": {
+   "url": "https://big5.cctv.com/gate/big5/culture-travel.cctv.com/2018/10/29/ARTILeStbaOmDlCNOoj4nLfj181029.shtml",
+   "quote": "“此書是西晉太康二年……盜發古冢所得書也，皆竹簡素絲編。”",
+   "rank": "其他",
+   "report": "fr"
+  },
+  "fr_3": {
+   "url": "https://book.youth.cn/zx/202501/t20250106_15754813.htm",
+   "quote": "“今本《竹书纪年》……杂凑某些古书中的内容而成。”",
+   "rank": "其他",
+   "report": "fr"
+  },
+  "fr_4": {
+   "url": "https://epaper.gmw.cn/wzb/html/2012-01/12/nw.D110000wzb_20120112_3-06.htm",
+   "quote": "“清华简……证实古文《尚书》确系‘伪书’。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_5": {
+   "url": "https://paper.people.com.cn/rmrbhwb/html/2022-05/20/content_25918925.htm",
+   "quote": "“学者才知流传千年的《尚书》标准本，实际是一个真伪杂糅的混合体。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_6": {
+   "url": "https://book.youth.cn/zx/202501/t20250106_15754813.htm",
+   "quote": "“这部先秦时期的纪年体史书……记载到……魏襄王二十年。”",
+   "rank": "其他",
+   "report": "fr"
+  },
+  "fr_7": {
+   "url": "https://epaper.gmw.cn/wzb/html/2012-01/12/nw.D110000wzb_20120112_3-06.htm",
+   "quote": "“与传世的古文《尚书》中《咸有一德》篇进行比对后发现……没有任何共同之处。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_8": {
+   "url": "https://paper.people.com.cn/rmrbhwb/html/2022-05/20/content_25918925.htm",
+   "quote": "“这部伪《古文尚书》共计58篇，是将今文29篇编辑为33篇，另外伪造了25篇。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_9": {
+   "url": "https://ssroff.whu.edu.cn/info/1154/5524.htm",
+   "quote": "“他还秉承‘有闻必录’的原则，记下不同的说法，以供后人辨别。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_10": {
+   "url": "http://mp.weixin.qq.com/s?__biz=Mzg5MDEzNTQyNA==&mid=2248311742&idx=2&sn=3910046b15b45ff9963fdfe916fd41a6",
+   "quote": "“《伊利亚特》大约成书于公元前8世纪，距离事件已过去400多年。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_11": {
+   "url": "https://www.thepaper.cn/newsDetail_forward_10173324",
+   "quote": "“史诗都是古老的传说故事……于是添加了自己时代的细节。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_12": {
+   "url": "https://baike.sogou.com/v268634.htm",
+   "quote": "“公元前1300年—公元前1000年时期……编写完成标准阿卡德版本。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_13": {
+   "url": "https://baike.sogou.com/v262590.htm",
+   "quote": "“死海古卷是泛称1947—1956年间，在死海西北基伯昆兰旷野的山洞发现的古代文献。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_14": {
+   "url": "https://www.thepaper.cn/newsdetail_Forward_6747703",
+   "quote": "“学术界认为，死海古卷是我们了解第二圣殿时期犹太教……的重要材料。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_15": {
+   "url": "https://baike.baidu.com/view/68660.html?wtp=tt",
+   "quote": "“诺查丹玛斯于1550年开始创作《诸世纪》……1555年出版了初版预言集。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_16": {
+   "url": "https://baike.baidu.com/item/%E4%B8%8D%E5%88%97%E9%A2%A0%E8%AF%B8%E7%8E%8B%E5%8F%B2/3937522",
+   "quote": "“该书讲述了不列颠所有国王的事迹……核心与高潮部分是首次系统性地塑造了亚瑟王的传奇形象。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_17": {
+   "url": "https://www.cssn.cn/skgz/bwyc/202512/t20251219_5960818.shtml",
+   "quote": "“哥贝克力遗址可早至PPNA时期。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_18": {
+   "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+   "quote": "“《三国演义》《水浒传》《西游记》等……大体可分为世代累积与文人独创两种类型。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_19": {
+   "url": "https://ssroff.whu.edu.cn/info/1154/5524.htm",
+   "quote": "“希罗多德受到很多条件的限制……他靠自己财力……道听途说，十分不易。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_20": {
+   "url": "https://www.hcx.gov.cn/ztzl/hcsz/hcxs/content_1330",
+   "quote": "“我国第一块有确切地点和层位的旧石器……揭开了中国旧石器时代工具研究的序幕。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_21": {
+   "url": "https://news.gscn.com.cn/system/2018/08/23/012003768.shtml",
+   "quote": "“据古希腊历史学家希罗多德推算，荷马生活在公元前850年左右。”",
+   "rank": "其他",
+   "report": "fr"
+  },
+  "fr_22": {
+   "url": "https://www.cssn.cn/skgz/bwyc/202512/t20251219_5960818.shtml",
+   "quote": "“建筑群A、B、C、D属于古早阶段，始建于PPNA时期（9600—8700 cal BC）。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_23": {
+   "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+   "quote": "“世代累积型小说主要成书于明代，代表作有《三国演义》《水浒传》《西游记》等。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_24": {
+   "url": "https://baike.baidu.com/search/word?=%E6%90%9C%E7%A5%9E%E8%AE%B0",
+   "quote": "“《搜神记》……东晋干宝撰，成书于晋成帝时期。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_25": {
+   "url": "https://baike.baidu.com/item/%E4%B8%96%E8%AF%B4%E6%96%B0%E8%AF%AD/5597",
+   "quote": "“《世说新语》……成书于宋文帝元嘉十六至十七年（公元439—440年）。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_26": {
+   "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+   "quote": "“早期版本的写定者……实际上是以忠奸对立的格局改造水浒故事。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_27": {
+   "url": "https://baike.baidu.com/item/%E4%B8%96%E8%AF%B4%E6%96%B0%E8%AF%AD/5597",
+   "quote": "“内容博采《史记》《汉书》等前代典籍……部分内容出自传闻，并非全部符合史实。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_28": {
+   "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+   "quote": "“《水浒传》最早的名目即为《忠义水浒传》。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_29": {
+   "url": "https://news.nankai.edu.cn/mtnk/system/2015/10/15/000251374.shtml",
+   "quote": "“在中国的文献中找不到马可·波罗……马可·波罗久居中国却不懂汉语。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_30": {
+   "url": "https://www.peopleapp.com/rmharticle/30023465835",
+   "quote": "“冯·丹尼肯在1968年出版的《众神的战车》一书，才真正把远古宇航员理论普及。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_31": {
+   "url": "https://www.chinawriter.com.cn/n1/2017/1115/c404038-29648315.html",
+   "quote": "“《三国演义》《水浒传》《西游记》等……大体可分为世代累积与文人独创两种类型。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_32": {
+   "url": "https://www.cssn.cn/skgz/bwyc/202512/t20251219_5960818.shtml",
+   "quote": "“学界对于其是否为长期使用的居住遗迹尚无定论。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_33": {
+   "url": "https://news.qq.com/rain/a/CRI2019051600167500",
+   "quote": "“如今托名于刘伯温的《烧饼歌》，在《明史》或《诚意伯文集》中都无处可寻。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_34": {
+   "url": "https://baike.baidu.com/item/%E5%85%8B%E9%87%8C%E7%89%B9%E9%98%BF%E6%96%AF/67939822",
+   "quote": "“《蒂迈欧篇》大约创作于公元前360年前后。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_35": {
+   "url": "https://baike.sogou.com/v5404312.htm",
+   "quote": "“近代对利莫里亚存在与否的讨论始于19世纪后半叶。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_36": {
+   "url": "https://www.peopleapp.com/rmharticle/30023465835",
+   "quote": "“冯·丹尼肯确立了远古宇航员理论家至今仍然引用的论点。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_37": {
+   "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/",
+   "quote": "Stonehenge was built in several stages, from around 3000 BC to 1500 BC.",
+   "rank": "其他",
+   "report": "fr"
+  },
+  "fr_38": {
+   "url": "https://www.uscg.mil/Our-Organization/United-States-Coast-Guard-Worldwide/Headquarters-District-7/District-7-Units/Air-Force-as-a-Navy-Officer/Bermuda-Triangle/",
+   "quote": "“There is nothing mysterious about it. The Bermuda Triangle is not a place where large numbers of ships and planes ‘mysteriously’ disappear.”",
+   "rank": "其他",
+   "report": "fr"
+  },
+  "fr_39": {
+   "url": "https://humanorigins.si.edu/evidence/behavior/tools",
+   "quote": "“Stone tools are our most enduring source of evidence of early human behavior.”",
+   "rank": "其他",
+   "report": "fr"
+  },
+  "fr_40": {
+   "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDk4MTE3Nw==&mid=2650448311&idx=6&sn=56badb1d8647ea06e3dfaa22cbc9dc53",
+   "quote": "“这一早期人类有意识生火行为的证据，其年代或可追溯至40万年前。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_41": {
+   "url": "http://mp.weixin.qq.com/s?__biz=MzIwMDU5MzE5NQ==&mid=2247540294&idx=2&sn=642d42b12cddc7acd0c7ddde64f8fec1",
+   "quote": "“约40万到4万年前，欧洲和西亚生活着尼安德特人。”",
+   "rank": "百科／媒体",
+   "report": "fr"
+  },
+  "fr_42": {
+   "url": "https://www.cssn.cn/skgz/bwyc/202512/t20251219_5960818.shtml",
+   "quote": "“哥贝克力遗址可早至PPNA时期。”",
+   "rank": "机构／学术",
+   "report": "fr"
+  },
+  "fr_43": {
+   "url": "https://humanorigins.si.edu/evidence/behavior/tools",
+   "quote": "“Stone tools are our most enduring source of evidence of early human behavior.”",
+   "rank": "其他",
+   "report": "fr"
+  },
+  "fr_44": {
+   "url": "https://www.usgs.gov/faqs/what-was-beringia",
+   "quote": "“Beringia was a land bridge that connected Siberia and Alaska during the last ice age.”",
+   "rank": "其他",
+   "report": "fr"
+  },
+  "fr_45": {
+   "url": "https://www.smithsonianmag.com/science-nature/why-elephant-relatives-died-out-180980529/",
+   "quote": "“Woolly mammoths survived until 4,000 years ago on Wrangel Island.”",
+   "rank": "其他",
+   "report": "fr"
+  }
+ }
+}
