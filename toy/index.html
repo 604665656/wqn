@@ -944,7 +944,7 @@ window.addEventListener('error',function(e){
    纯逻辑、无 DOM，可在 node 里单独测；不调用主 rnd()，只从 person.id 派生，
    因此给旧档补字段也不会改变 rngState，同种子复盘逐笔一致。
 
-   最重要的边界：本局族人一律是推演生成的人物，**不是历史名人**。
+   最重要的范围：本局族人一律是推演生成的人物，**不是历史名人**。
    这里做的是「同名用字检索」与「本局遇见的真实人物」分栏对照，
    不把族人写成某位历史人物，也不推断任何血缘、世系或攀附关系。 */
 (function(W){
@@ -1090,7 +1090,7 @@ window.addEventListener('error',function(e){
       verdict:'不是历史名人 · 本局推演族人',
       sameName:same.slice(0,6),
       disclaimer:'同名只是用字巧合；本局族人不等于册中任何历史人物，'
-        +'不表示该人物生平、不与任何真实家族攀附血缘，也不作血统推断。'
+        +'不表示该人物生平、不与任何真实家族攀附血缘，也不作血缘推断。'
     };
   }
 
@@ -1325,13 +1325,13 @@ window.addEventListener('error',function(e){
     '建立':{people:8,cohesion:10,food:5},
     '扩张':{might:10,wealth:8,food:5,people:4},
     '鼎盛':{lore:10,craft:9,wealth:8,cohesion:6},
-    '分裂或转折':{cohesion:-12,might:-6,people:-4},
+    '分立或转折':{cohesion:-12,might:-6,people:-4},
     '衰落':{food:-8,wealth:-8,might:-8,cohesion:-8,people:-6},
     '终结':{cohesion:-10,people:-6}
   };
   const PRECISION_LABEL={exact:'有明确纪年',range:'年代区间',approximate:'约略年代',legendary:'传说或后世追述'};
   const CONSENSUS_LABEL={settled:'学界通说',date_contested:'断代有争议',
-    legendary_retroactive:'传说／后世追述',entity_definition_contested:'实体边界有争议'};
+    legendary_retroactive:'传说／后世追述',entity_definition_contested:'实体范围有争议'};
 
   const entityById=id=>D.entities.entities.find(e=>e.id===id)||null;
   const byName=n=>D.entities.entities.find(e=>e.name===n)||null;
@@ -1396,11 +1396,11 @@ window.addEventListener('error',function(e){
   }
   function endingCard(S){
     const e=entityById(S.entity.id),p=e.phases[5];
-    const ALIAS={'罗马共和国→罗马帝国':'西罗马'};
+    const ALIAS={'罗马共和国→罗马王朝':'西罗马'};
     const d=D.entities.disputes[e.name]||D.entities.disputes[ALIAS[e.name]]||null;
     return {name:e.name,year:p.label,phaseEvent:p.event,reason:p.note,
       dispute:d?d.alternatives:null,disputeReason:d?d.reason:null,
-      word:'编年走到 '+p.label+'，'+e.name+'作为独立政治实体的历史到此为止。'
+      word:'编年走到 '+p.label+'，'+e.name+'作为自立政治实体的历史到此为止。'
         +'这不是游戏随机判定的终点，是史料里写着的年份。'};
   }
   W.real={PHASE_STEPS:PHASE_STEPS,TOTAL_STEPS:TOTAL_STEPS,
@@ -1416,7 +1416,7 @@ window.addEventListener('error',function(e){
 /* civilization.js —— 文明维度系统（20 维）
    数据：data/civilization.json（563 条考据条目 + 12 鉴宝卡 + 12 人物生平 + 70 条解锁树）
    纪律：条目事实与出处原样呈现；抉择只写回玩家八维，不改写史实。
-        术数、神话、早期飞行意象另附边界声明；传说层可「辨其传说」。 */
+        术数、神话、早期飞行意象另附范围声明；传说层可「辨其传说」。 */
 (function(W){
   'use strict';
   const D=W.data;
@@ -2014,7 +2014,7 @@ window.addEventListener('error',function(e){
     else if(/洪|涝|水溢|海啸|海平面|改道|决口/.test(c+t)){add('food',-3);add('people',-2);add('cohesion',-1);}
     else if(/冷|冰期|火山|无夏|8\.2/.test(c+t)){add('food',-3);add('faith',1);}
     else if(/暖湿|湿润期|暖期|大暖期/.test(c+t)){add('food',3);add('people',1);}
-    else if(/疫病|饥荒|大饥荒/.test(c+t)){add('people',-3);add('cohesion',-2);}
+    else if(/疫病|歉收|大歉收/.test(c+t)){add('people',-3);add('cohesion',-2);}
     else if(/变暖|海平面加速/.test(t)){add('food',-1);add('lore',2);}
     else {add('food',-1);add('cohesion',-1);}
     return e;
@@ -2069,7 +2069,7 @@ window.addEventListener('error',function(e){
 
 
 /* ===== src/fringe.js ===== */
-/* fringe.js —— 边界层：文本传统 / 未证实假说 / 史前可考
+/* fringe.js —— 范围层：文本传统 / 未证实假说 / 史前可考
    纪律：文本真实存在 ≠ 文本所述为真；未证实假说不作任何肯定性表述；
         假说只在狂想档出现，且每张卡写清「无考古／文献／可重复证据支持」。 */
 (function(W){
@@ -2162,7 +2162,7 @@ window.addEventListener('error',function(e){
 /* ===== src/atlas.js ===== */
 /* atlas.js —— 可缩放历史舆图（Canvas 自绘，离线无瓦片）
    四层共用同一画布：政权核心区 / 气候影响区 / 人口热力 / 本局家族分布。
-   纪律：政权是核心区示意不是国界；气候区不是实测边界；人口热力不是人口统计；
+   纪律：政权是核心区示意不是界线；气候区不是实测范围；人口热力不是人口统计；
         家族点是本局推演数据不是史实人口。所有声明取自 WQN.data.atlas / layers 的 meta。
    交互：滚轮／双指缩放、按钮缩放、拖动平移、年份滑杆、图层开关、点位点击。 */
 (function(W){
@@ -2335,7 +2335,7 @@ window.addEventListener('error',function(e){
     }
   }
 
-  /* ---------- 气候影响区：示意椭圆，不是实测边界 ---------- */
+  /* ---------- 气候影响区：示意椭圆，不是实测范围 ---------- */
   function drawClimate(){
     const cs=activeClimate(),regional=cs.filter(c=>c.box).slice(0,8);
     ctx.save();clipLand();
@@ -2349,12 +2349,12 @@ window.addEventListener('error',function(e){
       if(view.scale>=3.6)label(shortName(c.title),x,y,hexA(c.color,.95),9);
     });
     ctx.restore();
-    /* 全球性事件：不画假边界，只在图边加一条提示 */
+    /* 全球性事件：不画假范围，只在图边加一条提示 */
     const glob=cs.filter(c=>c.global).length;
     if(glob){
       ctx.fillStyle='rgba(120,175,205,.75)';
       ctx.fillRect(0,0,cssW,3);
-      label('全球性气候现象 '+glob+' 条（不画边界）',cssW-12,cssH-30,'rgba(150,195,220,.85)',9,'right');
+      label('全球性气候现象 '+glob+' 条（不画范围）',cssW-12,cssH-30,'rgba(150,195,220,.85)',9,'right');
     }
   }
 
@@ -2477,7 +2477,7 @@ window.addEventListener('error',function(e){
     label('约 '+Math.round(deg)+'°',14+baseW/24*view.scale,cssH-30,'#cdbf9f',10);
     label((year<0?'公元前 '+Math.abs(year)+' 年':year+' 年')+(isManual()?' · 手动查阅':' · 本局年份'),
       cssW-12,16,'#ffdf8a',11,'right');
-    label('虚线＝政权核心区示意，非国界；热力＝相对重心，非人口统计',
+    label('虚线＝政权核心区示意，非界线；热力＝相对重心，非人口统计',
       cssW-12,cssH-16,'rgba(230,220,195,.72)',9,'right');
     drawLegend(ps);
   }
@@ -2982,7 +2982,7 @@ window.addEventListener('error',function(e){
         S.mil.push({y:S.year,t:'判读 · 误取 '+r.topic});
       }
       const op=quizData().meta;
-      if(op&&op.boundary)msgs.push('【边界】'+op.boundary);
+      if(op&&op.boundary)msgs.push('【范围】'+op.boundary);
       return {msgs:msgs,extra:extra,started:null,finished:null,abandoned:null};
     }
     /* 组合技：只记一笔，不改史实 */
@@ -3178,7 +3178,7 @@ window.addEventListener('error',function(e){
       const src=(L.items||[]).find(z=>z.geoId===x.geoId&&z.category==='人物与著述');
       ctx.local=x.title;ctx.local2=src?src.title:'同地旧牍';ctx.localId=x.id;
     }else if(need==='surname_note'){
-      /* 第四轮：一条姓氏 + 一条边界读法并置 */
+      /* 第四轮：一条姓氏 + 一条范围读法并置 */
       const P=D.peoples||{},su=(P.surnames||[]).filter(
         x=>S.year>=x.y0-200&&S.year<=x.y1+200),no=P.notes||[];
       const pool=su.length?su:(P.surnames||[]);
@@ -3272,7 +3272,7 @@ window.addEventListener('error',function(e){
 
   /* ---------- 主入口 ---------- */
   function generate(ev,S,rnd,pick){
-    /* 题型卡与边界层卡保持原有选项结构，只补展示字段 */
+    /* 题型卡与范围层卡保持原有选项结构，只补展示字段 */
     const raw=(ev.o||[]).map(x=>({t:x[0],e:x[1]||{}}));
     const keepAsIs=ev.quiz||((ev.isClim||ev.isText||ev.isHypothesis)&&raw.length>=3);
     if(keepAsIs){
@@ -3326,7 +3326,7 @@ window.addEventListener('error',function(e){
       if(!ctx)return;
       const o=makeOpt(a,null,S,rnd,ctx,true,false);
       o.archetype=a.id;o._w=weightOf(a,seen,S,rnd);
-      /* 新联动也写明「依据哪一条真实知识」，并附边界声明 */
+      /* 新联动也写明「依据哪一条真实知识」，并附范围声明 */
       if(ctx.basisId){
         const bx=itemById(ctx.basisId);
         if(bx)o.basis={id:bx.id,title:bx.title,dim:bx.dim,
@@ -3671,7 +3671,7 @@ window.addEventListener('error',function(e){
         o.famPlaces[p.id]=u.id;p.place=u.id;
       });
     }
-    /* 旧版 cur.opts 没有 kind/basis 等字段，用独立随机源重建，刷新后立刻用上新选项；
+    /* 旧版 cur.opts 没有 kind/basis 等字段，用自立随机源重建，刷新后立刻用上新选项；
        不消耗主 rngState，也不动全局状态，存档续玩与复盘序列都保持干净。 */
     if(o.phase==='choice'&&o.cur&&Array.isArray(o.cur.opts)&&o.cur.opts.length
       &&!o.cur.opts[0].kind&&W.options){
@@ -4023,7 +4023,7 @@ window.addEventListener('error',function(e){
       const note=migrateFamily(S,{t:o.t,geoTarget:OA.geoTarget});
       if(note)msgs.push(note);
     }
-    // 边界层登记：气候／文本／假说分别计数，误读单独记账，不写进史实编年
+    // 范围层登记：气候／文本／假说分别计数，误读单独记账，不写进史实编年
     if(S.cur.isClim&&S.cur.climMeta){
       const x=S.cur.climMeta;
       S.climateSeen[x.id]=1;
@@ -5021,7 +5021,7 @@ window.addEventListener('error',function(e){
 
     if(S.clanName)h+='<div class="note" style="margin-top:8px"><b>本族称法（推演）：</b>'
       +esc(S.clanName)+'<div class="mini">得姓多源；这只是本局这一支人在册的称法，'
-      +'不表示与任何历史家族有血缘关系，也不作血统纯正推断。</div></div>';
+      +'不表示与任何历史家族有血缘关系，也不作血缘纯正推断。</div></div>';
     const PE=W.people;
     const al=E.aliveFam(S).sort((a,b)=>b.gen-a.gen||b.age-a.age);
     /* 故去的两位族长也留一张卡：传承不能只看在籍的人 */
@@ -5188,8 +5188,8 @@ window.addEventListener('error',function(e){
        非本页签时不拼进 DOM，切页签时 render 会即时生成 */
     if(TAB==='civ'){
     h+='<div class="panel '+(TAB==='civ'?'on':'')+'">'+hintFor('civ',S)+'<div class="card"><div class="tagline">文 明 册 · '+prog.length+' 维 · '+FAMORDER.length+' 大类 · 已见 '+allSeen+' / '+D.civilization.items.length+'</div>'
-      +'<div class="mini">逐条来自考据数据，带年代、可信度、出处与引文；术数／神话／飞行意象另附边界声明。'
-      +'维度按知识大类分组，主归类不排斥跨类；第七类「边界与分层」（文本传统／未证实假说／史前可考）不设维度，见舆地页与档位说明。</div>'
+      +'<div class="mini">逐条来自考据数据，带年代、可信度、出处与引文；术数／神话／飞行意象另附范围声明。'
+      +'维度按知识大类分组，主归类不排斥跨类；第七类「范围与分层」（文本传统／未证实假说／史前可考）不设维度，见舆地页与档位说明。</div>'
       +'<div style="margin-top:10px"><button data-dim="*" class="pill '+(CIVF==='*'?'on':'')+'">全部</button> '
       +'<button data-dim="__new" class="pill '+(CIVF==='__new'?'on':'')+'">本轮新增 '+newCount+' 维</button> '
       +'<button data-dim="__seen" class="pill '+(CIVF==='__seen'?'on':'')+'">仅已见</button></div>';
@@ -5302,7 +5302,7 @@ window.addEventListener('error',function(e){
       }).join(''))
       +'</template></details>';
     const QK=D.reading_quiz;
-    const qKinds=[['local','辨其互证 · 地方史'],['surname','辨其称谓 · 姓氏边界'],
+    const qKinds=[['local','辨其互证 · 地方史'],['surname','辨其称谓 · 姓氏范围'],
                   ['people','辨其称谓 · 人群他称与术语'],
                   ['surname_origin','辨其共祖 · 姓氏扩容'],
                   ['term_layer','辨其层位 · 术语锚点']];
@@ -5331,7 +5331,7 @@ window.addEventListener('error',function(e){
       +'　'+esc(QK.meta.scaleNote||'')+'</div>';
     h+='<div class="mini" style="color:var(--dim)">'+esc(DD.meta.boundary)
       +'　'+esc(DD.meta.depth2||'')+'</div></div>';
-    /* 人群与姓氏谱系：默认折叠，不作生物种族分类 */
+    /* 人群与姓氏谱系：默认折叠，不作生物人群分类 */
     const PP=D.peoples;
     h+='<div class="card"><div class="tagline">人 群 与 姓 氏 谱 系</div>'
       +'<div class="note" style="border-left-color:var(--red2)"><b>'+esc(PP.meta.subtitle)
@@ -5358,11 +5358,11 @@ window.addEventListener('error',function(e){
     Object.keys(sg).forEach((k,i)=>h+=fold('姓 氏 · '+k,sg[k],'S:'+i));
     const pg={};PP.peoples.forEach(x=>{const k=x.category||'其他';(pg[k]=pg[k]||[]).push(x);});
     Object.keys(pg).forEach((k,i)=>h+=fold('人 群 · '+k,pg[k],'P:'+i));
-    h+=fold('边 界 与 读 法',PP.notes.map(x=>({rawYear:'',title:x.title,category:'边界',
+    h+=fold('边 界 与 读 法',PP.notes.map(x=>({rawYear:'',title:x.title,category:'范围',
       consensus:'settled',summary:x.text,boundary:''})),'N:0');
     h+='</div><div class="mini" style="color:var(--dim)">全册 '+PP.surnames.length+' 条姓氏、'
-      +PP.peoples.length+' 条人群、'+PP.notes.length+' 条边界读法；大组点开才载入，检索时会全量筛，'
-      +'不作生物种族分类，也不作血统推断。</div>'
+      +PP.peoples.length+' 条人群、'+PP.notes.length+' 条范围读法；大组点开才载入，检索时会全量筛，'
+      +'不作生物人群分类，也不作血缘推断。</div>'
       +'<div class="mini" style="color:var(--gold)">'+esc(PP.meta.scaleNote||'')+'</div></div></div>';
     /* 人物全册：647 位可考姓名按时代分桶，懒加载，已见标金（仍在文明册 panel 内） */
     const PALL=D.civilization.items.filter(x=>x.dim==='P');
@@ -5406,7 +5406,7 @@ window.addEventListener('error',function(e){
     h+='</div>';   /* 关闭文明册 panel（人物全册之后才收口） */
     }else{h+='<div class="panel"></div>';}
 
-    /* 舆地：可缩放历史舆图 + 真实地理、气候变迁、史前序章与边界层 */
+    /* 舆地：可缩放历史舆图 + 真实地理、气候变迁、史前序章与范围层 */
     const GC=W.geoclimate,FG=W.fringe,T=W.reality.tier(S.reality);
     const mine=GC.unitsOf(S.reg),AM=D.atlas.meta,LM=D.layers.meta;
     const LB=[['polity','政权'],['climate','气候'],['pop','人口热力'],['family','家族'],['local','地方志']];
@@ -5461,7 +5461,7 @@ window.addEventListener('error',function(e){
       +'<b>'+esc(p.title)+'</b><div class="mini">'+esc(p.summary)+'</div></div>');
     h+='</div>';
 
-    /* 边界层：文本传统 / 未证实假说 */
+    /* 范围层：文本传统 / 未证实假说 */
     h+='<div class="card"><div class="tagline">文 本 传 统 与 边 界 层</div>'
       +'<div class="mini">四层严格分离：史实 / 文本传统 / 未证实假说 / 史前可考。'
       +'当前档位 <b style="color:var(--gold)">'+esc(T.name)+'</b>：'
@@ -5514,7 +5514,7 @@ window.addEventListener('error',function(e){
     /* 平行时间轴：同年横看并立政权，不硬串成单线 */
     h+='<div class="card"><div class="tagline">平 行 时 间 轴 · 政 权 条 带</div>'
       +'<div class="mini">同一年里多个政权并立，是常态。条带按考据年表起止绘制；'
-      +'重叠即并列，不表示前后相续。本视图为纪年条带，非疆域地图（数据未含经纬度）。</div>';
+      +'重叠即并列，不表示前后相续。本视图为纪年条带，非地域地图（数据未含经纬度）。</div>';
     const ents=D.entities.entities.slice().sort((a,b)=>a.startYear-b.startYear);
     const xmin=Math.min(...ents.map(x=>x.startYear)),xmax=Math.max(...ents.map(x=>x.endYear));
     const pct=y=>Math.max(0,Math.min(100,Math.round((y-xmin)/(xmax-xmin)*100)));
@@ -5532,7 +5532,7 @@ window.addEventListener('error',function(e){
     const modern=D.history.events.filter(x=>x.y0>=1600).sort((a,b)=>a.y0-b.y0);
     h+='<div class="card"><div class="tagline">近 现 代 可 考 锚 点 · 到 '+2026+'</div>'
       +'<div class="mini">朝代长河的六阶段考据年表止于 1644 年。以下为 data/history.json 中已考据的近现代节点，'
-      +'<b>未</b>据此虚构清／民国／当代的「建立→鼎盛→终结」六阶段实体。</div>';
+      +'<b>未</b>据此虚构清／近代／当代的「建立→鼎盛→终结」六阶段实体。</div>';
     modern.forEach(x=>h+='<div class="row"><span class="y">'+E.fmtShort(x.y0)+'</span><b>'+esc(x.title)+'</b>'
       +'<div class="mini">'+esc(x.summary.slice(0,64))+'…</div>'
       +'<div class="mini" style="color:#8f8067">'+esc(x.cite||x.source)+'</div></div>');
@@ -5634,7 +5634,7 @@ window.addEventListener('error',function(e){
 
     app.innerHTML=h;
     const tabs=$('tabs');
-    const TS=[['main','推演'],['log','编年'],['fam','族谱'],['sea','史海'],['civ','文明'],['geo','舆地'],['vol','卷轴'],['set','设置']];
+    const TS=[['main','推演'],['log','编年'],['fam','族谱'],['sea','史海'],['civ','文明'],['vol','卷轴'],['set','设置']];
     tabs.innerHTML=TS.map(t=>'<button data-t="'+t[0]+'" class="'+(TAB===t[0]?'on':'')+'">'+t[1]+'</button>').join('');
     tabs.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{
       TAB=b.dataset.t;
@@ -5750,7 +5750,7 @@ window.addEventListener('error',function(e){
         onPick:function(p){
           const box=document.getElementById('atlasPick');if(!box)return;
           const kind={city:'城址锚点（现代经纬度近似）',unit:'地理单元（近似中心点）',
-            family:'本局家族据点（推演）',climate:'气候影响区示意（非实测边界）'}[p?p.type:'']||'点位';
+            family:'本局家族据点（推演）',climate:'气候影响区示意（非实测范围）'}[p?p.type:'']||'点位';
           let html=p?'<b>'+esc(p.name)+'</b>　'+esc(p.detail)
             +'<div class="mini">'+p.lat.toFixed(2)+'°, '+p.lon.toFixed(2)+'° · '+kind+'</div>'
             :'点一下地图上的点位，可查看该地说明。';
@@ -5777,7 +5777,7 @@ window.addEventListener('error',function(e){
           /* 1 政权 */
           if(o.layers.polity){
             t+='<div class="tagline">政 权 · '+E.fmtYear(o.year)+' · '+o.polities.length+' 个并立</div>';
-            t+='<div class="mini">并立政权同时显示，不排成前后相续单线；虚线仅示核心区，不是国界。</div>';
+            t+='<div class="mini">并立政权同时显示，不排成前后相续单线；虚线仅示核心区，不是界线。</div>';
             t+=o.polities.length?o.polities.map(function(p){
               return '<div class="row"><b>'+esc(p.name)+'</b> <span class="s">'
                 +E.fmtShort(p.from)+' — '+E.fmtShort(p.to)+'</span>'
@@ -5818,7 +5818,7 @@ window.addEventListener('error',function(e){
                 return E.fmtShort(m.y)+' '+esc(m.fromName)+' → '+esc(m.toName)+'（'+m.count+' 人）';
               }).join('　')+'</div>';
           }
-          /* 5 地方志：本圈 + 全球性，按当前年份窗口筛选，不作边界主张 */
+          /* 5 地方志：本圈 + 全球性，按当前年份窗口筛选，不作范围主张 */
           if(o.layers.local){
             const LS=D.localities.items.filter(function(x){
               return (x.region===S.reg||x.region==='*')&&o.year>=x.y0-120&&o.year<=x.y1+120;
@@ -5931,7 +5931,7 @@ window.addEventListener('error',function(e){
     push('',10);
     push('【舆地】已历气候 '+Object.keys(S.climateSeen||{}).length+' / '+D.geoclimate.events.length,16);
     push(W.geoclimate.CAVEAT.slice(0,46),11);
-    push('地理单元 '+D.geoclimate.units.length+' 个，经纬度为近似中心点，非疆域图',11);
+    push('地理单元 '+D.geoclimate.units.length+' 个，经纬度为近似中心点，非地域图',11);
     push('',10);
     if(d.chain){push('【朝代长河】'+d.chain.title,16);
       d.chain.entities.forEach((x,i)=>push((i+1)+'. '+x.name+'　'+E.fmtShort(x.from)+'—'+E.fmtShort(x.to),13));}
@@ -5972,7 +5972,7 @@ window.addEventListener('error',function(e){
   function renderStart(app){
     const cached=E.load();
     let h='<div class="title"><h1>上下五千年</h1><p>分 卷 编 年 · 从 第 一 堆 篝 火 点 起</p></div>';
-    h+='<div class="card"><p class="intro">你不是在读一段写好的历史。<br>你是某一支人、某一座城、某一个人，<br>从公元前 5000 年一直点下去。<br><span style="color:var(--gold)">每 '+E.volLen()+' 笔汇成一卷，卷卷可收；<br>也终有走到终章的那一日。</span></p>'
+    h+='<div class="card"><p class="intro" style="color:var(--dim);font-size:.86em;line-height:1.9">本作为虚构历史推演游戏：人物、家族与事件均由算法随机生成，与真实历史人物、族群、政权无对应关系，内容仅供娱乐。</p><p class="intro">你不是在读一段写好的历史。<br>你是某一支人、某一座城、某一个人，<br>从公元前 5000 年一直点下去。<br><span style="color:var(--gold)">每 '+E.volLen()+' 笔汇成一卷，卷卷可收；<br>也终有走到终章的那一日。</span></p>'
       +'<div class="mini center">国内外史事以「本土 / 远闻」同时抵达；'
       +D.civilization.dimensions.length+' 维 / '+D.civilization.items.length+' 条文明条目按六大知识类组织，'
       +'另有地方志 '+D.localities.items.length+' 条、姓氏 '+D.peoples.surnames.length
