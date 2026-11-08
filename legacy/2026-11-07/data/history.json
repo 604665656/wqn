@@ -1,0 +1,1711 @@
+{
+ "events": [
+  {
+   "id": "E001",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": -5000,
+   "y1": -5000,
+   "precision": "approximate",
+   "status": "断代有争议",
+   "consensus": "date_contested",
+   "title": "裴李岗等黄河流域早期农业文化出现",
+   "summary": "黄河中游出现定居农业、石器与陶器遗存，构成早期农耕社会证据；无法还原为单一事件。",
+   "cite": "《人民日报》“亚洲文明肇始”展览资料",
+   "refs": [
+    "9"
+   ],
+   "sources": [
+    {
+     "url": "https://www.peopleapp.com/rmharticle/30020734243",
+     "quote": "“大约公元前3500年前后这里出现了集聚大量人口的城市与社会权力相对集中的世俗国家。”"
+    }
+   ]
+  },
+  {
+   "id": "E002",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": -3000,
+   "y1": -2000,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "龙山时代黄河中下游城址与社会分化",
+   "summary": "多地出现城墙、夯土建筑及明显的社会分层，属于文明形成阶段，不等同于某朝建立。",
+   "cite": "《剑桥古代史》第一卷第二分册目录所反映的早王朝及城市研究框架",
+   "refs": [
+    "10"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sohu.com/a/399899025_488879",
+     "quote": "“《剑桥古代史》第一卷第二分册叙述了中东地区早期的历史，具体包括埃及早王朝时期……早期青铜时代的希腊、克里特岛和爱琴海岛屿等内容。”"
+    }
+   ]
+  },
+  {
+   "id": "E003",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": -2070,
+   "y1": -1600,
+   "precision": "approximate",
+   "status": "断代有争议",
+   "consensus": "date_contested",
+   "title": "二里头文化—夏代对应关系被持续讨论",
+   "summary": "二里头出现宫城、道路、青铜与礼器遗存；学界对二里头是否即夏都及夏积年存在分歧，甲骨文未直接记载夏。",
+   "cite": "河南省文旅厅转载考古资料、《夏商周断代工程报告》",
+   "refs": [
+    "1",
+    "8"
+   ],
+   "sources": [
+    {
+     "url": "https://hct.henan.gov.cn/2021/12-03/2359154.html",
+     "quote": "“夏代的纪年，历来说法不一……《史记·夏本纪》认为‘有夏一代，从禹至桀，十七君，十四世’，但并没有交代具体纪年。”"
+    },
+    {
+     "url": "https://cul.china.com.cn/2022-08/24/content_42081692.htm",
+     "quote": "“我国古书上记载的上古确切年代，只能上推到司马迁《史记·十二诸侯年表》的开端——西周晚期共和元年，即公元前841年。”"
+    }
+   ]
+  },
+  {
+   "id": "E004",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": -1600,
+   "y1": -1046,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "商代甲骨与青铜文明形成",
+   "summary": "安阳殷墟发现成熟甲骨文，可验证商代后期王名、祭祀与部分事件；夏商分界仍有多方案。",
+   "cite": "中国驻印尼使馆《中国历史年代简表》",
+   "refs": [
+    "11"
+   ],
+   "sources": [
+    {
+     "url": "https://id.china-embassy.gov.cn/zggk/zgjk/200404/t20040421_2343199.htm",
+     "quote": "“夏 约公元前21世纪-前16世纪；商 约公元前16世纪-前11世纪；西周 约公元前11世纪-前770年。”"
+    }
+   ]
+  },
+  {
+   "id": "E005",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": -1046,
+   "y1": -1046,
+   "precision": "exact",
+   "status": "学界通说兼断代讨论",
+   "consensus": "settled",
+   "title": "牧野之战与西周建立",
+   "summary": "利簋铭文与传世文献均记周武王伐商；夏商周断代工程以前1046年为武王克商方案，仍有其他天文历算讨论。",
+   "cite": "《史记·周本纪》、夏商周断代工程资料",
+   "refs": [
+    "1",
+    "8"
+   ],
+   "sources": [
+    {
+     "url": "https://hct.henan.gov.cn/2021/12-03/2359154.html",
+     "quote": "“夏代的纪年，历来说法不一……《史记·夏本纪》认为‘有夏一代，从禹至桀，十七君，十四世’，但并没有交代具体纪年。”"
+    },
+    {
+     "url": "https://cul.china.com.cn/2022-08/24/content_42081692.htm",
+     "quote": "“我国古书上记载的上古确切年代，只能上推到司马迁《史记·十二诸侯年表》的开端——西周晚期共和元年，即公元前841年。”"
+    }
+   ]
+  },
+  {
+   "id": "E006",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": -841,
+   "y1": -841,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "共和行政开启连续纪年窗口",
+   "summary": "司马迁《十二诸侯年表》始于此年，之后中国传世史书纪年链条显著清晰。",
+   "cite": "《史记》相关断代说明",
+   "refs": [
+    "8"
+   ],
+   "sources": [
+    {
+     "url": "https://cul.china.com.cn/2022-08/24/content_42081692.htm",
+     "quote": "“我国古书上记载的上古确切年代，只能上推到司马迁《史记·十二诸侯年表》的开端——西周晚期共和元年，即公元前841年。”"
+    }
+   ]
+  },
+  {
+   "id": "E007",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": -221,
+   "y1": -221,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "秦统一并建立皇帝—郡县体系",
+   "summary": "秦王政灭六国，称“始皇帝”，推行郡县、统一文字、度量衡等；秦朝前207年亡。",
+   "cite": "《史记·秦始皇本纪》",
+   "refs": [
+    "12"
+   ],
+   "sources": [
+    {
+     "url": "https://www.xuexi.cn/lgpage/detail/index.html?id=1801430501370394452",
+     "quote": "“六王咸伏其辜，天下大定……海内为郡县，法令由一统，自上古以来未尝有。”"
+    }
+   ]
+  },
+  {
+   "id": "E008",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": -202,
+   "y1": -202,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "刘邦称帝，西汉建立",
+   "summary": "楚汉战争结束后刘邦称帝，西汉定都长安；公元8年王莽代汉。",
+   "cite": "《汉书》及中国驻印尼使馆年代表",
+   "refs": [
+    "11"
+   ],
+   "sources": [
+    {
+     "url": "https://id.china-embassy.gov.cn/zggk/zgjk/200404/t20040421_2343199.htm",
+     "quote": "“夏 约公元前21世纪-前16世纪；商 约公元前16世纪-前11世纪；西周 约公元前11世纪-前770年。”"
+    }
+   ]
+  },
+  {
+   "id": "E009",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": -119,
+   "y1": -119,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "汉武帝推行盐铁与算缗制度",
+   "summary": "当年置盐铁丞，征收工商业资产税，以加强中央财政；属政策节点，不把货币改革结果夸大为“解决财政危机”。",
+   "cite": "《资治通鉴》元狩四年记载",
+   "refs": [
+    "13"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%85%AC%E5%85%83%E5%89%8D119%E5%B9%B4/1317089",
+     "quote": "“是时……令诸贾人末作各以其物自占，率缗钱二千而一算……匿不自占，占不悉，戍边一岁，没入缗钱。”"
+    }
+   ]
+  },
+  {
+   "id": "E010",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": 25,
+   "y1": 25,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "刘秀称帝，东汉建立",
+   "summary": "绿林、赤眉等战乱后，刘秀重建汉政权，后定都洛阳；220年曹丕代汉。",
+   "cite": "《后汉书·光武帝纪》及年代表",
+   "refs": [
+    "11"
+   ],
+   "sources": [
+    {
+     "url": "https://id.china-embassy.gov.cn/zggk/zgjk/200404/t20040421_2343199.htm",
+     "quote": "“夏 约公元前21世纪-前16世纪；商 约公元前16世纪-前11世纪；西周 约公元前11世纪-前770年。”"
+    }
+   ]
+  },
+  {
+   "id": "E011",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": 755,
+   "y1": 755,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "安禄山起兵，安史之乱开始",
+   "summary": "身兼三镇节度使的安禄山起兵，战争导致唐朝人口、财政与边地控制格局发生重大变化。",
+   "cite": "《旧唐书·玄宗本纪》相关记载",
+   "refs": [
+    "14"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%AE%89%E5%8F%B2%E4%B9%8B%E4%B9%B1/131840",
+     "quote": "“公元755年12月16日……安禄山……在范阳起兵……同年十二月十二日就攻入洛阳。”"
+    }
+   ]
+  },
+  {
+   "id": "E012",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": 1911,
+   "y1": 1912,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "辛亥革命与清帝退位",
+   "summary": "1911年10月10日武昌起义，各省响应；1912年2月清帝退位，清朝法理统治结束。",
+   "cite": "全国哲学社会科学工作办公室《辛亥革命打开了中国进步的闸门》",
+   "refs": [
+    "15"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nopss.gov.cn/GB/219567/219576/15827568.html",
+     "quote": "“公元1911年10月10日，革命团体文学社、共进会领导新军在武昌举行起义。”"
+    }
+   ]
+  },
+  {
+   "id": "E013",
+   "region": "meso",
+   "circle": "两河·新月沃地",
+   "y0": -5000,
+   "y1": -5000,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "乌鲁克等地出现早期聚落与灌溉农业",
+   "summary": "遗址显示社会复杂化和公共建筑发展；此条是长时段文化过程，不是一次性建国事件。",
+   "cite": "新华网乌鲁克遗址报道",
+   "refs": [
+    "18"
+   ],
+   "sources": [
+    {
+     "url": "https://www2.xinhuanet.com/20250530/8dcdb756d5e444509e7d85dabc944308/c.html",
+     "quote": "“古城始建于公元前5000年，是人类早期城市文明的代表……在公元前3400年-3100年……乌鲁克文化开始展露光芒。”"
+    }
+   ]
+  },
+  {
+   "id": "E014",
+   "region": "meso",
+   "circle": "两河·新月沃地",
+   "y0": -3500,
+   "y1": -3500,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "苏美尔城市社会形成",
+   "summary": "出现人口集中、神庙管理与复杂劳动分工，被多国博物馆资料列为早期文明证据。",
+   "cite": "《人民日报》亚洲文明资料",
+   "refs": [
+    "9"
+   ],
+   "sources": [
+    {
+     "url": "https://www.peopleapp.com/rmharticle/30020734243",
+     "quote": "“大约公元前3500年前后这里出现了集聚大量人口的城市与社会权力相对集中的世俗国家。”"
+    }
+   ]
+  },
+  {
+   "id": "E015",
+   "region": "meso",
+   "circle": "两河·新月沃地",
+   "y0": -3200,
+   "y1": -3200,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "楔形文字体系出现",
+   "summary": "两河流域南部苏美尔人形成可记录语言的楔形文字，使区域行政、经济与文学得以留存。",
+   "cite": "全国哲学社会科学工作办公室《上古西亚文明的交流互鉴》",
+   "refs": [
+    "2"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nopss.gov.cn/BIG5/n1/2019/1125/c219470-31471905.html",
+     "quote": "“大約公元前3200年……蘇美爾人發明了楔形文字……公元前2334年……阿卡德人……第一次完成了兩河流域地區的統一。”"
+    }
+   ]
+  },
+  {
+   "id": "E016",
+   "region": "meso",
+   "circle": "两河·新月沃地",
+   "y0": -2334,
+   "y1": -2284,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "萨尔贡建立阿卡德王国",
+   "summary": "阿卡德人在萨尔贡领导下控制南部两河，形成多族群政治体；具体在位起止仍有年表差异。",
+   "cite": "全国哲学社会科学工作办公室",
+   "refs": [
+    "2"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nopss.gov.cn/BIG5/n1/2019/1125/c219470-31471905.html",
+     "quote": "“大約公元前3200年……蘇美爾人發明了楔形文字……公元前2334年……阿卡德人……第一次完成了兩河流域地區的統一。”"
+    }
+   ]
+  },
+  {
+   "id": "E017",
+   "region": "meso",
+   "circle": "两河·新月沃地",
+   "y0": -1792,
+   "y1": -1750,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "汉谟拉比统治古巴比伦",
+   "summary": "汉谟拉比扩张并留下长篇法典铭文；《汉谟拉比法典》不能简单称为“世界第一部法律”。",
+   "cite": "大英博物馆/学术资料及两河文明综述",
+   "refs": [
+    "19",
+    "20"
+   ],
+   "sources": [
+    {
+     "url": "https://www.thepaper.cn/newsDetail_forward_20128795",
+     "quote": "“公元前1792年……汉谟拉比登上王位……在执政第32年……成为两河流域无人能敌的霸主。”"
+    },
+    {
+     "url": "https://baike.baidu.com/item/%E7%BE%8E%E7%B4%A2%E4%B8%8D%E8%BE%BE%E7%B1%B3%E4%BA%9A%E6%96%87%E6%98%8E/1773468",
+     "quote": "“该文明政治形态经历城邦、区域国家和帝国三个阶段……公元前24世纪首次统一两河流域。”"
+    }
+   ]
+  },
+  {
+   "id": "E018",
+   "region": "meso",
+   "circle": "两河·新月沃地",
+   "y0": -612,
+   "y1": -612,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "尼尼微陷落，亚述帝国首都失守",
+   "summary": "新巴比伦与米底联军攻陷亚述首都，标志亚述帝国核心权力瓦解；地方残余不等同于帝国整体立即消失。",
+   "cite": "《学习强国》“西亚北非文明”资料",
+   "refs": [
+    "21"
+   ],
+   "sources": [
+    {
+     "url": "https://www.xuexi.cn/77eab07e898ad0adffa345362dc765b5/e43e220633a65f9b6d8b53712cba9caa.html",
+     "quote": "“公元前612年亚述才被新巴比伦的迦勒底人和伊朗的米底人所灭。”"
+    }
+   ]
+  },
+  {
+   "id": "E019",
+   "region": "meso",
+   "circle": "两河·新月沃地",
+   "y0": -539,
+   "y1": -539,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "波斯占领巴比伦",
+   "summary": "波斯阿契美尼德军队进入巴比伦，新巴比伦王国失去独立，两河纳入更大帝国体系。",
+   "cite": "两河文明资料",
+   "refs": [
+    "20"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E7%BE%8E%E7%B4%A2%E4%B8%8D%E8%BE%BE%E7%B1%B3%E4%BA%9A%E6%96%87%E6%98%8E/1773468",
+     "quote": "“该文明政治形态经历城邦、区域国家和帝国三个阶段……公元前24世纪首次统一两河流域。”"
+    }
+   ]
+  },
+  {
+   "id": "E020",
+   "region": "meso",
+   "circle": "两河·新月沃地",
+   "y0": -331,
+   "y1": -331,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "高加米拉战役与波斯体系瓦解",
+   "summary": "亚历山大击败大流士三世，阿契美尼德帝国核心统治迅速崩溃，希腊化统治进入两河。",
+   "cite": "大英博物馆及剑桥史框架",
+   "refs": [
+    "10",
+    "19"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sohu.com/a/399899025_488879",
+     "quote": "“《剑桥古代史》第一卷第二分册叙述了中东地区早期的历史，具体包括埃及早王朝时期……早期青铜时代的希腊、克里特岛和爱琴海岛屿等内容。”"
+    },
+    {
+     "url": "https://www.thepaper.cn/newsDetail_forward_20128795",
+     "quote": "“公元前1792年……汉谟拉比登上王位……在执政第32年……成为两河流域无人能敌的霸主。”"
+    }
+   ]
+  },
+  {
+   "id": "E021",
+   "region": "meso",
+   "circle": "两河·新月沃地",
+   "y0": 1258,
+   "y1": 1258,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "蒙古军队攻占巴格达",
+   "summary": "旭烈兀军攻陷巴格达，阿拔斯王朝哈里发体系在伊拉克失去政治中心。",
+   "cite": "《新华网》“历史大变局中的阿拉伯世界”",
+   "refs": [
+    "6"
+   ],
+   "sources": [
+    {
+     "url": "https://www.xuexi.cn/77eab07e898ad0adffa345362dc765b5/e43e220633a65f9b6d8b53712cba9caa.html",
+     "quote": "“公元前612年亚述才被新巴比伦的迦勒底人和伊朗的米底人所灭。”"
+    }
+   ]
+  },
+  {
+   "id": "E022",
+   "region": "meso",
+   "circle": "两河·新月沃地",
+   "y0": 1534,
+   "y1": 1534,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "奥斯曼帝国吞并伊拉克",
+   "summary": "奥斯曼军队由苏莱曼一世时期取得巴格达，两河主体地区进入奥斯曼行政体系；此前已有多年争夺。",
+   "cite": "奥斯曼帝国扩张资料",
+   "refs": [
+    "22"
+   ],
+   "sources": [
+    {
+     "url": "https://www.jiemian.com/article/2504804.html",
+     "quote": "“1453年……奥斯曼帝国出动20万大军和300艘战舰……攻破拜占庭帝国首都君士坦丁堡。”"
+    }
+   ]
+  },
+  {
+   "id": "E023",
+   "region": "nile",
+   "circle": "尼罗·埃及",
+   "y0": -3100,
+   "y1": -3000,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "纳尔迈调色板反映上下埃及王权整合",
+   "summary": "调色板刻有王名与上、下埃及象征，是研究早王朝统一叙事的核心文物；不能单独证明当年完成全部领土统一。",
+   "cite": "中山大学讲座",
+   "refs": [
+    "3"
+   ],
+   "sources": [
+    {
+     "url": "https://historyzh.sysu.edu.cn/node/231",
+     "quote": "“经考证，该调色板的时间为公元前3100年-公元前3000年，调色板上的国王正是纳尔迈。”"
+    }
+   ]
+  },
+  {
+   "id": "E024",
+   "region": "nile",
+   "circle": "尼罗·埃及",
+   "y0": -2686,
+   "y1": -2181,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "古王国时期与金字塔建造高峰",
+   "summary": "第三至第六王朝期间出现大规模王陵与中央祭司—官僚体系；王朝断代窗口仍有资料差异。",
+   "cite": "央广网古埃及分期资料",
+   "refs": [
+    "23"
+   ],
+   "sources": [
+    {
+     "url": "https://m.cnr.cn/chanjing/wenhua/20200402/t20200402_525039271.html",
+     "quote": "“曼涅托对古代埃及历史的划分至今仍为学术界普遍使用……古王国时期包括第3—6王朝，约存在于公元前2686年—公元前2181年。”"
+    }
+   ]
+  },
+  {
+   "id": "E025",
+   "region": "nile",
+   "circle": "尼罗·埃及",
+   "y0": -1479,
+   "y1": -1425,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "图特摩斯三世统治与第十八王朝扩张",
+   "summary": "他发动多场叙利亚—巴勒斯坦战役，埃及影响力扩展至西亚；阿瓦利斯、卡迭什等年份与战果口径不一。",
+   "cite": "古埃及帝国资料",
+   "refs": [
+    "24"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%9F%83%E5%8F%8A%E5%B8%9D%E5%9B%BD",
+     "quote": "“图特摩斯三世……一生征战……将埃及边境推进到了尼罗河第四瀑布以外。”"
+    }
+   ]
+  },
+  {
+   "id": "E026",
+   "region": "nile",
+   "circle": "尼罗·埃及",
+   "y0": -1274,
+   "y1": -1274,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "卡迭什战役与埃及—赫梯和约",
+   "summary": "拉美西斯二世与穆瓦塔利二世争夺叙利亚；战后条约是现存较早国际和约文本之一。",
+   "cite": "中山大学讲座与卡迭什资料",
+   "refs": [
+    "3",
+    "25"
+   ],
+   "sources": [
+    {
+     "url": "https://historyzh.sysu.edu.cn/node/231",
+     "quote": "“经考证，该调色板的时间为公元前3100年-公元前3000年，调色板上的国王正是纳尔迈。”"
+    },
+    {
+     "url": "https://baike.sogou.com/v68486595.htm",
+     "quote": "“卡迭石战役……约公元前1274年……战后缔结的《埃及赫梯和约》是历史上保留至当代的最早的有文字记载的国际军事条约文书。”"
+    }
+   ]
+  },
+  {
+   "id": "E027",
+   "region": "nile",
+   "circle": "尼罗·埃及",
+   "y0": -664,
+   "y1": -525,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "第二十五、二十六王朝复兴",
+   "summary": "努比亚与埃及本土统治者恢复独立王权并重建神庙；前525年波斯征服打断该复兴。",
+   "cite": "埃及历史分期资料",
+   "refs": [
+    "23"
+   ],
+   "sources": [
+    {
+     "url": "https://m.cnr.cn/chanjing/wenhua/20200402/t20200402_525039271.html",
+     "quote": "“曼涅托对古代埃及历史的划分至今仍为学术界普遍使用……古王国时期包括第3—6王朝，约存在于公元前2686年—公元前2181年。”"
+    }
+   ]
+  },
+  {
+   "id": "E028",
+   "region": "nile",
+   "circle": "尼罗·埃及",
+   "y0": -332,
+   "y1": -332,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "亚历山大大帝进入埃及",
+   "summary": "马其顿军队接管埃及，波斯统治结束；亚历山大死后由托勒密将领建立王朝。",
+   "cite": "《新华网》亚历山大国家博物馆资料",
+   "refs": [
+    "26"
+   ],
+   "sources": [
+    {
+     "url": "https://www.xinhuanet.com/world/2018-04/08/c_1122651093.htm",
+     "quote": "“亚历山大大帝去世后，他的大将托勒密接管了埃及地区的统治权……托勒密王朝极大促进了古希腊文化与古埃及文明的融合。”"
+    }
+   ]
+  },
+  {
+   "id": "E029",
+   "region": "nile",
+   "circle": "尼罗·埃及",
+   "y0": -30,
+   "y1": -30,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "克利奥帕特拉七世败亡，埃及成为罗马行省",
+   "summary": "安东尼与克利奥帕特拉在与屋大维派系战争中失败，托勒密王朝终结。",
+   "cite": "《新华网》托勒密与克利奥帕特拉资料",
+   "refs": [
+    "26"
+   ],
+   "sources": [
+    {
+     "url": "https://www.xinhuanet.com/world/2018-04/08/c_1122651093.htm",
+     "quote": "“亚历山大大帝去世后，他的大将托勒密接管了埃及地区的统治权……托勒密王朝极大促进了古希腊文化与古埃及文明的融合。”"
+    }
+   ]
+  },
+  {
+   "id": "E030",
+   "region": "nile",
+   "circle": "尼罗·埃及",
+   "y0": 641,
+   "y1": 642,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "阿拉伯军队征服埃及",
+   "summary": "穆斯林军队占领埃及大部分地区，行政中心与宗教结构逐步改变；拜占庭仍保有部分残余。",
+   "cite": "古埃及历史年表与阿拉伯征服资料",
+   "refs": [
+    "27",
+    "28"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%8F%A4%E5%9F%83%E5%8F%8A%E5%8E%86%E5%8F%B2%E5%B9%B4%E8%A1%A8/7155380",
+     "quote": "“古埃及历史年表是记录古埃及历史的时间框架……涵盖公元前5000年至公元642年。”"
+    },
+    {
+     "url": "https://www.news.cn/globe/2023-01/10/c_1310686352.htm",
+     "quote": "“从1258年蒙古帝国灭亡阿拔斯王朝到第一次世界大战前后……阿拉伯世界走向分裂。”"
+    }
+   ]
+  },
+  {
+   "id": "E031",
+   "region": "nile",
+   "circle": "尼罗·埃及",
+   "y0": 1882,
+   "y1": 1882,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "英国军事占领埃及",
+   "summary": "英国以财政和苏伊士运河安全问题介入，建立事实控制；法律上的保护国地位在后一阶段确立。",
+   "cite": "埃及近现代史资料",
+   "refs": [
+    "28"
+   ],
+   "sources": [
+    {
+     "url": "https://www.news.cn/globe/2023-01/10/c_1310686352.htm",
+     "quote": "“从1258年蒙古帝国灭亡阿拔斯王朝到第一次世界大战前后……阿拉伯世界走向分裂。”"
+    }
+   ]
+  },
+  {
+   "id": "E032",
+   "region": "nile",
+   "circle": "尼罗·埃及",
+   "y0": 2026,
+   "y1": 2026,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "埃及为联合国会员国并保有古代遗址管理体系",
+   "summary": "当代埃及是主权国家；2026年无全球史意义上的统一“埃及文明事件”，应以后台资料更新方式处理。",
+   "cite": "联合国会员国资料",
+   "refs": [
+    "29"
+   ],
+   "sources": [
+    {
+     "url": "https://www.un.org/zh/about-us/member-states",
+     "quote": "“联合国目前有193个会员国……中国是第一个在《联合国宪章》上签字的国家，是联合国的创始会员国。”"
+    }
+   ]
+  },
+  {
+   "id": "E033",
+   "region": "aegean",
+   "circle": "爱琴—地中海/罗马",
+   "y0": -1700,
+   "y1": -1700,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "克诺索斯宫殿兴盛",
+   "summary": "克里特岛克诺索斯遗址出现大规模宫殿、壁画与线性文字A；线文A尚未释读，不能据其重建完整政体史。",
+   "cite": "克里特岛博物馆及世界遗产资料",
+   "refs": [
+    "30"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/view/2769154.htm",
+     "quote": "“克诺索斯王宫始建于约公元前2000年，并在公元前17世纪至前15世纪达到鼎盛。”"
+    }
+   ]
+  },
+  {
+   "id": "E034",
+   "region": "aegean",
+   "circle": "爱琴—地中海/罗马",
+   "y0": -479,
+   "y1": -479,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "普拉提亚战役与希波战争转折",
+   "summary": "希腊联军击败波斯军队；此后雅典地位上升，也加速提洛同盟内部权力失衡。",
+   "cite": "世博会博物馆希腊文明资料",
+   "refs": [
+    "31"
+   ],
+   "sources": [
+    {
+     "url": "https://thepaper.cn/newsDetail_forward_31639576",
+     "quote": "“公元前479年击败波斯入侵者后，雅典成为希腊最有影响力的城邦……这是历史上最早的民主政治实践之一。”"
+    }
+   ]
+  },
+  {
+   "id": "E035",
+   "region": "aegean",
+   "circle": "爱琴—地中海/罗马",
+   "y0": -449,
+   "y1": -449,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "《十二铜表法》公布",
+   "summary": "罗马成文法刻于十二表，限制贵族对法律解释的垄断；它不是完整“罗马法典”。",
+   "cite": "百度百科《十二铜表法》年表资料",
+   "refs": [
+    "32"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%85%AC%E5%85%83%E5%89%8D449%E5%B9%B4",
+     "quote": "“罗马平民……于公元前449年迫使贵族……制定并公布了第一部成文法《十二铜表法》。”"
+    }
+   ]
+  },
+  {
+   "id": "E036",
+   "region": "aegean",
+   "circle": "爱琴—地中海/罗马",
+   "y0": -336,
+   "y1": -323,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "亚历山大大帝东征",
+   "summary": "他先后控制埃及、波斯核心区并进入印度河流域；死后帝国由继业者分割。",
+   "cite": "大英博物馆与南京博物院相关展览资料",
+   "refs": [
+    "19",
+    "33"
+   ],
+   "sources": [
+    {
+     "url": "https://www.thepaper.cn/newsDetail_forward_20128795",
+     "quote": "“公元前1792年……汉谟拉比登上王位……在执政第32年……成为两河流域无人能敌的霸主。”"
+    },
+    {
+     "url": "https://thepaper.cn/newsDetail_forward_27717194",
+     "quote": "“从基克拉泽斯文明到亚历山大东征……推动欧洲文明发展……公元前6世纪至公元前5世纪……古希腊城邦开始政治改革。”"
+    }
+   ]
+  },
+  {
+   "id": "E037",
+   "region": "aegean",
+   "circle": "爱琴—地中海/罗马",
+   "y0": -44,
+   "y1": -44,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "恺撒遇刺",
+   "summary": "元老院共和派刺杀恺撒，触发后三头同盟、菲利皮战役与元首制形成。",
+   "cite": "《罗马史》年表",
+   "refs": [
+    "34"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E7%BD%97%E9%A9%AC/9627639",
+     "quote": "“公元前44年3月15日，凯撒被国内反对派布鲁图和卡西乌斯阴谋刺杀。”"
+    }
+   ]
+  },
+  {
+   "id": "E038",
+   "region": "aegean",
+   "circle": "爱琴—地中海/罗马",
+   "y0": -27,
+   "y1": -27,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "屋大维获“奥古斯都”称号",
+   "summary": "元老院授予称号，罗马共和国的元首制实践转化为帝国统治形式。",
+   "cite": "《古罗马》政体资料",
+   "refs": [
+    "35"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%8F%A4%E7%BD%97%E9%A9%AC/9627639",
+     "quote": "“公元前27年……屋大维正式确立个人独裁统治……元首制实际上是披着共和外衣的君主专制。”"
+    }
+   ]
+  },
+  {
+   "id": "E039",
+   "region": "aegean",
+   "circle": "爱琴—地中海/罗马",
+   "y0": 330,
+   "y1": 330,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "君士坦丁堡成为帝国新都",
+   "summary": "君士坦丁在拜占庭旧址建城并强化东部行政中心；此举不是帝国正式“分裂”。",
+   "cite": "全国哲学社会科学工作办公室伊斯坦布尔研究",
+   "refs": [
+    "36"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nopss.gov.cn/BIG5/n1/2024/0429/c219544-40226663.html",
+     "quote": "“君士坦丁大帝……仿照罗马的格局和风格而建……君士坦丁堡……成为拜佔庭帝國……政治和文化中心。”"
+    }
+   ]
+  },
+  {
+   "id": "E040",
+   "region": "aegean",
+   "circle": "爱琴—地中海/罗马",
+   "y0": 1453,
+   "y1": 1453,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "奥斯曼军队攻陷君士坦丁堡",
+   "summary": "拜占庭末代皇帝战死，东罗马政权终结；此前其领土已严重收缩。",
+   "cite": "伊斯坦布尔研究资料",
+   "refs": [
+    "36"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nopss.gov.cn/BIG5/n1/2024/0429/c219544-40226663.html",
+     "quote": "“君士坦丁大帝……仿照罗马的格局和风格而建……君士坦丁堡……成为拜佔庭帝國……政治和文化中心。”"
+    }
+   ]
+  },
+  {
+   "id": "E041",
+   "region": "aegean",
+   "circle": "爱琴—地中海/罗马",
+   "y0": 1789,
+   "y1": 1789,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "法国大革命开始",
+   "summary": "三级会议召开、攻占巴士底狱等事件促成旧制度危机，对欧洲君主制与民族国家观念产生长期影响。",
+   "cite": "法国革命资料（可作为全球编年锚点）",
+   "refs": [
+    "37"
+   ],
+   "sources": [
+    {
+     "url": "https://www.britannica.com/event/French-Revolution",
+     "quote": "“French Revolution, revolutionary movement that shook France between 1787 and 1799.”"
+    }
+   ]
+  },
+  {
+   "id": "E042",
+   "region": "aegean",
+   "circle": "爱琴—地中海/罗马",
+   "y0": 1945,
+   "y1": 1945,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "联合国成立",
+   "summary": "国际组织正式成立，中国为创始会员国与安理会常任理事国；它不是“世界政府”。",
+   "cite": "联合国官方资料",
+   "refs": [
+    "29"
+   ],
+   "sources": [
+    {
+     "url": "https://www.un.org/zh/about-us/member-states",
+     "quote": "“联合国目前有193个会员国……中国是第一个在《联合国宪章》上签字的国家，是联合国的创始会员国。”"
+    }
+   ]
+  },
+  {
+   "id": "E043",
+   "region": "indus",
+   "circle": "印度河—南亚",
+   "y0": -2600,
+   "y1": -1900,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "印度河文明成熟城市网络",
+   "summary": "哈拉帕、摩亨佐达罗等城使用烧砖、网格街巷与排水系统；政治统一程度尚无定论。",
+   "cite": "《光明日报》“水与印度河文明的兴衰”",
+   "refs": [
+    "38"
+   ],
+   "sources": [
+    {
+     "url": "https://epaper.gmw.cn/gmrb/html/2018-05/07/nw.D110000gmrb_20180507_3-14.htm",
+     "quote": "“其鼎盛期约始于公元前2600年，至公元前1900年左右走向衰落，公元前1750年前后消失。”"
+    }
+   ]
+  },
+  {
+   "id": "E044",
+   "region": "indus",
+   "circle": "印度河—南亚",
+   "y0": -1900,
+   "y1": -1700,
+   "precision": "approximate",
+   "status": "断代有争议",
+   "consensus": "date_contested",
+   "title": "印度河主要城市开始衰落",
+   "summary": "遗址出现废弃、人口减少与环境变化；学界对单一干旱、河流改道或外迁解释尚无共识。",
+   "cite": "中国新闻网考古资料",
+   "refs": [
+    "39"
+   ],
+   "sources": [
+    {
+     "url": "https://www.chinanews.com.cn/gj/2019/07-11/8891385.shtml",
+     "quote": "“哈拉帕属于典型的大河农业文明……其中又以哈拉帕和摩亨佐达罗等城市遗址知名度最高。”"
+    }
+   ]
+  },
+  {
+   "id": "E045",
+   "region": "indus",
+   "circle": "印度河—南亚",
+   "y0": -268,
+   "y1": -232,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "阿育王统治孔雀王朝",
+   "summary": "铭文与传说资料记录其对羯陵伽的战争及支持佛教传播；其疆域范围仍有边界争议。",
+   "cite": "印度历史资料",
+   "refs": [
+    "40"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%8D%B0%E5%BA%A6%E5%8E%86%E5%8F%B2/8862735",
+     "quote": "“公元前321年旃陀罗笈多建立孔雀王朝，阿育王统治时期疆域达到顶峰……公元320年笈多王朝统一北印度。”"
+    }
+   ]
+  },
+  {
+   "id": "E046",
+   "region": "indus",
+   "circle": "印度河—南亚",
+   "y0": 320,
+   "y1": 320,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "旃陀罗笈多一世建立笈多王朝",
+   "summary": "该政权控制北印度核心区，形成梵语文学、数学与宗教艺术高峰期；精确即位月日不可考。",
+   "cite": "印度历史资料",
+   "refs": [
+    "40"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%8D%B0%E5%BA%A6%E5%8E%86%E5%8F%B2/8862735",
+     "quote": "“公元前321年旃陀罗笈多建立孔雀王朝，阿育王统治时期疆域达到顶峰……公元320年笈多王朝统一北印度。”"
+    }
+   ]
+  },
+  {
+   "id": "E047",
+   "region": "indus",
+   "circle": "印度河—南亚",
+   "y0": 1206,
+   "y1": 1206,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "德里苏丹国体系形成",
+   "summary": "古尔王朝将领在印度北部建立政权，伊斯兰政权体系扩大；建立者及日期口径有分歧。",
+   "cite": "印度历史资料",
+   "refs": [
+    "40"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%8D%B0%E5%BA%A6%E5%8E%86%E5%8F%B2/8862735",
+     "quote": "“公元前321年旃陀罗笈多建立孔雀王朝，阿育王统治时期疆域达到顶峰……公元320年笈多王朝统一北印度。”"
+    }
+   ]
+  },
+  {
+   "id": "E048",
+   "region": "indus",
+   "circle": "印度河—南亚",
+   "y0": 1526,
+   "y1": 1526,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "巴布尔在第一次帕尼帕特战役后建立莫卧儿政权",
+   "summary": "巴布尔击败洛迪苏丹军队，奠立后继帝国；帝国行政成熟与疆域扩张是渐进过程。",
+   "cite": "莫卧儿帝国资料",
+   "refs": [
+    "40"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%8D%B0%E5%BA%A6%E5%8E%86%E5%8F%B2/8862735",
+     "quote": "“公元前321年旃陀罗笈多建立孔雀王朝，阿育王统治时期疆域达到顶峰……公元320年笈多王朝统一北印度。”"
+    }
+   ]
+  },
+  {
+   "id": "E049",
+   "region": "indus",
+   "circle": "印度河—南亚",
+   "y0": 1857,
+   "y1": 1858,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "印度民族大起义与英国直接统治",
+   "summary": "1857年起义波及北印度，1858年英国议会将东印度公司权力转归英王。",
+   "cite": "《国家人文历史》相关专题",
+   "refs": [
+    "41"
+   ],
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MjM5MDg1NjA2NA==&mid=2650447535&idx=1&sn=d0446983589e54e2a3d35e35aa41beb3",
+     "quote": "“1857年印度民族大起义使英国议会于1858年2月通过了一项法案……将英国东印度公司在印度的权力转到英国女王手中。”"
+    }
+   ]
+  },
+  {
+   "id": "E050",
+   "region": "indus",
+   "circle": "印度河—南亚",
+   "y0": 1947,
+   "y1": 1947,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "英属印度分治与印度自治领成立",
+   "summary": "印度与巴基斯坦根据《蒙巴顿方案》成立，伴随大规模迁徙与暴力；独立不等于宗教、族群冲突自动结束。",
+   "cite": "印度独立资料",
+   "refs": [
+    "40"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%8D%B0%E5%BA%A6%E5%8E%86%E5%8F%B2/8862735",
+     "quote": "“公元前321年旃陀罗笈多建立孔雀王朝，阿育王统治时期疆域达到顶峰……公元320年笈多王朝统一北印度。”"
+    }
+   ]
+  },
+  {
+   "id": "E051",
+   "region": "indus",
+   "circle": "印度河—南亚",
+   "y0": 2026,
+   "y1": 2026,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "印度共和国持续存在",
+   "summary": "印度1950年成为共和国，2026年仍是联合国会员国；年度数据应以官方公报更新。",
+   "cite": "联合国资料",
+   "refs": [
+    "29"
+   ],
+   "sources": [
+    {
+     "url": "https://www.un.org/zh/about-us/member-states",
+     "quote": "“联合国目前有193个会员国……中国是第一个在《联合国宪章》上签字的国家，是联合国的创始会员国。”"
+    }
+   ]
+  },
+  {
+   "id": "E052",
+   "region": "maya",
+   "circle": "中美洲",
+   "y0": -5000,
+   "y1": -5000,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "中美洲开始长期玉米驯化",
+   "summary": "考古资料表明中美洲形成以玉米为基础的农业体系，为后续定居与城市社会提供条件。",
+   "cite": "墨西哥国家人类学博物馆馆长访谈资料",
+   "refs": [
+    "42"
+   ],
+   "sources": [
+    {
+     "url": "https://news.qq.com/rain/a/20260711A079DE00",
+     "quote": "“公元前5000年，玉米开始被种植……前古典期（公元前1200年至公元250年）见证了奥尔梅克文明的崛起。”"
+    }
+   ]
+  },
+  {
+   "id": "E053",
+   "region": "maya",
+   "circle": "中美洲",
+   "y0": -1200,
+   "y1": -1200,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "奥尔梅克文明兴起",
+   "summary": "墨西哥湾沿岸出现仪式中心、巨型头像与玉石艺术，被视作中美洲文明重要母体。",
+   "cite": "国家文物局讲座资料",
+   "refs": [
+    "43"
+   ],
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MzU1ODM3Mzc1Nw==&mid=2247518342&idx=1&sn=db29948c63ab483a4c23e675b1f523c7",
+     "quote": "“公元250年至900年，进入到城邦林立的玛雅古典时代……到公元900年，过去极为繁荣的城邦都变成了废墟。”"
+    }
+   ]
+  },
+  {
+   "id": "E054",
+   "region": "maya",
+   "circle": "中美洲",
+   "y0": 100,
+   "y1": 100,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "特奥蒂瓦坎成为大型都市",
+   "summary": "亡灵大道、太阳金字塔与羽蛇金字塔显示宗教—行政中心功能；城市治理结构与族群众说纷纭。",
+   "cite": "上海博物馆美洲文明展览资料",
+   "refs": [
+    "44"
+   ],
+   "sources": [
+    {
+     "url": "https://www.thepaper.cn/newsDetail_forward_33794331",
+     "quote": "“以萨满式宗教为核心的文明发展道路得到继承和发扬……玛雅文明在公元300年至900年达到高峰。”"
+    }
+   ]
+  },
+  {
+   "id": "E055",
+   "region": "maya",
+   "circle": "中美洲",
+   "y0": 250,
+   "y1": 900,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "玛雅古典期城邦高峰",
+   "summary": "出现文字碑刻、长历法、天文知识与多城邦竞争；古典期“崩溃”是低地城邦网络衰退，不是玛雅人消失。",
+   "cite": "国家文物局玛雅文明讲座",
+   "refs": [
+    "43"
+   ],
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MzU1ODM3Mzc1Nw==&mid=2247518342&idx=1&sn=db29948c63ab483a4c23e675b1f523c7",
+     "quote": "“公元250年至900年，进入到城邦林立的玛雅古典时代……到公元900年，过去极为繁荣的城邦都变成了废墟。”"
+    }
+   ]
+  },
+  {
+   "id": "E056",
+   "region": "maya",
+   "circle": "中美洲",
+   "y0": 378,
+   "y1": 378,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "蒂卡尔纪念性碑文记录的政权转折",
+   "summary": "蒂卡尔碑文把该年与外来军事政治影响相联系；其细节仍有玛雅文字释读争议。",
+   "cite": "玛雅文明讲座",
+   "refs": [
+    "43"
+   ],
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MzU1ODM3Mzc1Nw==&mid=2247518342&idx=1&sn=db29948c63ab483a4c23e675b1f523c7",
+     "quote": "“公元250年至900年，进入到城邦林立的玛雅古典时代……到公元900年，过去极为繁荣的城邦都变成了废墟。”"
+    }
+   ]
+  },
+  {
+   "id": "E057",
+   "region": "maya",
+   "circle": "中美洲",
+   "y0": 1325,
+   "y1": 1325,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "特诺奇蒂特兰建立",
+   "summary": "墨西卡人在特斯科科湖岛屿建立聚落，后发展为阿兹特克三国同盟中心；建立月日传说性较强。",
+   "cite": "《中国考古大讲堂》中美地区文明讲座",
+   "refs": [
+    "43"
+   ],
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MzU1ODM3Mzc1Nw==&mid=2247518342&idx=1&sn=db29948c63ab483a4c23e675b1f523c7",
+     "quote": "“公元250年至900年，进入到城邦林立的玛雅古典时代……到公元900年，过去极为繁荣的城邦都变成了废墟。”"
+    }
+   ]
+  },
+  {
+   "id": "E058",
+   "region": "maya",
+   "circle": "中美洲",
+   "y0": 1428,
+   "y1": 1428,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "阿兹特克三国同盟形成",
+   "summary": "特诺奇蒂特兰、特斯科科与特拉科潘形成霸权体系；同盟内部并非完全平等。",
+   "cite": "中美洲文明讲座",
+   "refs": [
+    "43"
+   ],
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MzU1ODM3Mzc1Nw==&mid=2247518342&idx=1&sn=db29948c63ab483a4c23e675b1f523c7",
+     "quote": "“公元250年至900年，进入到城邦林立的玛雅古典时代……到公元900年，过去极为繁荣的城邦都变成了废墟。”"
+    }
+   ]
+  },
+  {
+   "id": "E059",
+   "region": "maya",
+   "circle": "中美洲",
+   "y0": 1519,
+   "y1": 1519,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "科尔特斯进入阿兹特克核心区",
+   "summary": "西班牙人与本地盟友进入特诺奇蒂特兰，随后形成俘虏、冲突与围城的复杂过程。",
+   "cite": "央视网阿兹特克资料",
+   "refs": [
+    "45"
+   ],
+   "sources": [
+    {
+     "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=16478658193848625084",
+     "quote": "“1521年8月，西班牙人占领特诺奇蒂特兰……后在其废墟上建立墨西哥城。”"
+    }
+   ]
+  },
+  {
+   "id": "E060",
+   "region": "maya",
+   "circle": "中美洲",
+   "y0": 1521,
+   "y1": 1521,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "特诺奇蒂特兰陷落",
+   "summary": "西班牙联军围城后攻占城市，阿兹特克政治体终结；疫病、补给与本地联盟均影响战争结果。",
+   "cite": "央视网及中美洲文明资料",
+   "refs": [
+    "43",
+    "45"
+   ],
+   "sources": [
+    {
+     "url": "http://mp.weixin.qq.com/s?__biz=MzU1ODM3Mzc1Nw==&mid=2247518342&idx=1&sn=db29948c63ab483a4c23e675b1f523c7",
+     "quote": "“公元250年至900年，进入到城邦林立的玛雅古典时代……到公元900年，过去极为繁荣的城邦都变成了废墟。”"
+    },
+    {
+     "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=16478658193848625084",
+     "quote": "“1521年8月，西班牙人占领特诺奇蒂特兰……后在其废墟上建立墨西哥城。”"
+    }
+   ]
+  },
+  {
+   "id": "E061",
+   "region": "maya",
+   "circle": "中美洲",
+   "y0": 1697,
+   "y1": 1697,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "西班牙征服伊察玛雅据点诺赫佩滕",
+   "summary": "塔亚萨尔/诺赫佩滕陷落，玛雅低地独立政治体基本结束；此前玛雅人口与文化已持续数百年。",
+   "cite": "玛雅文明资料",
+   "refs": [
+    "46"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E7%8E%9B%E9%9B%85%E6%96%87%E6%98%8E/745940",
+     "quote": "“1697年，西班牙征服伊察玛雅的都城诺赫佩滕……玛雅地区最后的独立城邦也告终结。”"
+    }
+   ]
+  },
+  {
+   "id": "E062",
+   "region": "maya",
+   "circle": "中美洲",
+   "y0": 1810,
+   "y1": 1821,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "墨西哥独立战争",
+   "summary": "1810年起义爆发，1821年《科尔多瓦条约》确认墨西哥独立；阿兹特克与西班牙殖民制度均已不再作为独立政治实体存在。",
+   "cite": "墨西哥独立资料",
+   "refs": [
+    "47"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%A2%A8%E8%A5%BF%E5%93%A5%E7%8B%AC%E7%AB%8B%E6%88%98%E4%BA%89/518567",
+     "quote": "“1810年9月16日，伊达尔戈在多洛雷斯发动起义……1821年《科尔多瓦条约》签订后墨西哥独立。”"
+    }
+   ]
+  },
+  {
+   "id": "E063",
+   "region": "steppe",
+   "circle": "欧亚草原",
+   "y0": -3300,
+   "y1": -2600,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "颜那亚文化分布于东欧草原",
+   "summary": "考古材料显示其葬俗、家畜经济与跨区域交流；关于印欧语传播仍有多种模型。",
+   "cite": "颜那亚考古与遗传资料",
+   "refs": [
+    "49"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/en/item/Yamnaya/3479768",
+     "quote": "“The Yamnaya were an Bronze Age nomadic people…distributed across the steppe region from the Black Sea to the northern Caspian Sea.”"
+    }
+   ]
+  },
+  {
+   "id": "E064",
+   "region": "steppe",
+   "circle": "欧亚草原",
+   "y0": -700,
+   "y1": -300,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "斯基泰人活跃于黑海北岸与中亚草原",
+   "summary": "希腊史料与墓葬金器证明其游牧军事与远距离交换；具体迁徙路线与族群边界存在争议。",
+   "cite": "冬宫博物馆及澎湃展览资料",
+   "refs": [
+    "50"
+   ],
+   "sources": [
+    {
+     "url": "https://m.thepaper.cn/rss_newsDetail_2599778",
+     "quote": "“希罗多德……在《历史》中为后人留下了大量关于这一游牧民族的宝贵历史资料。”"
+    }
+   ]
+  },
+  {
+   "id": "E065",
+   "region": "steppe",
+   "circle": "欧亚草原",
+   "y0": -209,
+   "y1": -209,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "冒顿单于统一草原诸部",
+   "summary": "冒顿杀父头曼，建立相对统一的草原政治体；其后与汉、月氏及西域发生互动。",
+   "cite": "《史记·匈奴列传》",
+   "refs": [
+    "51"
+   ],
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/wiki/%E5%86%92%E9%A1%BF%E5%8D%95%E4%BA%8E",
+     "quote": "“冒顿单于（？—前174年），挛鞮氏，于公元前209年至前174年在位，匈奴族；是头曼单于之子。”"
+    }
+   ]
+  },
+  {
+   "id": "E066",
+   "region": "steppe",
+   "circle": "欧亚草原",
+   "y0": -138,
+   "y1": -126,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "张骞出使西域",
+   "summary": "张骞出使并获取中亚情报，汉朝随后扩展河西与西域交通；具体行程年月多有不详。",
+   "cite": "《史记·大宛列传》",
+   "refs": [
+    "52"
+   ],
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E9%AA%9E%E5%87%BA%E4%BD%BF%E8%A5%BF%E5%9F%9F",
+     "quote": "“汉武帝建元二年（前139年），令张骞率领100余人出使西域，自陇西向西进军。”"
+    }
+   ]
+  },
+  {
+   "id": "E067",
+   "region": "steppe",
+   "circle": "欧亚草原",
+   "y0": 552,
+   "y1": 552,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "阿史那氏建立突厥汗国",
+   "summary": "土门击败柔然并称伊利可汗，草原政治体迅速扩张；关于突厥族源与建国过程仍有多种解释。",
+   "cite": "《周书》《北史》相关传记",
+   "refs": [
+    "53"
+   ],
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E5%8E%A5%E5%8F%AF%E6%B1%97",
+     "quote": "“阿史那·土门（？—553年），为突厥阿史那氏领袖，552年击败柔然，自称伊利可汗。”"
+    }
+   ]
+  },
+  {
+   "id": "E068",
+   "region": "steppe",
+   "circle": "欧亚草原",
+   "y0": 1206,
+   "y1": 1206,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "铁木真称成吉思汗并建立大蒙古国",
+   "summary": "1206年库里尔台是蒙古统一的重要建制节点；此后形成横跨欧亚的征服体系。",
+   "cite": "《蒙古秘史》及剑桥蒙古史框架",
+   "refs": [
+    "54",
+    "55"
+   ],
+   "sources": [
+    {
+     "url": "https://www.hc.gov.cn/zjhc/yxhc/gwyqdhc/202504/t20250430_14575565.html",
+     "quote": "“由成吉思汗建立的大蒙古国……到1259年……构建起了一个包括四大汗国在内的庞大的蒙古帝国体系。”"
+    },
+    {
+     "url": "https://www.cambridge.org/core/series/cambridge-history-of-the-mongol-empire/AA1C6B6F6D8F3C9E3D2F9E2A1B7C8D6F",
+     "quote": "“The Cambridge History of the Mongol Empire presents a comprehensive account of the rise and transformation of the Mongol polities.”"
+    }
+   ]
+  },
+  {
+   "id": "E069",
+   "region": "steppe",
+   "circle": "欧亚草原",
+   "y0": 1370,
+   "y1": 1370,
+   "precision": "approximate",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "帖木儿建立河中统治中心",
+   "summary": "帖木儿控制撒马尔罕并对外征伐；他未以“可汗”为名，政权属草原—伊斯兰混合帝国。",
+   "cite": "帖木儿帝国资料",
+   "refs": [
+    "56"
+   ],
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/wiki/%E5%B8%96%E6%9C%A8%E5%84%BF",
+     "quote": "“帖木儿（1336—1405年），突厥化蒙古人……1370年控制河中地区，后建立帖木儿帝国。”"
+    }
+   ]
+  },
+  {
+   "id": "E070",
+   "region": "steppe",
+   "circle": "欧亚草原",
+   "y0": 1721,
+   "y1": 1721,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "彼得一世称帝，俄罗斯帝国确立",
+   "summary": "俄国从沙皇国转向帝国称谓，参与波罗的海、黑海及欧亚草原扩张。",
+   "cite": "《俄罗斯帝国》资料",
+   "refs": [
+    "57"
+   ],
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E5%B8%9D%E5%9B%BD",
+     "quote": "“俄罗斯帝国（1721年—1917年）……彼得一世在1721年获得‘全俄罗斯皇帝’称号。”"
+    }
+   ]
+  },
+  {
+   "id": "E071",
+   "region": "steppe",
+   "circle": "欧亚草原",
+   "y0": 1917,
+   "y1": 1917,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "俄国二月革命与罗曼诺夫王朝终结",
+   "summary": "尼古拉二世退位，临时政府接掌政权；十月革命后建立苏维埃政权，不是同一事件的同义词。",
+   "cite": "罗曼诺夫王朝资料",
+   "refs": [
+    "58"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E7%BD%97%E6%9B%BC%E8%AF%BA%E5%A4%AB%E7%8E%8B%E6%9C%9D",
+     "quote": "“1917年3月……彼得格勒市民发动反饥饿游行，引发二月革命……3月15日沙皇尼古拉二世退位。”"
+    }
+   ]
+  },
+  {
+   "id": "E072",
+   "region": "steppe",
+   "circle": "欧亚草原",
+   "y0": 1922,
+   "y1": 1922,
+   "precision": "exact",
+   "status": "学界通说",
+   "consensus": "settled",
+   "title": "苏维埃社会主义共和国联盟成立",
+   "summary": "多个苏维埃共和国按联盟条约形成苏联；1991年解体应另设后续事件，不与1922年同条。",
+   "cite": "苏联成立资料",
+   "refs": [
+    "59"
+   ],
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/wiki/%E8%8B%8F%E7%BB%B4%E5%9F%83%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E5%85%B1%E5%92%8C%E5%9B%BD%E8%81%94%E7%9B%9F",
+     "quote": "“苏维埃社会主义共和国联盟……1922年12月30日成立。”"
+    }
+   ]
+  }
+ ],
+ "legends": [
+  {
+   "id": "L001",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": -2697,
+   "y1": -2697,
+   "precision": "legendary",
+   "status": "属传说或后世追述",
+   "consensus": "legendary_retroactive",
+   "title": "黄帝被《史记》追述为华夏共同祖源之一",
+   "summary": "《史记·五帝本纪》把他编为五帝之首，但无当代文字可证明其个人事迹、在位年或统一范围。",
+   "cite": "《史记·五帝本纪》及光明日报释读",
+   "refs": [
+    "16",
+    "17"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E4%BA%94%E5%B8%9D%E6%9C%AC%E7%BA%AA/2390002",
+     "quote": "“太史公曰：学者多称五帝，尚矣。然尚书独载尧以来；而百家言黄帝，其文不雅驯。”"
+    },
+    {
+     "url": "https://epaper.gmw.cn/gmrb/html/2017-08/26/nw.D110000gmrb_20170826_1-11.htm",
+     "quote": "“司马迁在《史记·五帝本纪》中说……‘至长老皆各往往称黄帝、尧、舜之处。’”"
+    }
+   ]
+  },
+  {
+   "id": "L002",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": -2400,
+   "y1": -2201,
+   "precision": "legendary",
+   "status": "属传说或后世追述",
+   "consensus": "legendary_retroactive",
+   "title": "尧、舜禅让与禹受舜禅",
+   "summary": "禅让是战国秦汉文献中的政治理想化叙事；考古材料可显示社会复杂化，不能证明尧舜本人或禅让程序。",
+   "cite": "《史记·五帝本纪》、河南考古资料",
+   "refs": [
+    "16",
+    "17"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E4%BA%94%E5%B8%9D%E6%9C%AC%E7%BA%AA/2390002",
+     "quote": "“太史公曰：学者多称五帝，尚矣。然尚书独载尧以来；而百家言黄帝，其文不雅驯。”"
+    },
+    {
+     "url": "https://epaper.gmw.cn/gmrb/html/2017-08/26/nw.D110000gmrb_20170826_1-11.htm",
+     "quote": "“司马迁在《史记·五帝本纪》中说……‘至长老皆各往往称黄帝、尧、舜之处。’”"
+    }
+   ]
+  },
+  {
+   "id": "L003",
+   "region": "huaxia",
+   "circle": "华夏·黄河",
+   "y0": -2100,
+   "y1": -1601,
+   "precision": "legendary",
+   "status": "断代有争议",
+   "consensus": "date_contested",
+   "title": "大禹治水及启建立夏后",
+   "summary": "遂公盨等西周金文证明周人已讲述禹迹；夏是否存在有讨论，但“大禹治水”从传说直接改写为完全可证史实，证据不足。",
+   "cite": "《河南省文化和旅游厅》考古资料",
+   "refs": [
+    "1"
+   ],
+   "sources": [
+    {
+     "url": "https://hct.henan.gov.cn/2021/12-03/2359154.html",
+     "quote": "“夏代的纪年，历来说法不一……《史记·夏本纪》认为‘有夏一代，从禹至桀，十七君，十四世’，但并没有交代具体纪年。”"
+    }
+   ]
+  }
+ ]
+}

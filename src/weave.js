@@ -158,11 +158,15 @@
             total:D.civilization.items.filter(x=>x.dim===d.key).length}))};
       })(),
       entity:((S.mode==='real'||S.mode==='succession')&&S.entity)?(function(){
-        const e=D.entities.entities.find(x=>x.id===S.entity.id);
-        return e?{name:e.name,phases:e.phases,
+        const HOUSE=(D.house_entities&&D.house_entities.entities)||[];
+        const e=D.entities.entities.find(x=>x.id===S.entity.id)
+          ||HOUSE.find(x=>x.id===S.entity.id);
+        const DP=D.entities.disputes||{};
+        return e?{name:e.name,phases:e.phases,isHouse:!!S.houseId,
           endReason:e.phases[5].note,
-          dispute:D.entities.disputes[e.name]||null}:null;
+          dispute:DP[e.name]||null}:null;
       })():null,
+      dynasty:(W.dynasty)?W.dynasty.summary(S):null,
       volLog:S.volLog||[]};
   }
   W.weave={volTitle:volTitle,newVolume:newVolume,stitch:stitch,gather:gather,

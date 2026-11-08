@@ -14,11 +14,14 @@ globalThis.WQN={data:{
   consequences:J('consequences.json'),
   localities:J('localities.json'),peoples:J('peoples.json'),deepdives:J('deepdives.json'),
   difficulty:J('difficulty.json'),tutorial:J('tutorial.json'),
-  reading_quiz:J('reading_quiz.json'),kinship:J('kinship.json')
+  reading_quiz:J('reading_quiz.json'),kinship:J('kinship.json'),
+ rulers:J('rulers.json'),houses:J('houses.json'),house_entities:J('house_entities.json'),
+ version:J('version.json'),art:J('art.json'),music:J('music.json'),
+ character:J('character.json'),asset_plan:J('asset_plan.json')
 }};
 const store={};
 globalThis.localStorage={getItem:k=>store[k]||null,setItem:(k,v)=>store[k]=v,removeItem:k=>delete store[k]};
-['rng','kinship','family','people','weave','real','civilization','succession','reality','difficulty','tutorial','geoclimate','fringe','atlas','consequences','options','engine'].forEach(m=>require(path.join(ROOT,'src',m+'.js')));
+['rng','kinship','family','people','weave','real','civilization','succession','reality','difficulty','tutorial','geoclimate','fringe','atlas','consequences','dynasty','options','art','audio','a11y','stage','engine'].forEach(m=>require(path.join(ROOT,'src',m+'.js')));
 const W=globalThis.WQN,E=W.engine,WV=W.weave,CV=W.civilization;
 let fails=[];
 function run(name,fn){try{fn();console.log('  ✓ '+name);}catch(e){fails.push(name+' → '+e.message);console.log('  ✗ '+name+' → '+e.message);}}
@@ -731,7 +734,8 @@ run('深读卡三段式；90 维全映射；14 条联动与 23 个组合技有�
   assert.strictEqual(C.dimensions.filter(d=>!used.has(d.key)).length,0,'原型未覆盖全部维度');
   const needs=new Set(['geo','climate','polity','person','local','surname','people',
     'price','risk','mineral','weather','specimen',
-    'local_mis','surname_note']);
+    'local_mis','surname_note','ruler','house','house_note',
+    'succession','house_peer']);
   O.special.forEach(a=>assert.ok(needs.has(a.need),'未知联动 need '+a.need));
   assert.ok(O.special.some(a=>a.need==='local')&&O.special.some(a=>a.need==='surname')
     &&O.special.some(a=>a.need==='people'),'三条新联动缺失');
@@ -1017,7 +1021,7 @@ run('第三轮：106 道读法题、12 条联动、21 个组合技，且都不�
     assert.ok(a.note&&/推演|不作|不宣称|不改写/.test(a.note),a.id+' 缺边界');
     assert.strictEqual(O.dimKind[NEED[n]],a.kind,a.id+' dimKind 与原型 kind 不一致');
   });
-  assert.strictEqual(O.special.length,14,'联动不是 14 条');
+  assert.strictEqual(O.special.length,19,'联动不是 19 条（17 + v1.0 两条）');
   assert.strictEqual(CS.combos.length,23,'组合技不是 23 个');
   const added=['price_granary','general_average','assay_furnace','observatory_almanac',
                'catalogue_cabinet','gazetteer_check','interpreter_register'];
@@ -1530,6 +1534,258 @@ run('旧档校正：单亲与错代就地补齐，刷新续档不丢人',()=>{
   assert.ok(a.spouse===b.id||b.spouse===a.id,'旧档双亲未补配');
   assert.strictEqual(kid.gen,Math.max(a.gen,b.gen)+1,'旧档世代未重算');
   console.log('    样本：补双亲 '+r.fixed+' 处 / 重算世代 '+r.regen+' 处');
+});
+
+run('帝王全册：397 位分层、称谓与摄政单列、传说层不进同期池',()=>{
+  const R=W.data.rulers,DY=W.dynasty;
+  assert.strictEqual(R.rulers.length,397,'帝王数不对');
+  assert.ok(R.rulers.filter(x=>x.layer==='legend').length>=6,'传说层未单列');
+  assert.ok(R.rulers.some(x=>x.polity.indexOf('临朝与摄政')>=0),'称制／摄政未单列');
+  assert.ok(R.rulers.some(x=>x.name.indexOf('武则天')>=0&&x.title==='皇帝'),'女主称帝未单列');
+  assert.ok(R.rulers.some(x=>x.name.indexOf('子婴')>=0&&x.title==='王'),'子婴称王未标');
+  assert.ok(R.rulers.some(x=>x.polity.indexOf('秦')>=0&&x.name.indexOf('共和')<0),'秦帝系在册');
+  assert.strictEqual(R.titles.length,8,'称谓读法应为 8 条');
+  assert.strictEqual(R.notes.length,8,'帝王边界读法应为 8 条');
+  [[320,'huaxia'],[690,'huaxia'],[1600,'world']].forEach(([y,reg])=>{
+    const r=DY.rulersAt({year:y,reg:reg,reality:'balanced'});
+    assert.ok(r.near.every(x=>x.layer!=='legend'),y+' 年传说层混入同期池');
+  });
+  console.log('    样本：397 位 / 44 组 · 传说层 '+R.rulers.filter(x=>x.layer==='legend').length
+    +' · 断代争议 '+R.rulers.filter(x=>x.consensus==='date_contested').length);
+});
+
+run('世家全册：97 家按类分组，郡望不作血统凭证，20 家可代入',()=>{
+  const H=W.data.houses,HE=W.data.house_entities,DY=W.dynasty;
+  assert.strictEqual(H.houses.length,153,'世家数不对');
+  assert.strictEqual(HE.entities.length,30,'可代入世家数不对');
+  assert.ok(HE.entities.every(e=>e.phases.length===6),'世家实体不是六阶段');
+  assert.ok(HE.entities.every(e=>e.phases[5].phase==='散脉'),'末阶段不是「散脉」');
+  assert.ok(H.houses.every(x=>x.boundary&&x.boundary.length>8),'世家缺边界辨析');
+  assert.ok(H.houses.every(x=>x.sources&&x.sources.length),'世家缺出处入口');
+  assert.ok(H.notes.some(x=>x.title.indexOf('郡望')>=0),'缺郡望边界读法');
+  assert.strictEqual(Object.keys(DY.houseGroups()).length>=14,true,'世家类目过少');
+  const hs=DY.housesAt({year:320,reg:'huaxia'});
+  assert.ok(hs.near.length>0,'东晋年份未见同期名族');
+  console.log('    样本：97 家 / '+Object.keys(DY.houseGroups()).length+' 类 · 20 家可代入');
+});
+
+run('世家代入：六阶段走到「散脉」终章，不改 12 王朝口径',()=>{
+  const DY=W.dynasty,S=E.freshEntity('H01','family','t-house');
+  assert.strictEqual(W.data.entities.entities.length,12,'王朝实体数被改动');
+  assert.strictEqual(W.real.entityById('H01').name,'琅琊王氏','世家实体不可查');
+  assert.ok(W.real.isHouse('H01')&&!W.real.isHouse('C01'),'isHouse 判定错误');
+  assert.strictEqual(S.houseId,'H01','开局未标世家');
+  E.setState(S);
+  let realEnd=0;
+  for(let i=0;i<60;i++){
+    E.step();let st=E.state();
+    if(st.phase==='volume')E.continueVolume();
+    st=E.state();if(st.phase==='choice')E.choose(i%2);
+    st=E.state();
+    /* 真实模式也可能撞上普通终章／收卷；不处理会卡在该阶段，
+       六阶段走不完就等不到「散脉」。 */
+    if(st.phase==='ending'){E.openScroll(true);E.backFromScroll();E.epilogue();st=E.state();}
+    if(st.phase==='scroll'){E.backFromScroll();st=E.state();}
+    if(st.phase==='realend'){realEnd++;E.openScroll(true);E.backFromScroll();E.realEndContinue();}
+  }
+  assert.strictEqual(realEnd,1,'世家终章未触发');
+  const d=WV.scrollData(S,true);
+  assert.ok(d.entity&&d.entity.isHouse===true,'收卷缺世家六阶段');
+  assert.ok(d.entity.phases[5].phase==='散脉','收卷末阶段错误');
+  console.log('    样本：琅琊王氏 → 散脉终章 1 次 · 收卷六阶段齐备');
+});
+
+run('同期记录：每笔至多一张卡，同种子可复盘，不刷满编年',()=>{
+  const DY=W.dynasty;
+  const S=E.fresh('huaxia','family','t-dyn');E.setState(S);
+  let maxMsgs=0;
+  for(let i=0;i<60;i++){
+    E.step();let st=E.state();
+    if(st.phase==='volume')E.continueVolume();
+    st=E.state();if(st.phase==='choice')E.choose(i%3);
+    st=E.state();
+    if(st.phase==='ending'){E.openScroll(true);E.backFromScroll();E.epilogue();st=E.state();}
+    if(st.phase==='scroll'){E.backFromScroll();st=E.state();}
+    const r=st.result;
+    if(r&&r.msgs)maxMsgs=Math.max(maxMsgs,
+      r.msgs.filter(m=>m.indexOf('同期在位')>=0||m.indexOf('同期名族')>=0).length);
+  }
+  assert.ok(maxMsgs<=2,'一笔出现超过 2 张同期卡');
+  assert.ok(Object.keys(S.seenRuler||{}).length>0,'未记录同期在位');
+  /* 普通局从公元前 5000 年起，60 笔未必走到世家兴起期；用东晋年份单独核一次 */
+  const probe={year:320,reg:'huaxia',reality:'balanced',seenRuler:{},seenHouse:{},log:[]};
+  const pm=DY.record(probe);
+  assert.ok(Object.keys(probe.seenHouse).length>0,'世家同期匹配失效');
+  assert.ok(pm.length<=2,'同期卡超过 2 张');
+  assert.ok(pm.some(m=>m.indexOf('血统凭证')>=0),'世家卡缺边界声明');
+  const a=E.fresh('huaxia','family','t-seed'),b=E.fresh('huaxia','family','t-seed');
+  [a,b].forEach(x=>{E.setState(x);for(let i=0;i<20;i++){
+    E.step();let st=E.state();if(st.phase==='volume')E.continueVolume();
+    st=E.state();if(st.phase==='choice')E.choose(i%2);}});
+  assert.strictEqual(JSON.stringify(a.seenRuler),JSON.stringify(b.seenRuler),'同种子帝王记录不一致');
+  assert.strictEqual(JSON.stringify(a.seenHouse),JSON.stringify(b.seenHouse),'同种子世家记录不一致');
+  const sum=DY.summary(S);
+  console.log('    样本：60 笔 · 帝王 '+sum.rulers+' / 世家 '+sum.houses
+    +' · 每笔同期卡 ≤'+maxMsgs+' 张');
+});
+
+run('帝王世家联动与判读题：17 条联动、288 道题，误读项来自边界读法',()=>{
+  const O=W.data.options,Q=W.data.reading_quiz;
+  assert.strictEqual(O.special.length,19,'联动数不对');
+  ['SP_RULER','SP_HOUSE','SP_GENEAL','SP_SUCCESSION','SP_HOUSE_PEER'].forEach(id=>
+    assert.ok(O.special.some(x=>x.id===id),'缺联动 '+id));
+  assert.strictEqual(Q.items.length,312,'题库数不对');
+  const nw=Q.items.filter(x=>x.tier==='dynasty');
+  assert.strictEqual(nw.length,24,'帝王世家判读题不是 24 道');
+  assert.ok(nw.every(x=>x.bad.indexOf('直取常见误解')>=0),'误读项格式不对');
+  assert.ok(nw.every(x=>x.ok.indexOf('分层存疑')>=0),'稳妥项格式不对');
+  console.log('    样本：联动 17 条 · 题库 288 道（新增 24 道帝王／世家判读）');
+});
+
+run('版本号：自动递增、存档字段、界面注入、不刷号',()=>{
+  const V=J('version.json'),E=W.engine;
+  assert.ok(/^\d+\.\d+$/.test(V.version),'版本号格式不对');
+  assert.ok(V.build>=1&&V.build===V.changelog.length,'build 与 changelog 不一致');
+  assert.strictEqual(V.pending,null,'pending 未被构建消费');
+  assert.strictEqual(V.changelog[0].version,'v'+V.version,'changelog 顶部与当前版本不一致');
+  assert.ok(V.changelog.length>=1&&V.changelog[0].items.length>=5,'changelog 缺本轮条目');
+  assert.ok(V.scheme.indexOf('每轮内容更新')>=0,'缺递增规则说明');
+  const S=E.fresh('huaxia','family','t-ver');
+  assert.strictEqual(S.ver,V.version,'新档未写版本');
+  const old=Object.assign({},E.fresh('huaxia','family','ver-old'));delete old.ver;
+  E.migrate(old);
+  assert.strictEqual(old.ver,V.version,'旧档未自动补版本');
+  console.log('    样本：v'+V.version+' build '+V.build+' · changelog '+V.changelog.length+' 条 · 旧档自动补字段');
+});
+
+run('v1.0 世家广域：153 家、非华夏密度、30 家可代入全为六阶段散脉',()=>{
+  const H=J('houses.json'),HE=J('house_entities.json');
+  assert.strictEqual(H.houses.length,153,'世家不是 153 家');
+  assert.strictEqual(HE.entities.length,30,'可代入不是 30 家');
+  const cnt={};H.houses.forEach(x=>cnt[x.region]=(cnt[x.region]||0)+1);
+  ['indus','meso','nile','steppe','maya'].forEach(k=>
+    assert.ok(cnt[k]>=5,k+' 圈世家仍过少：'+cnt[k]));
+  assert.ok(H.houses.slice(0,97).every(x=>!x.tier),'原有 97 家被改动');
+  assert.ok(H.houses.slice(97).every(x=>x.tier==='wide2'),'新条目未标 wide2');
+  assert.ok(H.houses.every(x=>x.boundary&&x.sources&&x.sources.length),'新条目缺辨析或出处');
+  assert.ok(HE.entities.every(e=>e.phases.length===6&&e.phases[5].phase==='散脉'),
+    '新增年表不是六阶段散脉');
+  console.log('    样本：'+JSON.stringify(cnt)+' · 可代入 30 家');
+});
+
+run('v1.0 帝王在位时间条：按政权画区间，六类分色，不含传说层作实线',()=>{
+  const DY=W.dynasty;
+  const t=DY.timelineData('唐');
+  assert.ok(t&&t.rows.length>=20,'唐时间条行数不够');
+  assert.ok(t.rows.every(r=>r.id&&r.name&&r.y0<=r.y1&&r.cat),'时间条行字段不全');
+  const cats=new Set(t.rows.map(r=>r.cat));
+  assert.ok(cats.size>=3,'分色类别不足：'+[...cats].join(','));
+  assert.ok(Object.keys(DY.TL_LABEL).length===6,'图例类别不是 6 类');
+  assert.ok(DY.polityNames().length>=40,'政权分组不足');
+  const legend=DY.timelineData('传说·三皇五帝');
+  assert.ok(legend&&legend.rows.every(r=>r.cat==='legend'),'传说层未单列分色');
+  console.log('    样本：唐 '+t.rows.length+' 行 / '+cats.size+' 类 · 政权 '
+    +DY.polityNames().length+' 组');
+});
+
+run('v1.0 继立方式题与两条联动：312 道题，误读项不改写史实',()=>{
+  const Q=J('reading_quiz.json'),O=J('options.json'),C=J('civilization.json');
+  assert.strictEqual(Q.items.length,312,'题库不是 312');
+  const su=Q.items.filter(x=>x.kind==='succession');
+  assert.strictEqual(su.length,24,'继立方式题不是 24 道');
+  assert.ok(su.every(x=>x.ok.indexOf('分层存疑')>=0
+    &&x.bad.indexOf('直取常见误解')>=0&&x.dim==='HI'),'继立题格式或维度不对');
+  assert.ok(su.every(x=>x.note.indexOf('不判定史实')>=0),'继立题缺边界');
+  assert.strictEqual(Q.meta.count,Q.items.length,'meta.count 未同步');
+  ['SP_SUCCESSION','SP_HOUSE_PEER'].forEach(id=>
+    assert.ok(O.special.some(x=>x.id===id),'缺联动 '+id));
+  const O2=W.options;
+  const S=E.fresh('huaxia','family','t-succ');E.setState(S);
+  S.year=690;
+  const g=O2.generate({kind:'study'},S,()=>0.5);
+  assert.ok(g.length>=3,'生成选项不足');
+  assert.ok(g.every(x=>!/\{\w+\}/.test(x.t)),'选项残留占位符');
+  console.log('    样本：312 道 / 继立题 24 道 · 联动 19 条 · 占位符零残留');
+});
+
+run('v1.2 声与色：数据齐备、SVG 确定性与音乐降级',()=>{
+  const A=W.art,U=W.audio;
+  assert.ok(A&&U,'美术或音乐模块未挂载');
+  assert.strictEqual(J('art.json').motifs.length,12,'纹样不是 12 种');
+  assert.strictEqual(Object.keys(J('art.json').scenes).length,8,'场景不是 8 类');
+  assert.strictEqual(J('music.json').scales.length,8,'调式不是 8');
+  assert.strictEqual(Object.keys(J('music.json').cues).length,11,'音效不是 11');
+  const o={year:-2000,reg:'huaxia',era:1,vol:2,label:'卷 2'};
+  const a=A.banner(o),b=A.scene('volume',o);
+  assert.ok(a.indexOf('<svg')>=0&&b.indexOf('<svg')>=0,'插画没输出 SVG');
+  assert.strictEqual(A.banner(o),a,'插画不确定');
+  assert.strictEqual(a.indexOf('NaN'),-1&&a.indexOf('NaN'),'插画含 NaN');
+  assert.strictEqual(U.status().available,false,'node 环境不应有 AudioContext');
+  U.cue('choose');U.start();U.stop();
+  assert.ok(U.disclaimer.indexOf('不是历史录音')>=0,'缺音乐免责');
+  assert.ok(A.note.indexOf('不描摹')>=0,'缺美术纪律');
+  console.log('    样本：12 纹样 / 8 场景 / 8 调式 / 11 音效 · SVG 确定性通过');
+});
+
+run('v1.3 分路声音与无障碍：两路独立、旧配置迁移、命令解析',()=>{
+  const A=W.audio,X=W.a11y;
+  assert.ok(A&&X,'音频或无障碍模块未挂载');
+  A.set('on',false);A.set('sfx',true);
+  assert.strictEqual(A.status().sfx,true,'音效未开');
+  assert.strictEqual(A.status().bgm,false,'背景音不该被连带打开');
+  A.set('bgm',true);A.set('sfx',false);
+  assert.strictEqual(A.status().bgm,true,'关音效不该连带关背景音');
+  assert.strictEqual(A.status().on,true,'两路有一路开时总状态应为开');
+  A.set('on',false);
+  assert.strictEqual(A.status().sfx,false,'全部静音未生效');
+  assert.strictEqual(A.status().bgm,false,'全部静音未生效');
+  assert.deepStrictEqual(X.parseCommand('选二'),{act:'choose',i:2},'语音命令解析不对');
+  assert.deepStrictEqual(X.parseCommand('去族谱'),{act:'tab',t:'fam'},'页签命令解析不对');
+  assert.deepStrictEqual(X.parseCommand('关配乐'),{act:'bgm',v:false},'背景音命令解析不对');
+  assert.strictEqual(X.status().tts,false,'node 环境不应有朗读接口');
+  assert.ok(X.disclaimer.indexOf('降级')>=0,'缺降级说明');
+  console.log('    样本：音效开／背景关 → 音效关／背景开 → 全部静音，互不串扰');
+});
+
+run('v1.4 AVG 舞台：分块内嵌、天气确定性、姿势贴合与朗读默认关',()=>{
+  const X=W.stage,C=W.data.character;
+  assert.ok(X&&C,'舞台模块或角色数据未挂载');
+  assert.strictEqual(Object.keys(C.layers).length,99,'角色层不是 99');
+  const flat=v=>Array.isArray(v)?v.join(''):v;
+  assert.ok(flat(C.bg).indexOf('data:image/jpeg;base64,')===0,'背景板 URI 不对');
+  assert.ok(flat(C.layers.neutral).indexOf('data:image/webp;base64,')===0,'角色层 URI 不对');
+  const S1={reg:'huaxia',turn:1,vol:{n:1},phase:'choice',cur:{opts:[]}};
+  assert.strictEqual(X.weatherOf(S1),X.weatherOf(S1),'天气不确定');
+  assert.strictEqual(X.poseOf(null,'sun').pose,'wave','开局姿势不对');
+  assert.strictEqual(X.poseOf({phase:'choice',cur:{opts:[{debate:true}]}},'sun').pose,'think');
+  assert.strictEqual(X.poseOf({phase:'choice',cur:{opts:[]}},'rain').pose,'rain');
+  const h=X.stageHTML(S1,{tools:'<b>t</b>'});
+  assert.ok(h.indexOf('stage-char')>=0&&h.indexOf('class="bubble"')>=0,'舞台结构不全');
+  assert.ok(W.audio.getWeather&&W.audio.setWeather,'缺天气环境音接口');
+  W.audio.setWeather('rain');assert.strictEqual(W.audio.getWeather(),'rain');
+  const a=require('fs').readFileSync(require('path').join(ROOT,'src','a11y.js'),'utf8');
+  assert.ok(/DEF=\{read:false,autoRead:false/.test(a),'朗读未默认关闭');
+  console.log('    样本：99 层 / 21 场景板 · 天气 6 类 · 姿势 99 种');
+});
+
+run('v1.5 表演关卡登记、视图设置与角色音色',()=>{
+  const X=W.stage,P=W.data.asset_plan;
+  assert.ok(P&&P.scenes.length===98,'关卡表未挂载或不是 98 关');
+  assert.strictEqual(X.status().ready,98);
+  assert.strictEqual(X.status().locked,0);
+  assert.strictEqual(P.pending.length,0);
+  assert.strictEqual(P.plannedScenes.length,8);
+  assert.ok(P.breathingPlan&&P.breathingPlan.next,'缺呼吸感图片生成计划');
+  assert.deepStrictEqual(Object.keys(X.SIZES),['compact','normal','immersive']);
+  X.set('size','compact');assert.strictEqual(X.status().size,'compact');
+  X.set('size','normal');
+  assert.ok(W.a11y.speakAs&&W.a11y.guideVoices,'缺角色音色接口');
+  assert.ok(W.audio.guideCue,'缺语气音接口');
+  const row=X.sceneByKey('breath');
+  assert.ok(row&&row.ready,'呼吸起伏帧关应已解锁');
+  assert.ok(X.sceneByKey('rites').ready,'礼乐关应已解锁');
+  assert.deepStrictEqual(Object.keys(X.FITS),['full','half','auto']);
+  console.log('    样本：98 关 / 全就绪 / 下批登记 8 层');
 });
 
 

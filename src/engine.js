@@ -111,6 +111,8 @@
     if(!o.log)o.log=[];
     if(!o.mil)o.mil=[];
     if(!o.echo)o.echo=[];
+    /* 版本补写不依赖族谱：即便旧档字段不全，也要先标上当前文件版本 */
+    if(!o.ver)o.ver=(D.version?D.version.version:'0');
     if(!o.fam||!o.fam.length)return null;
     if(typeof o.dead!=='number')o.dead=0;
     if(typeof o.gen!=='number')o.gen=1;
@@ -133,6 +135,9 @@
     if(!o.usedReal)o.usedReal={};
     if(!o.realEnd)o.realEnd=null;
     if(!o.seenCiv)o.seenCiv={};
+    if(!o.seenRuler)o.seenRuler={};
+    if(!o.seenHouse)o.seenHouse={};
+    if(typeof o.houseId==='undefined')o.houseId=null;
     if(!o.personLens)o.personLens=null;
     if(!o.chainState)o.chainState=null;
     if(!o.turnover)o.turnover=null;
@@ -208,6 +213,8 @@
       ended:false,ending:null,endLog:[],scroll:{final:false},scrollReturn:'result',
       mode:'sim',entity:null,usedReal:{},realEnd:null,
       seenCiv:{},personLens:null,chainState:null,turnover:null,
+      seenRuler:{},seenHouse:{},houseId:null,
+      ver:(D.version?D.version.version:'0'),
       choices:[],famLog:[],quiz:{right:0,wrong:0},bioSeen:{},treasureSeen:{},slot:0,
       reality:CONFIG.reality,modeKey:CONFIG.modeKey,lengthKey:CONFIG.lengthKey,
       density:CONFIG.density,difficulty:CONFIG.difficulty||'normal',
@@ -241,16 +248,23 @@
     const ent=W.real.entityById(entityId);
     if(!ent)throw new Error('未知真实实体：'+entityId);
     const t=fresh(ent.region,view,seedStr);
+    const house=W.real.isHouse(ent.id);
     t.mode='real';
+    t.houseId=house?ent.id:null;
     t.entity={id:ent.id,name:ent.name,phaseIdx:-1,phaseChanged:true,
       endedShown:false,civPhases:{}};
     t.year=ent.startYear;t.era=0;
-    t.log=[{y:t.year,t:'代入真实血脉：'+ent.name+'。自 '+fmtYear(ent.startYear)
-      +' 建立之年入局，此后六阶段按考据年表展开。',k:'era'}];
-    t.mil=[{y:t.year,t:'入局 · '+ent.name+'（真实血脉）'}];
+    t.log=[{y:t.year,t:house
+      ?('代入世家浮沉：'+ent.name+'。自 '+fmtYear(ent.startYear)
+        +' 兴起之期入局，六阶段按通识级框架年表展开；'
+        +'这是门第政治位置的浮沉，不是家族人口兴灭，也不表示本局族人是其成员。')
+      :('代入真实血脉：'+ent.name+'。自 '+fmtYear(ent.startYear)
+        +' 建立之年入局，此后六阶段按考据年表展开。'),k:'era'}];
+    t.mil=[{y:t.year,t:'入局 · '+ent.name+(house?'（世家浮沉）':'（真实血脉）')}];
     // 建立阶段的史实态势
-    const eff=W.real.PHASE_EFFECTS['建立'];
-    D.keyOrder.forEach(k=>{if(eff[k])t.st[k]=clamp(t.st[k]+eff[k],0,100);});
+    const eff=W.real.PHASE_EFFECTS['建立']||{};
+    D.keyOrder.forEach(k=>{if(eff[k])
+      t.st[k]=clamp(t.st[k]+Math.round(eff[k]*(house?0.6:1)),0,100);});
     return t;
   }
   /* 朝代长河：一局连续走完某文明圈的全部首尾相续政权 */
@@ -568,6 +582,15 @@
       }
       if(S.cur.bio){S.bioSeen=S.bioSeen||{};S.bioSeen[S.cur.bio.id]=1;}
       if(S.cur.treasure){S.treasureSeen=S.treasureSeen||{};S.treasureSeen[S.cur.treasure.id]=1;}
+    }
+    /* 帝王与世家：按年代窗口落一笔「同期在位／同期名族」。
+       只记同期，不与推演族人攀附，也不改写任何史实条目。 */
+    if(W.dynasty){
+      const dmsgs=W.dynasty.record(S);
+      dmsgs.forEach(m=>{
+        msgs.push(m);
+        if(S.log.length<400)S.log.push({y:S.year,t:m,k:'dyn'});
+      });
     }
     S.echo.push(o.t);if(S.echo.length>6)S.echo.shift();
     if(S.cur.isHist)S.mil.push({y:S.year,t:'亲历 · '+S.cur.t});

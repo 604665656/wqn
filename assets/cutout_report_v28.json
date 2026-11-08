@@ -1,0 +1,58 @@
+{
+ "plow6": {
+  "holes": 0,
+  "alpha": 0.319,
+  "pink": 0,
+  "size": 104602,
+  "src": "plow6.png"
+ },
+ "sieve6": {
+  "holes": 0,
+  "alpha": 0.333,
+  "pink": 0,
+  "size": 112294,
+  "src": "sieve6.png"
+ },
+ "quill6": {
+  "holes": 0,
+  "alpha": 0.385,
+  "pink": 0,
+  "size": 132004,
+  "src": "quill6.png"
+ },
+ "lamp6": {
+  "holes": 0,
+  "alpha": 0.295,
+  "pink": 0,
+  "size": 99476,
+  "src": "lamp6.png"
+ },
+ "drum6": {
+  "holes": 0,
+  "alpha": 0.393,
+  "pink": 0,
+  "size": 121368,
+  "src": "drum6.png"
+ },
+ "net6": {
+  "holes": 0,
+  "alpha": 0.346,
+  "pink": 0,
+  "size": 118886,
+  "src": "net6.png"
+ },
+ "cart6": {
+  "holes": 0,
+  "alpha": 0.318,
+  "pink": 0,
+  "size": 112504,
+  "src": "cart6.png"
+ },
+ "oven6": {
+  "holes": 0,
+  "alpha": 0.375,
+  "pink": 0,
+  "size": 118468,
+  "src": "oven6.png"
+ }
+}

@@ -1,0 +1,1703 @@
+{
+ "meta": {
+  "geoNote": "经纬度为近似中心点，不是精确边界；地图为散点示意，不是疆域图。",
+  "clmNote": "区分可考气候现象与社会归因，后者为推论；不写气候决定论。"
+ },
+ "units": [
+  {
+   "id": "GEO001",
+   "name": "黄河下游冲积平原",
+   "region": "huaxia",
+   "lat": 35.4,
+   "lon": 118.8,
+   "type": "冲积平原",
+   "fact": "黄淮海冲积扇前缘，河道宽浅、泥沙高、频繁决溢改道",
+   "change": "稳定；河床与入海口随历史决溢变化",
+   "sources": [
+    {
+     "url": "http://www.yrcc.gov.cn/hhwh/wxyc/202512/t20251209_447066.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "http://www.yrcc.gov.cn/hhwh/wxyc/202312/t20231220_373227.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO002",
+   "name": "长江中下游平原",
+   "region": "huaxia",
+   "lat": 30.5,
+   "lon": 114.3,
+   "type": "冲积—湖积平原",
+   "fact": "江汉、洞庭、鄱阳、沿江平原与三角洲相连，河网湖泊密集",
+   "change": "稳定；全新世成陆与水系重组",
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/长江中下游/68147960",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    },
+    {
+     "url": "https://baike.sogou.com/v101291426.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO003",
+   "name": "关中盆地",
+   "region": "huaxia",
+   "lat": 34.3,
+   "lon": 108.9,
+   "type": "断陷盆地",
+   "fact": "渭河冲积平原，南依秦岭、北接黄土台塬，为四方交通孔道",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v14253.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO004",
+   "name": "华北平原",
+   "region": "huaxia",
+   "lat": 36.6,
+   "lon": 116.3,
+   "type": "冲积平原",
+   "fact": "黄河、海河、淮河冲积，地势低平，地下水与沉积层深厚",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v14253.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO005",
+   "name": "河西走廊",
+   "region": "huaxia",
+   "lat": 39.5,
+   "lon": 97.4,
+   "type": "山前绿洲走廊",
+   "fact": "祁连山北麓狭长冲积—洪积带，冰雪融水补给绿洲，东侧联通黄河、西侧接西域",
+   "change": "约4000—3700 BP趋干；窗口前较湿润",
+   "sources": [
+    {
+     "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO006",
+   "name": "塔里木盆地",
+   "region": "huaxia",
+   "lat": 39.8,
+   "lon": 83.5,
+   "type": "内陆盆地",
+   "fact": "封闭盆地，周缘高山冰川融水补给河流，盆地中央为塔克拉玛干沙漠",
+   "change": "稳定；绿洲河道局部迁移",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v14253.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO007",
+   "name": "两河冲积平原",
+   "region": "meso",
+   "lat": 32.5,
+   "lon": 45,
+   "type": "冲积平原",
+   "fact": "幼发拉底河与底格里斯河冲积，上游冬季降水和春季融水形成径流",
+   "change": "稳定；引水排水影响土壤盐分",
+   "sources": [
+    {
+     "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO008",
+   "name": "尼罗河谷",
+   "region": "nile",
+   "lat": 26.5,
+   "lon": 31.8,
+   "type": "狭谷河谷",
+   "fact": "由东非高地补给，河谷窄、阶地连续，水量季节性强",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://www.cma.gov.cn/2011xzt/2015zt/20151127/2015112710/202111/t20211104_4178963.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO009",
+   "name": "尼罗河三角洲",
+   "region": "nile",
+   "lat": 31,
+   "lon": 31.2,
+   "type": "河口三角洲",
+   "fact": "多条分流沉积的扇状平原，土壤肥沃、地势低平，受河道分流与岸线进退控制",
+   "change": "稳定；河道与岸线历史变化",
+   "sources": [
+    {
+     "url": "https://www.cma.gov.cn/2011xzt/2015zt/20151127/2015112710/202111/t20211104_4178963.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO010",
+   "name": "爱琴海南部",
+   "region": "aegean",
+   "lat": 37,
+   "lon": 25,
+   "type": "陆间海",
+   "fact": "岛屿、半岛与狭海湾交织，海流与季风影响航行可达性",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO011",
+   "name": "希腊半岛",
+   "region": "aegean",
+   "lat": 39,
+   "lon": 22,
+   "type": "山地半岛",
+   "fact": "石灰岩山地、短小河流与沿海小平原，海岸线破碎",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO012",
+   "name": "意大利半岛",
+   "region": "aegean",
+   "lat": 43,
+   "lon": 12.5,
+   "type": "半岛",
+   "fact": "亚平宁山脉纵贯，三面环海，具火山与地震活动，沿海有狭小平原",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO013",
+   "name": "印度河平原",
+   "region": "indus",
+   "lat": 28.5,
+   "lon": 70.5,
+   "type": "冲积平原",
+   "fact": "喜马拉雅与兴都库什水系冲积，河网季节性强，西部处于季风边缘",
+   "change": "稳定；局部河道摆动仍有争议",
+   "sources": [
+    {
+     "url": "https://hsce.xjtu.edu.cn/info/1013/3032.htm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO014",
+   "name": "恒河平原",
+   "region": "indus",
+   "lat": 25.5,
+   "lon": 84.5,
+   "type": "冲积平原",
+   "fact": "恒河—布拉马普特拉河冲积，地形低平、河曲与洪泛广",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://hsce.xjtu.edu.cn/info/1013/3032.htm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO015",
+   "name": "德干高原",
+   "region": "indus",
+   "lat": 17.5,
+   "lon": 76.5,
+   "type": "熔岩高原",
+   "fact": "西部高、东部缓倾，被多条河流切割，热带季风降水西多东少",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://hsce.xjtu.edu.cn/info/1013/3032.htm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO016",
+   "name": "中美洲低地",
+   "region": "maya",
+   "lat": 17.2,
+   "lon": -89,
+   "type": "低洼热带低地",
+   "fact": "石灰岩台地、湿地与河流洼地，地表排水受限，旱季明显",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://lib.nefu.edu.cn/articlesearch/web_searchingDetail?id=2031439568483",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO017",
+   "name": "尤卡坦半岛",
+   "region": "maya",
+   "lat": 20.5,
+   "lon": -88.5,
+   "type": "喀斯特半岛",
+   "fact": "浅层岩溶、缺少常年地表河，含水层与洞穴控制水源分布",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://lib.nefu.edu.cn/articlesearch/web_searchingDetail?id=2031439568483",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO018",
+   "name": "安第斯中部",
+   "region": "maya",
+   "lat": -12,
+   "lon": -75.5,
+   "type": "高山—谷地",
+   "fact": "高海拔安第斯纵谷，垂直带明显，冰川融水补给灌溉系统",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v14253.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO019",
+   "name": "欧亚草原西段",
+   "region": "steppe",
+   "lat": 50,
+   "lon": 40,
+   "type": "温带草原",
+   "fact": "大陆性半干旱草原，无连续森林屏障，水系稀疏，适宜长距离移动",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v14253.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO020",
+   "name": "蒙古高原",
+   "region": "steppe",
+   "lat": 46.5,
+   "lon": 103,
+   "type": "高原",
+   "fact": "高纬内陆高原，以草原、荒漠草原与封闭水系为主，冬寒夏短",
+   "change": "稳定；局地湖面与湿润度变化",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v14253.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO021",
+   "name": "天山—帕米尔",
+   "region": "*",
+   "lat": 41.5,
+   "lon": 74.5,
+   "type": "高山廊道",
+   "fact": "冰川与积雪补给多条河流，山口连接塔里木盆地与河中地区",
+   "change": "稳定；冰川进退未给具体窗口",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v14253.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO022",
+   "name": "地中海盆地",
+   "region": "aegean",
+   "lat": 35,
+   "lon": 18,
+   "type": "陆间海",
+   "fact": "副热带夏干冬湿气候区，被欧亚、非洲、西亚陆块围绕，海上联系广泛",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://nb.nstl.gov.cn/paper_detail.html?doi=10.1007/s00382-019-05063-x",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO023",
+   "name": "红海",
+   "region": "nile",
+   "lat": 22,
+   "lon": 38,
+   "type": "狭长海盆",
+   "fact": "东非裂谷系延伸，热带浅海海峡连接印度洋，两岸多荒漠山地",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v14253.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO024",
+   "name": "波斯湾",
+   "region": "meso",
+   "lat": 27,
+   "lon": 51,
+   "type": "浅海—河口",
+   "fact": "阿拉伯河注入，浅水蒸发强，周边为热带荒漠与绿洲—港口节点",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v14253.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO025",
+   "name": "印度洋季风区",
+   "region": "indus",
+   "lat": 5,
+   "lon": 80,
+   "type": "大洋季风区",
+   "fact": "夏季西南季风跨赤道输送水汽，影响南亚、东非与东南亚降水",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://hsce.xjtu.edu.cn/info/1013/3032.htm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://dky.njnu.edu.cn/info/1056/5687.htm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO026",
+   "name": "撒哈拉",
+   "region": "*",
+   "lat": 23,
+   "lon": 10,
+   "type": "热带沙漠",
+   "fact": "世界最大热沙漠之一，砾漠、沙丘与干谷并存，地表水极度匮乏",
+   "change": "约8000—4000 BP由湿润草原转为干旱沙漠",
+   "sources": [
+    {
+     "url": "https://www.cma.gov.cn/kppd/kppdqxsj/kppdqhbh/201211/t20121129_193051.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://www.peopleapp.com/rmharticle/30020079063",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO027",
+   "name": "阿拉伯半岛",
+   "region": "*",
+   "lat": 23.5,
+   "lon": 45,
+   "type": "荒漠半岛",
+   "fact": "热带—亚热带荒漠为主，边缘有山地降水与短暂径流，局部绿洲",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v14253.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO028",
+   "name": "不列颠岛",
+   "region": "aegean",
+   "lat": 54.5,
+   "lon": -2.5,
+   "type": "温带岛屿",
+   "fact": "受北大西洋气流影响，地形西高东低，河流短、海岸曲折",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://www.cma.gov.cn/2011xwzx/2011xqhbh/2011xkydt/201110/t20111029_143009.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ]
+  },
+  {
+   "id": "GEO029",
+   "name": "日本列岛",
+   "region": "*",
+   "lat": 36.5,
+   "lon": 138,
+   "type": "弧状群岛",
+   "fact": "环太平洋火山地震带，中央山脉分割太平洋与日本海侧，河流短急",
+   "change": "稳定",
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v14253.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "CLM001",
+   "y0": -7120,
+   "y1": -2980,
+   "rawYear": "9000—5000 BP",
+   "precision": "approximate",
+   "category": "暖湿",
+   "title": "全新世大暖期",
+   "summary": "中低纬温度偏高、冰盖消融、湖面扩张；区域峰值不同步，不能视为全球同期均一暖期，证据为冰芯、湖芯、孢粉、珊瑚与海平面记录",
+   "regions": [
+    "*"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cma.gov.cn/kppd/kppdqxsj/kppdqhbh/201211/t20121129_193051.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://baike.baidu.com/item/全新世大暖期/6154984",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM002",
+   "y0": -9820,
+   "y1": -2180,
+   "rawYear": "约11700—4200 BP",
+   "precision": "approximate",
+   "category": "海平面",
+   "title": "早中全新世海平面快速上升",
+   "summary": "末次冰消期冰盖消融使全球海平面快速上升，约4200 BP后多地转为低速率波动，证据为海岸沉积、牡蛎礁、海相地层与验潮资料",
+   "regions": [
+    "*"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/%E5%85%A8%E6%96%B0%E4%B8%96%E6%B5%B7%E5%B9%B3%E9%9D%A2%E5%8F%98%E5%8C%96/22255448",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    },
+    {
+     "url": "https://paper.sciencenet.cn/htmlnews/2025/11/556094.shtm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM003",
+   "y0": -7120,
+   "y1": -2980,
+   "rawYear": "约9000—5000 BP",
+   "precision": "approximate",
+   "category": "湿润",
+   "title": "非洲湿润期",
+   "summary": "撒哈拉与萨赫勒湖面、植被与降水代用指标显示较现代湿润，并非永久连续雨季，证据为湖芯、沙漠沉积、孢粉与岩画",
+   "regions": [
+    "*"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cma.gov.cn/kppd/kppdqxsj/kppdqhbh/201211/t20121129_193051.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://www.peopleapp.com/rmharticle/30020079063",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM004",
+   "y0": -3120,
+   "y1": -1980,
+   "rawYear": "约5000—4000 BP",
+   "precision": "approximate",
+   "category": "干旱化",
+   "title": "撒哈拉干旱化转折",
+   "summary": "轨道夏季太阳辐射减弱后，北非季风雨带南撤，湖泊萎缩、沙丘活动增强；变干是趋势而非瞬时事件，证据为湖芯、沙丘记录与孢粉",
+   "regions": [
+    "*"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cma.gov.cn/kppd/kppdqxsj/kppdqhbh/201211/t20121129_193051.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://www.peopleapp.com/rmharticle/30020079063",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM005",
+   "y0": -4258,
+   "y1": -4242,
+   "rawYear": "约6200 BP",
+   "precision": "exact",
+   "category": "冷干",
+   "title": "8.2 ka事件",
+   "summary": "北大西洋淡水脉冲后温度下降、区域水文扰动；并非所有地区同步变冷变干，证据为格陵兰冰芯、湖芯与石笋",
+   "regions": [
+    "*"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/全新世大暖期/6154984",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    },
+    {
+     "url": "https://hz.nstl.gov.cn/paper_detail.html?id=98297305506ed4dabe41691f571dc64d",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM006",
+   "y0": -2620,
+   "y1": -1880,
+   "rawYear": "约4500—3900 BP",
+   "precision": "approximate",
+   "category": "水文异常",
+   "title": "4.2 ka事件",
+   "summary": "多地石笋、湖芯、冰芯和器物层记录到百年尺度水文异常，但东亚、西亚、中美洲响应方向不同，不能称全球同步大旱",
+   "regions": [
+    "meso",
+    "nile",
+    "huaxia",
+    "maya"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/4.2%E5%8D%83%E5%B9%B4%E4%BA%8B%E4%BB%B6/64066754",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    },
+    {
+     "url": "https://hz.nstl.gov.cn/paper_detail.html?id=98297305506ed4dabe41691f571dc64d",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://lib.nefu.edu.cn/articlesearch/web_searchingDetail?id=2031439568483",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://hz.nstl.gov.cn/paper_detail.html?id=98297305506ed4dabe41691f571dc64d",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM007",
+   "y0": -2620,
+   "y1": -1980,
+   "rawYear": "约4500—4000 BP",
+   "precision": "approximate",
+   "category": "干旱",
+   "title": "两河流域晚期干旱迹象",
+   "summary": "叙利亚、伊拉克等地湖芯与遗址记录显示部分时段降水减少或土地压力，区域响应不均；与阿卡德帝国崩溃的时间重合是关联而非已证因果",
+   "regions": [
+    "meso"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/item/4.2%E5%8D%83%E5%B9%B4%E4%BA%8B%E4%BB%B6/64066754",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    },
+    {
+     "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://hz.nstl.gov.cn/paper_detail.html?id=98297305506ed4dabe41691f571dc64d",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM008",
+   "y0": -2120,
+   "y1": -1680,
+   "rawYear": "约4000—3700 BP",
+   "precision": "approximate",
+   "category": "干冷",
+   "title": "河西走廊趋干",
+   "summary": "西城驿木炭组合从云杉、柳属转为杨属并伴畜牧增加，支持区域趋干；仍属遗址尺度的古环境证据",
+   "regions": [
+    "huaxia"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM009",
+   "y0": -2320,
+   "y1": -1480,
+   "rawYear": "约4200—3500 BP",
+   "precision": "approximate",
+   "category": "季风异常",
+   "title": "长江中游水文波动",
+   "summary": "石家河附近石笋记录存在多次干湿转折，降水约850毫米并出现低于700毫米的阶段；气候与文化废弃相关，但单因果解释仍有争议",
+   "regions": [
+    "huaxia"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cgs.gov.cn/ywdt/dwdt/202601/t20260121_855368.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM010",
+   "y0": -320,
+   "y1": -80,
+   "rawYear": "约2200—2100 BP",
+   "precision": "approximate",
+   "category": "干湿迁移",
+   "title": "东亚南涝北旱争议",
+   "summary": "长江流域与下游部分记录显示洪涝信号，华北呈现偏干；区域异质明显，不能作为单一大洪水或单一干旱叙事",
+   "regions": [
+    "huaxia"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://www.cma.gov.cn/kppd/kppdqxsj/kppdqhbh/201212/t20121216_197289.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM011",
+   "y0": -2120,
+   "y1": 1020,
+   "rawYear": "约4000—1000 BP",
+   "precision": "approximate",
+   "category": "季风演化",
+   "title": "亚洲季风减弱的大尺度趋势",
+   "summary": "石笋氧同位素、湖芯与海洋沉积显示季风强度在千年尺度波动；与印度河聚落变迁时间相关，直接因果仍受河道、社会与证据分辨率限制",
+   "regions": [
+    "indus",
+    "huaxia"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cgs.gov.cn/ywdt/dwdt/202601/t20260121_855368.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://hsce.xjtu.edu.cn/info/1013/3032.htm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM012",
+   "y0": -320,
+   "y1": 120,
+   "rawYear": "约2200—1900 BP",
+   "precision": "approximate",
+   "category": "盐渍化",
+   "title": "两河平原灌溉盐渍化",
+   "summary": "幼发拉底河—底格里斯河引水灌溉后，地下水位上升与蒸发使土壤盐分累积；该过程是长期农业环境压力，非单一年份事件",
+   "regions": [
+    "meso"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM013",
+   "y0": -3070,
+   "y1": -530,
+   "rawYear": "公元前3000—前600年",
+   "precision": "approximate",
+   "category": "水文节律",
+   "title": "尼罗河季节性泛滥",
+   "summary": "埃塞俄比亚高地夏季降雨补给青尼罗河与阿特巴拉河，使埃及段水位在7—10月上涨、随后退落，证据为河岸沉积、铭文与罗达岛水位记录",
+   "regions": [
+    "nile"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cma.gov.cn/2011xzt/2015zt/20151127/2015112710/202111/t20211104_4178963.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM014",
+   "y0": -1120,
+   "y1": 1020,
+   "rawYear": "约3000—1000 BP",
+   "precision": "approximate",
+   "category": "水位异常",
+   "title": "尼罗河低水位与泛滥不足",
+   "summary": "埃及铭文、神庙记录与罗达岛序列保存饥荒、低水位和异常高水位事件；这些是可考灾害，不能自动推导某王朝灭亡",
+   "regions": [
+    "nile"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://www.cma.gov.cn/2011xzt/2015zt/20151127/2015112710/202111/t20211104_4178963.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM015",
+   "y0": -320,
+   "y1": 120,
+   "rawYear": "约2200—1900 BP",
+   "precision": "approximate",
+   "category": "聚落变迁",
+   "title": "印度河文明晚期变迁",
+   "summary": "印度河流域遗址出现空间重组、水利与生计变化；季风边缘减弱可构成压力，但河道摆动、贸易和聚落选择的贡献仍存争议",
+   "regions": [
+    "indus"
+   ],
+   "sources": [
+    {
+     "url": "https://hsce.xjtu.edu.cn/info/1013/3032.htm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM016",
+   "y0": -1320,
+   "y1": -780,
+   "rawYear": "约3200—2800 BP",
+   "precision": "approximate",
+   "category": "干旱",
+   "title": "青铜时代晚期东地中海异常",
+   "summary": "部分黎凡特、爱琴与北非记录显示干旱或生产力压力；事件并非全球一致，火山、社会网络与战争解释并存",
+   "regions": [
+    "aegean",
+    "nile",
+    "meso"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM017",
+   "y0": -620,
+   "y1": 520,
+   "rawYear": "约2500—1500 BP",
+   "precision": "approximate",
+   "category": "暖期",
+   "title": "罗马暖期与区域暖异常",
+   "summary": "阿尔卑斯、北欧及部分地中海树轮—同位素记录显示阶段性偏暖；时间、幅度和空间范围并不统一，不能等同于罗马帝国气候决定论",
+   "regions": [
+    "aegean",
+    "meso"
+   ],
+   "sources": [
+    {
+     "url": "https://nb.nstl.gov.cn/paper_detail.html?doi=10.1007/s00382-019-05063-x",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM018",
+   "y0": 730,
+   "y1": 1370,
+   "rawYear": "约800—1300 CE",
+   "precision": "approximate",
+   "category": "暖异常",
+   "title": "中世纪气候异常期",
+   "summary": "部分地区出现数十年至百年偏暖或偏干阶段，如北欧树轮、地中海密度记录；全球中世纪暖期是否成立仍有争议",
+   "regions": [
+    "huaxia",
+    "aegean",
+    "meso"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/view/683677.html?tp=0_11",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    },
+    {
+     "url": "https://nb.nstl.gov.cn/paper_detail.html?doi=10.1007/s00382-019-05063-x",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://news.ustc.edu.cn/info/1055/76185.htm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM019",
+   "y0": 930,
+   "y1": 1920,
+   "rawYear": "约1000—1850 CE",
+   "precision": "approximate",
+   "category": "冷期",
+   "title": "小冰期",
+   "summary": "多年代至百年冷阶段，火山—太阳强迫、海冰反馈与内部变率参与；全球同步性和起讫年代均有争议，证据为树轮、冰芯、湖芯与文献",
+   "regions": [
+    "*"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/view/683677.html?tp=0_11",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    },
+    {
+     "url": "https://www.cma.gov.cn/2011xwzx/2011xqhbh/2011xkydt/201110/t20111029_143009.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://news.ustc.edu.cn/info/1055/76185.htm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM020",
+   "y0": 1380,
+   "y1": 1920,
+   "rawYear": "约1450—1850 CE",
+   "precision": "approximate",
+   "category": "冷湿",
+   "title": "明清小冰期与东亚冷异常",
+   "summary": "中国树轮、史料与物候记录显示寒冷事件增多、生长季缩短；它与灾害、移民和社会压力相关，但对具体王朝结局不能作单因果归因",
+   "regions": [
+    "huaxia"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/view/683677.html?tp=0_11",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    },
+    {
+     "url": "https://www.cma.gov.cn/2011xwzx/2011xqhbh/2011xkydt/201110/t20111029_143009.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://news.ustc.edu.cn/info/1055/76185.htm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM021",
+   "y0": 1307,
+   "y1": 1325,
+   "rawYear": "1315—1317",
+   "precision": "exact",
+   "category": "洪涝饥荒",
+   "title": "欧洲大饥荒",
+   "summary": "连续异常多雨、低温和歉收在英、法、低地国家等文献中可考；人口压力、土地制度与战争共同放大饥荒",
+   "regions": [
+    "aegean"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sohu.com/a/387109690_672687",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    },
+    {
+     "url": "https://www.sh.jcy.gov.cn/fxjcx/dtfj/jcyw/127721.jhtml",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM022",
+   "y0": 1320,
+   "y1": 1374,
+   "rawYear": "1345—1349",
+   "precision": "range",
+   "category": "冷湿",
+   "title": "黑死病前的气候异常背景",
+   "summary": "树轮、冰芯和文献共同指示部分欧洲夏季偏湿、日照偏少和粮食压力；这只是疫病传播的背景因素，非气候造成黑死病",
+   "regions": [
+    "aegean"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cma.gov.cn/2011xwzx/2011xqhbh/2011xkydt/201110/t20111029_143009.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://news.sciencenet.cn/sbhtmlnews/2025/12/387589.shtm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM023",
+   "y0": 1322,
+   "y1": 1378,
+   "rawYear": "1347—1353",
+   "precision": "range",
+   "category": "疫病",
+   "title": "欧亚黑死病流行",
+   "summary": "鼠疫扩散的载体、贸易路线与社会条件为历史事实；气候仅为背景变量，单一致因尚无共识",
+   "regions": [
+    "aegean",
+    "steppe"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cma.gov.cn/2011xwzx/2011xqhbh/2011xkydt/201110/t20111029_143009.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://news.sciencenet.cn/sbhtmlnews/2025/12/387589.shtm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM024",
+   "y0": 1425,
+   "y1": 1875,
+   "rawYear": "1450—1850",
+   "precision": "range",
+   "category": "火山气候",
+   "title": "小冰期强火山喷发群",
+   "summary": "冰芯硫酸盐、光学效应和树轮降温信号识别多次喷发；每次喷发强度、季节和区域气候响应不同，不能把所有冷异常归因于火山",
+   "regions": [
+    "*"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.baidu.com/view/683677.html?tp=0_11",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    },
+    {
+     "url": "https://www.cma.gov.cn/2011xwzx/2011xqhbh/2011xkydt/201110/t20111029_143009.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM025",
+   "y0": 1790,
+   "y1": 1842,
+   "rawYear": "1815—1817",
+   "precision": "range",
+   "category": "火山气候",
+   "title": "坦博拉喷发与1816年气候异常",
+   "summary": "1815年4月喷发后，气溶胶、温度与降雨异常在多地仪器观测、日记和收成记录中可考；1816年低温在部分区域显著，无夏之年不表示全球无夏季",
+   "regions": [
+    "aegean",
+    "indus",
+    "meso"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sh.jcy.gov.cn/fxjcx/dtfj/jcyw/127721.jhtml",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://www.peopleapp.com/rmharticle/30027694326",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM026",
+   "y0": 1847,
+   "y1": 1863,
+   "rawYear": "1855",
+   "precision": "exact",
+   "category": "河流改道",
+   "title": "黄河铜瓦厢决口改道",
+   "summary": "1855年黄河在铜瓦厢决口，夺大清河入渤海，旧苏北河道断流；属于可考地理改道，其对清廷治理的因果权重不是单一决定因素",
+   "regions": [
+    "huaxia"
+   ],
+   "sources": [
+    {
+     "url": "http://www.yrcc.gov.cn/hhwh/wxyc/202512/t20251209_447066.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "http://www.yrcc.gov.cn/hhwh/wxyc/202312/t20231220_373227.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM027",
+   "y0": -1070,
+   "y1": 1970,
+   "rawYear": "约1000 BCE—1900 CE",
+   "precision": "approximate",
+   "category": "洪旱灾害",
+   "title": "长江中下游极端洪涝与ENSO遥相关",
+   "summary": "石笋与器测资料支持ENSO—东亚—太平洋型调制江汉—长江中游干湿，但千年尺度机制稳定性仍不确定",
+   "regions": [
+    "huaxia"
+   ],
+   "sources": [
+    {
+     "url": "https://dky.njnu.edu.cn/info/1056/5687.htm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "http://www.sklec.ecnu.edu.cn/sites/default/files/155-%E5%AD%99%E5%8D%83%E9%87%8C%E4%B9%8C%E5%B0%BC%E6%9B%BC.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM028",
+   "y0": 975,
+   "y1": 1925,
+   "rawYear": "约1000—1900",
+   "precision": "range",
+   "category": "ENSO异常",
+   "title": "ENSO位相变异与季风异常",
+   "summary": "珊瑚、树轮、石笋与历史文献重建ENSO，显示暖位相常对应东亚环流与季风异常；不同季节和区域响应不能一概而论",
+   "regions": [
+    "indus",
+    "huaxia"
+   ],
+   "sources": [
+    {
+     "url": "https://dky.njnu.edu.cn/info/1056/5687.htm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "http://www.sklec.ecnu.edu.cn/sites/default/files/155-%E5%AD%99%E5%8D%83%E9%87%8C%E4%B9%8C%E5%B0%BC%E6%9B%BC.pdf",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM029",
+   "y0": -1120,
+   "y1": -980,
+   "rawYear": "约3000 BP至今",
+   "precision": "approximate",
+   "category": "干旱压力",
+   "title": "欧亚草原生产力波动",
+   "summary": "湖泊、沙丘与树轮记录显示草原带存在干湿变化，可推动牧业适应与迁徙；是否触发特定游牧南迁须逐案考证",
+   "regions": [
+    "steppe"
+   ],
+   "sources": [
+    {
+     "url": "https://baike.sogou.com/v14253.htm",
+     "quote": "",
+     "rank": "百科／媒体",
+     "report": "geo"
+    },
+    {
+     "url": "https://www.cma.gov.cn/2011xwzx/2011xqhbh/2011xkydt/201110/t20111029_143009.html",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM030",
+   "y0": 730,
+   "y1": 1070,
+   "rawYear": "约800—1000 CE",
+   "precision": "approximate",
+   "category": "干旱",
+   "title": "中美洲低地干旱异常",
+   "summary": "尤卡坦湖芯与石笋记录多个偏干阶段，4.2 ka事件在西中美洲表现为区域干旱；干旱是压力因素，并非玛雅政治崩溃的单因解释",
+   "regions": [
+    "maya"
+   ],
+   "sources": [
+    {
+     "url": "https://lib.nefu.edu.cn/articlesearch/web_searchingDetail?id=2031439568483",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    },
+    {
+     "url": "https://hz.nstl.gov.cn/paper_detail.html?id=98297305506ed4dabe41691f571dc64d",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM031",
+   "y0": 1810,
+   "y1": 2096,
+   "rawYear": "1880年至今",
+   "precision": "approximate",
+   "category": "变暖",
+   "title": "近现代全球变暖",
+   "summary": "气象站、海温、冰芯和卫星观测一致显示自19世纪末全球平均温度上升，20世纪后半叶增暖速度显著；区域幅度并不相同",
+   "regions": [
+    "*"
+   ],
+   "sources": [
+    {
+     "url": "https://paper.sciencenet.cn/htmlnews/2025/11/556094.shtm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  },
+  {
+   "id": "CLM032",
+   "y0": 1875,
+   "y1": 2048,
+   "rawYear": "1900—2023",
+   "precision": "range",
+   "category": "海平面上升",
+   "title": "近现代全球海平面加速上升",
+   "summary": "验潮站与卫星高度计记录显示平均上升速率由约2.1毫米/年升至4.3毫米/年，热膨胀与冰川—冰盖质量损失为主要机制",
+   "regions": [
+    "*"
+   ],
+   "sources": [
+    {
+     "url": "https://paper.sciencenet.cn/htmlnews/2025/11/556094.shtm",
+     "quote": "",
+     "rank": "机构／学术",
+     "report": "geo"
+    }
+   ],
+   "layer": "fact",
+   "caveat": "可考的气候／地理现象；与社会兴衰的时间相关不等于已证因果。"
+  }
+ ],
+ "sources": {
+  "geo_1": {
+   "url": "https://www.cma.gov.cn/kppd/kppdqxsj/kppdqhbh/201211/t20121129_193051.html",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_2": {
+   "url": "https://baike.baidu.com/item/4.2%E5%8D%83%E5%B9%B4%E4%BA%8B%E4%BB%B6/64066754",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_3": {
+   "url": "https://baike.baidu.com/item/长江中下游/68147960",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_4": {
+   "url": "https://baike.sogou.com/v14253.htm",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_5": {
+   "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_6": {
+   "url": "https://baike.baidu.com/item/全新世大暖期/6154984",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_7": {
+   "url": "https://www.peopleapp.com/rmharticle/30020079063",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_8": {
+   "url": "https://baike.sogou.com/v101291426.htm",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_9": {
+   "url": "https://vip.chinawriter.com.cn/member/dongyuanben/viewarchives_544233.html",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_10": {
+   "url": "https://www.sohu.com/a/252602135_657160",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_11": {
+   "url": "https://www.nsfc.gov.cn/csc/20345/22468/pdf/2005/2200-2000BC%E7%9A%84%E6%B0%94%E5%80%99%E7%AA%81%E5%8F%98%E4%B8%8E%E5%8F%A4%E6%96%87%E6%98%8E%E7%9A%84%E8%A1%B0%E8%90%BD.pdf",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_12": {
+   "url": "https://www.cma.gov.cn/kppd/kppdqxsj/kppdqhbh/201212/t20121216_197289.html",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_13": {
+   "url": "https://news.ifeng.com/c/7h36XIXH5LX",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_14": {
+   "url": "https://hz.nstl.gov.cn/paper_detail.html?id=98297305506ed4dabe41691f571dc64d",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_15": {
+   "url": "https://www.sh.jcy.gov.cn/fxjcx/dtfj/jcyw/127721.jhtml",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_16": {
+   "url": "https://baike.baidu.com/view/683677.html?tp=0_11",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_17": {
+   "url": "https://www.cgs.gov.cn/ywdt/dwdt/202601/t20260121_855368.html",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_18": {
+   "url": "https://www.sohu.com/a/387109690_672687",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_19": {
+   "url": "https://www.cma.gov.cn/2011xwzx/2011xqhbh/2011xkydt/201110/t20111029_143009.html",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_20": {
+   "url": "https://nb.nstl.gov.cn/paper_detail.html?doi=10.1007/s00382-019-05063-x",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_21": {
+   "url": "https://news.ustc.edu.cn/info/1055/76185.htm",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_22": {
+   "url": "https://lib.nefu.edu.cn/articlesearch/web_searchingDetail?id=2031439568483",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_23": {
+   "url": "https://www.sh.jcy.gov.cn/fxjcx/dtfj/jcyw/127721.jhtml",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_24": {
+   "url": "https://hz.nstl.gov.cn/paper_detail.html?id=98297305506ed4dabe41691f571dc64d",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_25": {
+   "url": "https://www.peopleapp.com/rmharticle/30027694326",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_26": {
+   "url": "https://news.sciencenet.cn/sbhtmlnews/2025/12/387589.shtm",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_27": {
+   "url": "https://www.cma.gov.cn/kppd/kppdsytj/201405/t20140506_245264.html",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_28": {
+   "url": "https://baike.baidu.com/item/坦博拉火山冬天/54049079",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_29": {
+   "url": "https://hsce.xjtu.edu.cn/info/1013/3032.htm",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_30": {
+   "url": "https://dky.njnu.edu.cn/info/1056/5687.htm",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_31": {
+   "url": "https://www.cma.gov.cn/2011xzt/2015zt/20151127/2015112710/202111/t20211104_4178963.html",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_32": {
+   "url": "https://baike.baidu.com/item/%E5%85%A8%E6%96%B0%E4%B8%96%E6%B5%B7%E5%B9%B3%E9%9D%A2%E5%8F%98%E5%8C%96/22255448",
+   "quote": "",
+   "rank": "百科／媒体",
+   "report": "geo"
+  },
+  "geo_33": {
+   "url": "http://www.yrcc.gov.cn/hhwh/wxyc/202512/t20251209_447066.html",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_34": {
+   "url": "http://www.sklec.ecnu.edu.cn/node/6642",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_35": {
+   "url": "http://www.yrcc.gov.cn/hhwh/wxyc/202312/t20231220_373227.html",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_36": {
+   "url": "http://www.sklec.ecnu.edu.cn/sites/default/files/155-%E5%AD%99%E5%8D%83%E9%87%8C%E4%B9%8C%E5%B0%BC%E6%9B%BC.pdf",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  },
+  "geo_37": {
+   "url": "https://paper.sciencenet.cn/htmlnews/2025/11/556094.shtm",
+   "quote": "",
+   "rank": "机构／学术",
+   "report": "geo"
+  }
+ }
+}

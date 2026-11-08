@@ -1,0 +1,1121 @@
+{
+ "meta": {
+  "title": "抉择后果系统 · 第二层",
+  "note": "上一轮把知识变成可打出的牌；这一轮让牌打出之后继续活着：工程跨笔续作、职业反过来改选项、考据分歧二择一、跨维度组合技、未走之路可回看。所有后果仍是游戏推演，不改写史实。 本轮知识补齐后新增 6 个基于新维度的组合技（共 11 个）。",
+  "randomness": "工程续作与分歧对按确定性种子出现；同 seed + 同选择序列仍得同一局。",
+  "disclaimer": "工程进度、职业加成、立场与未走之路均为推演，不是史实记载；年代窗口重叠不表示人物隶属。",
+  "depthNote": "新增 3 个组合技（共 14 个）：立氏入籍 / 编户定名 / 纂录方志；涉及姓氏与人群的选项一律标推演，不作血统或种族断言。",
+  "interactionNote": "第三轮新增 7 个组合技（共 23 个）：平准与常平 / 共损立约 / 辨矿设冶 / 候气授时 / 立目编藏 / 方志互勘 / 通译立籍。全部挂新维度或地方史、姓氏层，沿用「已见 ≥3 维 + 命中相关 ≥2 门」门槛，不宣称任何技术或制度之间的史实因果链。",
+  "interaction2Note": "第四轮新增 2 个组合技（共 23 个）：两存底册 / 异写对勘；均挂地方史与姓氏层，沿用「已见 ≥3 维 + 命中相关 ≥2 门」门槛。另：组合技失手会在族谱留下「旧账」，后续可出现清账支线，全为推演。"
+ },
+ "projects": [
+  {
+   "id": "irrigation",
+   "name": "渠堰",
+   "kinds": [
+    "build"
+   ],
+   "dims": [
+    "HY",
+    "AG",
+    "D"
+   ],
+   "job": "渠工",
+   "intro": "开工只算一半，往后几笔还要岁修、分水、定界。",
+   "stages": [
+    {
+     "n": "立项",
+     "text": "依「{title}」清渠线、集夫料，先动第一锹土",
+     "eff": {
+      "craft": 5
+     },
+     "cost": {
+      "food": -5,
+      "might": -3
+     },
+     "risk": 0.2,
+     "fail": {
+      "food": -4,
+      "cohesion": -2
+     }
+    },
+    {
+     "n": "岁修",
+     "text": "渠成不等于功成，「{title}」所载岁修之约年年要兑现",
+     "eff": {
+      "food": 5,
+      "cohesion": 3
+     },
+     "cost": {
+      "food": -3,
+      "wealth": -2
+     },
+     "risk": 0.18,
+     "fail": {
+      "food": -4
+     }
+    },
+    {
+     "n": "验收",
+     "text": "分水定界，把「{title}」这套做法写进族规",
+     "eff": {
+      "food": 9,
+      "lore": 4,
+      "cohesion": 4
+     },
+     "cost": {
+      "wealth": -2
+     },
+     "risk": 0.1,
+     "fail": {
+      "food": -3
+     }
+    }
+   ],
+   "ledger": {
+    "food": 0.06,
+    "cohesion": 0.03
+   },
+   "ledgerNote": "渠堰既成，此后仓廪与族和的衰减略缓（推演账本）。",
+   "echo": "水到之处，田畴才认得人；渠不是一笔修成的。",
+   "abandon": {
+    "food": -4,
+    "cohesion": -3,
+    "craft": -2
+   },
+   "abandonText": "半途而废，夫料散了，只留一道未成的渠口。"
+  },
+  {
+   "id": "workshop",
+   "name": "织坊",
+   "kinds": [
+    "craft",
+    "build"
+   ],
+   "dims": [
+    "TX",
+    "T",
+    "MM"
+   ],
+   "job": "织匠",
+   "intro": "设坊要试造、要供料、要等第一批货走完商路。",
+   "stages": [
+    {
+     "n": "试造",
+     "text": "按「{title}」的工序先出一件样子，不急着量产",
+     "eff": {
+      "craft": 6
+     },
+     "cost": {
+      "food": -3,
+      "wealth": -3
+     },
+     "risk": 0.22,
+     "fail": {
+      "craft": -3
+     }
+    },
+    {
+     "n": "供料",
+     "text": "稳住「{title}」所需的原料与人力，坊里才转得动",
+     "eff": {
+      "craft": 5,
+      "wealth": 3
+     },
+     "cost": {
+      "food": -4
+     },
+     "risk": 0.18,
+     "fail": {
+      "wealth": -3
+     }
+    },
+    {
+     "n": "成货",
+     "text": "第一批成品出门，把「{title}」的名目记进账",
+     "eff": {
+      "wealth": 9,
+      "craft": 5,
+      "lore": 3
+     },
+     "cost": {
+      "food": -2
+     },
+     "risk": 0.12,
+     "fail": {
+      "wealth": -4
+     }
+    }
+   ],
+   "ledger": {
+    "wealth": 0.06,
+    "craft": 0.04
+   },
+   "ledgerNote": "织坊成市，此后货殖与百工的衰减略缓（推演账本）。",
+   "echo": "手艺落在物件上，比落在话里牢；坊是熬出来的。",
+   "abandon": {
+    "wealth": -4,
+    "craft": -3,
+    "cohesion": -2
+   },
+   "abandonText": "坊门关了，半成品堆在角落，谁也没再提。"
+  },
+  {
+   "id": "observatory",
+   "name": "授时台",
+   "kinds": [
+    "craft",
+    "build",
+    "study"
+   ],
+   "dims": [
+    "HO",
+    "Q",
+    "Y",
+    "CI"
+   ],
+   "job": "司辰",
+   "intro": "立表、校刻、颁历，三步走完才知道准不准。",
+   "stages": [
+    {
+     "n": "立表",
+     "text": "仿「{title}」立起一座表，先定基准",
+     "eff": {
+      "lore": 6
+     },
+     "cost": {
+      "wealth": -4,
+      "craft": -2
+     },
+     "risk": 0.24,
+     "fail": {
+      "lore": -3
+     }
+    },
+    {
+     "n": "校刻",
+     "text": "拿「{title}」与实测反复对，误差不许含糊",
+     "eff": {
+      "lore": 6,
+      "craft": 4
+     },
+     "cost": {
+      "food": -3
+     },
+     "risk": 0.2,
+     "fail": {
+      "lore": -3
+     }
+    },
+    {
+     "n": "颁历",
+     "text": "把校定的节令写出去，让播种与祭典都有个准",
+     "eff": {
+      "lore": 8,
+      "food": 5,
+      "faith": 3
+     },
+     "cost": {
+      "wealth": -2
+     },
+     "risk": 0.1,
+     "fail": {
+      "faith": -3
+     }
+    }
+   ],
+   "ledger": {
+    "lore": 0.07,
+    "faith": 0.02
+   },
+   "ledgerNote": "授时台既立，此后文脉与祭祀的衰减略缓（推演账本）。",
+   "echo": "能量出来的，才谈得上准；一部历要用几代人才校得稳。",
+   "abandon": {
+    "lore": -4,
+    "wealth": -3,
+    "faith": -2
+   },
+   "abandonText": "表还立着，刻度却没人再校，节令又回到口口相传。"
+  },
+  {
+   "id": "archive",
+   "name": "册库",
+   "kinds": [
+    "study",
+    "govern",
+    "inherit"
+   ],
+   "dims": [
+    "C",
+    "L",
+    "ED",
+    "CI",
+    "HI"
+   ],
+   "job": "书记",
+   "intro": "抄录、校雠、立目，一册书要三笔才真算收进族里。",
+   "stages": [
+    {
+     "n": "抄录",
+     "text": "就「{title}」抄一份副本，字先留住",
+     "eff": {
+      "lore": 5
+     },
+     "cost": {
+      "wealth": -3,
+      "food": -2
+     },
+     "risk": 0.16,
+     "fail": {
+      "lore": -2
+     }
+    },
+    {
+     "n": "校雠",
+     "text": "拿两本对读，「{title}」里的异文一一标出",
+     "eff": {
+      "lore": 6,
+      "cohesion": 2
+     },
+     "cost": {
+      "wealth": -3
+     },
+     "risk": 0.14,
+     "fail": {
+      "cohesion": -2
+     }
+    },
+    {
+     "n": "立目",
+     "text": "编目上架，「{title}」从此有位置可查",
+     "eff": {
+      "lore": 8,
+      "cohesion": 4,
+      "wealth": 2
+     },
+     "cost": {
+      "food": -2
+     },
+     "risk": 0.08,
+     "fail": {
+      "lore": -2
+     }
+    }
+   ],
+   "ledger": {
+    "lore": 0.08,
+    "cohesion": 0.02
+   },
+   "ledgerNote": "册库既立，此后文脉与族和的衰减略缓（推演账本）。",
+   "echo": "册子厚了一寸，后人少走一步弯路；抄书最费的是耐心。",
+   "abandon": {
+    "lore": -4,
+    "wealth": -2,
+    "cohesion": -2
+   },
+   "abandonText": "抄了一半的册子散了页，异文也没人再对。"
+  },
+  {
+   "id": "harbor",
+   "name": "航路",
+   "kinds": [
+    "trade",
+    "risk",
+    "migrate"
+   ],
+   "dims": [
+    "H",
+    "B",
+    "S",
+    "DP",
+    "MG"
+   ],
+   "job": "舟师",
+   "intro": "备船、探路、立契，一趟远行不是一笔就能落定的。",
+   "stages": [
+    {
+     "n": "备船",
+     "text": "按「{title}」备船与给养，先算出这一季的余粮",
+     "eff": {
+      "craft": 5,
+      "wealth": 3
+     },
+     "cost": {
+      "food": -5,
+      "people": -2
+     },
+     "risk": 0.26,
+     "fail": {
+      "food": -4,
+      "people": -2
+     }
+    },
+    {
+     "n": "探路",
+     "text": "循「{title}」试一段航程，把浅滩与季风记下来",
+     "eff": {
+      "lore": 6,
+      "might": 3
+     },
+     "cost": {
+      "wealth": -4
+     },
+     "risk": 0.24,
+     "fail": {
+      "people": -3
+     }
+    },
+    {
+     "n": "立契",
+     "text": "把「{title}」走通的路线写成契，后来者照着走",
+     "eff": {
+      "wealth": 11,
+      "lore": 5,
+      "cohesion": 3
+     },
+     "cost": {
+      "food": -3
+     },
+     "risk": 0.12,
+     "fail": {
+      "wealth": -5
+     }
+    }
+   ],
+   "ledger": {
+    "wealth": 0.07,
+    "lore": 0.03
+   },
+   "ledgerNote": "航路既通，此后货殖与文脉的衰减略缓（推演账本）。",
+   "echo": "海图上空着的那块，后来有了名字；一趟走不通就走第二趟。",
+   "abandon": {
+    "wealth": -5,
+    "people": -3,
+    "cohesion": -2
+   },
+   "abandonText": "船回来了，货没回来，那条航线又被划掉。"
+  }
+ ],
+ "combos": [
+  {
+   "id": "printing",
+   "name": "刊刻试本",
+   "need": [
+    "T",
+    "C",
+    "ED"
+   ],
+   "text": "造纸、印刷、取士三事都已见过，{act}",
+   "act": "刊一册试本，先在校舍里传抄，再议是否广布",
+   "eff": {
+    "lore": 12,
+    "cohesion": 5,
+    "wealth": 4
+   },
+   "cost": {
+    "food": -6,
+    "wealth": -4,
+    "craft": -3
+   },
+   "risk": 0.24,
+   "fail": {
+    "lore": -5,
+    "wealth": -3
+   },
+   "kind": "craft",
+   "badge": "合",
+   "echo": "纸、字、读数的人凑齐了，书才真的走得远。",
+   "note": "技术条件与制度条件同时具备才出现；不表示三者之间存在史实因果链。"
+  },
+  {
+   "id": "almanac",
+   "name": "授时劝农",
+   "need": [
+    "HY",
+    "AG",
+    "HO",
+    "Y"
+   ],
+   "text": "水工、农具、计时与历法都在册，{act}",
+   "act": "按节令分水、定期课农，把一年的劳作排成一张表",
+   "eff": {
+    "food": 13,
+    "lore": 6,
+    "cohesion": 4
+   },
+   "cost": {
+    "wealth": -5,
+    "might": -3
+   },
+   "risk": 0.2,
+   "fail": {
+    "food": -6,
+    "cohesion": -2
+   },
+   "kind": "build",
+   "badge": "合",
+   "echo": "什么时候放水、什么时候下种，写清楚了，争吵就少一半。",
+   "note": "组合技只表示本局已见过这些知识，不宣称历史上确曾同时施行。"
+  },
+  {
+   "id": "textile_trade",
+   "name": "立坊外销",
+   "need": [
+    "TX",
+    "B",
+    "S",
+    "DP"
+   ],
+   "text": "织染、商路、市契与使节往来都已见过，{act}",
+   "act": "设坊专织外销之货，遣人随商队去谈长久的价",
+   "eff": {
+    "wealth": 14,
+    "craft": 6,
+    "lore": 3
+   },
+   "cost": {
+    "food": -6,
+    "cohesion": -3
+   },
+   "risk": 0.26,
+   "fail": {
+    "wealth": -7,
+    "cohesion": -2
+   },
+   "kind": "trade",
+   "badge": "合",
+   "echo": "颜色是最先被远方认出的东西，价却要一趟趟谈出来。",
+   "note": "为游戏组合，不作具体工坊或商路的史实断言。"
+  },
+  {
+   "id": "clinic",
+   "name": "设坊施药",
+   "need": [
+    "ME",
+    "PU",
+    "G",
+    "L"
+   ],
+   "text": "医书、照护、本草与章程都在册，{act}",
+   "act": "设一处病坊，分居给药，经费列入常支",
+   "eff": {
+    "people": 10,
+    "faith": 5,
+    "cohesion": 5
+   },
+   "cost": {
+    "wealth": -8,
+    "food": -5
+   },
+   "risk": 0.16,
+   "fail": {
+    "people": -4,
+    "wealth": -3
+   },
+   "kind": "govern",
+   "badge": "合",
+   "echo": "肯为不相干的人花的钱，最难省，也最记得住。",
+   "note": "组合技为推演，不是某处历史病坊的复原。"
+  },
+  {
+   "id": "treaty_road",
+   "name": "盟书通路",
+   "need": [
+    "DP",
+    "RI",
+    "LO",
+    "MG"
+   ],
+   "text": "条约、仪节、驿传与迁徙都见过，{act}",
+   "act": "以盟书换一条可通行的路，并安置沿途落户的人",
+   "eff": {
+    "wealth": 9,
+    "people": 7,
+    "cohesion": 5
+   },
+   "cost": {
+    "might": -4,
+    "faith": -2
+   },
+   "risk": 0.2,
+   "fail": {
+    "people": -4,
+    "cohesion": -3
+   },
+   "kind": "diplomacy",
+   "badge": "合",
+   "echo": "路不是打出来的，是几方都肯签字才通的。",
+   "note": "不作具体条约或边界的史实主张。"
+  },
+  {
+   "id": "state_books",
+   "name": "官定课本",
+   "need": [
+    "BK",
+    "ST",
+    "Y",
+    "ED"
+   ],
+   "text": "书籍、标准、历法与教育都在册，{act}",
+   "act": "定一套官颁字本与节令表，颁到各处学舍",
+   "eff": {
+    "lore": 13,
+    "cohesion": 6,
+    "wealth": 3
+   },
+   "cost": {
+    "wealth": -6,
+    "food": -4,
+    "craft": -3
+   },
+   "risk": 0.22,
+   "fail": {
+    "lore": -6,
+    "cohesion": -2
+   },
+   "kind": "govern",
+   "badge": "合",
+   "echo": "字一样、历一样，远处的学舍才算在同一套年月里。",
+   "note": "组合技为推演；不表示历史上确有统一的官定课本颁行制度。"
+  },
+  {
+   "id": "register_atlas",
+   "name": "编审图籍",
+   "need": [
+    "MP",
+    "RG",
+    "AR",
+    "ST"
+   ],
+   "text": "制图、户籍、档案与标准都见过，{act}",
+   "act": "以统一丈尺编审田籍与图册，逐乡立底簿",
+   "eff": {
+    "wealth": 11,
+    "lore": 6,
+    "cohesion": 5
+   },
+   "cost": {
+    "food": -6,
+    "might": -3
+   },
+   "risk": 0.24,
+   "fail": {
+    "wealth": -6,
+    "cohesion": -3
+   },
+   "kind": "govern",
+   "badge": "合",
+   "echo": "量得清、记得住，赋役才不至于全凭口说。",
+   "note": "只指编审底册，不作疆界、领土或主权主张。"
+  },
+  {
+   "id": "famine_ledger",
+   "name": "备荒底册",
+   "need": [
+    "EL",
+    "AR",
+    "SO",
+    "DI"
+   ],
+   "text": "赈济、档案、地力与灾荒都在册，{act}",
+   "act": "按各乡地力与历年灾情编一本备荒册，分等储粮",
+   "eff": {
+    "food": 14,
+    "people": 6,
+    "cohesion": 5
+   },
+   "cost": {
+    "wealth": -7,
+    "craft": -3
+   },
+   "risk": 0.2,
+   "fail": {
+    "food": -7,
+    "people": -3
+   },
+   "kind": "build",
+   "badge": "合",
+   "echo": "哪块地薄、哪年歉过，写下来，下一回才不至于临时抓瞎。",
+   "note": "为游戏组合，不宣称历史上曾按此法统一施行。"
+  },
+  {
+   "id": "travel_pass",
+   "name": "通关文牒",
+   "need": [
+    "TR",
+    "RG",
+    "IS",
+    "DP"
+   ],
+   "text": "行旅、户籍、核验与外交都见过，{act}",
+   "act": "定一套通关文牒，沿途验籍、登记、换给",
+   "eff": {
+    "wealth": 10,
+    "lore": 5,
+    "might": 4,
+    "cohesion": 3
+   },
+   "cost": {
+    "food": -5,
+    "faith": -2
+   },
+   "risk": 0.26,
+   "fail": {
+    "wealth": -6,
+    "cohesion": -3
+   },
+   "kind": "diplomacy",
+   "badge": "合",
+   "echo": "路通了，也得知道谁在走；文牒是给流动留的账。",
+   "note": "不作具体关隘、条约或边界的史实断言。"
+  },
+  {
+   "id": "public_press",
+   "name": "刊布立权",
+   "need": [
+    "PR",
+    "MR",
+    "IP",
+    "ED"
+   ],
+   "text": "舆情、传媒、专权与教育都在册，{act}",
+   "act": "刊布一份定期册子，议定翻印与署名之规",
+   "eff": {
+    "lore": 12,
+    "wealth": 8,
+    "cohesion": 4
+   },
+   "cost": {
+    "wealth": -6,
+    "faith": -2
+   },
+   "risk": 0.28,
+   "fail": {
+    "lore": -6,
+    "wealth": -4
+   },
+   "kind": "craft",
+   "badge": "合",
+   "echo": "能抄能印之后，谁写的、谁翻的，忽然都要说清楚了。",
+   "note": "组合技为推演，不是某部版权法或某份刊物的复原。"
+  },
+  {
+   "id": "collate_archive",
+   "name": "校雠立目",
+   "need": [
+    "BK",
+    "MU",
+    "RH",
+    "AR"
+   ],
+   "text": "典籍、典藏、论辩与档案都见过，{act}",
+   "act": "聚几种本子逐句对读，异文两存，再编目上架",
+   "eff": {
+    "lore": 14,
+    "cohesion": 6,
+    "wealth": 3
+   },
+   "cost": {
+    "wealth": -6,
+    "food": -4
+   },
+   "risk": 0.18,
+   "fail": {
+    "lore": -7,
+    "wealth": -3
+   },
+   "kind": "study",
+   "badge": "合",
+   "echo": "争不清楚的地方先别抹掉，留着，后人比我们多几本可看。",
+   "note": "不作具体校勘成果或目录的史实断言。"
+  },
+  {
+   "id": "clan_register",
+   "name": "立氏入籍",
+   "need": [
+    "SN",
+    "GE",
+    "RG",
+    "AR"
+   ],
+   "text": "姓氏、谱牒、户籍与档案都在册，{act}",
+   "act": "为本族定一个称法并登籍，注明得姓缘由与承嗣来路",
+   "eff": {
+    "cohesion": 11,
+    "lore": 7,
+    "wealth": 3
+   },
+   "cost": {
+    "faith": -3,
+    "wealth": -4
+   },
+   "risk": 0.2,
+   "fail": {
+    "cohesion": -5,
+    "lore": -3
+   },
+   "kind": "govern",
+   "badge": "合",
+   "echo": "册上写明来路，后人就不必靠攀附补那一页。",
+   "note": "组合技为推演；得姓多源，不宣称本族与任何历史家族有血缘关系。"
+  },
+  {
+   "id": "name_ledger",
+   "name": "编户定名",
+   "need": [
+    "RG",
+    "SN",
+    "ST",
+    "AR"
+   ],
+   "text": "户籍、姓氏、标准与档案都见过，{act}",
+   "act": "统一名籍写法与避讳条例，把异写逐条并注",
+   "eff": {
+    "wealth": 9,
+    "lore": 6,
+    "cohesion": 5
+   },
+   "cost": {
+    "food": -5,
+    "might": -2
+   },
+   "risk": 0.22,
+   "fail": {
+    "lore": -5,
+    "cohesion": -3
+   },
+   "kind": "govern",
+   "badge": "合",
+   "echo": "一个名字有三种写法，赋役就多三处可争的地方。",
+   "note": "只指名籍文书整理，不作具体政区或主权主张。"
+  },
+  {
+   "id": "local_gazetteer",
+   "name": "纂录方志",
+   "need": [
+    "LH",
+    "MP",
+    "AR",
+    "HI"
+   ],
+   "text": "地方史、制图、档案与史学都在册，{act}",
+   "act": "按本地沿革、水道、物产与旧牍纂一册方志，异说两存",
+   "eff": {
+    "lore": 14,
+    "wealth": 4,
+    "cohesion": 4
+   },
+   "cost": {
+    "wealth": -6,
+    "food": -4
+   },
+   "risk": 0.18,
+   "fail": {
+    "lore": -7,
+    "wealth": -3
+   },
+   "kind": "study",
+   "badge": "合",
+   "echo": "一地的旧账，写下来才不会只剩一句「自古如此」。",
+   "note": "为游戏组合，不作疆界、领土或主权判断，也不冒充真实方志。"
+  },
+  {
+   "id": "price_granary",
+   "name": "平准与常平",
+   "need": [
+    "PY",
+    "FI",
+    "EL"
+   ],
+   "text": "价格、财政与赈济三事都在册，{act}",
+   "act": "丰年籴、歉年粜，先把斗斛与折色定死再开仓",
+   "eff": {
+    "food": 11,
+    "wealth": 5,
+    "cohesion": 4
+   },
+   "cost": {
+    "wealth": -6,
+    "food": -3
+   },
+   "risk": 0.22,
+   "fail": {
+    "food": -6,
+    "cohesion": -2
+   },
+   "kind": "govern",
+   "badge": "合",
+   "echo": "仓里的账和市上的价，得用同一把斗才对得上。",
+   "note": "为游戏组合，不宣称三者之间存在史实因果链，也不冒充任何真实常平制度。"
+  },
+  {
+   "id": "general_average",
+   "name": "共损立约",
+   "need": [
+    "RS",
+    "H",
+    "B"
+   ],
+   "text": "分摊、航海与商货都已见过，{act}",
+   "act": "立一纸共损之约：为救船弃的货，由同航各家按值分摊",
+   "eff": {
+    "wealth": 10,
+    "cohesion": 5
+   },
+   "cost": {
+    "wealth": -4,
+    "faith": -2
+   },
+   "risk": 0.24,
+   "fail": {
+    "wealth": -5,
+    "cohesion": -3
+   },
+   "kind": "trade",
+   "badge": "合",
+   "echo": "风浪不认谁的货，约却得先写在前头。",
+   "note": "共同海损是海商习惯，与现代保险不同层；本组合为推演，不作法制史断言。"
+  },
+  {
+   "id": "assay_furnace",
+   "name": "辨矿设冶",
+   "need": [
+    "GM",
+    "MM",
+    "CE"
+   ],
+   "text": "矿物认知、矿冶与陶瓷冶金凑齐了，{act}",
+   "act": "先辨层位与胎釉，再定炉温与配料，各记一册不相混",
+   "eff": {
+    "craft": 12,
+    "wealth": 4
+   },
+   "cost": {
+    "food": -5,
+    "might": -3
+   },
+   "risk": 0.2,
+   "fail": {
+    "craft": -6,
+    "wealth": -2
+   },
+   "kind": "craft",
+   "badge": "合",
+   "echo": "认得石头，还得认得火候，两本账缺一本都成不了器。",
+   "note": "为游戏组合，不宣称名物、冶炼与烧造之间存在单线传承。"
+  },
+  {
+   "id": "observatory_almanac",
+   "name": "候气授时",
+   "need": [
+    "WO",
+    "Q",
+    "Y"
+   ],
+   "text": "气象、星象与历法都在册，{act}",
+   "act": "把物候、夜观与历谱并作一表，注明哪些是测的、哪些是推的",
+   "eff": {
+    "lore": 12,
+    "food": 5
+   },
+   "cost": {
+    "wealth": -5,
+    "faith": -2
+   },
+   "risk": 0.19,
+   "fail": {
+    "lore": -6,
+    "food": -3
+   },
+   "kind": "study",
+   "badge": "合",
+   "echo": "天上那本历和地里那本候，对不上时先别急着改历。",
+   "note": "观测、占候与历算属不同实践层；本组合为推演，不作天文学史定论。"
+  },
+  {
+   "id": "catalogue_cabinet",
+   "name": "立目编藏",
+   "need": [
+    "BC",
+    "BK",
+    "MU"
+   ],
+   "text": "博物、书籍与收藏修复都见过了，{act}",
+   "act": "给新收之物立目：出处、形制、修补处各占一行，异名并存",
+   "eff": {
+    "lore": 11,
+    "craft": 4,
+    "cohesion": 3
+   },
+   "cost": {
+    "wealth": -5,
+    "food": -2
+   },
+   "risk": 0.16,
+   "fail": {
+    "lore": -5,
+    "craft": -2
+   },
+   "kind": "study",
+   "badge": "合",
+   "echo": "修过的地方要写明，不然后人会把补配当成原样。",
+   "note": "为游戏组合，不冒充任何真实目录或馆藏制度。"
+  },
+  {
+   "id": "gazetteer_check",
+   "name": "方志互勘",
+   "need": [
+    "LH",
+    "HI",
+    "AR",
+    "MP"
+   ],
+   "text": "地方史、史学、档案与测绘四路都在册，{act}",
+   "act": "拿本地旧牍、官文书与旧图互勘，合不上的先两存不硬断",
+   "eff": {
+    "lore": 13,
+    "cohesion": 4
+   },
+   "cost": {
+    "wealth": -6,
+    "food": -3
+   },
+   "risk": 0.21,
+   "fail": {
+    "lore": -7,
+    "cohesion": -2
+   },
+   "kind": "study",
+   "badge": "合",
+   "echo": "一地的旧账，得让几种纸自己互相吵完才算数。",
+   "note": "只列互证读法，不作疆界、领土或主权判断，也不冒充真实方志。"
+  },
+  {
+   "id": "interpreter_register",
+   "name": "通译立籍",
+   "need": [
+    "SN",
+    "PE",
+    "AD",
+    "RG"
+   ],
+   "text": "姓氏、人群、接触与户籍都见过了，{act}",
+   "act": "并居诸称各依旧俗入册，音译异写另注，不按字面归并",
+   "eff": {
+    "cohesion": 9,
+    "lore": 6,
+    "wealth": 3
+   },
+   "cost": {
+    "faith": -3,
+    "might": -2
+   },
+   "risk": 0.23,
+   "fail": {
+    "cohesion": -5,
+    "lore": -3
+   },
+   "kind": "diplomacy",
+   "badge": "合",
+   "echo": "名写错了不要紧，硬把两家人并成一家才要紧。",
+   "note": "为游戏组合；姓氏不作血统推断，人群不作生物种族分类，不改写真实户籍制度。"
+  },
+  {
+   "id": "two_copy_ledger",
+   "name": "两存底册",
+   "need": [
+    "LH",
+    "AR",
+    "HI",
+    "BK"
+   ],
+   "text": "地方史、档案、史学与文献流传都在册，{act}",
+   "act": "同一件事抄两份，各注明所据，异处不抹平",
+   "eff": {
+    "lore": 12,
+    "cohesion": 4
+   },
+   "cost": {
+    "wealth": -5,
+    "food": -2
+   },
+   "risk": 0.2,
+   "fail": {
+    "lore": -6,
+    "cohesion": -2
+   },
+   "kind": "study",
+   "badge": "合",
+   "echo": "抹平一处异文容易，往后想找回它才难。",
+   "note": "为游戏组合，不冒充任何真实目录、方志或校勘制度，不作疆界判断。"
+  },
+  {
+   "id": "variant_register",
+   "name": "异写对勘",
+   "need": [
+    "SN",
+    "PE",
+    "SW",
+    "RG"
+   ],
+   "text": "姓氏、人群、书写与户籍都见过了，{act}",
+   "act": "把音译、避讳、转写造成的异写并列，注明各自出处",
+   "eff": {
+    "lore": 10,
+    "cohesion": 6
+   },
+   "cost": {
+    "wealth": -4,
+    "faith": -2
+   },
+   "risk": 0.22,
+   "fail": {
+    "lore": -5,
+    "cohesion": -3
+   },
+   "kind": "inherit",
+   "badge": "合",
+   "echo": "写法不同未必是人不同，但也不能凭读音就并成一人。",
+   "note": "为游戏组合；姓氏不作血统推断，人群不作生物种族分类，不改写真实户籍制度。"
+  }
+ ],
+ "jobBoost": {
+  "rate": 1.25,
+  "weight": 1.32,
+  "label": "族中有人习此业"
+ },
+ "debate": {
+  "chance": 0.34,
+  "minSeen": 2,
+  "options": [
+   {
+    "id": "settle",
+    "t": "从其通说，录为可考",
+    "e": {
+     "lore": 5,
+     "cohesion": 3
+    },
+    "echo": "有争议的地方，这一族宁可先按通说落笔。"
+   },
+   {
+    "id": "suspend",
+    "t": "存其异说，两下并记",
+    "e": {
+     "lore": 7,
+     "faith": 2,
+     "cohesion": -2
+    },
+    "echo": "争不清楚的那几页，后来反倒最耐读。"
+   }
+  ],
+  "label": "考据分歧 · 二择其一",
+  "disclaimer": "两条都是对史料的取舍态度，不是判定史实；争议与传说层仍按原标注，不被玩家选择改写。"
+ },
+ "roads": {
+  "keep": 60,
+  "perVolume": 3,
+  "label": "这 一 卷 没 走 的 路",
+  "disclaimer": "以下为当时其余选项的收益预估，仅供回看；不重放史实，也不改变已发生的编年。"
+ },
+ "ledgerCap": 0.34
+}

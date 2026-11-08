@@ -190,3 +190,1238 @@ details.fold .mini{margin-top:3px}
 .kgn.dim{opacity:.34}
 .kge.on{opacity:1!important;stroke-width:2.2}
 #kinGraph text{pointer-events:none;user-select:none}
+
+/* ===== v1.2 声与色：程序化插画与离线合成音乐 ===== */
+.artwrap{position:relative;margin:0 0 10px;border-radius:10px;overflow:hidden;
+  border:1px solid var(--line);background:#15110c}
+.artbare{min-height:34px;display:flex;align-items:center;justify-content:flex-end;padding:4px 8px}
+.artsvg{display:block;width:100%;height:auto}
+.artbanner{height:88px}
+.artscenewrap .artscene,.artwrap .artscene{height:132px}
+.artwrap .artbanner{height:88px}
+.artorn{height:22px;opacity:.75;margin:6px 0}
+.sndbtn{position:absolute;right:8px;top:8px;z-index:2;display:flex;align-items:center;gap:4px;
+  font-family:inherit;font-size:calc(10px * var(--fs));line-height:1;cursor:pointer;
+  padding:5px 8px;border-radius:16px;border:1px solid var(--line);
+  background:rgba(21,17,12,.82);color:var(--dim);backdrop-filter:blur(2px)}
+.sndbtn.on{border-color:var(--gold);color:var(--gold);background:rgba(51,41,26,.88)}
+.sndbtn svg{display:block}
+html.hc .sndbtn{background:#241c12;color:#fff4dc;border-color:#8a7550}
+.selgrid{display:grid;grid-template-columns:1fr;gap:7px;margin-top:8px}
+.selgrid label{display:block;font-size:calc(11px * var(--fs));color:var(--dim)}
+.selgrid select{width:100%;box-sizing:border-box;margin-top:3px;padding:7px 9px;
+  font-family:inherit;font-size:calc(12px * var(--fs));color:var(--ink);
+  background:#151009;border:1px solid var(--line);border-radius:8px}
+.selgrid select:focus{outline:none;border-color:var(--gold)}
+.viewsel .mini{align-self:center;margin-right:4px}
+@media (prefers-reduced-motion:reduce){.artsvg{transition:none!important}}
+
+
+
+/* ===== v1.3 读屏友好与分路声音开关 ===== */
+.skip{position:absolute;left:-9999px;top:0;z-index:99;padding:10px 14px;
+  background:var(--gold);color:#15110c;font-family:inherit;font-size:14px;border-radius:0 0 8px 0}
+.skip:focus{left:0}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+*:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+html.hc *:focus-visible{outline:3px solid #ffd75e;outline-offset:3px}
+.sndgroup{position:absolute;right:8px;top:8px;z-index:2;display:flex;gap:4px;flex-wrap:wrap;
+  justify-content:flex-end;max-width:calc(100% - 16px)}
+.sndgroup .sndbtn{position:static;padding:5px 7px;font-size:calc(10px * var(--fs))}
+.sndbtn.mini span{font-size:calc(10px * var(--fs))}
+.switchrow{display:flex;align-items:flex-start;gap:8px;flex-wrap:wrap;margin-top:8px}
+.switchrow>span{min-width:88px;padding-top:7px;font-size:calc(12px * var(--fs));color:var(--dim)}
+.switchrow .viewsel{flex:1;margin-top:0;min-width:150px}
+[aria-pressed="true"]{box-shadow:inset 0 0 0 1px var(--gold)}
+.tabs button[role="tab"]{cursor:pointer}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+
+/* ===== v1.4 AVG 舞台：单背景 + 角色层 + 天气动画 + 气泡框 ===== */
+.stage{position:relative;width:100%;height:268px;margin:0 0 10px;border-radius:12px;
+  overflow:hidden;border:1px solid var(--line);background:#e9dcc6;
+  isolation:isolate}
+.stage-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  object-position:center 42%;display:block;z-index:0}
+.stage-char{position:absolute;left:50%;bottom:6px;transform:translateX(-50%);
+  height:88%;max-width:92%;width:auto;object-fit:contain;display:block;z-index:2;
+  filter:drop-shadow(0 6px 8px rgba(90,74,52,.16));pointer-events:none}
+.stage .bubble{position:absolute;left:10px;right:10px;bottom:8px;z-index:4;
+  display:block;box-sizing:border-box;padding:9px 12px 10px;border-radius:12px;
+  background:linear-gradient(180deg,rgba(255,250,238,.95),rgba(247,238,220,.94));
+  border:1px solid rgba(120,98,68,.55);box-shadow:0 3px 10px rgba(80,64,42,.18);
+  color:#3a3122;font-size:calc(12px * var(--fs));line-height:1.65}
+.stage .bubble:after{content:"";position:absolute;left:34px;bottom:-7px;width:12px;height:12px;
+  background:rgba(247,238,220,.94);border-right:1px solid rgba(120,98,68,.55);
+  border-bottom:1px solid rgba(120,98,68,.55);transform:rotate(45deg)}
+.stage .bubble .who{display:block;font-size:calc(10px * var(--fs));letter-spacing:.08em;
+  color:#9a7434;margin-bottom:2px}
+.stage .bubble .say{display:block}
+.stage-tag{position:absolute;left:9px;top:9px;z-index:4;padding:3px 8px;border-radius:12px;
+  background:rgba(255,250,238,.82);border:1px solid rgba(120,98,68,.35);
+  color:#6a5940;font-size:calc(10px * var(--fs))}
+.stage-tools{position:absolute;right:8px;top:8px;z-index:6}
+.stage-tools .sndgroup{position:static;max-width:none}
+.stage-tools .sndbtn{background:rgba(255,250,238,.9);color:#6a5940;border-color:rgba(120,98,68,.4)}
+.stage-tools .sndbtn.on{color:#9a7434;border-color:#9a7434;background:rgba(255,248,228,.94)}
+.stage-mini{position:absolute;right:10px;bottom:10px;z-index:5;font-family:inherit;
+  font-size:calc(10px * var(--fs));padding:4px 8px;border-radius:12px;
+  border:1px solid rgba(120,98,68,.45);background:rgba(255,250,238,.9);color:#6a5940;cursor:pointer}
+/* 天气层 */
+.wx{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+.wx-sun .halo{position:absolute;right:12%;top:-30px;width:150px;height:150px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,236,178,.62),rgba(255,236,178,0) 68%);
+  animation:sunPulse 7s ease-in-out infinite}
+.wx-sun .birds{position:absolute;left:-30%;top:22%;width:52%;height:26%;
+  animation:birdFly 17s linear infinite}
+.wx-rain{background:repeating-linear-gradient(105deg,rgba(150,170,190,0) 0 13px,
+  rgba(150,170,190,.34) 13px 14px,rgba(150,170,190,0) 14px 26px);
+  animation:rainFall .75s linear infinite}
+.wx-rain i{position:absolute;top:-10%;width:2px;height:26px;border-radius:2px;
+  background:rgba(170,190,210,.6);animation:drop 1.5s linear infinite}
+.wx-rain i:nth-child(1){left:18%;animation-delay:.1s}
+.wx-rain i:nth-child(2){left:52%;animation-delay:.6s}
+.wx-rain i:nth-child(3){left:81%;animation-delay:1.05s}
+.wx-rain svg{position:absolute;left:8%;top:6%;width:56%;height:30%;opacity:.7;
+  animation:cloudDrift 12s ease-in-out infinite alternate}
+.wx-cloud svg{position:absolute;left:-18%;top:8%;width:120%;height:44%;
+  animation:cloudDrift 14s ease-in-out infinite alternate}
+.wx-night{background:linear-gradient(180deg,rgba(42,46,72,.30),rgba(42,46,72,0) 72%)}
+.wx-night .moon{position:absolute;right:16%;top:14%;width:38px;height:38px;border-radius:50%;
+  background:rgba(255,248,220,.88);box-shadow:0 0 22px rgba(255,246,210,.7)}
+.wx-night i{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff8dc;
+  animation:twinkle 3s ease-in-out infinite}
+.wx-night i:nth-child(2){left:12%;top:18%;animation-delay:.3s}
+.wx-night i:nth-child(3){left:28%;top:9%;animation-delay:1.1s}
+.wx-night i:nth-child(4){left:44%;top:26%;animation-delay:.7s}
+.wx-night i:nth-child(5){left:62%;top:12%;animation-delay:1.8s}
+.wx-night i:nth-child(6){left:76%;top:30%;animation-delay:.2s}
+.wx-night i:nth-child(7){left:88%;top:16%;animation-delay:1.4s}
+.wx-night i:nth-child(8){left:35%;top:36%;animation-delay:2.2s}
+@keyframes sunPulse{0%,100%{opacity:.65;transform:scale(1)}50%{opacity:.95;transform:scale(1.08)}}
+@keyframes birdFly{0%{transform:translateX(0)}100%{transform:translateX(250%)}}
+@keyframes rainFall{0%{background-position:0 0}100%{background-position:-26px 52px}}
+@keyframes drop{0%{transform:translateY(-40px);opacity:0}20%{opacity:.8}100%{transform:translateY(330px);opacity:0}}
+@keyframes cloudDrift{0%{transform:translateX(0)}100%{transform:translateX(9%)}}
+@keyframes twinkle{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){
+  .wx *,.wx{animation:none!important}
+}
+@media (max-width:360px){.stage{height:236px}}
+html.hc .stage{border-color:#8a7550}
+html.hc .stage .bubble{background:#fff8e8;border-color:#8a7550;color:#241c12}
+
+
+/* ===== v1.5 视图与清爽：横屏 / 全屏 / 呼吸 / 透气泡 / 设置卡 ===== */
+.viewtools{display:flex;gap:4px;margin-right:5px}
+.vbtn{width:27px;height:27px;line-height:1;border-radius:50%;padding:0;
+  border:1px solid rgba(120,98,68,.5);background:rgba(255,250,238,.88);
+  color:#6a5940;font-size:15px;font-family:inherit;cursor:pointer;
+  display:inline-flex;align-items:center;justify-content:center}
+.vbtn:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
+.stage-tools{display:flex;align-items:center;gap:5px}
+.stage-tools .sndgroup{position:static;max-width:none;gap:3px}
+.stage-tools .sndbtn span{display:none}          /* 工具条图标化，清爽 */
+.stage-tools .sndbtn{width:27px;height:27px;padding:0;border-radius:50%;
+  justify-content:center;background:rgba(255,250,238,.88);color:#6a5940;
+  border-color:rgba(120,98,68,.45)}
+.stage-tools .sndbtn.on{color:#9a7434;border-color:#9a7434;background:rgba(255,248,228,.95)}
+
+/* 气泡更透；三档可调 */
+.stage .bubble{background:linear-gradient(180deg,rgba(255,250,238,.58),rgba(247,238,220,.52));
+  backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
+  border-color:rgba(120,98,68,.38);box-shadow:0 2px 8px rgba(80,64,42,.10)}
+.stage .bubble:after{background:rgba(247,238,220,.62)}
+html.bub-light .stage .bubble{background:linear-gradient(180deg,rgba(255,250,238,.58),rgba(247,238,220,.52))}
+html.bub-light .stage .bubble:after{background:rgba(247,238,220,.62)}
+html.bub-normal .stage .bubble{background:linear-gradient(180deg,rgba(255,250,238,.80),rgba(247,238,220,.76))}
+html.bub-normal .stage .bubble:after{background:rgba(247,238,220,.80)}
+html.bub-solid .stage .bubble{background:linear-gradient(180deg,rgba(255,250,238,.96),rgba(247,238,220,.94))}
+html.bub-solid .stage .bubble:after{background:rgba(247,238,220,.95)}
+.bubble-voice{float:right;margin:-2px 0 0 8px;font-family:inherit;font-size:calc(10px * var(--fs));
+  padding:2px 7px;border-radius:10px;border:1px solid rgba(120,98,68,.45);
+  background:rgba(255,255,255,.45);color:#6a5940;cursor:pointer}
+.stage-tag{opacity:.72;font-weight:400}
+
+/* 呼吸微表演：换层淡入 + 缓慢起伏，相位由固定散列给，不调用主随机数 */
+.stage-char{animation:breathe 4.4s ease-in-out var(--breath-delay,0s) infinite,
+  layerIn .42s ease-out both;transform-origin:50% 88%}
+@keyframes breathe{
+  /* v2.4：必须用独立 translate/scale 属性。若写成 transform 声明，
+     会被后面「可点可拖」那条带 !important 的同名声明整个压死，呼吸看着完全不动。 */
+  0%,100%{translate:0 0;scale:1}
+  50%{translate:0 -4px;scale:1.014}
+}
+@keyframes layerIn{from{opacity:.35}to{opacity:1}}
+
+/* 三档舞台尺寸 */
+.stage.sz-compact{height:112px}
+.stage.sz-compact .stage-char{height:76%;bottom:2px}
+.stage.sz-compact .stage .bubble,.stage.sz-compact .bubble{display:none}
+.stage.sz-compact .wx{opacity:.55}
+.stage.sz-compact .stage-tag{top:5px;left:6px}
+.stage.sz-immersive{height:210px;background:transparent;border-color:transparent}
+.stage.sz-immersive .stage-bg{display:none}
+.stage.sz-immersive .stage-char{height:170px;max-width:72vw;bottom:8px}
+
+/* 背景全屏：body 伪元素铺同一张背景板，UI 浮在其上 */
+html.bgfull body{background:#e9dcc6}
+html.bgfull body:before{content:"";position:fixed;inset:0;z-index:-1;
+  background:var(--stage-bg) center 42%/cover no-repeat}
+html.bgfull body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:linear-gradient(180deg,rgba(24,20,15,.16),rgba(24,20,15,.52))}
+html.bgfull .card{background:rgba(26,22,16,.80);backdrop-filter:blur(6px);
+  -webkit-backdrop-filter:blur(6px)}
+html.bgfull .tabs{background:rgba(16,14,11,.88)}
+html.bgfull .stage .bubble{background:rgba(255,250,238,.62)}
+
+/* 横屏布局：两栏、舞台压矮，选项更容易一屏看完 */
+html.landscape .app{max-width:none;padding:8px 16px}
+html.landscape .stage{height:150px}
+html.landscape .stage-char{height:78%}
+html.landscape .opts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+html.landscape .head{margin-top:0}
+@media (orientation:landscape) and (max-height:520px){
+  .stage{height:142px}
+  .opts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+}
+
+/* 选项全部铺开，不截断、不折叠 */
+.opts{max-height:none!important;overflow:visible!important}
+.opt .t,.opt .e,.opt .estat,.opt .basis,.opt .risk,.opt .note{
+  white-space:normal;overflow:visible;text-overflow:clip;display:block}
+
+/* 设置卡：精简 / 单独收起 */
+.setbar{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:0 0 10px;
+  padding:8px 10px;border:1px solid var(--line);border-radius:10px;
+  background:rgba(255,248,228,.05);font-size:calc(12px * var(--fs))}
+.setbar button{font-family:inherit;font-size:calc(11px * var(--fs));padding:3px 10px;
+  border-radius:12px;border:1px solid var(--line);background:none;color:var(--ink);cursor:pointer}
+.setbar button.on{color:var(--gold);border-color:var(--gold)}
+.setbar .mini{flex:1;min-width:120px}
+.foldbtn{float:right;font-family:inherit;font-size:12px;line-height:1;padding:1px 6px;
+  border-radius:8px;border:1px solid var(--line);background:none;color:var(--dim);cursor:pointer}
+.card.folded>:not(.tagline){display:none!important}
+.card.folded{margin-bottom:6px}
+
+/* 表演关卡表 */
+.scenelist{margin-top:8px;border-top:1px dotted var(--line);padding-top:6px}
+.scenelist summary{cursor:pointer;color:var(--gold);font-size:calc(12px * var(--fs))}
+.scenerow{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline;padding:5px 2px;
+  border-bottom:1px dotted #3d3223;font-size:calc(12px * var(--fs))}
+.scenerow b{min-width:120px;font-weight:600}
+.scenerow .mini{flex:1;min-width:120px}
+.scenerow em{font-style:normal;color:var(--gold);font-size:calc(11px * var(--fs))}
+.scenerow.locked em{color:var(--dim)}
+.scenerow.locked b{opacity:.72}
+
+/* 新增天气：雪 / 风沙 */
+.wx-snow i{position:absolute;top:-8%;width:6px;height:6px;border-radius:50%;
+  background:rgba(255,255,255,.85);animation:snowFall 6s linear infinite}
+.wx-snow i:nth-child(1){left:9%;animation-delay:.2s}
+.wx-snow i:nth-child(2){left:24%;animation-delay:1.4s}
+.wx-snow i:nth-child(3){left:39%;animation-delay:2.7s}
+.wx-snow i:nth-child(4){left:56%;animation-delay:.9s}
+.wx-snow i:nth-child(5){left:73%;animation-delay:3.4s}
+.wx-snow i:nth-child(6){left:88%;animation-delay:2.1s}
+@keyframes snowFall{0%{transform:translateY(-10px) translateX(0);opacity:0}
+  15%{opacity:.9}100%{transform:translateY(300px) translateX(22px);opacity:0}}
+.wx-dust{background:linear-gradient(180deg,rgba(196,170,126,.20),rgba(196,170,126,0) 70%)}
+.wx-dust span{position:absolute;left:-30%;width:70%;height:42%;border-radius:50%;
+  background:radial-gradient(ellipse,rgba(198,172,128,.30),rgba(198,172,128,0) 70%);
+  animation:dustDrift 9s linear infinite}
+.wx-dust span:nth-child(1){top:18%;animation-delay:0s}
+.wx-dust span:nth-child(2){top:44%;animation-delay:3s}
+.wx-dust span:nth-child(3){top:66%;animation-delay:6s}
+@keyframes dustDrift{0%{transform:translateX(0)}100%{transform:translateX(210%)}}
+@media (prefers-reduced-motion:reduce){
+  .stage-char,.wx *,.wx,.wx-snow i,.wx-dust span{animation:none!important}
+}
+html.hc .stage .bubble{background:rgba(255,248,232,.86);border-color:#8a7550}
+
+
+/* ===== v1.6 抽屉与极透小气泡 ===== */
+/* 气泡：更透、更小，点 … 才展开全文 */
+.stage .bubble{background:linear-gradient(180deg,rgba(255,250,238,.26),rgba(247,238,220,.22));
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-color:rgba(120,98,68,.26);box-shadow:0 1px 5px rgba(80,64,42,.06);
+  padding:4px 7px;max-width:64%;font-size:calc(11px * var(--fs));line-height:1.35;
+  border-radius:9px}
+.stage .bubble .who{font-size:calc(9px * var(--fs));opacity:.72;margin-right:5px}
+.stage .bubble .say{display:inline}
+.stage .bubble:after{background:rgba(247,238,220,.34);border-color:rgba(120,98,68,.22)}
+.stage .bubble.expanded{max-width:88%;font-size:calc(12px * var(--fs));
+  background:linear-gradient(180deg,rgba(255,250,238,.46),rgba(247,238,220,.42))}
+.bubble-more{font-family:inherit;font-size:calc(10px * var(--fs));line-height:1;
+  padding:1px 4px;margin:0 0 0 4px;border-radius:7px;
+  border:1px solid rgba(120,98,68,.32);background:rgba(255,255,255,.28);
+  color:#6a5940;cursor:pointer;vertical-align:middle}
+.bubble-voice{margin:-1px 0 0 4px;padding:1px 5px;font-size:calc(9px * var(--fs));
+  background:rgba(255,255,255,.28);vertical-align:middle}
+html.bub-light .stage .bubble{background:linear-gradient(180deg,rgba(255,250,238,.26),rgba(247,238,220,.22))}
+html.bub-light .stage .bubble:after{background:rgba(247,238,220,.34)}
+html.bub-normal .stage .bubble{background:linear-gradient(180deg,rgba(255,250,238,.62),rgba(247,238,220,.58))}
+html.bub-normal .stage .bubble:after{background:rgba(247,238,220,.64)}
+html.bub-solid .stage .bubble{background:linear-gradient(180deg,rgba(255,250,238,.96),rgba(247,238,220,.94))}
+html.bgfull .stage .bubble{background:rgba(255,250,238,.34)}
+
+/* 齿轮：三颗视图按键默认收起，只露一颗 */
+.vgear{width:27px;height:27px;line-height:1;border-radius:50%;padding:0;
+  border:1px solid rgba(120,98,68,.5);background:rgba(255,250,238,.88);
+  color:#6a5940;font-size:14px;font-family:inherit;cursor:pointer;
+  display:inline-flex;align-items:center;justify-content:center}
+.vgear.on{color:#9a7434;border-color:#9a7434;background:rgba(255,248,228,.95)}
+.stage-tools .viewtools{display:none}
+.stage-tools.vmopen .viewtools{display:flex}
+
+/* 独立设置抽屉 */
+.panel.setdrawer{position:fixed;inset:0;z-index:30;margin:0;
+  overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;
+  background:rgba(16,14,11,.975);backdrop-filter:blur(6px);
+  padding:0 12px calc(84px + env(safe-area-inset-bottom));
+  border-left:1px solid var(--line)}
+.drawerbar{position:sticky;top:0;z-index:3;display:flex;align-items:center;gap:8px;
+  flex-wrap:wrap;padding:10px 0;margin:0 0 8px;
+  background:rgba(16,14,11,.98);border-bottom:1px solid var(--line)}
+.drawerclose{flex:1;min-width:190px;font-family:inherit;
+  font-size:calc(14px * var(--fs));font-weight:600;letter-spacing:1px;
+  padding:11px 14px;border-radius:12px;cursor:pointer;
+  color:#f6ead0;background:#7a3a2a;border:2px solid var(--gold);
+  box-shadow:0 2px 10px rgba(0,0,0,.35)}
+.drawerclose:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.drawergrip{font-family:inherit;font-size:calc(11px * var(--fs));color:var(--dim);
+  padding:6px 9px;border:1px dashed var(--line);border-radius:9px;
+  cursor:ns-resize;touch-action:none;user-select:none}
+.drawerver{font-size:calc(10px * var(--fs));color:var(--dim)}
+.panel.setdrawer .setbar{position:sticky;top:60px;z-index:2;background:rgba(24,20,15,.96)}
+.panel.setdrawer .card{margin-bottom:9px}
+.panel.setdrawer .foldbtn{font-size:14px;padding:3px 9px}
+@media (min-width:640px){
+  .panel.setdrawer{left:auto;right:0;width:min(560px,92vw);
+    border-left:2px solid var(--gold);box-shadow:-12px 0 32px rgba(0,0,0,.55)}
+}
+
+/* v1.6：设置抽屉打开时底部导航仍可点，随时能退出 */
+.tabs{z-index:40}
+
+
+/* ===== v1.7 扁平横气泡与主页极简 ===== */
+.stage .bubble{left:4%;right:4%;bottom:7px;max-width:none;width:auto;
+  min-height:30px;max-height:40px;padding:4px 9px;border-radius:9px;
+  display:flex;align-items:center;gap:6px;flex-wrap:nowrap;
+  background:linear-gradient(90deg,rgba(255,250,238,.60),rgba(247,238,220,.52));
+  backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px);
+  border:1px solid rgba(120,98,68,.36);box-shadow:0 1px 4px rgba(80,64,42,.08);
+  color:#2e2519;font-size:calc(12px * var(--fs));line-height:1.35}
+.stage .bubble:after{display:none}
+.stage .bubble .who{display:inline;flex:0 0 auto;margin:0;opacity:.78;
+  font-size:calc(9px * var(--fs));letter-spacing:0;color:#8a6a30}
+.stage .bubble .say{display:block;flex:1 1 auto;min-width:0;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  color:#2b2218;font-weight:600;
+  text-shadow:0 1px 2px rgba(255,250,238,.98),0 0 3px rgba(255,250,238,.92),
+              0 0 1px rgba(255,250,238,1)}
+.stage .bubble .bubble-more,.stage .bubble .bubble-voice{flex:0 0 auto;float:none;
+  margin:0;vertical-align:middle}
+.stage .bubble.expanded{max-height:none;flex-wrap:wrap;padding:8px 10px}
+.stage .bubble.expanded .say{white-space:normal;overflow:visible;text-overflow:clip;flex-basis:100%}
+html.bub-veil .stage .bubble{background:linear-gradient(90deg,rgba(255,250,238,.60),rgba(247,238,220,.52))}
+html.bub-light .stage .bubble{background:linear-gradient(90deg,rgba(255,250,238,.28),rgba(247,238,220,.24))}
+html.bub-normal .stage .bubble{background:linear-gradient(90deg,rgba(255,250,238,.80),rgba(247,238,220,.76))}
+html.bub-solid .stage .bubble{background:linear-gradient(90deg,rgba(255,250,238,.97),rgba(247,238,220,.95))}
+html.bgfull .stage .bubble{background:linear-gradient(90deg,rgba(255,250,238,.64),rgba(247,238,220,.56))}
+html.hc .stage .bubble{background:rgba(255,248,232,.90)}
+
+/* 立绘放大：全身完整 / 半身构图 */
+.stage.char-full .stage-char{height:100%;bottom:0;max-width:96%}
+.stage.char-half .stage-char{height:176%;bottom:-62%;max-width:100%}
+.stage.char-half .bubble{bottom:9px}
+.stage.sz-compact .stage-char{height:92%;bottom:0;max-width:96%}
+.stage.sz-immersive .stage-char{height:190px;max-width:78vw;bottom:6px}
+
+/* 主页极简：只收指示条，史实正文、选项与数值不动 */
+html.minimal .tierbar,
+html.minimal .min-hide{display:none!important}
+html.minimal .head{margin-top:2px;padding:2px 2px 4px}
+html.minimal .head .yr{font-size:calc(17px * var(--fs))}
+html.minimal .head .era{font-size:calc(10px * var(--fs))}
+html.minimal .volbar,html.minimal .min-slim{
+  padding:4px 7px;margin:3px 0;font-size:calc(10px * var(--fs));
+  line-height:1.35;border-radius:7px}
+html.minimal .min-slim .mini,html.minimal .min-slim .row{font-size:calc(10px * var(--fs))}
+html.minimal .stats{gap:3px}
+html.minimal .tabs-min button{padding:8px 2px;font-size:calc(10px * var(--fs));letter-spacing:0}
+html.minimal .tabs-min{border-top-width:1px}
+html.minimal .stage{margin-bottom:6px}
+html.minimal .artwrap{margin-bottom:4px}
+html:not(.minimal) .min-slim{padding:9px 2px;font-size:calc(13px * var(--fs))}
+.vguide{width:auto;padding:0 8px;border-radius:14px;font-size:calc(10px * var(--fs));
+  letter-spacing:0;white-space:nowrap}
+.vguide.on{color:#9a7434;border-color:#9a7434;background:rgba(255,248,228,.95)}
+
+
+/* ===== v1.8 AVG 全屏舞台 / 统一透明度 / 进度弹窗 ===== */
+html{--veil:.35}
+/* 舞台容器不占位也不建层叠上下文；背景与立绘沉到 -1，按钮与气泡浮到高层，
+   否则 fixed 背景会盖住主面板并拦截点击 */
+html.avg .stage{position:static;height:0;min-height:0;margin:0;border:0;
+  border-radius:0;background:transparent;overflow:visible;isolation:auto}
+/* 背景与立绘用 z-index:0 而非 -1：body 有不透明背景，负层级会被它盖掉 */
+html.avg .stage-bg{position:fixed;inset:0;width:100vw;height:100vh;height:100dvh;
+  object-position:center 36%;z-index:0}
+html.avg .stage-char{position:fixed;left:50%;bottom:26vh;
+  transform:translateX(-50%);height:66vh!important;max-width:92vw!important;
+  bottom:26vh!important;opacity:1!important;
+  width:auto;object-fit:contain;z-index:0}
+html.avg .stage .bubble{position:fixed;left:3%;right:3%;
+  top:calc(50vh - 48px);bottom:auto;
+  z-index:45;width:auto;max-width:none;pointer-events:auto;
+  background:rgba(255,250,238,var(--veil));
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+html.avg .stage .bubble.expanded{max-height:50vh;overflow-y:auto}
+html.avg .stage-tools{position:fixed;top:calc(46px + env(safe-area-inset-top));
+  right:8px;z-index:50;pointer-events:auto}
+html.avg .stage-char,html.avg .stage-bg{pointer-events:none}
+html.avg #app{position:relative;padding-top:0;background:transparent}
+/* 主内容固定在下半屏并内部滚动：上半屏的角色永远完整露着 */
+html.avg .panel.on{position:fixed;left:0;right:0;top:50vh;bottom:0;
+  z-index:2;overflow-y:auto;overscroll-behavior:contain;
+  -webkit-overflow-scrolling:touch;
+  max-width:640px;margin:0 auto;
+  background:transparent;border:0;box-shadow:none;
+  padding-top:8px;padding-bottom:calc(120px + env(safe-area-inset-bottom))}
+/* 原指示条视觉收起，DOM 与读屏内容一字不删 */
+html.avg .avg-slim{position:absolute!important;width:1px!important;height:1px!important;
+  overflow:hidden!important;opacity:0!important;pointer-events:none!important;
+  margin:0!important;padding:0!important;left:-9999px!important}
+
+/* 顶部进度缩略条 */
+html.avg .pchip{position:fixed;top:calc(6px + env(safe-area-inset-top));
+  left:3%;right:3%;z-index:36}
+.pchip-sum{width:100%;box-sizing:border-box;display:flex;align-items:center;gap:7px;
+  padding:5px 9px;border-radius:10px;
+  background:rgba(255,250,238,var(--veil));
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  border:1px solid rgba(120,98,68,.4);
+  font-family:inherit;font-size:calc(11px * var(--fs));
+  color:#2b2218;font-weight:600;cursor:pointer;text-align:left;
+  text-shadow:0 1px 2px rgba(255,250,238,.98)}
+.pchip-y{flex:0 0 auto;color:#8a6a30}
+.pchip-v{flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap;opacity:.9}
+.pchip-bars{flex:1 1 auto;display:flex;align-items:flex-end;
+  justify-content:flex-end;gap:2px;height:14px;min-width:0}
+.pchip-bars i{display:block;width:4px;border-radius:2px 2px 0 0;
+  background:#9a7434;opacity:.85}
+.pchip-go{flex:0 0 auto;font-size:calc(10px * var(--fs));color:#8a6a30}
+
+/* 详情弹窗：与气泡共用同一透明度 */
+.pchip-detail{display:none}
+.pchip.open .pchip-detail{display:block;position:fixed;
+  top:calc(48px + env(safe-area-inset-top));left:3%;right:3%;
+  max-height:72vh;overflow-y:auto;overscroll-behavior:contain;
+  z-index:39;padding:10px 12px 16px;border-radius:14px;
+  background:rgba(255,250,238,var(--veil));
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border:1px solid rgba(120,98,68,.45);
+  box-shadow:0 8px 30px rgba(60,46,28,.22);color:#2b2218}
+.veilbar{display:flex;align-items:center;gap:10px;position:sticky;top:-10px;
+  padding:4px 0 8px;margin:0 0 8px;
+  border-bottom:1px solid rgba(120,98,68,.35);
+  background:rgba(255,250,238,.55);
+  font-size:calc(11px * var(--fs));font-weight:600}
+.veilclose{font-family:inherit;font-size:calc(13px * var(--fs));font-weight:700;
+  padding:7px 12px;border-radius:10px;cursor:pointer;color:#fff8e8;
+  background:#7a3a2a;border:2px solid var(--gold)}
+.pchip-body .head,.pchip-body .tierbar,.pchip-body .volbar,
+.pchip-body .stats,.pchip-body .mini.center{
+  display:block!important;position:static!important;width:auto!important;
+  height:auto!important;overflow:visible!important;opacity:1!important;
+  pointer-events:auto!important;left:auto!important;
+  margin:6px 0!important;padding:6px 8px!important;
+  border-radius:8px;background:rgba(255,250,238,.45);
+  color:#2b2218;font-size:calc(11px * var(--fs))}
+.pchip-body .stats{display:grid!important;grid-template-columns:repeat(4,1fr);gap:5px}
+.pchip-body .stats .st{background:rgba(255,250,238,.55);padding:5px;
+  border-radius:7px;color:#2b2218}
+.pchip-body .yr,.pchip-body .vt{color:#8a6a30}
+.pchip-body .mini{color:#4a3d29!important}
+
+/* 主面板卡片与选项：暖白半透 + 深字 + 浅色光晕，最透也读得清 */
+html.avg .panel.on .card,
+html.avg .panel.on .opt,
+html.avg .panel.on .gather,
+html.avg .panel.on .note,
+html.avg .panel.on .warnbar{
+  background:rgba(255,250,238,var(--veil));
+  backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
+  border-color:rgba(120,98,68,.4);box-shadow:none}
+html.avg .panel.on .card *,
+html.avg .panel.on .opt *{
+  /* v2.5：0 0 3px 的白色光晕会把细笔画糊成浅灰，35% 半透下正文发虚。
+     收紧到 2px，再给主要文字补一层极细的同色描边，笔画立得住。 */
+  text-shadow:0 1px 1px rgba(255,250,238,.98),0 0 2px rgba(255,250,238,.72)}
+html.avg .panel.on h2,
+html.avg .panel.on .story,
+html.avg .panel.on .opt .t{
+  color:#241a10;-webkit-text-stroke:.16px #241a10}
+html.avg .panel.on h2,html.avg .panel.on .card,html.avg .panel.on .opt,
+html.avg .panel.on .result,html.avg .panel.on .story,
+html.avg .panel.on .mini,html.avg .panel.on .row,
+html.avg .panel.on .optbody,html.avg .panel.on .note,
+html.avg .panel.on .gather{color:#2b2218}
+html.avg .panel.on .tagline{color:#7a5a20}
+html.avg .panel.on .mini,html.avg .panel.on .s{color:#4a3d29!important}
+html.avg .panel.on .gain,html.avg .panel.on .g{color:#2f6b3a!important}
+html.avg .panel.on .cost,html.avg .panel.on .c{color:#9a3b28!important}
+html.avg .panel.on .risk{color:#8a5a1e!important}
+html.avg .panel.on .hr{border-color:rgba(120,98,68,.35)}
+html.avg .panel.on .opt .badge{color:#fff8e8;text-shadow:none}
+html.avg .panel.on .big{display:inline-block;width:calc(50% - 6px);
+  vertical-align:top;padding:10px 6px;margin:0;
+  font-size:calc(12px * var(--fs));letter-spacing:1px}
+html.avg .panel.on .big.alt{margin-left:8px}
+
+/* 长卡折叠成一行，点开看全文 */
+html.avg .panel.on .card.longfold{position:relative;max-height:46px;
+  overflow:hidden;padding-right:98px}
+html.avg .panel.on .card.longfold.lfold-open{max-height:none;overflow:visible}
+.longfold-btn{position:absolute;right:8px;top:8px;z-index:3;
+  font-family:inherit;font-size:calc(10px * var(--fs));padding:3px 7px;
+  border-radius:8px;border:1px solid rgba(120,98,68,.5);
+  background:rgba(255,250,238,.9);color:#6a5940;cursor:pointer}
+html.avg .panel.on .card.longfold .longfold-btn{text-shadow:none}
+
+/* 设置页滑杆 */
+.veilrow{display:flex;align-items:center;gap:8px}
+.veilrow input[type=range]{flex:1;min-width:120px;accent-color:var(--gold)}
+.veilrow b{font-size:calc(11px * var(--fs));color:var(--gold);min-width:38px}
+
+/* ===== 横屏：明显的横向两栏，舞台固定在左 ===== */
+html.landscape .stage{position:fixed!important;left:0;top:0;
+  width:38vw!important;height:100vh!important;height:100dvh!important;
+  margin:0;border:0;border-radius:0;z-index:0}
+html.landscape .stage-bg{position:absolute;inset:0;width:100%;height:100%;
+  z-index:0;object-position:center 40%}
+html.landscape .stage-char{position:absolute;left:50%;bottom:8vh;
+  height:56vh;max-width:36vw;transform:translateX(-50%);z-index:1}
+html.landscape .stage .bubble{position:absolute;left:3%;right:3%;bottom:10px;z-index:6}
+html.landscape .stage-tools{position:absolute;top:8px;right:auto;left:8px;z-index:100}
+html.landscape #app{padding-left:38vw!important;padding-right:0}
+html.landscape .panel.on{padding-top:8px!important;padding-bottom:110px}
+html.landscape .pchip{left:calc(38vw + 2%);right:2%}
+html.landscape .pchip.open .pchip-detail{left:calc(38vw + 2%);right:2%}
+html.landscape .opts{grid-template-columns:1fr}
+html.landscape .stage-tools{right:auto;left:8px}
+@media (max-width:520px){
+  /* v2.4：窄屏下改成「舞台铺满上半屏、内容在下、选项两列」的横向布局。
+     原先 42vw 只有一百多像素，点了像没反应，这是用户反复说横屏不了的原因之一。 */
+  html.landscape .stage{width:100vw!important;height:40vh!important;height:40dvh!important;
+    top:0;left:0;right:0}
+  html.landscape .stage-char{height:34vh;bottom:3vh;max-width:72vw}
+  html.landscape #app{padding-left:0!important;padding-top:40vh!important;padding-top:40dvh!important}
+  html.landscape .panel.on{padding-top:8px!important;padding-bottom:90px}
+  html.landscape .opts{grid-template-columns:1fr 1fr}
+  html.landscape .pchip{left:2%!important;right:2%;top:calc(40dvh + 6px);bottom:auto}
+  html.landscape .pchip.open .pchip-detail{left:2%!important;right:2%}
+  html.landscape .stage .bubble{left:3%;right:3%;bottom:8px}
+}
+
+
+/* v1.8 长依据折叠：内容始终在 DOM，点开看全文，主页短下来 */
+html.avg .avgfold{max-height:34px;overflow:hidden;transition:max-height .18s ease}
+html.avg .avgfold.open{max-height:none;overflow:visible}
+.avgfold-btn{font-family:inherit;font-size:calc(10px * var(--fs));
+  padding:4px 9px;margin:4px 0;border-radius:8px;cursor:pointer;
+  border:1px solid rgba(120,98,68,.5);background:rgba(255,250,238,.75);
+  color:#5a4a32;text-shadow:none}
+html.avg .avgfold.open .avgfold-btn{background:rgba(255,250,238,.95)}
+
+
+/* ===== v1.8 横屏 + AVG：左舞台全高、右内容全高的真两栏 ===== */
+html.landscape.avg .panel.on{left:42vw;right:0;top:44px;bottom:0;
+  padding-top:6px;padding-bottom:80px;overflow-y:auto}
+html.landscape.avg .pchip{left:calc(42vw + 2%);right:2%;top:6px}
+html.landscape.avg .pchip.open .pchip-detail{left:calc(42vw + 2%);right:2%}
+html.landscape.avg .stage-tools{position:fixed;left:8px;right:auto;
+  top:calc(48px + env(safe-area-inset-top));z-index:50;
+  flex-wrap:wrap;max-width:150px;gap:3px;
+  background:rgba(255,250,238,.55);padding:4px;border-radius:10px}
+html.landscape.avg .stage .bubble{position:absolute;top:auto;bottom:10px;
+  left:4%;right:4%;width:auto;max-width:none;z-index:6}
+html.landscape.avg .stage-char{height:62vh!important;bottom:14vh!important}
+html.landscape.avg .stage-bg{position:absolute;inset:0;width:100%;height:100%}
+
+
+/* ===== v1.9 皮肤跟随系统 / 场景与人物选择 / 互动动画 ===== */
+html.skin-light{
+  --bg:#f2e9d5;--paper:#fffaf0;--paper2:#efe2c8;--line:#c9b38c;
+  --ink:#3a3122;--dim:#6b5940;--gold:#8d6a26;--green:#3f7a4a;--blue:#416a8a}
+html.skin-light .card,html.skin-light .head,html.skin-light .volbar,
+html.skin-light .st,html.skin-light .opt,html.skin-light .panel.on{
+  background:#fffaf0;color:#3a3122}
+html.skin-light .tierbar,html.skin-light .warnbar{background:linear-gradient(90deg,#f6ecd6,#fffaf0)}
+html.skin-light .tabs{background:#f2e9d5ee}
+html.skin-light .tabs button{color:#6b5940}
+html.skin-light .tabs button.on{color:#8d6a26}
+html.skin-light .mini,html.skin-light .s{color:#6b5940}
+html.skin-light .opt,html.skin-light .card{border-color:#c9b38c}
+html.skin-light .badge,html.skin-light button.pill{background:#f6ecd6;color:#5a4a32}
+@media (prefers-color-scheme:light){
+  html.skin-auto{
+    --bg:#f2e9d5;--paper:#fffaf0;--paper2:#efe2c8;--line:#c9b38c;
+    --ink:#3a3122;--dim:#6b5940;--gold:#8d6a26;--green:#3f7a4a;--blue:#416a8a}
+  html.skin-auto .card,html.skin-auto .head,html.skin-auto .volbar,
+  html.skin-auto .st,html.skin-auto .opt,html.skin-auto .panel.on{
+    background:#fffaf0;color:#3a3122}
+  html.skin-auto .tierbar,html.skin-auto .warnbar{background:linear-gradient(90deg,#f6ecd6,#fffaf0)}
+  html.skin-auto .tabs{background:#f2e9d5ee}
+  html.skin-auto .tabs button{color:#6b5940}
+  html.skin-auto .tabs button.on{color:#8d6a26}
+  html.skin-auto .mini,html.skin-auto .s{color:#6b5940}
+  html.skin-auto .opt,html.skin-auto .card{border-color:#c9b38c}
+  html.skin-auto .badge,html.skin-auto button.pill{background:#f6ecd6;color:#5a4a32}
+}
+html.skin-dark .stage-bg{filter:brightness(.82) saturate(.92)}
+@media (prefers-color-scheme:dark){
+  html.skin-auto .stage-bg{filter:brightness(.82) saturate(.92)}
+}
+html.skin-light .stage-bg,html.skin-light .stage-tools{filter:none}
+
+/* 立绘可点可拖：位移用独立变量，不破坏 contain 与半身构图 */
+.stage-char{
+  transform:translateX(-50%) translate(var(--char-dx,0px),var(--char-dy,0px))!important;
+  pointer-events:none;cursor:grab;touch-action:none;
+  transition:transform .18s ease,filter .18s ease}
+html.avg .stage-char,html.landscape .stage-char,html.landscape.avg .stage-char{
+  transform:translateX(-50%) translate(var(--char-dx,0px),var(--char-dy,0px))!important;
+  pointer-events:none!important}
+.stage-char.ch-grab{transition:none;cursor:grabbing;
+  filter:drop-shadow(0 14px 18px rgba(80,60,30,.32))}
+.stage-char.ch-tap{animation:chTap .46s ease!important}
+.stage-char.ch-drop{animation:chDrop .4s ease!important}
+.stage-char.ch-perform{animation:chPerform .52s ease!important}
+@keyframes chTap{0%{scale:1;translate:0 0}42%{scale:1.055;translate:0 -9px}100%{scale:1;translate:0 0}}
+@keyframes chDrop{0%{scale:1.04;translate:0 -4px}60%{scale:.985;translate:0 3px}100%{scale:1;translate:0 0}}
+@keyframes chPerform{0%{opacity:.72;scale:.985}45%{opacity:1;scale:1.02}100%{opacity:1;scale:1}}
+html.rm .stage-char,html.rm .stage-bg{animation:none!important;transition:none!important}
+
+/* 场景缩略图选择 */
+.bdgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:9px}
+.bdpick{position:relative;display:flex;flex-direction:column;align-items:stretch;
+  padding:4px;border-radius:10px;border:1px solid var(--line);
+  background:var(--paper);color:var(--ink);font-family:inherit;cursor:pointer;
+  font-size:calc(10px * var(--fs));overflow:hidden}
+.bdpick img{width:100%;height:74px;object-fit:cover;border-radius:6px;display:block}
+.bdpick span{display:block;margin-top:3px;font-weight:700}
+.bdpick em{display:block;font-style:normal;color:var(--dim);font-size:calc(9px * var(--fs))}
+.bdpick.on{border-color:var(--gold);box-shadow:0 0 0 2px rgba(201,162,39,.35)}
+.bdpick.on em{color:var(--gold)}
+.bdpick.locked{opacity:.55;cursor:not-allowed}
+.bdpick.locked img{filter:grayscale(.65)}
+
+/* 人物表演层选择 */
+.layerlist{margin-top:8px}
+.layerlist summary{cursor:pointer;color:var(--gold);font-size:calc(11px * var(--fs))}
+.layergrid{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin-top:7px}
+.lpick{display:flex;flex-direction:column;gap:2px;padding:6px 5px;border-radius:8px;
+  border:1px solid var(--line);background:var(--paper);color:var(--ink);
+  font-family:inherit;font-size:calc(10px * var(--fs));cursor:pointer;text-align:left}
+.lpick em{font-style:normal;color:var(--dim);font-size:calc(9px * var(--fs))}
+.lpick.locked{opacity:.5;cursor:not-allowed}
+
+/* 关卡表紧凑 + 已通关折到最后 */
+.scenerow{display:flex;align-items:center;gap:6px;flex-wrap:nowrap;
+  padding:4px 6px;margin:2px 0;border-radius:7px;
+  background:var(--paper);border:1px solid var(--line);
+  font-size:calc(10px * var(--fs));line-height:1.35}
+.scenerow b{flex:0 0 auto;color:var(--ink);font-weight:700}
+.scenerow .mini{flex:1 1 auto;min-width:0;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap;color:var(--dim)}
+.scenerow em{flex:0 0 auto;font-style:normal;color:var(--gold);white-space:nowrap}
+.scenerow.locked em{color:var(--red2)}
+.scenedone{margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
+.scenedone summary{cursor:pointer;color:var(--dim);font-size:calc(11px * var(--fs))}
+.scenedone .scenerow{opacity:.72}
+
+/* 浅色皮肤：把所有硬编码暗底的按钮一并翻过来，避免暗字压暗底 */
+html.skin-light .sel button,html.skin-light .viewsel button,
+html.skin-light .layerbar button,html.skin-light .maptools button,
+html.skin-light .sndbtn,html.skin-light .foldbtn,
+html.skin-light .lpick,html.skin-light .bdpick,html.skin-light .scenerow{
+  background:#f6ecd6;color:#3a3122}
+html.skin-light .sel button.on,html.skin-light .viewsel button.on,
+html.skin-light .sndbtn.on,html.skin-light .bdpick.on{background:#e9d6ac;color:#7a5818}
+html.skin-light .opt{border-color:#c9b38c}
+html.skin-light .panel.setdrawer{background:#f2e9d5}
+@media (prefers-color-scheme:light){
+  html.skin-auto .sel button,html.skin-auto .viewsel button,
+  html.skin-auto .layerbar button,html.skin-auto .maptools button,
+  html.skin-auto .sndbtn,html.skin-auto .foldbtn,
+  html.skin-auto .lpick,html.skin-auto .bdpick,html.skin-auto .scenerow{
+    background:#f6ecd6;color:#3a3122}
+  html.skin-auto .sel button.on,html.skin-auto .viewsel button.on,
+  html.skin-auto .sndbtn.on,html.skin-auto .bdpick.on{background:#e9d6ac;color:#7a5818}
+  html.skin-auto .opt{border-color:#c9b38c}
+  html.skin-auto .panel.setdrawer{background:#f2e9d5}
+}
+
+
+/* ===== v2.0 气泡拖放 / 全屏原稿预览 / emoji 速览 / 紧凑布局 ===== */
+.stage .bubble{
+  width:var(--bub-w,auto);height:var(--bub-h,auto);
+  min-width:0;max-width:calc(100vw - 8px);
+  transform:translate(var(--bub-dx,0px),var(--bub-dy,0px));
+  transition:box-shadow .16s ease;
+  overflow:visible}
+.stage .bubble[style*="height"],.stage .bubble:has(.bubble-resize){}
+.stage .bubble.bub-dragging{box-shadow:0 0 0 2px var(--gold),0 8px 22px #0005;z-index:20}
+.pchip-detail{width:var(--bub-w,auto);height:var(--bub-h,auto);
+  max-width:calc(100vw - 16px);overflow:auto}
+.bubble-grip{display:inline-block;margin:0 4px 0 2px;color:var(--gold);
+  font-size:calc(13px * var(--fs));cursor:grab;touch-action:none;
+  user-select:none;-webkit-user-select:none;vertical-align:middle}
+.bubble-grip:active{cursor:grabbing}
+.bubble-resize{position:absolute;right:2px;bottom:2px;width:13px;height:13px;
+  cursor:nwse-resize;touch-action:none;z-index:5;
+  background:repeating-linear-gradient(135deg,transparent 0 3px,
+    rgba(140,110,60,.72) 3px 5px,transparent 5px 8px)}
+.bubble-voice.speaking{background:var(--red2);color:#fff6e8;border-color:var(--red2)}
+
+/* 场景内 emoji 速览：把人口／职业／粮／聚／文／财压成一行 */
+.stage-hud{position:absolute;left:8px;top:34px;z-index:5;display:flex;
+  flex-wrap:wrap;gap:3px;max-width:62%}
+.stage-hud span{display:inline-block;padding:2px 5px;border-radius:9px;
+  font-size:calc(10px * var(--fs));line-height:1.3;white-space:nowrap;
+  background:rgba(255,250,238,.72);border:1px solid rgba(120,98,68,.34);
+  color:#4a3b26;backdrop-filter:blur(4px)}
+html.skin-dark .stage-hud span,html.hc .stage-hud span{background:rgba(36,29,20,.82);color:#f2e4c4}
+html.avg .stage-hud{top:calc(84px + env(safe-area-inset-top));left:10px}
+html.landscape .stage-hud{top:36px}
+@media (max-width:360px){.stage-hud span{font-size:calc(9px * var(--fs));padding:1px 4px}}
+
+/* 缩略图右上全屏角标 */
+.bdzoom{position:absolute;right:5px;top:5px;z-index:3;width:20px;height:20px;
+  border-radius:6px;display:flex;align-items:center;justify-content:center;
+  font-size:12px;line-height:1;background:rgba(255,250,238,.92);
+  color:#6a5330;border:1px solid rgba(120,98,68,.4);cursor:zoom-in}
+.bdpick.locked .bdzoom{display:none}
+
+/* 全屏原稿预览：大图 = 当前选中场景，立绘可拖但不出方框 */
+.sp-mask{position:fixed;inset:0;z-index:999;background:rgba(14,11,8,.86);
+  display:flex;align-items:center;justify-content:center;padding:12px;
+  backdrop-filter:blur(3px)}
+.sp-box{position:relative;width:min(92vw,520px);height:min(84vh,760px);
+  border:2px solid rgba(201,162,39,.7);border-radius:14px;overflow:hidden;
+  background:#efe6d2;box-shadow:0 20px 60px #0009}
+.sp-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  pointer-events:none;user-select:none}
+.sp-char{position:absolute;left:50%;bottom:6%;height:62%;width:auto;
+  max-width:78%;object-fit:contain;transform:translate(-50%,0);
+  pointer-events:auto;cursor:grab;touch-action:none;user-select:none;
+  filter:drop-shadow(0 8px 14px rgba(70,55,30,.28))}
+.sp-char.sp-grab{cursor:grabbing;filter:drop-shadow(0 16px 22px rgba(70,55,30,.4))}
+.sp-bar{position:absolute;left:0;right:0;top:0;z-index:6;display:flex;
+  align-items:center;gap:6px;flex-wrap:wrap;padding:7px 9px;
+  background:rgba(24,20,15,.82);color:#f4e8cf;font-size:calc(11px * var(--fs))}
+.sp-bar b{margin-right:auto;color:var(--gold);font-weight:600}
+.sp-keys{display:flex;gap:4px;flex-wrap:wrap;max-width:70%}
+.sp-keys button,.sp-bar>[data-sp-close]{font-family:inherit;cursor:pointer;
+  border:1px solid rgba(201,162,39,.45);border-radius:14px;padding:3px 8px;
+  background:rgba(255,250,238,.10);color:#f4e8cf;font-size:calc(10px * var(--fs))}
+.sp-keys button.on{background:rgba(201,162,39,.34);border-color:var(--gold)}
+.sp-bar>[data-sp-close]{background:rgba(184,71,47,.7);border-color:var(--red2)}
+.sp-tip{position:absolute;left:8px;right:8px;bottom:8px;z-index:6;text-align:center;
+  font-size:calc(10px * var(--fs));color:#5a4930;
+  background:rgba(255,250,238,.74);border-radius:10px;padding:4px 8px}
+
+/* 长按立绘的表情选择面板 */
+.pose-picker{position:fixed;inset:0;z-index:1000;background:rgba(14,11,8,.32)}
+.pp-inner{position:absolute;width:min(88vw,340px);max-height:70vh;overflow:auto;
+  border:1px solid var(--line);border-radius:12px;padding:10px 12px;
+  background:var(--paper);box-shadow:0 14px 40px #0008}
+.pp-head{display:flex;align-items:center;justify-content:space-between;
+  color:var(--gold);font-size:calc(12px * var(--fs));margin-bottom:8px}
+.pp-head button{border:1px solid var(--line);border-radius:50%;width:24px;height:24px;
+  background:transparent;color:var(--ink);cursor:pointer;font-family:inherit}
+.pp-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:5px}
+.pp-grid button{border:1px solid var(--line);border-radius:8px;padding:6px 3px;
+  background:var(--paper2);color:var(--ink);font-family:inherit;
+  font-size:calc(10px * var(--fs));cursor:pointer}
+.pp-grid button:active{border-color:var(--gold);color:var(--gold)}
+
+/* 设置页：气泡控制与环境音选择 */
+.bubctl{display:grid;grid-template-columns:1fr 1fr;gap:5px 10px;margin-top:8px}
+.bubctl label{display:flex;align-items:center;gap:5px;
+  font-size:calc(10px * var(--fs));color:var(--dim)}
+.bubctl input[type=range]{flex:1;min-width:60px;accent-color:var(--gold);cursor:pointer}
+.bubctl b{min-width:30px;text-align:right;color:var(--gold);font-weight:400}
+.wxgrid,.vpgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:5px;margin-top:8px}
+.wxpick,.vppick{display:flex;flex-direction:column;gap:2px;text-align:left;
+  padding:6px 8px;border:1px solid var(--line);border-radius:9px;
+  background:var(--paper);color:var(--ink);font-family:inherit;cursor:pointer}
+.wxpick b,.vppick b{font-size:calc(11px * var(--fs));font-weight:600}
+.wxpick em,.vppick em{font-style:normal;font-size:calc(9px * var(--fs));color:var(--dim)}
+.wxpick.on,.vppick.on{border-color:var(--gold);background:var(--paper2)}
+.wxpick.on b,.vppick.on b{color:var(--gold)}
+.wxpick.locked,.vppick.locked{opacity:.5;cursor:not-allowed}
+
+/* 沉浸全屏：铺满的底图 = 当前选中场景板，不残留旧图 */
+html.bgfull body:before{background:var(--stage-bg) center 42%/cover no-repeat}
+html.bgfull .stage-bg{position:fixed;inset:0;width:100vw;height:100vh;
+  object-fit:cover;z-index:-2;opacity:.96}
+
+/* 首页与选项更紧凑：两行八维压成一行，选项留白收窄 */
+html.minimal.avg .stats{grid-template-columns:repeat(8,1fr);gap:3px;margin:5px 0}
+html.minimal.avg .st{padding:3px 2px;text-align:center;border-radius:6px}
+html.minimal.avg .st b{font-size:calc(12px * var(--fs));line-height:1.25}
+html.minimal.avg .st span{font-size:calc(9px * var(--fs));letter-spacing:0}
+html.minimal.avg .st .bar{display:none}
+html.minimal .card{padding:9px 10px;margin-top:7px}
+html.minimal .head{padding:8px 10px}
+html.minimal .yr{font-size:calc(21px * var(--fs))}
+html.minimal .volbar{padding:7px 10px;margin-top:6px}
+html.minimal .opts{gap:6px;margin-top:9px}
+html.minimal .opt{padding:8px 10px;min-height:0;border-radius:9px}
+html.minimal .opt.rich{padding:7px 10px 8px}
+html.minimal .opt .t{font-size:calc(14px * var(--fs));line-height:1.35}
+html.minimal .opt.rich .t{font-size:calc(13.5px * var(--fs));line-height:1.4}
+html.minimal .opt.rich .badge{margin-bottom:3px}
+html.minimal .opt.rich .basis{margin-top:3px}
+html.minimal .opt.rich .estat{margin-top:3px;gap:2px 10px}
+html.minimal .opt.rich .risk,html.minimal .opt.rich .req{margin-top:3px}
+html.minimal .big{min-height:44px;padding:10px;margin-top:9px}
+html.minimal .result{margin-top:9px;padding:8px 10px}
+
+/* 浅色皮肤下新组件也翻成暖纸底深字 */
+html.skin-light .wxpick,html.skin-light .pp-grid button,
+html.skin-light .bubctl label,html.skin-light .sp-tip{background:#f6ecd6;color:#3a3122}
+html.skin-light .wxpick.on{background:#e9d6ac}
+html.skin-light .stage-hud span{background:rgba(255,250,238,.82);color:#4a3b26}
+@media (prefers-color-scheme:light){
+  html.skin-auto .wxpick,html.skin-auto .pp-grid button,
+  html.skin-auto .bubctl label{background:#f6ecd6;color:#3a3122}
+  html.skin-auto .wxpick.on{background:#e9d6ac}
+}
+html.rm .sp-char,html.rm .stage .bubble{transition:none!important;animation:none!important}
+
+/* v2.4：全屏预览里的向导静止时也呼吸，与主舞台同一节奏 */
+.sp-char{animation:breathe 4.4s ease-in-out infinite;transform-origin:50% 88%}
+
+/* v2.4：待机微表演。四种轻动作都只用独立属性，不碰 transform 的拖动位移；
+   由固定散列调度，不调用主随机数，同种子节奏一致。 */
+.stage-char.ch-idle-a,.sp-char.ch-idle-a{animation:chIdleA .9s ease-in-out!important}
+.stage-char.ch-idle-b,.sp-char.ch-idle-b{animation:chIdleB .9s ease-in-out!important}
+.stage-char.ch-idle-c,.sp-char.ch-idle-c{animation:chIdleC 1.1s ease-in-out!important}
+.stage-char.ch-idle-d,.sp-char.ch-idle-d{animation:chIdleD .9s ease-in-out!important}
+@keyframes chIdleA{0%,100%{rotate:0deg}30%{rotate:-1.2deg}65%{rotate:.8deg}}
+@keyframes chIdleB{0%,100%{translate:0 0;scale:1}35%{translate:0 -6px;scale:1.02}70%{translate:0 1px;scale:.995}}
+@keyframes chIdleC{0%,100%{scale:1}45%{scale:1.028}}
+@keyframes chIdleD{0%,100%{rotate:0deg;translate:0 0}40%{rotate:1.1deg;translate:2px 0}75%{rotate:-.6deg;translate:-1px 0}}
+html.rm .stage-char.ch-idle-a,html.rm .stage-char.ch-idle-b,
+html.rm .stage-char.ch-idle-c,html.rm .stage-char.ch-idle-d,
+html.rm .sp-char{animation:none!important}
+
+/* v2.1：全屏预览里短按立绘的回弹反馈 */
+.sp-char.sp-bounce{animation:sp-bounce .4s cubic-bezier(.28,1.4,.5,1)}
+@keyframes sp-bounce{0%{filter:drop-shadow(0 8px 14px rgba(70,55,30,.28))}
+  45%{margin-bottom:14px;filter:drop-shadow(0 20px 24px rgba(70,55,30,.42))}
+  100%{margin-bottom:0;filter:drop-shadow(0 8px 14px rgba(70,55,30,.28))}}
+html.rm .sp-char.sp-bounce{animation:none}
+
+/* v2.2：朗读时立绘说话表演。用独立 scale/translate 属性，不抢 transform 的位移变量 */
+.stage-char.ch-talking,.sp-char.ch-talking{
+  animation:chTalk .62s ease-in-out infinite!important;
+  transform-origin:50% 88%}
+@keyframes chTalk{
+  0%,100%{scale:1;translate:0 0}
+  28%{scale:1.012;translate:0 -3px}
+  62%{scale:.997;translate:0 1px}}
+html.rm .stage-char.ch-talking,html.rm .sp-char.ch-talking{animation:none!important}
+
+/* v2.2：声线档按钮复用环境音卡版式，但独立计数 */
+.vpgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:5px;margin-top:8px}
+
+/* v2.4：横屏提示条。网页不能强制旋转手机系统，必须如实说明。 */
+#landHint{position:fixed;left:8px;right:8px;top:42px;z-index:99;
+  /* v2.4：下移避开顶部工具条；整条不接指针，只有按钮可点，
+     否则会把「再点一次切回竖屏」的横屏键自己盖住。 */
+  pointer-events:none;
+  display:flex;align-items:center;gap:8px;padding:9px 11px;
+  border:1px solid var(--line);border-radius:10px;
+  background:rgba(255,248,228,.96);color:#4a3c28;
+  font-size:calc(11px * var(--fs));line-height:1.5;
+  box-shadow:0 6px 18px rgba(60,45,25,.18)}
+#landHint b{color:var(--gold)}
+#landHint button{margin-left:auto;flex:none;border:0;border-radius:6px;
+  padding:4px 9px;background:#e8dcc2;color:#4a3c28;cursor:pointer;
+  pointer-events:auto;
+  font-family:inherit;font-size:inherit}
+html.skin-dark #landHint{background:rgba(38,34,28,.96);color:#e8dcc2}
+html.skin-dark #landHint button{background:#4a4234;color:#e8dcc2}
+
+/* ==================================================================
+   v2.5 真横屏：内容不旋转，重排成「全屏背景 + 左侧文字 + 右侧立绘」AVG
+   覆盖前面所有 html.landscape 规则（v1.5 两栏 / v2.4 上半屏 40dvh）。
+   修的正是截图里那三件事：背景没铺满、选项被 grid 挤成 99px 竖条、
+   提示条压住半屏。手机系统若锁竖屏，网页仍改不了旋转，但布局本身是横向的。
+   ================================================================== */
+html.landscape{height:100%;overflow:hidden}
+html.landscape body{height:100dvh;overflow:hidden;background:transparent}
+html.landscape .stage{position:fixed!important;inset:0!important;left:0!important;
+  top:0!important;right:0!important;bottom:0!important;
+  width:100vw!important;height:100dvh!important;
+  margin:0!important;border:0!important;border-radius:0!important;z-index:0}
+html.landscape .stage-bg{object-fit:cover;opacity:1}
+html.landscape .stage-char,
+html.landscape.avg .stage-char{position:fixed!important;
+  left:auto!important;right:2vw!important;bottom:2dvh!important;top:auto!important;
+  height:82dvh!important;max-width:46vw!important;
+  transform:translate(var(--char-dx,0px),var(--char-dy,0px))!important;
+  z-index:2;object-fit:contain}
+html.landscape .stage .bubble{position:fixed!important;
+  left:2vw!important;right:52vw!important;top:7dvh!important;bottom:auto!important;
+  width:auto!important;max-height:9dvh;z-index:6}
+html.landscape .stage-tools{position:fixed!important;top:6px!important;left:8px!important;
+  right:auto!important;z-index:100}
+html.landscape #app{position:fixed!important;inset:0!important;z-index:3;
+  max-width:none!important;margin:0!important;padding:0!important;
+  background:transparent!important;overflow:hidden;pointer-events:none}
+/* 横屏只留当前页签面板：卷条、八维、档位、指引等收进已有的详情弹窗 */
+/* .stage / .pchip / .artwrap 也是 #app 的直接子级，必须排除，
+   否则整张背景板和立绘会跟着一起被隐藏（实测 rect 全为 0）。 */
+html.landscape #app > *:not(.panel):not(.stage):not(.pchip):not(.artwrap):not(#landHint):not(.tabs):not(#splitGrip):not(#charHit):not(#guideBubble){display:none!important}
+html.landscape #app > .panel:not(.on){display:none!important}
+html.landscape #app > .panel.on{display:block!important;position:absolute!important;
+  left:2vw!important;top:16dvh!important;bottom:7dvh!important;width:47vw!important;
+  margin:0!important;padding:0!important;overflow-y:auto;overscroll-behavior:contain;
+  background:transparent!important;border:0!important;box-shadow:none!important;
+  pointer-events:auto}
+html.landscape .panel.on .card{background:rgba(255,248,228,.46)!important;
+  backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px)}
+html.landscape .panel.on > .mini.center{display:none!important}
+/* 关键：把 v1.5 / v2.4 的 grid 两列压回去，选项改成左侧整宽竖列，
+   每张卡不再被挤成 99px，文字保持水平可读（对齐参考图的选项排法）。 */
+html.landscape .panel.on .opts{display:flex!important;flex-direction:column!important;
+  flex-wrap:nowrap!important;gap:6px!important;margin-top:8px!important;
+  max-height:none!important;overflow:visible!important}
+html.landscape .panel.on .opts .opt{width:100%!important;min-width:0!important;
+  flex:none!important;margin:0!important}
+html.landscape .tabs{position:fixed!important;left:0!important;right:0!important;
+  bottom:0!important;height:6dvh!important;min-height:40px;z-index:40;
+  display:flex!important;pointer-events:auto}
+html.landscape .tabs button{padding:4px 2px!important;font-size:calc(10px * var(--fs))!important}
+html.landscape .pchip{left:2vw!important;right:52vw!important;top:auto!important;
+  bottom:8dvh!important}
+/* 小提示条：不再压住半屏，也不接指针 */
+#landHint{top:auto!important;bottom:8dvh!important;left:auto!important;
+  right:2vw!important;width:44vw!important;max-width:44vw!important;
+  padding:6px 8px!important;gap:6px!important;font-size:10px!important;
+  line-height:1.4!important;pointer-events:none!important;z-index:101}
+#landHint b{flex:none}
+#landHint span{flex:1}
+#landHint button{padding:3px 7px!important;font-size:10px!important}
+@media (max-width:520px){
+  html.landscape .stage{width:100vw!important;height:100dvh!important}
+  html.landscape #app{padding-left:0!important;padding-top:0!important}
+  html.landscape .panel.on{width:47vw!important;top:16dvh!important;bottom:7dvh!important}
+  html.landscape .opts{grid-template-columns:none!important}
+}
+
+/* 小 chip 再压一点，别占 70px */
+html.landscape #landHint{padding:4px 7px!important;font-size:9px!important;line-height:1.35!important}
+
+/* v2.5 横屏二次微调：右上工具条、左上气泡、右侧进度 chip 三者错开，
+   不再像上一张截图那样在左上角叠成一堆圆按钮。 */
+html.landscape .stage-tools{position:fixed!important;top:6px!important;
+  left:auto!important;right:8px!important;max-width:48vw!important;
+  display:flex!important;flex-wrap:wrap!important;justify-content:flex-end!important;
+  gap:3px!important;z-index:100}
+html.landscape .stage .bubble{top:2dvh!important}
+html.landscape #app > .panel.on{top:14dvh!important}
+html.landscape .pchip{left:auto!important;right:2vw!important;width:44vw!important;
+  top:9dvh!important;bottom:auto!important}
+html.landscape .pchip.open .pchip-detail{left:auto!important;right:2vw!important;width:44vw!important}
+
+/* ==================================================================
+   v2.6 物理竖屏下的「真横向画布」
+   网页改不了手机系统方向，那就把整个游戏容器转 90deg：
+   容器宽=屏幕长边、高=短边，旋转后正好铺满竖屏视口。
+   用户把手机横过来看到的就是正的横向画面；再转回竖屏会自动重旋。
+   transform 会创建包含块，内部所有 position:fixed 自动相对旋转容器，
+   所以只需把 v2.5 那套 vw/dvh 换成百分比，命中测试由浏览器负责。
+   ================================================================== */
+html.landscape.rot90 #app{position:fixed!important;left:0!important;top:0!important;
+  right:auto!important;bottom:auto!important;
+  /* iOS Safari 15.4 前不认 dvh/dvw：先给 vh/vw 回退，支持时再覆盖 */
+  width:100vh;width:100dvh!important;height:100vw;height:100dvw!important;
+  max-width:none!important;margin:0!important;padding:0!important;
+  box-sizing:border-box;
+  transform-origin:0 0;
+  transform:rotate(90deg) translateY(-100%)!important;
+  /* 整个容器旋转时 iOS 会按「设备横屏」自动放大文字，布局会炸；锁死 100% */
+  -webkit-text-size-adjust:100%!important;text-size-adjust:100%!important;
+  /* 禁止双击缩放 / 双指缩放干扰旋转后的命中 */
+  touch-action:manipulation;-webkit-touch-callout:none;
+  z-index:3;overflow:hidden;pointer-events:none}
+/* 物理顶部的刘海，旋转后落在容器左边缘；左侧文字区与气泡避开它。
+   物理底部的 Home Indicator 落在容器右边缘；右侧工具条避开它。 */
+html.landscape.rot90 #app > .panel.on{left:calc(2% + env(safe-area-inset-top,0px))!important}
+html.landscape.rot90 .stage .bubble{left:calc(2% + env(safe-area-inset-top,0px))!important}
+html.landscape.rot90 .stage-tools{right:calc(1.5% + env(safe-area-inset-bottom,0px))!important}
+html.landscape.rot90 .stage-char,
+html.landscape.rot90.avg .stage-char{right:calc(2% + env(safe-area-inset-bottom,0px))!important}
+html.landscape.rot90 .tabs{padding-right:env(safe-area-inset-bottom,0px)!important;
+  box-sizing:border-box}
+html.landscape.rot90 .stage{width:100%!important;height:100%!important;
+  left:0!important;top:0!important;right:auto!important;bottom:auto!important}
+html.landscape.rot90 .stage-char,
+html.landscape.rot90.avg .stage-char{right:2%!important;bottom:2%!important;
+  left:auto!important;top:auto!important;
+  height:82%!important;max-width:46%!important;
+  transform:translate(var(--char-dx,0px),var(--char-dy,0px))!important}
+html.landscape.rot90 .stage .bubble{left:2%!important;right:52%!important;
+  top:2%!important;bottom:auto!important;max-height:9%!important}
+html.landscape.rot90 .stage-tools{top:2%!important;right:1.5%!important;
+  left:auto!important;max-width:46%!important}
+html.landscape.rot90 #app > .panel.on{left:2%!important;top:13%!important;
+  bottom:9%!important;width:47%!important;right:auto!important}
+html.landscape.rot90 .tabs{left:0!important;right:0!important;bottom:0!important;
+  top:auto!important;height:9%!important;min-height:34px}
+html.landscape.rot90 .pchip{right:2%!important;left:auto!important;
+  width:44%!important;top:9%!important;bottom:auto!important}
+html.landscape.rot90 .pchip.open .pchip-detail{right:2%!important;left:auto!important;width:44%!important}
+html.landscape.rot90 #landHint{position:absolute!important;
+  right:2%!important;left:auto!important;top:auto!important;bottom:11%!important;
+  width:44%!important;max-width:44%!important;
+  padding:5px 8px!important;font-size:10px!important;line-height:1.4!important;
+  pointer-events:auto!important;z-index:101}
+/* 横屏键已开启时高亮，用户一眼知道「再点这里退出」 */
+.vland.on{background:#fff3cf!important;border-color:var(--gold)!important;
+  color:#6a4d16!important;box-shadow:0 0 0 2px rgba(190,150,60,.35)}
+#landHint .lh-exit{flex:none;pointer-events:auto;
+  background:#c8a55a!important;color:#2b2218!important;
+  border:1px solid #a8863f!important;border-radius:7px;
+  padding:5px 10px!important;font-size:11px!important;font-weight:700}
+html.skin-dark #landHint .lh-exit{background:#b9974f!important;color:#241a10!important}
+
+/* ==================================================================
+   v2.6「换不回去」的最终修法：退出条固定在视口、不随画布旋转。
+   之前它挂在旋转后的 #app 里，被挤成 40×371 的竖条，按钮包围盒中心
+   实测 elementFromPoint 命中的是别的按钮（selfHit=false），真实触摸会打偏；
+   而且 app.innerHTML 重绘还会把它删掉。现在两条都不存在了。
+   ================================================================== */
+html.landscape #landHint,
+html.landscape.rot90 #landHint{
+  position:fixed!important;left:auto!important;right:12px!important;
+  top:auto!important;bottom:12px!important;
+  width:min(78vw,320px)!important;max-width:none!important;
+  transform:none!important;
+  display:flex!important;align-items:center;gap:8px;
+  padding:9px 11px!important;font-size:11px!important;line-height:1.45!important;
+  pointer-events:auto!important;z-index:9999!important;
+  box-shadow:0 6px 20px rgba(60,45,25,.28)}
+html.landscape #landHint b,
+html.landscape.rot90 #landHint b{flex:none}
+html.landscape #landHint span,
+html.landscape.rot90 #landHint span{flex:1}
+html.landscape #landHint .lh-exit,
+html.landscape.rot90 #landHint .lh-exit{
+  flex:none;min-width:88px;padding:9px 13px!important;font-size:12px!important;
+  position:relative;z-index:2}
+
+/* ==================================================================
+   v2.7 修「这个字有点看不清楚」
+   实测根因：.result 没被收进 avg 的半透浅底组，仍是 #1a1610 黑底；
+   但 avg 又给它套了深字 #2b2218 + .card * 的白色光晕。
+   深字压黑底 → 对比度仅 1.15:1，字全靠白边描出来，远看灰白糊成一团。
+   修法：结果块与 card / opt 同底同字，白光晕关掉，补极细同色描边让
+   35% 半透下笔画立得住；橙色左边线保留作结果标识。
+   这条放在文件末尾，确保同特异性下覆盖前面的 .card * 通配规则。
+   ================================================================== */
+html.avg .panel.on .result{
+  background:rgba(255,250,238,var(--veil));
+  backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
+  border:1px solid rgba(120,98,68,.4);border-left:3px solid var(--red2);
+  box-shadow:none;color:#241a10;font-weight:500;
+  -webkit-text-stroke:.14px #241a10}
+/* 这些块本来就已是半透浅底 + 深字，但后代仍被 .card * 的白光晕命中，
+   细笔画发虚；一并关掉。数值色由 .gain/.cost/.risk 的 !important 规则保留。 */
+html.avg .panel.on .result,
+html.avg .panel.on .result *,
+html.avg .panel.on .gather,
+html.avg .panel.on .gather *,
+html.avg .panel.on .note,
+html.avg .panel.on .note *,
+html.avg .panel.on .warnbar,
+html.avg .panel.on .warnbar *{text-shadow:none}
+
+
+/* ==================================================================
+   v2.7 · 左右可调 / 默认猫左字右 / 拖动热区 / 台词气泡 / 统一旋转
+   放在文件最后，覆盖 v2.5 基础规则与 v2.6 rot90 规则
+   布局共识：猫、对话气泡、点按台词气泡同侧；选项、进度 chip、工具条另一侧。
+   ================================================================== */
+html.landscape{--split:47}
+/* 默认：猫在左，文字与选项在右 */
+html.landscape #app > .panel.on,
+html.landscape.rot90 #app > .panel.on{
+  left:auto!important;right:2%!important;
+  width:calc(var(--split) * 1% - 4%)!important}
+html.landscape .stage-char,html.landscape.avg .stage-char,
+html.landscape.rot90 .stage-char,html.landscape.rot90.avg .stage-char{
+  left:2%!important;right:auto!important;
+  max-width:calc(96% - var(--split) * 1%)!important}
+/* 字那一侧：进度 chip、工具条、详情弹窗 */
+html.landscape .pchip,html.landscape.rot90 .pchip,
+html.landscape .pchip.open .pchip-detail,html.landscape.rot90 .pchip.open .pchip-detail{
+  left:auto!important;right:2%!important;
+  width:calc(var(--split) * 1% - 4%)!important;max-width:none!important;
+  top:9%!important;bottom:auto!important}
+html.landscape .stage-tools,html.landscape.rot90 .stage-tools{
+  left:auto!important;right:2%!important;top:1%!important;
+  justify-content:flex-end!important}
+/* 猫那一侧：常驻对话气泡与点按台词气泡，顶部错开工具条 */
+html.landscape .stage .bubble,html.landscape.rot90 .stage .bubble{
+  left:2%!important;right:auto!important;top:2%!important;bottom:auto!important;
+  width:calc(98% - var(--split) * 1% - 4%)!important;max-width:none!important}
+html.landscape #guideBubble,html.landscape.rot90 #guideBubble{
+  left:2%!important;right:auto!important;top:12%!important;bottom:auto!important;
+  width:calc(98% - var(--split) * 1% - 6%)!important}
+/* 一键左右互换：字左猫右 */
+html.landscape.stage-flip #app > .panel.on,
+html.landscape.rot90.stage-flip #app > .panel.on{
+  left:2%!important;right:auto!important}
+html.landscape.stage-flip .stage-char,html.landscape.rot90.stage-flip .stage-char,
+html.landscape.stage-flip.avg .stage-char,html.landscape.rot90.stage-flip.avg .stage-char{
+  left:auto!important;right:2%!important}
+html.landscape.stage-flip .pchip,html.landscape.rot90.stage-flip .pchip,
+html.landscape.stage-flip .pchip.open .pchip-detail,
+html.landscape.rot90.stage-flip .pchip.open .pchip-detail,
+html.landscape.stage-flip .stage-tools,html.landscape.rot90.stage-flip .stage-tools{
+  left:2%!important;right:auto!important}
+html.landscape.stage-flip .stage-tools,html.landscape.rot90.stage-flip .stage-tools{
+  justify-content:flex-start!important}
+html.landscape.stage-flip .stage .bubble,html.landscape.rot90.stage-flip .stage .bubble,
+html.landscape.stage-flip #guideBubble,html.landscape.rot90.stage-flip #guideBubble{
+  left:auto!important;right:2%!important}
+
+/* 可拖分割条：只在横向画布出现 */
+#splitGrip{display:none}
+html.landscape #splitGrip,html.landscape.rot90 #splitGrip{
+  display:block;position:absolute;top:14%;bottom:12%;width:18px;
+  left:calc(98% - var(--split) * 1% - 9px);
+  z-index:7;pointer-events:auto;touch-action:none;cursor:ew-resize;
+  border-radius:9px;background:transparent}
+html.landscape #splitGrip::after,html.landscape.rot90 #splitGrip::after{
+  content:'';position:absolute;left:7px;top:22%;bottom:22%;width:4px;
+  border-radius:3px;background:rgba(150,120,70,.42)}
+html.landscape #splitGrip.on::after,html.landscape.rot90 #splitGrip.on::after{
+  background:rgba(190,150,60,.9);box-shadow:0 0 8px rgba(190,150,60,.6)}
+html.landscape.stage-flip #splitGrip,html.landscape.rot90.stage-flip #splitGrip{
+  left:calc(2% + var(--split) * 1% - 9px)}
+
+/* 猫的专用拖拽热区：明确、够大、不吃滚动手势、不挡另一侧选项 */
+#charHit{display:none}
+html.landscape #charHit,html.landscape.rot90 #charHit{
+  display:block;position:absolute;left:0;top:8%;bottom:10%;
+  width:calc(98% - var(--split) * 1%);
+  z-index:3;pointer-events:auto;touch-action:none;background:transparent}
+html.landscape.stage-flip #charHit,html.landscape.rot90.stage-flip #charHit{
+  left:auto;right:0}
+
+/* 点按台词气泡：透明度沿用全局 --veil，字仍读得清 */
+#guideBubble{position:absolute;z-index:9;pointer-events:none;
+  box-sizing:border-box;padding:9px 12px;border-radius:12px;
+  background:rgba(255,250,238,var(--veil));
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  border:1px solid rgba(120,98,68,.45);
+  color:#241a10;font-weight:600;font-size:calc(12px * var(--fs));
+  line-height:1.6;-webkit-text-stroke:.16px #241a10;
+  text-shadow:0 1px 1px rgba(255,250,238,.98),0 0 2px rgba(255,250,238,.72);
+  opacity:0;transform:translateY(6px);
+  transition:opacity .22s ease,transform .22s ease}
+#guideBubble.show{opacity:1;transform:translateY(0)}
+
+/* 旋转画布里的页签与退出条：一起横过来，不再一半正一半倒 */
+html.landscape.rot90 .tabs{
+  position:absolute!important;left:0!important;right:0!important;
+  top:auto!important;bottom:0!important;width:100%!important;
+  height:9%!important;min-height:34px;
+  box-sizing:border-box;padding-right:env(safe-area-inset-bottom,0px)!important;
+  z-index:40;pointer-events:auto}
+html.landscape.rot90 #landHint{
+  /* 放猫那一侧的底部：那一侧没有选项，压住的只是猫的下半身（半透仍看得见）。
+     之前放在字那一侧 bottom:11% 会压住选项卡片，真机截图里就是这样。 */
+  position:absolute!important;left:2%!important;right:auto!important;
+  top:auto!important;bottom:11%!important;
+  width:calc(98% - var(--split) * 1% - 4%)!important;max-width:none!important;
+  transform:none!important;z-index:9999!important;
+  pointer-events:auto!important}
+html.landscape.rot90.stage-flip #landHint{
+  left:auto!important;right:2%!important}
+/* 非 rot90（物理横屏）时退出条仍是视口固定，便于直接点 */
+html.landscape:not(.rot90) #landHint{left:auto!important;right:12px!important}
+/* 拖动中让呼吸与待机让位，避免 transform 又被 CSS 抢走 */
+html.dragging-char .stage-char{animation:none!important;transition:none!important}
+
+/* ==================================================================
+   v2.8 · 横向画布提示条：能换、能关、能拖、能透
+   之前它是写死的一整块说明，竖着拿手机时被旋转成竖排大字，
+   既换不掉也关不掉。现在三档 + 可拖 + 跟随全局气泡透明度。
+   放在文件末尾覆盖 v2.4~v2.7 的全部 !important 规则。
+   ================================================================== */
+#landHint{--lh-dx:0px;--lh-dy:0px}
+html.landscape #landHint,html.landscape.rot90 #landHint{
+  right:calc(12px + var(--lh-dx))!important;
+  bottom:calc(12px + var(--lh-dy))!important;
+  left:auto!important;top:auto!important;
+  width:auto!important;min-width:0!important;max-width:min(78vw,320px)!important;
+  background:rgba(255,250,238,var(--veil))!important;
+  backdrop-filter:blur(8px)!important;-webkit-backdrop-filter:blur(8px)!important;
+  border:1px solid rgba(120,98,68,.5)!important;
+  color:#241a10!important;
+  -webkit-text-size-adjust:100%!important;
+  box-shadow:0 4px 14px rgba(60,45,25,.22)!important;
+  transform:none!important;
+  display:flex!important;align-items:center;gap:8px;
+  padding:7px 9px!important;font-size:11px!important;line-height:1.4!important;
+  pointer-events:none!important;z-index:9999!important}
+html.landscape #landHint *,html.landscape.rot90 #landHint *{
+  color:#241a10!important;-webkit-text-stroke:.12px #241a10;
+  text-shadow:0 1px 1px rgba(255,250,238,.95);pointer-events:none}
+html.skin-dark.landscape #landHint,html.skin-dark.landscape.rot90 #landHint{
+  background:rgba(38,34,28,var(--veil))!important}
+html.skin-dark.landscape #landHint *,html.skin-dark.landscape.rot90 #landHint *{
+  color:#f2e4c4!important;-webkit-text-stroke:.12px #f2e4c4;
+  text-shadow:0 1px 2px rgba(38,34,28,.9)}
+/* 精简档：一行小胶囊，只留标题、拖柄、退出 */
+html.hint-min #landHint{padding:5px 7px!important;border-radius:20px!important;
+  max-width:min(52vw,210px)!important}
+html.hint-min #landHint .lh-note{display:none!important}
+html.hint-min #landHint b{font-size:10px!important;letter-spacing:1px;flex:0 0 auto}
+html.hint-min #landHint .lh-exit{padding:5px 9px!important;font-size:10px!important;
+  min-width:0!important}
+/* 完整档：保留说明 */
+html.hint-full #landHint .lh-note{display:block!important;flex:1 1 auto}
+/* 隐藏档：彻底不显示；退出仍靠工具条 ▯ 与 Esc */
+html.hint-off #landHint{display:none!important}
+/* 拖柄与退出按钮：只有这两个接指针，其余不挡画 */
+#landHint .lh-grip{pointer-events:auto!important;cursor:grab;touch-action:none;
+  flex:0 0 auto;padding:2px 4px;border-radius:5px;opacity:.55;font-size:12px;
+  background:rgba(120,98,68,.12);user-select:none}
+#landHint .lh-grip:active{cursor:grabbing;opacity:1}
+#landHint .lh-exit{pointer-events:auto!important;position:relative;z-index:2;
+  flex:none;background:#c8a55a!important;color:#241a10!important;
+  border:1px solid #a8863f!important;border-radius:7px;
+  padding:6px 11px!important;font-size:11px!important;font-weight:700;
+  -webkit-text-stroke:0!important;text-shadow:none!important;
+  white-space:nowrap}
+html.skin-dark #landHint .lh-exit{background:#b9974f!important;color:#241a10!important}
+html.landscape #landHint .lh-exit,html.landscape.rot90 #landHint .lh-exit{
+  color:#241a10!important;-webkit-text-stroke:0!important;text-shadow:none!important}
+/* 跟随画布档：移入旋转容器，与画面一起横过来 */
+html.hint-follow.landscape.rot90 #landHint{
+  position:absolute!important;right:2%!important;bottom:11%!important;
+  max-width:44%!important}

@@ -8,7 +8,9 @@
   "depthNote": "SP_LOCAL / SP_SURNAME / SP_PEOPLE 由 localities.json 与 peoples.json 填词；「立氏」为推演，不宣称真实血缘；人群条目不作生物种族分类。",
   "depth2Note": "PY/RS/GM/WO/BC 五维已登记 dimKind 并挂入对应原型；本轮只加知识条目，不改任何选项数值、难度或史实。",
   "interactionNote": "第三轮：新增 price / risk / mineral / weather / specimen 五条联动，把 PY/RS/GM/WO/BC 五个新维度从收集册带进选项；所有联动文本为推演，不改写真实技术史或制度史。",
-  "interaction2Note": "第四轮新增 SP_CROSSCHECK / SP_NAMECHECK：地方互证与得姓辨析；两存与异写并列均为推演读法，不作疆界判断、不作血统推断。"
+  "interaction2Note": "第四轮新增 SP_CROSSCHECK / SP_NAMECHECK：地方互证与得姓辨析；两存与异写并列均为推演读法，不作疆界判断、不作血统推断。",
+  "dynastyNote": "帝王／世家联动只取同期锚点作填词与取舍，传说层不进依据池；不改写任何条目，不与本局推演族人攀附谱牒。",
+  "round11": "v1.0 新增「继立辨读」「世家并立对读」两条联动；填词取自 rulers.json 的 succession 字段与同期并立名族，不改写条目。"
  },
  "kinds": {
   "build": {
@@ -1402,6 +1404,124 @@
    "weight": 1.04,
    "need": "surname_note",
    "note": "姓氏不作血统推断，谱牒多有层累；本选项为推演，不攀附真实家族。"
+  },
+  {
+   "id": "SP_RULER",
+   "kind": "diplomacy",
+   "text": "同期在位「{ruler}」之名传至，{act}",
+   "act": "按彼此都能接受的仪节回书，只记同期，不称臣也不攀附",
+   "eff": {
+    "wealth": 4,
+    "lore": 3,
+    "cohesion": 2
+   },
+   "cost": {
+    "faith": -2
+   },
+   "risk": 0.17,
+   "fail": {
+    "wealth": -3,
+    "cohesion": -2
+   },
+   "req": {},
+   "unlock": false,
+   "job": "掌仪",
+   "echo": "同期归同期，名号不是管辖。",
+   "weight": 0.88,
+   "need": "ruler"
+  },
+  {
+   "id": "SP_HOUSE",
+   "kind": "study",
+   "text": "闻「{house}」以地望相标，{act}",
+   "act": "先立一册记其里籍与年代，明写郡望不作血统凭证",
+   "eff": {
+    "lore": 6,
+    "cohesion": 2
+   },
+   "cost": {
+    "wealth": -3
+   },
+   "risk": 0.12,
+   "fail": {
+    "lore": -2
+   },
+   "req": {},
+   "unlock": false,
+   "job": "掌谱",
+   "echo": "名望可以记，血脉不能替人认。",
+   "weight": 0.86,
+   "need": "house"
+  },
+  {
+   "id": "SP_GENEAL",
+   "kind": "study",
+   "text": "谱牒「{house}」与读法「{houseNote}」并置，{act}",
+   "act": "两存其说，把「排序」与「世系」分开著录",
+   "eff": {
+    "lore": 7,
+    "cohesion": 1
+   },
+   "cost": {
+    "wealth": -2,
+    "faith": -1
+   },
+   "risk": 0.14,
+   "fail": {
+    "lore": -3
+   },
+   "req": {},
+   "unlock": false,
+   "job": "校雠",
+   "echo": "排序是排序，世系是世系，一页放两栏。",
+   "weight": 0.82,
+   "need": "house_note"
+  },
+  {
+   "id": "SP_SUCCESSION",
+   "kind": "study",
+   "text": "闻「{ruler}」以「{succ}」继立，{act}",
+   "act": "只录其继立口径，把法理继统与血统相承分作两栏",
+   "eff": {
+    "lore": 6,
+    "cohesion": 2
+   },
+   "cost": {
+    "wealth": -2
+   },
+   "risk": 0.13,
+   "fail": {
+    "lore": -2
+   },
+   "req": {},
+   "unlock": false,
+   "job": "掌故",
+   "echo": "继统是继统，血脉是血脉，一页放两栏。",
+   "weight": 0.84,
+   "need": "succession"
+  },
+  {
+   "id": "SP_HOUSE_PEER",
+   "kind": "diplomacy",
+   "text": "「{houseA}」与「{houseB}」并见于时，{act}",
+   "act": "两存其谱，各记里籍与年代，不排成前后相续",
+   "eff": {
+    "lore": 5,
+    "wealth": 3
+   },
+   "cost": {
+    "cohesion": -2
+   },
+   "risk": 0.15,
+   "fail": {
+    "lore": -3
+   },
+   "req": {},
+   "unlock": false,
+   "job": "通谱",
+   "echo": "并立的那几家，本来就不在一条线上。",
+   "weight": 0.82,
+   "need": "house_peer"
   }
  ],
  "dimKind": {

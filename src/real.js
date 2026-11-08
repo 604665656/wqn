@@ -19,8 +19,15 @@
   const CONSENSUS_LABEL={settled:'学界通说',date_contested:'断代有争议',
     legendary_retroactive:'传说／后世追述',entity_definition_contested:'实体边界有争议'};
 
-  const entityById=id=>D.entities.entities.find(e=>e.id===id)||null;
-  const byName=n=>D.entities.entities.find(e=>e.name===n)||null;
+  /* 世家代入复用六阶段年表：实体表仍是 12 个王朝，世家另册，互不混写。
+     这样既有「12 个真实实体」的统计与测试口径都不变。 */
+  const HOUSE=(D.house_entities&&D.house_entities.entities)||[];
+  const entityById=id=>D.entities.entities.find(e=>e.id===id)
+    ||HOUSE.find(e=>e.id===id)||null;
+  const byName=n=>D.entities.entities.find(e=>e.name===n)
+    ||HOUSE.find(e=>e.name===n)||null;
+  const isHouse=id=>!!HOUSE.find(e=>e.id===id);
+  const allEntities=()=>D.entities.entities.concat(HOUSE);
 
   /* 年份按阶段锚点分段线性插值：短命王朝（秦 14 年）也能完整走完六阶段 */
   function yearAt(ent,turn){
@@ -83,15 +90,20 @@
   function endingCard(S){
     const e=entityById(S.entity.id),p=e.phases[5];
     const ALIAS={'罗马共和国→罗马帝国':'西罗马'};
-    const d=D.entities.disputes[e.name]||D.entities.disputes[ALIAS[e.name]]||null;
+    const DP=D.entities.disputes||{};
+    const d=DP[e.name]||DP[ALIAS[e.name]]||null;
     return {name:e.name,year:p.label,phaseEvent:p.event,reason:p.note,
       dispute:d?d.alternatives:null,disputeReason:d?d.reason:null,
-      word:'编年走到 '+p.label+'，'+e.name+'作为独立政治实体的历史到此为止。'
-        +'这不是游戏随机判定的终点，是史料里写着的年份。'};
+      word:isHouse(e.id)
+        ?('编年走到 '+p.label+'，'+e.name+'作为显要门第的政治位置到此为止。'
+          +'这不是家族人口消失，也不作精确终结年；六阶段是通识级框架锚点。')
+        :('编年走到 '+p.label+'，'+e.name+'作为独立政治实体的历史到此为止。'
+          +'这不是游戏随机判定的终点，是史料里写着的年份。')};
   }
   W.real={PHASE_STEPS:PHASE_STEPS,TOTAL_STEPS:TOTAL_STEPS,
     PHASE_EFFECTS:PHASE_EFFECTS,PRECISION_LABEL:PRECISION_LABEL,CONSENSUS_LABEL:CONSENSUS_LABEL,
-    entityById:entityById,byName:byName,yearAt:yearAt,phaseIdxAt:phaseIdxAt,
+    entityById:entityById,byName:byName,isHouse:isHouse,allEntities:allEntities,
+    HOUSE:HOUSE,yearAt:yearAt,phaseIdxAt:phaseIdxAt,
     progress:progress,phaseEvent:phaseEvent,historyCandidates:historyCandidates,
     wrapHistory:wrapHistory,endingCard:endingCard};
   if(typeof module!=='undefined'&&module.exports)module.exports=W.real;

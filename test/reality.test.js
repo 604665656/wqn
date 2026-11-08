@@ -121,6 +121,7 @@ const FILE='file://'+encodeURI(path.resolve(__dirname,'..','..','wqn.html'));
 
   /* C 局中切到狂想档，舆地页应改为列出假说 */
   await p.click('.tabs button:has-text("设置")');
+  await p.click('[data-setmin="0"]');   /* v1.6 默认精简，展开全部 */
   await p.click('.panel.on [data-live-tier="wild"]');
   const c1=await p.evaluate(()=>({banner:document.querySelector('.warnbar')?.innerText||'',
     share:(document.body.innerText.match(/WQN1\./)||[]).length>0}));

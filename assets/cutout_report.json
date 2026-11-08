@@ -1,0 +1,695 @@
+{
+ "neutral": {
+  "holes": 0,
+  "alpha": 0.359,
+  "pink": 0,
+  "size": 18412,
+  "src": "core.png"
+ },
+ "think": {
+  "holes": 0,
+  "alpha": 0.358,
+  "pink": 0,
+  "size": 18010,
+  "src": "think.png"
+ },
+ "happy": {
+  "holes": 0,
+  "alpha": 0.355,
+  "pink": 0,
+  "size": 17810,
+  "src": "happy.png"
+ },
+ "surprise": {
+  "holes": 0,
+  "alpha": 0.37,
+  "pink": 0,
+  "size": 18000,
+  "src": "surprise.png"
+ },
+ "sad": {
+  "holes": 0,
+  "alpha": 0.356,
+  "pink": 0,
+  "size": 17438,
+  "src": "sad.png"
+ },
+ "read": {
+  "holes": 0,
+  "alpha": 0.35,
+  "pink": 0,
+  "size": 18270,
+  "src": "read.png"
+ },
+ "wave": {
+  "holes": 0,
+  "alpha": 0.37,
+  "pink": 0,
+  "size": 17798,
+  "src": "wave.png"
+ },
+ "rain": {
+  "holes": 0,
+  "alpha": 0.348,
+  "pink": 0,
+  "size": 16326,
+  "src": "rain.png"
+ },
+ "sun": {
+  "holes": 0,
+  "alpha": 0.36,
+  "pink": 0,
+  "size": 17508,
+  "src": "sun.png"
+ },
+ "scroll": {
+  "holes": 0,
+  "alpha": 0.361,
+  "pink": 0,
+  "size": 19870,
+  "src": "scroll.png"
+ },
+ "decree": {
+  "holes": 0,
+  "alpha": 0.357,
+  "pink": 0,
+  "size": 18758,
+  "src": "decree.png"
+ },
+ "compass": {
+  "holes": 0,
+  "alpha": 0.353,
+  "pink": 0,
+  "size": 19596,
+  "src": "compass.png"
+ },
+ "count": {
+  "holes": 0,
+  "alpha": 0.351,
+  "pink": 0,
+  "size": 19110,
+  "src": "count.png"
+ },
+ "lamp": {
+  "holes": 0,
+  "alpha": 0.374,
+  "pink": 0,
+  "size": 19308,
+  "src": "lamp.png"
+ },
+ "snow": {
+  "holes": 0,
+  "alpha": 0.332,
+  "pink": 0,
+  "size": 15940,
+  "src": "snow.png"
+ },
+ "sand": {
+  "holes": 0,
+  "alpha": 0.346,
+  "pink": 0,
+  "size": 18104,
+  "src": "sand.png"
+ },
+ "move": {
+  "holes": 0,
+  "alpha": 0.358,
+  "pink": 0,
+  "size": 17978,
+  "src": "move.png"
+ },
+ "harvest": {
+  "holes": 0,
+  "alpha": 0.358,
+  "pink": 0,
+  "size": 20116,
+  "src": "harvest.png"
+ },
+ "cheer": {
+  "holes": 0,
+  "alpha": 0.372,
+  "pink": 0,
+  "size": 19038,
+  "src": "cheer.png"
+ },
+ "bell": {
+  "holes": 0,
+  "alpha": 0.352,
+  "pink": 0,
+  "size": 18910,
+  "src": "bell.png"
+ },
+ "forge": {
+  "holes": 0,
+  "alpha": 0.357,
+  "pink": 0,
+  "size": 19638,
+  "src": "forge.png"
+ },
+ "weave": {
+  "holes": 0,
+  "alpha": 0.352,
+  "pink": 0,
+  "size": 19242,
+  "src": "weave.png"
+ },
+ "loupe": {
+  "holes": 0,
+  "alpha": 0.355,
+  "pink": 0,
+  "size": 18050,
+  "src": "loupe.png"
+ },
+ "herb": {
+  "holes": 0,
+  "alpha": 0.351,
+  "pink": 0,
+  "size": 19920,
+  "src": "herb.png"
+ },
+ "sail": {
+  "holes": 0,
+  "alpha": 0.359,
+  "pink": 0,
+  "size": 19006,
+  "src": "sail.png"
+ },
+ "seal": {
+  "holes": 0,
+  "alpha": 0.36,
+  "pink": 0,
+  "size": 17854,
+  "src": "seal.png"
+ },
+ "child": {
+  "holes": 0,
+  "alpha": 0.352,
+  "pink": 0,
+  "size": 18768,
+  "src": "child.png"
+ },
+ "drum": {
+  "holes": 0,
+  "alpha": 0.363,
+  "pink": 0,
+  "size": 18886,
+  "src": "drum.png"
+ },
+ "blink": {
+  "holes": 0,
+  "alpha": 0.36,
+  "pink": 0,
+  "size": 17866,
+  "src": "blink.png"
+ },
+ "breath_in": {
+  "holes": 0,
+  "alpha": 0.36,
+  "pink": 0,
+  "size": 18168,
+  "src": "breath_in.png"
+ },
+ "breath_out": {
+  "holes": 0,
+  "alpha": 0.363,
+  "pink": 0,
+  "size": 17858,
+  "src": "breath_out.png"
+ },
+ "brush": {
+  "holes": 0,
+  "alpha": 0.354,
+  "pink": 0,
+  "size": 18998,
+  "src": "brush.png"
+ },
+ "pottery": {
+  "holes": 0,
+  "alpha": 0.351,
+  "pink": 0,
+  "size": 18298,
+  "src": "pottery.png"
+ },
+ "measure": {
+  "holes": 0,
+  "alpha": 0.364,
+  "pink": 0,
+  "size": 19194,
+  "src": "measure.png"
+ },
+ "build": {
+  "holes": 0,
+  "alpha": 0.352,
+  "pink": 0,
+  "size": 18130,
+  "src": "build.png"
+ },
+ "cook": {
+  "holes": 0,
+  "alpha": 0.353,
+  "pink": 0,
+  "size": 17778,
+  "src": "cook.png"
+ },
+ "chess": {
+  "holes": 0,
+  "alpha": 0.353,
+  "pink": 0,
+  "size": 18820,
+  "src": "chess.png"
+ },
+ "fish": {
+  "holes": 0,
+  "alpha": 0.36,
+  "pink": 0,
+  "size": 20328,
+  "src": "fish.png"
+ },
+ "ride": {
+  "holes": 0,
+  "alpha": 0.363,
+  "pink": 0,
+  "size": 19398,
+  "src": "ride.png"
+ },
+ "shelf": {
+  "holes": 0,
+  "alpha": 0.355,
+  "pink": 0,
+  "size": 20042,
+  "src": "shelf.png"
+ },
+ "farewell": {
+  "holes": 0,
+  "alpha": 0.355,
+  "pink": 0,
+  "size": 18810,
+  "src": "farewell.png"
+ },
+ "ink": {
+  "holes": 0,
+  "alpha": 0.347,
+  "pink": 0,
+  "size": 17524,
+  "src": "ink.png"
+ },
+ "loom": {
+  "holes": 0,
+  "alpha": 0.354,
+  "pink": 0,
+  "size": 18698,
+  "src": "loom.png"
+ },
+ "coin": {
+  "holes": 0,
+  "alpha": 0.355,
+  "pink": 0,
+  "size": 19080,
+  "src": "coin.png"
+ },
+ "bridge": {
+  "holes": 0,
+  "alpha": 0.352,
+  "pink": 0,
+  "size": 18468,
+  "src": "bridge.png"
+ },
+ "well": {
+  "holes": 0,
+  "alpha": 0.364,
+  "pink": 0,
+  "size": 19288,
+  "src": "well.png"
+ },
+ "kite": {
+  "holes": 0,
+  "alpha": 0.357,
+  "pink": 0,
+  "size": 18702,
+  "src": "kite.png"
+ },
+ "mask": {
+  "holes": 0,
+  "alpha": 0.367,
+  "pink": 0,
+  "size": 18662,
+  "src": "mask.png"
+ },
+ "flute": {
+  "holes": 0,
+  "alpha": 0.358,
+  "pink": 0,
+  "size": 18372,
+  "src": "flute.png"
+ },
+ "seedling": {
+  "holes": 0,
+  "alpha": 0.351,
+  "pink": 0,
+  "size": 19158,
+  "src": "seedling.png"
+ },
+ "ledger": {
+  "holes": 0,
+  "alpha": 0.353,
+  "pink": 0,
+  "size": 18764,
+  "src": "ledger.png"
+ },
+ "plow": {
+  "holes": 0,
+  "alpha": 0.355,
+  "pink": 0,
+  "size": 19264,
+  "src": "plow.png"
+ },
+ "grind": {
+  "holes": 0,
+  "alpha": 0.354,
+  "pink": 0,
+  "size": 18766,
+  "src": "grind.png"
+ },
+ "dye": {
+  "holes": 0,
+  "alpha": 0.352,
+  "pink": 0,
+  "size": 19264,
+  "src": "dye.png"
+ },
+ "cast": {
+  "holes": 0,
+  "alpha": 0.354,
+  "pink": 0,
+  "size": 18322,
+  "src": "cast.png"
+ },
+ "copy": {
+  "holes": 0,
+  "alpha": 0.356,
+  "pink": 0,
+  "size": 19350,
+  "src": "copy.png"
+ },
+ "watch": {
+  "holes": 0,
+  "alpha": 0.35,
+  "pink": 0,
+  "size": 18224,
+  "src": "watch.png"
+ },
+ "pack": {
+  "holes": 0,
+  "alpha": 0.373,
+  "pink": 0,
+  "size": 19034,
+  "src": "pack.png"
+ },
+ "lute": {
+  "holes": 0,
+  "alpha": 0.351,
+  "pink": 0,
+  "size": 17634,
+  "src": "lute.png"
+ },
+ "weave2": {
+  "holes": 0,
+  "alpha": 0.354,
+  "pink": 0,
+  "size": 18646,
+  "src": "weave2.png"
+ },
+ "plaster": {
+  "holes": 0,
+  "alpha": 0.359,
+  "pink": 0,
+  "size": 19056,
+  "src": "plaster.png"
+ },
+ "ferry": {
+  "holes": 0,
+  "alpha": 0.353,
+  "pink": 0,
+  "size": 18732,
+  "src": "ferry.png"
+ },
+ "granary": {
+  "holes": 0,
+  "alpha": 0.353,
+  "pink": 0,
+  "size": 17812,
+  "src": "granary.png"
+ },
+ "astro": {
+  "holes": 0,
+  "alpha": 0.359,
+  "pink": 0,
+  "size": 18176,
+  "src": "astro.png"
+ },
+ "mint": {
+  "holes": 0,
+  "alpha": 0.351,
+  "pink": 0,
+  "size": 18342,
+  "src": "mint.png"
+ },
+ "mask2": {
+  "holes": 0,
+  "alpha": 0.353,
+  "pink": 0,
+  "size": 18308,
+  "src": "mask2.png"
+ },
+ "drum2": {
+  "holes": 0,
+  "alpha": 0.357,
+  "pink": 0,
+  "size": 18956,
+  "src": "drum2.png"
+ },
+ "loom3": {
+  "holes": 0,
+  "alpha": 0.358,
+  "pink": 0,
+  "size": 19418,
+  "src": "loom3.png"
+ },
+ "kiln3": {
+  "holes": 0,
+  "alpha": 0.353,
+  "pink": 0,
+  "size": 18354,
+  "src": "kiln3.png"
+ },
+ "bridge3": {
+  "holes": 0,
+  "alpha": 0.365,
+  "pink": 0,
+  "size": 18842,
+  "src": "bridge3.png"
+ },
+ "well3": {
+  "holes": 0,
+  "alpha": 0.355,
+  "pink": 0,
+  "size": 18378,
+  "src": "well3.png"
+ },
+ "ink3": {
+  "holes": 0,
+  "alpha": 0.357,
+  "pink": 0,
+  "size": 18694,
+  "src": "ink3.png"
+ },
+ "sail3": {
+  "holes": 0,
+  "alpha": 0.352,
+  "pink": 0,
+  "size": 17874,
+  "src": "sail3.png"
+ },
+ "herd3": {
+  "holes": 0,
+  "alpha": 0.35,
+  "pink": 0,
+  "size": 18170,
+  "src": "herd3.png"
+ },
+ "bell3": {
+  "holes": 0,
+  "alpha": 0.352,
+  "pink": 0,
+  "size": 18338,
+  "src": "bell3.png"
+ },
+ "plow4": {
+  "holes": 0,
+  "alpha": 0.365,
+  "pink": 0,
+  "size": 19164,
+  "src": "plow4.png"
+ },
+ "sieve4": {
+  "holes": 0,
+  "alpha": 0.361,
+  "pink": 0,
+  "size": 19494,
+  "src": "sieve4.png"
+ },
+ "quill4": {
+  "holes": 0,
+  "alpha": 0.355,
+  "pink": 0,
+  "size": 18666,
+  "src": "quill4.png"
+ },
+ "lamp4": {
+  "holes": 0,
+  "alpha": 0.369,
+  "pink": 0,
+  "size": 19424,
+  "src": "lamp4.png"
+ },
+ "drum4": {
+  "holes": 0,
+  "alpha": 0.361,
+  "pink": 0,
+  "size": 18326,
+  "src": "drum4.png"
+ },
+ "net4": {
+  "holes": 0,
+  "alpha": 0.354,
+  "pink": 0,
+  "size": 20048,
+  "src": "net4.png"
+ },
+ "cart4": {
+  "holes": 0,
+  "alpha": 0.37,
+  "pink": 0,
+  "size": 18450,
+  "src": "cart4.png"
+ },
+ "oven4": {
+  "holes": 0,
+  "alpha": 0.352,
+  "pink": 0,
+  "size": 18030,
+  "src": "oven4.png"
+ },
+ "loom5": {
+  "holes": 0,
+  "alpha": 0.497,
+  "pink": 0,
+  "size": 157822,
+  "src": "loom5.png"
+ },
+ "kiln5": {
+  "holes": 0,
+  "alpha": 0.454,
+  "pink": 0,
+  "size": 142552,
+  "src": "kiln5.png"
+ },
+ "bridge5": {
+  "holes": 0,
+  "alpha": 0.408,
+  "pink": 0,
+  "size": 128134,
+  "src": "bridge5.png"
+ },
+ "well5": {
+  "holes": 0,
+  "alpha": 0.435,
+  "pink": 0,
+  "size": 138846,
+  "src": "well5.png"
+ },
+ "ink5": {
+  "holes": 0,
+  "alpha": 0.457,
+  "pink": 0,
+  "size": 143036,
+  "src": "ink5.png"
+ },
+ "sail5": {
+  "holes": 0,
+  "alpha": 0.364,
+  "pink": 0,
+  "size": 116528,
+  "src": "sail5.png"
+ },
+ "herd5": {
+  "holes": 0,
+  "alpha": 0.435,
+  "pink": 0,
+  "size": 138456,
+  "src": "herd5.png"
+ },
+ "bell5": {
+  "holes": 0,
+  "alpha": 0.473,
+  "pink": 0,
+  "size": 149582,
+  "src": "bell5.png"
+ },
+ "plow6": {
+  "holes": 0,
+  "alpha": 0.319,
+  "pink": 0,
+  "size": 104602,
+  "src": "plow6.png"
+ },
+ "sieve6": {
+  "holes": 0,
+  "alpha": 0.333,
+  "pink": 0,
+  "size": 112294,
+  "src": "sieve6.png"
+ },
+ "quill6": {
+  "holes": 0,
+  "alpha": 0.385,
+  "pink": 0,
+  "size": 132004,
+  "src": "quill6.png"
+ },
+ "lamp6": {
+  "holes": 0,
+  "alpha": 0.295,
+  "pink": 0,
+  "size": 99476,
+  "src": "lamp6.png"
+ },
+ "drum6": {
+  "holes": 0,
+  "alpha": 0.393,
+  "pink": 0,
+  "size": 121368,
+  "src": "drum6.png"
+ },
+ "net6": {
+  "holes": 0,
+  "alpha": 0.346,
+  "pink": 0,
+  "size": 118886,
+  "src": "net6.png"
+ },
+ "cart6": {
+  "holes": 0,
+  "alpha": 0.318,
+  "pink": 0,
+  "size": 112504,
+  "src": "cart6.png"
+ },
+ "oven6": {
+  "holes": 0,
+  "alpha": 0.375,
+  "pink": 0,
+  "size": 118468,
+  "src": "oven6.png"
+ }
+}

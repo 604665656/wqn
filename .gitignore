@@ -1,13 +1,10 @@
-# 依赖与日志
-node_modules/
-*.log
-
-# 操作系统 / 编辑器
+# 本地诊断产物，不入库
+probe/
+_preview/
+_*.json
+_round*_args.txt
+__pycache__/
+*.pyc
 .DS_Store
-Thumbs.db
-ehthumbs.db
-Desktop.ini
 
-# 临时产物
-*.tmp
-~$*
+# 旧版 11-07 合规构建的即时产物保留在 legacy/，无需重复排除

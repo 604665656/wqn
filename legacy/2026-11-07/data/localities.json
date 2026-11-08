@@ -1,0 +1,5059 @@
+{
+ "meta": {
+  "title": "地方历史深挖",
+  "count": 174,
+  "added": "2026-11-05",
+  "note": "29 个地理单元 × 4 条：政区沿革／可考事件／物产生业／易误辨析。关联 atlas.units 与 geoclimate.units 的 GEOid。",
+  "boundary": "政区沿革只写建制与称谓，不画精确边界，不作疆界、领土或主权判断；通识级锚点，出处为域名级检索入口，不用于学术引用。",
+  "density": "各单元条目数相同是结构约定，不代表各地史料密度相同。",
+  "depth2": "第二轮：29 地各补「人物与著述」「互证与辨误」两条，116→174 条，每地 6 条。"
+ },
+ "items": [
+  {
+   "id": "GEO001_L01",
+   "title": "黄河下游「河内 / 河北」称谓流转",
+   "rawYear": "约前5世纪—10世纪",
+   "y0": -500,
+   "y1": 1000,
+   "category": "政区沿革",
+   "summary": "文献里「河内」「河北」「京东」等称谓所指范围随河道与政区反复变化，不能用后世省界反推。",
+   "boundary": "称谓范围随时代变化，不作边界主张。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO001"
+  },
+  {
+   "id": "GEO001_L02",
+   "title": "铜瓦厢决口与河道北徙",
+   "rawYear": "1855年",
+   "y0": 1855,
+   "y1": 1855,
+   "category": "可考事件",
+   "summary": "清咸丰五年黄河于兰阳铜瓦厢决口，主流北徙经鲁北入海，是下游河道史上常被援引的转折。",
+   "boundary": "决口后数十年的堤防与流向仍有反复，不写成一次成型。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO001"
+  },
+  {
+   "id": "GEO001_L03",
+   "title": "冲积平原的淤灌与盐碱",
+   "rawYear": "约前3世纪起",
+   "y0": -300,
+   "y1": 1900,
+   "category": "物产生业",
+   "summary": "泥沙淤积既造田也抬河床，低洼地盐碱化与放淤改土长期并行。",
+   "boundary": "不作「改良即成功」的整体判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO001"
+  },
+  {
+   "id": "GEO001_L04",
+   "title": "「黄河」之名与河道稳定性",
+   "rawYear": "约前2世纪起",
+   "y0": -200,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "「黄河」称谓逐步固定，但下游河道多次摆动；今日河道不是「自古如此」。",
+   "boundary": "名称固定不等于河道固定。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO001"
+  },
+  {
+   "id": "GEO002_L01",
+   "title": "「江东 / 江南 / 两浙」所指变化",
+   "rawYear": "约3—14世纪",
+   "y0": 200,
+   "y1": 1400,
+   "category": "政区沿革",
+   "summary": "同一批地名在不同朝代所指的政区范围差别很大，唐「江南道」与后世「江南」不是一回事。",
+   "boundary": "不作现代行政区反推。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO002"
+  },
+  {
+   "id": "GEO002_L02",
+   "title": "圩田与湖荡围垦",
+   "rawYear": "约10世纪起",
+   "y0": 900,
+   "y1": 1800,
+   "category": "可考事件",
+   "summary": "低洼地筑堤围田，配合闸窦排灌，也引发水系与赋役上的长期争议。",
+   "boundary": "围垦收益与水患代价并存。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO002"
+  },
+  {
+   "id": "GEO002_L03",
+   "title": "稻作与桑蚕并重的复合生业",
+   "rawYear": "约6世纪起",
+   "y0": 500,
+   "y1": 1900,
+   "category": "物产生业",
+   "summary": "水田稻作、蚕桑与内河运输相互支撑，形成与旱作区不同的赋役结构。",
+   "boundary": "不与北方亩产直接比较。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO002"
+  },
+  {
+   "id": "GEO002_L04",
+   "title": "「鱼米之乡」是后世概括",
+   "rawYear": "约12世纪后",
+   "y0": 1100,
+   "y1": 1900,
+   "category": "易误辨析",
+   "summary": "富庶意象多见于后世文本，早期该地亦有潦患、疫病与开发成本。",
+   "boundary": "文学概括不等于同期实况。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO002"
+  },
+  {
+   "id": "GEO003_L01",
+   "title": "「关中」与「三辅」",
+   "rawYear": "约前3—公元3世纪",
+   "y0": -300,
+   "y1": 300,
+   "category": "政区沿革",
+   "summary": "以四关之内为范围的地理概念，与汉代三辅政区并不完全重合。",
+   "boundary": "地理概念≠政区边界。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO003"
+  },
+  {
+   "id": "GEO003_L02",
+   "title": "郑国渠与历代渠系",
+   "rawYear": "约前246年",
+   "y0": -250,
+   "y1": -240,
+   "category": "可考事件",
+   "summary": "战国末期开凿的引泾灌渠，后世多次改渠口、更渠名，不能视为同一条渠一直沿用。",
+   "boundary": "「沿用至今」的说法需分渠段分期。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO003"
+  },
+  {
+   "id": "GEO003_L03",
+   "title": "旱作与漕运供给",
+   "rawYear": "约前2世纪起",
+   "y0": -200,
+   "y1": 1000,
+   "category": "物产生业",
+   "summary": "盆地农业支撑都城，但关东漕粮输入规模随朝廷需求波动。",
+   "boundary": "不写成「自给自足」。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO003"
+  },
+  {
+   "id": "GEO003_L04",
+   "title": "「八百里秦川」的范围",
+   "rawYear": "约后世概括",
+   "y0": -200,
+   "y1": 1900,
+   "category": "易误辨析",
+   "summary": "文学化的范围表述，与可考的灌区、盆地边界并不等同。",
+   "boundary": "文学地理≠实测范围。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO003"
+  },
+  {
+   "id": "GEO004_L01",
+   "title": "「燕蓟 / 幽州 / 北平 / 顺天」",
+   "rawYear": "约前2世纪—20世纪",
+   "y0": -200,
+   "y1": 2000,
+   "category": "政区沿革",
+   "summary": "同一区域在不同政权下的建制与治所多次迁移，名称沿革不等于连续同一政区。",
+   "boundary": "不作疆界或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO004"
+  },
+  {
+   "id": "GEO004_L02",
+   "title": "永定河泛溢与堤工",
+   "rawYear": "约10—19世纪",
+   "y0": 900,
+   "y1": 1900,
+   "category": "可考事件",
+   "summary": "河道含沙高、摆动频繁，堤防与改道记载密集，是京畿治理的长期议题。",
+   "boundary": "单次治理不写成永久安澜。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO004"
+  },
+  {
+   "id": "GEO004_L03",
+   "title": "旱作、盐业与驿道",
+   "rawYear": "约前2世纪起",
+   "y0": -200,
+   "y1": 1900,
+   "category": "物产生业",
+   "summary": "平原农业、沿海盐场与南北驿道共同构成该地的供给与流通结构。",
+   "boundary": "三类生业不按同一口径统计。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO004"
+  },
+  {
+   "id": "GEO004_L04",
+   "title": "「自古为都」的建都叙事",
+   "rawYear": "约10世纪起",
+   "y0": 900,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "定都时间有明确朝代序列，但「自古」是后世概括，中间长期并非全国性政治中心。",
+   "boundary": "不把概括当连续纪年。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO004"
+  },
+  {
+   "id": "GEO005_L01",
+   "title": "河西四郡的设置",
+   "rawYear": "约前121—前111年",
+   "y0": -121,
+   "y1": -111,
+   "category": "政区沿革",
+   "summary": "汉廷先后置武威、张掖、酒泉、敦煌，是绿洲走廊纳入郡县体系的常被引节点；各郡始置年有细部讨论。",
+   "boundary": "设置年代与完全控制范围不是一回事。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO005"
+  },
+  {
+   "id": "GEO005_L02",
+   "title": "绿洲屯田与烽燧",
+   "rawYear": "约前2世纪起",
+   "y0": -200,
+   "y1": 900,
+   "category": "可考事件",
+   "summary": "屯田、驿传与烽燧沿绿洲串接，遗址分布呈断续点状而非连续带状。",
+   "boundary": "不画成连续控制线。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO005"
+  },
+  {
+   "id": "GEO005_L03",
+   "title": "雪山融水与灌溉农业",
+   "rawYear": "约前2世纪起",
+   "y0": -200,
+   "y1": 1900,
+   "category": "物产生业",
+   "summary": "农业依赖山前出山口径流，绿洲规模受水量与渠系维护约束。",
+   "boundary": "不作「走廊全线可耕」推断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO005"
+  },
+  {
+   "id": "GEO005_L04",
+   "title": "「丝绸之路」是后世命名",
+   "rawYear": "19世纪",
+   "y0": 1870,
+   "y1": 1900,
+   "category": "易误辨析",
+   "summary": "「Silk Road / 丝绸之路」为近代学术命名，古代行旅者并不使用这一总称。",
+   "boundary": "不把近代概念倒灌进古代文书。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO005"
+  },
+  {
+   "id": "GEO006_L01",
+   "title": "「西域」所指的伸缩",
+   "rawYear": "约前2世纪—18世纪",
+   "y0": -200,
+   "y1": 1800,
+   "category": "政区沿革",
+   "summary": "「西域」在历代文献里广狭不一，有时指天山南北，有时远及葱岭以西。",
+   "boundary": "称谓伸缩≠固定疆域。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO006"
+  },
+  {
+   "id": "GEO006_L02",
+   "title": "绿洲城邦与尼雅、楼兰文书",
+   "rawYear": "约3—5世纪",
+   "y0": 200,
+   "y1": 500,
+   "category": "可考事件",
+   "summary": "出土文书显示绿洲聚落有本地行政、契约与灌溉组织，不等于被单一政权均匀治理。",
+   "boundary": "遗址废弃原因有多解，不写成「文明消失」。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO006"
+  },
+  {
+   "id": "GEO006_L03",
+   "title": "坎儿井与葡萄园艺",
+   "rawYear": "约前1世纪起",
+   "y0": -100,
+   "y1": 1900,
+   "category": "物产生业",
+   "summary": "地下渠系与园艺作物适应极端干旱，技术传播路径与始用年代仍有讨论。",
+   "boundary": "不归为单一起源。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO006"
+  },
+  {
+   "id": "GEO006_L04",
+   "title": "「楼兰消失」的流行叙事",
+   "rawYear": "约4世纪后",
+   "y0": 300,
+   "y1": 1900,
+   "category": "易误辨析",
+   "summary": "聚落衰退更宜理解为绿洲网络与行政重心变化，而非某个民族或文明整体灭绝。",
+   "boundary": "不作人群替换断言。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO006"
+  },
+  {
+   "id": "GEO007_L01",
+   "title": "「苏美尔 / 阿卡德 / 巴比伦尼亚」",
+   "rawYear": "约前4—前1千纪",
+   "y0": -4000,
+   "y1": -500,
+   "category": "政区沿革",
+   "summary": "这些名称分别指语言、王朝与区域，层位不同，常被后世混作一个连续国家。",
+   "boundary": "语言、王朝、区域三层须分列。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO007"
+  },
+  {
+   "id": "GEO007_L02",
+   "title": "泥板账目与神庙经济",
+   "rawYear": "约前3200年",
+   "y0": -3400,
+   "y1": -2900,
+   "category": "可考事件",
+   "summary": "最早泥板多与分配记录相关，说明留档与计量先于成文法典出现。",
+   "boundary": "「最早文字」定义仍有争议。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO007"
+  },
+  {
+   "id": "GEO007_L03",
+   "title": "灌溉、盐渍化与椰枣",
+   "rawYear": "约前3千纪起",
+   "y0": -3000,
+   "y1": -500,
+   "category": "物产生业",
+   "summary": "灌溉支撑高产，也带来土壤盐分累积，作物结构随水土条件调整。",
+   "boundary": "不写成单线「盐渍化导致衰落」。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO007"
+  },
+  {
+   "id": "GEO007_L04",
+   "title": "「文明摇篮」是近现代框架",
+   "rawYear": "19—20世纪",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "该称谓出自近代文明史叙事，容易掩盖同期其他独立驯化中心。",
+   "boundary": "不作唯一发源地断言。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO007"
+  },
+  {
+   "id": "GEO008_L01",
+   "title": "上埃及 / 下埃及与诺姆",
+   "rawYear": "约前3100年起",
+   "y0": -3200,
+   "y1": -300,
+   "category": "政区沿革",
+   "summary": "「两地」与诺姆（州）是不同层级的划分，统一王权叙事不宜抹平地方行政的延续。",
+   "boundary": "王权叙事≠地方建制消失。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO008"
+  },
+  {
+   "id": "GEO008_L02",
+   "title": "尼罗河水位记录与计税",
+   "rawYear": "约前3千纪起",
+   "y0": -3000,
+   "y1": -500,
+   "category": "可考事件",
+   "summary": "水位观测与农业计税相关，部分石刻记录被后世用作年代学比对材料。",
+   "boundary": "测年换算存在口径争议。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO008"
+  },
+  {
+   "id": "GEO008_L03",
+   "title": "泛滥农业与纸莎草",
+   "rawYear": "约前3千纪起",
+   "y0": -3000,
+   "y1": 1000,
+   "category": "物产生业",
+   "summary": "季节性泛滥决定农期，纸莎草等湿地植物兼作书写材料与日用。",
+   "boundary": "不把「泛滥」写成年年规律一致。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO008"
+  },
+  {
+   "id": "GEO008_L04",
+   "title": "「金字塔由奴隶建成」",
+   "rawYear": "近现代通俗叙事",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "考古与文献更支持季节性征发与工匠村落并存的说法；通俗叙事与证据分层看待。",
+   "boundary": "不作单一用工制度定论。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO008"
+  },
+  {
+   "id": "GEO009_L01",
+   "title": "三角洲的诺姆与港口称谓",
+   "rawYear": "约前3千纪—公元7世纪",
+   "y0": -3000,
+   "y1": 700,
+   "category": "政区沿革",
+   "summary": "河口汊道变迁使港市与政区治所多次迁移，古今地名难以一一对应。",
+   "boundary": "不作古今地名直接等同。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO009"
+  },
+  {
+   "id": "GEO009_L02",
+   "title": "亚历山大里亚建城",
+   "rawYear": "前331年",
+   "y0": -331,
+   "y1": -331,
+   "category": "可考事件",
+   "summary": "马其顿征服后于地中海岸建城，其后成为托勒密王朝的政治与学术中心。",
+   "boundary": "建城年与「成为学术中心」不是同一年。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO009"
+  },
+  {
+   "id": "GEO009_L03",
+   "title": "河口渔捞与海陆转运",
+   "rawYear": "约前3千纪起",
+   "y0": -3000,
+   "y1": 1500,
+   "category": "物产生业",
+   "summary": "汊道、潟湖与海港构成转运网络，货类从谷物到纸草、玻璃不等。",
+   "boundary": "不按现代吞吐量类比。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO009"
+  },
+  {
+   "id": "GEO009_L04",
+   "title": "「灯塔 / 图书馆焚毁」单一叙事",
+   "rawYear": "后世文献层累",
+   "y0": -300,
+   "y1": 1500,
+   "category": "易误辨析",
+   "summary": "相关毁损经过多出自晚出文献，事件、年代与责任常有多种说法。",
+   "boundary": "不把后世追述当同期实录。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO009"
+  },
+  {
+   "id": "GEO010_L01",
+   "title": "「爱琴 / 爱奥尼亚 / 群岛」",
+   "rawYear": "约前2千纪起",
+   "y0": -2000,
+   "y1": 500,
+   "category": "政区沿革",
+   "summary": "海域、殖民区域与族群称谓在文献中交错，不宜合并为单一政治单位。",
+   "boundary": "海域≠政区。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO010"
+  },
+  {
+   "id": "GEO010_L02",
+   "title": "锡拉岛火山与阿克罗蒂里",
+   "rawYear": "约前17—16世纪",
+   "y0": -1700,
+   "y1": -1500,
+   "category": "可考事件",
+   "summary": "火山喷发掩埋了聚落，其与克里特诸中心衰退的时间关系仍有讨论。",
+   "boundary": "时间相关不等于已证因果。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO010"
+  },
+  {
+   "id": "GEO010_L03",
+   "title": "海运、黑曜石与陶器流通",
+   "rawYear": "约前3千纪起",
+   "y0": -3000,
+   "y1": -1000,
+   "category": "物产生业",
+   "summary": "岛际交换把黑曜石、金属与陶器连成网络，货物分布不等于人群迁移。",
+   "boundary": "物质流通≠人群替换。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO010"
+  },
+  {
+   "id": "GEO010_L04",
+   "title": "「亚特兰蒂斯即此地」",
+   "rawYear": "近现代假说",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "把柏拉图文本对应到具体遗址属未证实假说，本作仅在狂想档标注出现。",
+   "boundary": "不作考古结论。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO010"
+  },
+  {
+   "id": "GEO011_L01",
+   "title": "城邦与「希腊」认同",
+   "rawYear": "约前8—前4世纪",
+   "y0": -800,
+   "y1": -300,
+   "category": "政区沿革",
+   "summary": "「希腊人」是语言—祭祀共同体的自称，政治上长期是并立城邦，不是统一国家。",
+   "boundary": "文化认同≠统一政权。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO011"
+  },
+  {
+   "id": "GEO011_L02",
+   "title": "雅典公民登记与抽签",
+   "rawYear": "约前5世纪",
+   "y0": -500,
+   "y1": -400,
+   "category": "可考事件",
+   "summary": "公民名籍与抽签任职是城邦制度的组成部分，参与范围排除妇女、奴隶与外邦人。",
+   "boundary": "不写成普遍民主。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO011"
+  },
+  {
+   "id": "GEO011_L03",
+   "title": "橄榄、葡萄与山地牧业",
+   "rawYear": "约前2千纪起",
+   "y0": -2000,
+   "y1": 0,
+   "category": "物产生业",
+   "summary": "山地地形使园艺与畜牧互补，粮食常需输入，因而海贸与殖民相关。",
+   "boundary": "不作「自给」假设。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO011"
+  },
+  {
+   "id": "GEO011_L04",
+   "title": "「希腊奇迹」的近现代框架",
+   "rawYear": "18—19世纪",
+   "y0": 1700,
+   "y1": 1900,
+   "category": "易误辨析",
+   "summary": "该说法带有近代欧洲史学的目的论色彩，容易忽略近东与埃及的并行影响。",
+   "boundary": "不作单线原创叙事。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO011"
+  },
+  {
+   "id": "GEO012_L01",
+   "title": "「意大利 / 罗马 / 拉丁姆」",
+   "rawYear": "约前8—前3世纪",
+   "y0": -800,
+   "y1": -200,
+   "category": "政区沿革",
+   "summary": "拉丁姆是区域，罗马是城邦，意大利半岛统一是逐步扩张的结果，三者不是同时成立。",
+   "boundary": "区域、城邦、统一政体须分期。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO012"
+  },
+  {
+   "id": "GEO012_L02",
+   "title": "罗马殖民市与道路",
+   "rawYear": "约前4—前2世纪",
+   "y0": -400,
+   "y1": -100,
+   "category": "可考事件",
+   "summary": "道路与殖民市把半岛连成行政与军事网络，也改变了土地分配。",
+   "boundary": "不写成一次性完成。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO012"
+  },
+  {
+   "id": "GEO012_L03",
+   "title": "谷物、橄榄油与陶器",
+   "rawYear": "约前3世纪起",
+   "y0": -300,
+   "y1": 500,
+   "category": "物产生业",
+   "summary": "大地产、油料与 amphora 陶罐流通构成地中海供给链的一环。",
+   "boundary": "不按现代单一市场类比。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO012"
+  },
+  {
+   "id": "GEO012_L04",
+   "title": "「罗马人 = 意大利人」",
+   "rawYear": "近现代国族框架",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "古代公民权随扩张不断扩展，与近代民族国家国籍不是同一概念。",
+   "boundary": "不作国族倒推。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO012"
+  },
+  {
+   "id": "GEO013_L01",
+   "title": "「信德 / 印度河」称谓",
+   "rawYear": "约前3千纪起",
+   "y0": -3000,
+   "y1": 1500,
+   "category": "政区沿革",
+   "summary": "区域名、河名与后来的省名层位不同，古今对应需逐期核对。",
+   "boundary": "名称对应≠政区延续。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO013"
+  },
+  {
+   "id": "GEO013_L02",
+   "title": "摩亨佐-达罗与哈拉帕",
+   "rawYear": "约前2600—前1900年",
+   "y0": -2600,
+   "y1": -1900,
+   "category": "可考事件",
+   "summary": "城市规划、印章与计量遗存显示复杂组织，但文字尚未成功释读。",
+   "boundary": "「崩溃」宜写作城市网络衰退。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO013"
+  },
+  {
+   "id": "GEO013_L03",
+   "title": "棉花栽培与港市",
+   "rawYear": "约前3千纪起",
+   "y0": -3000,
+   "y1": -1500,
+   "category": "物产生业",
+   "summary": "早期棉花利用与近海转运有考古线索，具体传播路径仍有讨论。",
+   "boundary": "不写成单向扩散。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO013"
+  },
+  {
+   "id": "GEO013_L04",
+   "title": "「雅利安入侵」单因说",
+   "rawYear": "20世纪以来的争论",
+   "y0": 1900,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "语言分布、考古文化与遗传线索的解释模型多且互有竞争，不宜写作一次征服事件。",
+   "boundary": "不作人群整体替换断言。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO013"
+  },
+  {
+   "id": "GEO014_L01",
+   "title": "「摩揭陀 / 恒河流域」",
+   "rawYear": "约前6世纪起",
+   "y0": -600,
+   "y1": 1200,
+   "category": "政区沿革",
+   "summary": "多个王朝以恒河中下游为核心，但核心区范围随都城与行政重心变化。",
+   "boundary": "不画固定疆界。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO014"
+  },
+  {
+   "id": "GEO014_L02",
+   "title": "佛经结集传统",
+   "rawYear": "约前5—前3世纪",
+   "y0": -500,
+   "y1": -200,
+   "category": "可考事件",
+   "summary": "结集次数、年代与地点多出自后世传承，文本真实存在与事件细节须分层。",
+   "boundary": "传承叙述不等于同期实录。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO014"
+  },
+  {
+   "id": "GEO014_L03",
+   "title": "水稻、甘蔗与河运",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1500,
+   "category": "物产生业",
+   "summary": "季风降水与冲积土支撑稻作，河运把税粮与商货连向河口。",
+   "boundary": "不与印度河平原同口径比较。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO014"
+  },
+  {
+   "id": "GEO014_L04",
+   "title": "「种姓自古不变」",
+   "rawYear": "近现代概括",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "瓦尔纳文本规范与地方实际身份群体（jati）之间差距大，且随时期变动。",
+   "boundary": "文本规范≠社会实况。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO014"
+  },
+  {
+   "id": "GEO015_L01",
+   "title": "「德干 / 案达罗 / 巴赫曼尼」",
+   "rawYear": "约前3世纪—17世纪",
+   "y0": -300,
+   "y1": 1700,
+   "category": "政区沿革",
+   "summary": "高原政权名称更迭频繁，南北向控制多靠据点与贡赋而非均匀治理。",
+   "boundary": "不写成连续统一治理。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO015"
+  },
+  {
+   "id": "GEO015_L02",
+   "title": "石窟与寺院营建",
+   "rawYear": "约前2世纪—公元8世纪",
+   "y0": -200,
+   "y1": 800,
+   "category": "可考事件",
+   "summary": "阿旃陀、埃洛拉等石窟群跨越多个王朝与宗教传统，分期需逐窟核对。",
+   "boundary": "不归为单一王朝工程。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO015"
+  },
+  {
+   "id": "GEO015_L03",
+   "title": "棉花、铁与高原旱作",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1800,
+   "category": "物产生业",
+   "summary": "黑棉土、铁矿与旱作组合支撑内陆供给，也参与远洋棉布贸易。",
+   "boundary": "不与恒河稻作同口径比较。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO015"
+  },
+  {
+   "id": "GEO015_L04",
+   "title": "「南印度 = 单一文化区」",
+   "rawYear": "近现代概括",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "语言、碑铭与政权传统多元，不宜按现代邦界反推。",
+   "boundary": "不作同质化叙述。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO015"
+  },
+  {
+   "id": "GEO016_L01",
+   "title": "「玛雅」是后世总称",
+   "rawYear": "约前2千纪—16世纪",
+   "y0": -2000,
+   "y1": 1600,
+   "category": "政区沿革",
+   "summary": "低地诸城邦各有王号与碑铭，从不自称为一个统一「玛雅帝国」。",
+   "boundary": "总称≠统一政权。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO016"
+  },
+  {
+   "id": "GEO016_L02",
+   "title": "蒂卡尔与卡拉克穆尔的碑铭纪年",
+   "rawYear": "约3—9世纪",
+   "y0": 250,
+   "y1": 900,
+   "category": "可考事件",
+   "summary": "碑铭以长纪历记录即位、战争与盟姻，是本地年代学的主干材料。",
+   "boundary": "碑铭为王室视角，不等于全境实录。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO016"
+  },
+  {
+   "id": "GEO016_L03",
+   "title": "玉米、可可与台田",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1500,
+   "category": "物产生业",
+   "summary": "低地农业含刀耕、台田与湿地管理，可可兼作饮品与交换物。",
+   "boundary": "不写成单一耕作制。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO016"
+  },
+  {
+   "id": "GEO016_L04",
+   "title": "「玛雅文明突然消失」",
+   "rawYear": "20世纪通俗叙事",
+   "y0": 1900,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "更宜理解为低地城邦网络与政治中心衰退；玛雅语言与人群延续至今。",
+   "boundary": "不作文明灭亡断言。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO016"
+  },
+  {
+   "id": "GEO017_L01",
+   "title": "尤卡坦的城邦与后置省名",
+   "rawYear": "约3—16世纪",
+   "y0": 200,
+   "y1": 1600,
+   "category": "政区沿革",
+   "summary": "半岛诸城邦并立，西班牙殖民后设省，两套地名体系不能互相倒推。",
+   "boundary": "殖民政区≠前代城邦。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO017"
+  },
+  {
+   "id": "GEO017_L02",
+   "title": "奇琴伊察与玛雅潘",
+   "rawYear": "约9—15世纪",
+   "y0": 800,
+   "y1": 1500,
+   "category": "可考事件",
+   "summary": "政治重心在半岛内多次转移，建筑层位与文献传承互相印证但分期有讨论。",
+   "boundary": "不写成单线王朝继承。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO017"
+  },
+  {
+   "id": "GEO017_L03",
+   "title": "溶井（cenote）与盐、棉",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1500,
+   "category": "物产生业",
+   "summary": "喀斯特地貌无地表河，聚落依溶井分布；沿海盐场与棉布是重要交换物。",
+   "boundary": "不把溶井写成唯一水源。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO017"
+  },
+  {
+   "id": "GEO017_L04",
+   "title": "「德累斯顿抄本」的转写链",
+   "rawYear": "约11—16世纪",
+   "y0": 1000,
+   "y1": 1600,
+   "category": "易误辨析",
+   "summary": "现存抄本经殖民时期转写与收藏，文本层与抄写层必须分辨。",
+   "boundary": "传世本≠原抄本。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO017"
+  },
+  {
+   "id": "GEO018_L01",
+   "title": "「安第斯中部 / 印加」分期",
+   "rawYear": "约前3千纪—16世纪",
+   "y0": -3000,
+   "y1": 1600,
+   "category": "政区沿革",
+   "summary": "印加帝国只是末期一段，此前有诸多并立与先后区域传统。",
+   "boundary": "不把安第斯史等同于印加史。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO018"
+  },
+  {
+   "id": "GEO018_L02",
+   "title": "奇普结绳记事",
+   "rawYear": "约前1千纪—16世纪",
+   "y0": -1000,
+   "y1": 1600,
+   "category": "可考事件",
+   "summary": "结绳用于计数与记录，其是否承载叙事性信息仍有讨论。",
+   "boundary": "不写成「文字」定论。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO018"
+  },
+  {
+   "id": "GEO018_L03",
+   "title": "马铃薯、梯田与垂直生态",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1500,
+   "category": "物产生业",
+   "summary": "海拔分层种植、梯田与驼类运输构成与旧大陆完全不同的生业组合。",
+   "boundary": "不与欧亚作物直接类比。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO018"
+  },
+  {
+   "id": "GEO018_L04",
+   "title": "「印加无文字 / 无轮」的缺失叙事",
+   "rawYear": "16世纪起",
+   "y0": 1500,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "以旧大陆技术清单衡量容易变成缺陷叙事；结绳、道路与仓储自有其制度逻辑。",
+   "boundary": "不作优劣比较。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO018"
+  },
+  {
+   "id": "GEO019_L01",
+   "title": "「斯基泰 / 萨尔马提亚」他称",
+   "rawYear": "约前8世纪—公元4世纪",
+   "y0": -800,
+   "y1": 400,
+   "category": "政区沿革",
+   "summary": "多为定居文献对草原人群的统称，涵盖语言与政治组合并不相同的群体。",
+   "boundary": "他称不等于单一族群。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO019"
+  },
+  {
+   "id": "GEO019_L02",
+   "title": "库尔干冢墓与马具",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 0,
+   "category": "可考事件",
+   "summary": "冢墓出土马具、金饰与冻土保存物，是研究移动生计的重要材料。",
+   "boundary": "葬俗分布不等于族群边界。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO019"
+  },
+  {
+   "id": "GEO019_L03",
+   "title": "移动放牧与畜产品交换",
+   "rawYear": "约前2千纪起",
+   "y0": -2000,
+   "y1": 1500,
+   "category": "物产生业",
+   "summary": "季节性转场、乳制品与皮毛同定居农业区长期互市。",
+   "boundary": "不写成「纯游牧、不耕作」。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO019"
+  },
+  {
+   "id": "GEO019_L04",
+   "title": "「草原民族 = 单一血统」",
+   "rawYear": "近现代概括",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "草原联盟多为政治组合，语言转用与并入频繁，不宜按体质或姓氏划界。",
+   "boundary": "不作生物种族断言。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO019"
+  },
+  {
+   "id": "GEO020_L01",
+   "title": "「匈奴 / 鲜卑 / 柔然 / 突厥 / 蒙古」",
+   "rawYear": "约前3世纪—14世纪",
+   "y0": -300,
+   "y1": 1400,
+   "category": "政区沿革",
+   "summary": "这些名称首先是政治联盟与汗号，前后并非同一人群的改名连续体。",
+   "boundary": "联盟名≠人群连续体。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO020"
+  },
+  {
+   "id": "GEO020_L02",
+   "title": "鄂尔浑碑铭",
+   "rawYear": "约8世纪",
+   "y0": 700,
+   "y1": 800,
+   "category": "可考事件",
+   "summary": "突厥文碑铭以第一人称记功，是研究草原政治语言与称号的一手材料。",
+   "boundary": "碑铭为王族视角。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO020"
+  },
+  {
+   "id": "GEO020_L03",
+   "title": "牧业、猎获与边地互市",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1900,
+   "category": "物产生业",
+   "summary": "畜群、皮毛与关市贸易互补，灾害年份的南迁常与互市松动同时出现。",
+   "boundary": "不作单因气候决定论。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO020"
+  },
+  {
+   "id": "GEO020_L04",
+   "title": "「成吉思汗 = 蒙古人种代表」",
+   "rawYear": "近现代种族框架",
+   "y0": 1900,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "把政治共同体写入生物种族分类是近代观念，本作不采用。",
+   "boundary": "不作人种归类。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO020"
+  },
+  {
+   "id": "GEO021_L01",
+   "title": "「葱岭 / 天山南北」称谓",
+   "rawYear": "约前2世纪起",
+   "y0": -200,
+   "y1": 1900,
+   "category": "政区沿革",
+   "summary": "山系与廊道在不同文献里所指范围变化，常与「西域」广狭义交织。",
+   "boundary": "山系名≠固定政区。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO021"
+  },
+  {
+   "id": "GEO021_L02",
+   "title": "山口通道与商旅文书",
+   "rawYear": "约3—10世纪",
+   "y0": 200,
+   "y1": 1000,
+   "category": "可考事件",
+   "summary": "出土契约、过所与商旅记录显示通道按季节与政局开合，并非常年畅通。",
+   "boundary": "不写成一条不间断「丝路」。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO021"
+  },
+  {
+   "id": "GEO021_L03",
+   "title": "高山牧业与绿洲中转",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1900,
+   "category": "物产生业",
+   "summary": "垂直牧场与山前绿洲互补，中转聚落依赖水草与安全保障。",
+   "boundary": "不按现代国境划分生业。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO021"
+  },
+  {
+   "id": "GEO021_L04",
+   "title": "「地理决定论」式走廊叙事",
+   "rawYear": "近现代框架",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "通道是否畅通更多取决于政局、税关与护卫，地形只是条件之一。",
+   "boundary": "不作地理单因解释。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO021"
+  },
+  {
+   "id": "GEO022_L01",
+   "title": "「内海 / 我们的海」称谓",
+   "rawYear": "约前2世纪—公元5世纪",
+   "y0": -200,
+   "y1": 500,
+   "category": "政区沿革",
+   "summary": "罗马文献中的 mare nostrum 是政治修辞，与今日地理分区不是一回事。",
+   "boundary": "修辞≠实测海域。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO022"
+  },
+  {
+   "id": "GEO022_L02",
+   "title": "罗得海法与共同海损",
+   "rawYear": "约前3—前2世纪",
+   "y0": -300,
+   "y1": -100,
+   "category": "可考事件",
+   "summary": "关于共同海损的规则常被引为早期海商法材料，条文来源与年代仍有讨论。",
+   "boundary": "不作「第一部海商法」定论。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO022"
+  },
+  {
+   "id": "GEO022_L03",
+   "title": "谷物、油、酒与双耳陶罐",
+   "rawYear": "约前3世纪起",
+   "y0": -300,
+   "y1": 500,
+   "category": "物产生业",
+   "summary": "沉船与陶罐分布勾勒出大宗货流，但货流密度不等于沿岸普遍富裕。",
+   "boundary": "不按现代贸易量类比。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO022"
+  },
+  {
+   "id": "GEO022_L04",
+   "title": "「地中海统一市场」",
+   "rawYear": "近现代概括",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "关税、海盗、港口特权与政权割据长期存在，宜写作连接而非统一。",
+   "boundary": "不作单一市场断言。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO022"
+  },
+  {
+   "id": "GEO023_L01",
+   "title": "「红海 / 阿拉伯湾」古名",
+   "rawYear": "约前2千纪起",
+   "y0": -2000,
+   "y1": 1500,
+   "category": "政区沿革",
+   "summary": "古典文献中的 Erythraean Sea 所指常大于今日红海，含亚丁湾与部分印度洋。",
+   "boundary": "古名范围≠今日海域。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO023"
+  },
+  {
+   "id": "GEO023_L02",
+   "title": "《厄立特里亚海航行记》",
+   "rawYear": "约1世纪",
+   "y0": 1,
+   "y1": 100,
+   "category": "可考事件",
+   "summary": "一份以希腊文写成的航路与港市记，作者与成年有讨论，内容可与考古互证。",
+   "boundary": "文本细节不等于逐港实录。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO023"
+  },
+  {
+   "id": "GEO023_L03",
+   "title": "季风航路与香料转运",
+   "rawYear": "约前1世纪起",
+   "y0": -100,
+   "y1": 1500,
+   "category": "物产生业",
+   "summary": "季风节律决定航期，乳香、胡椒与象牙经此转运，港市随季风与政局兴衰。",
+   "boundary": "不写成全年通航。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO023"
+  },
+  {
+   "id": "GEO023_L04",
+   "title": "「红海 = 印度洋」等量替换",
+   "rawYear": "近现代概括",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "古代文献的海名层位与近代海图分区不同，直接换算会错置航线。",
+   "boundary": "不作古今海域等同。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO023"
+  },
+  {
+   "id": "GEO024_L01",
+   "title": "「波斯湾 / 下海」称谓",
+   "rawYear": "约前2千纪起",
+   "y0": -2000,
+   "y1": 1500,
+   "category": "政区沿革",
+   "summary": "两河文献里的「下海」与后来的波斯湾范围并不完全重合。",
+   "boundary": "古名≠今日海湾界线。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO024"
+  },
+  {
+   "id": "GEO024_L02",
+   "title": "迪尔蒙与海湾中转",
+   "rawYear": "约前3—前2千纪",
+   "y0": -3000,
+   "y1": -1000,
+   "category": "可考事件",
+   "summary": "泥板与遗址显示海湾中转贸易连接两河与印度河，具体政治形态仍有讨论。",
+   "boundary": "不作「殖民地」定论。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO024"
+  },
+  {
+   "id": "GEO024_L03",
+   "title": "椰枣、珍珠与铜",
+   "rawYear": "约前3千纪起",
+   "y0": -3000,
+   "y1": 1500,
+   "category": "物产生业",
+   "summary": "绿洲园艺、采珠与金属转运并行，货类随时期变化。",
+   "boundary": "不按现代石油经济倒推。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO024"
+  },
+  {
+   "id": "GEO024_L04",
+   "title": "「海湾文明 = 两河附庸」",
+   "rawYear": "近现代概括",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "中转聚落有本地行政与交换网络，不宜只按核心—边缘框架书写。",
+   "boundary": "不作单向依附叙事。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO024"
+  },
+  {
+   "id": "GEO025_L01",
+   "title": "「季风区」是气候概念",
+   "rawYear": "约前1世纪起",
+   "y0": -100,
+   "y1": 2000,
+   "category": "政区沿革",
+   "summary": "由季风节律界定的海域，与任何政权、族群或文化边界都不重合。",
+   "boundary": "气候区≠文化区。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO025"
+  },
+  {
+   "id": "GEO025_L02",
+   "title": "季风规律与港市历法",
+   "rawYear": "约1—15世纪",
+   "y0": 1,
+   "y1": 1500,
+   "category": "可考事件",
+   "summary": "阿拉伯、南亚与东亚文献分别记录航期，把风向写成可传授的航海知识。",
+   "boundary": "各地历法口径不同，不合并成一套。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO025"
+  },
+  {
+   "id": "GEO025_L03",
+   "title": "胡椒、棉布与瓷器转运",
+   "rawYear": "约1世纪起",
+   "y0": 1,
+   "y1": 1800,
+   "category": "物产生业",
+   "summary": "多段接力式转运长期存在， rarely 由单一船队跑完全程。",
+   "boundary": "不写成一条直达航线。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO025"
+  },
+  {
+   "id": "GEO025_L04",
+   "title": "「郑和 / 达·伽马开辟航路」",
+   "rawYear": "近现代叙事",
+   "y0": 1900,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "航线在此前已由多地使用，「开辟」多指出于特定文献视角的记载。",
+   "boundary": "不作首创归属。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO025"
+  },
+  {
+   "id": "GEO026_L01",
+   "title": "「撒哈拉」与「大漠」称谓",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1900,
+   "category": "政区沿革",
+   "summary": "沙漠范围随全新世气候波动变化，古今所称并非同一固定边界。",
+   "boundary": "不作固定边界主张。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO026"
+  },
+  {
+   "id": "GEO026_L02",
+   "title": "撒哈拉变干与岩画分期",
+   "rawYear": "约前5000—前3000年",
+   "y0": -5000,
+   "y1": -3000,
+   "category": "可考事件",
+   "summary": "湿润期草原岩画与后续干旱化层位，为环境史常用材料；与人群移动不作单因对应。",
+   "boundary": "时间相关不等于因果。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO026"
+  },
+  {
+   "id": "GEO026_L03",
+   "title": "绿洲、盐与跨沙漠商队",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1900,
+   "category": "物产生业",
+   "summary": "盐、金与文本经绿洲节点接力转运，路线随水井与政局改易。",
+   "boundary": "不写成一条固定「盐路」。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO026"
+  },
+  {
+   "id": "GEO026_L04",
+   "title": "「沙漠屏障 = 隔绝」",
+   "rawYear": "近现代概括",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "岩画、商路与文献都显示跨沙漠联系长期存在，宜写作过滤而非隔绝。",
+   "boundary": "不作绝对隔绝断言。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO026"
+  },
+  {
+   "id": "GEO027_L01",
+   "title": "「阿拉伯 / 半岛」的广狭",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1900,
+   "category": "政区沿革",
+   "summary": "古典文献中的 Arabia 有时含沙漠边缘与更北区域，与今日半岛范围不同。",
+   "boundary": "古名≠现代国界。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO027"
+  },
+  {
+   "id": "GEO027_L02",
+   "title": "乳香之路与绿洲城",
+   "rawYear": "约前1千纪—公元4世纪",
+   "y0": -1000,
+   "y1": 400,
+   "category": "可考事件",
+   "summary": "南部绿洲城邦参与乳香转运，后因海路与需求变化而调整。",
+   "boundary": "不写成「突然衰落」。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO027"
+  },
+  {
+   "id": "GEO027_L03",
+   "title": "椰枣、驼队与朝觐供给",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1900,
+   "category": "物产生业",
+   "summary": "绿洲园艺、驼运与朝觐沿途供给构成复合生业。",
+   "boundary": "不按现代石油经济倒推。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO027"
+  },
+  {
+   "id": "GEO027_L04",
+   "title": "「半岛 = 单一族群」",
+   "rawYear": "近现代概括",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "语言、部落、城市与宗教共同体多元，不宜按体质或姓氏划界。",
+   "boundary": "不作人种归类。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO027"
+  },
+  {
+   "id": "GEO028_L01",
+   "title": "「不列颠 / 布列塔尼亚」",
+   "rawYear": "约1—5世纪",
+   "y0": 1,
+   "y1": 500,
+   "category": "政区沿革",
+   "summary": "罗马行省与岛屿名称层位不同，行省范围不覆盖全岛。",
+   "boundary": "行省≠全岛。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO028"
+  },
+  {
+   "id": "GEO028_L02",
+   "title": "哈德良长城与驻军文书",
+   "rawYear": "约2世纪",
+   "y0": 100,
+   "y1": 200,
+   "category": "可考事件",
+   "summary": "长城与文德兰达木牍等驻军材料，显示边防与日常供给的具体组织。",
+   "boundary": "不写成「国界」定论。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO028"
+  },
+  {
+   "id": "GEO028_L03",
+   "title": "羊毛、锡与牧业",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1500,
+   "category": "物产生业",
+   "summary": "羊毛与金属长期是出口货，农业与牧业按区域分工。",
+   "boundary": "不与地中海园艺同口径比较。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO028"
+  },
+  {
+   "id": "GEO028_L04",
+   "title": "「英格兰自古统一」",
+   "rawYear": "近现代国族框架",
+   "y0": 1700,
+   "y1": 2000,
+   "category": "易误辨析",
+   "summary": "中世纪长期多政权并立，统一是较晚的制度结果。",
+   "boundary": "不作国族倒推。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO028"
+  },
+  {
+   "id": "GEO029_L01",
+   "title": "「倭 / 日本 / 列岛」称谓",
+   "rawYear": "约1—8世纪",
+   "y0": 1,
+   "y1": 800,
+   "category": "政区沿革",
+   "summary": "「倭」为古代文献他称，「日本」国号与律令制国家的形成有明确时间层位。",
+   "boundary": "他称与自称须分列。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO029"
+  },
+  {
+   "id": "GEO029_L02",
+   "title": "大化改新与律令籍帐",
+   "rawYear": "约645—701年",
+   "y0": 645,
+   "y1": 701,
+   "category": "可考事件",
+   "summary": "籍帐、班田与律令编纂留下文书制度线索，施行范围与程度有讨论。",
+   "boundary": "诏令≠全境均匀施行。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO029"
+  },
+  {
+   "id": "GEO029_L03",
+   "title": "稻作、渔业与山地薪炭",
+   "rawYear": "约前1千纪起",
+   "y0": -1000,
+   "y1": 1900,
+   "category": "物产生业",
+   "summary": "稻作与沿海渔业、山地林产互补，耕地扩张受地形约束。",
+   "boundary": "不按现代单一市场类比。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO029"
+  },
+  {
+   "id": "GEO029_L04",
+   "title": "「氏姓 = 现代姓氏」",
+   "rawYear": "约5—19世纪",
+   "y0": 400,
+   "y1": 1900,
+   "category": "易误辨析",
+   "summary": "古代「氏・姓」是政治—祭祀身份称谓，与 1875 年后普遍使用的「苗字」不是同一制度。",
+   "boundary": "制度同名不等于同实。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "settled",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "geoId": "GEO029"
+  },
+  {
+   "id": "GEO001_L05",
+   "title": "《水经注》与黄河下游水道",
+   "rawYear": "约6世纪",
+   "y0": 500,
+   "y1": 600,
+   "category": "人物与著述",
+   "summary": "郦道元以水道为纲记城邑、陂泽与故渎，是重构下游河道的重要文本，但所据多为前代地记。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO001"
+  },
+  {
+   "id": "GEO001_L06",
+   "title": "河道变迁与政区称谓互证",
+   "rawYear": "约前2世纪—19世纪",
+   "y0": -200,
+   "y1": 1900,
+   "category": "互证与辨误",
+   "summary": "「河内」「河北」等范围随河道摆动与政区改隶而变，须以同期政区文书与河道记载互证，不能用后世省界反推。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO001"
+  },
+  {
+   "id": "GEO002_L05",
+   "title": "《禹贡》与江南地域叙述",
+   "rawYear": "约前5世纪—前3世纪",
+   "y0": -500,
+   "y1": -200,
+   "category": "人物与著述",
+   "summary": "《禹贡》以九州、贡赋、水土立说，是后世地理叙述的经典框架，其成书年代与所叙范围仍多讨论。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO002"
+  },
+  {
+   "id": "GEO002_L06",
+   "title": "圩田、湖田与税则的对读",
+   "rawYear": "约10世纪—18世纪",
+   "y0": 900,
+   "y1": 1800,
+   "category": "互证与辨误",
+   "summary": "同一片低地在田赋册称「田」、在水利志称「荡」，须税则与水利文书对读才能判其开发时序。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO002"
+  },
+  {
+   "id": "GEO003_L05",
+   "title": "《三辅黄图》与关中宫室",
+   "rawYear": "约6世纪前后",
+   "y0": 400,
+   "y1": 700,
+   "category": "人物与著述",
+   "summary": "记汉长安及三辅宫观、苑囿、池沼，文本经后人增补，须与考古勘探分层对读。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO003"
+  },
+  {
+   "id": "GEO003_L06",
+   "title": "「关中」范围的时代差",
+   "rawYear": "约前3世纪—10世纪",
+   "y0": -300,
+   "y1": 1000,
+   "category": "互证与辨误",
+   "summary": "秦汉「关中」与唐「关内」所指不完全重合，四关之说亦随关隘兴废变化。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO003"
+  },
+  {
+   "id": "GEO004_L05",
+   "title": "《元和郡县图志》与华北州县",
+   "rawYear": "9世纪",
+   "y0": 800,
+   "y1": 900,
+   "category": "人物与著述",
+   "summary": "李吉甫以当时政区为纲记沿革、户口、贡赋，图已佚、文有阙，是唐后期政区的重要横切面。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "status": "学界通说",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO004"
+  },
+  {
+   "id": "GEO004_L06",
+   "title": "「华北平原」是现代地理概念",
+   "rawYear": "20世纪",
+   "y0": 1900,
+   "y1": 2000,
+   "category": "互证与辨误",
+   "summary": "作为地貌单元名称是近现代地理学用语，不宜当作古代政区或文献自称。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO004"
+  },
+  {
+   "id": "GEO005_L05",
+   "title": "敦煌文书与河西走廊",
+   "rawYear": "约5世纪—11世纪",
+   "y0": 400,
+   "y1": 1100,
+   "category": "人物与著述",
+   "summary": "寺窟、官府、契约、驿程文书并存，是研究地方行政、寺院经济与多语并用的第一手材料。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO005"
+  },
+  {
+   "id": "GEO005_L06",
+   "title": "「丝绸之路」是后起学术命名",
+   "rawYear": "19世纪—20世纪",
+   "y0": 1800,
+   "y1": 2000,
+   "category": "互证与辨误",
+   "summary": "该名称为 19 世纪学术概念，不能倒灌进汉唐文书，也不能据此把沿线说成一条单一商路。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO005"
+  },
+  {
+   "id": "GEO006_L05",
+   "title": "《大唐西域记》与塔里木绿洲",
+   "rawYear": "7世纪",
+   "y0": 600,
+   "y1": 700,
+   "category": "人物与著述",
+   "summary": "玄奘记沿线路程、城邦、语言与物产，是7世纪绿洲网络的重要记载，与出土文书可互证。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "status": "学界通说",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO006"
+  },
+  {
+   "id": "GEO006_L06",
+   "title": "「西域」是浮动的范围",
+   "rawYear": "约前2世纪—10世纪",
+   "y0": -200,
+   "y1": 1000,
+   "category": "互证与辨误",
+   "summary": "汉唐「西域」广狭随都护设置与交通线而变，不等于固定边界。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO006"
+  },
+  {
+   "id": "GEO007_L05",
+   "title": "《汉穆拉比法典》与两河法律文书",
+   "rawYear": "约前18世纪",
+   "y0": -1800,
+   "y1": -1700,
+   "category": "人物与著述",
+   "summary": "石柱法典之外还有大量契约、诉讼与书信泥板，法典条文与实际裁判不能等同。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO007"
+  },
+  {
+   "id": "GEO007_L06",
+   "title": "泥板出土地与「城邦」归属",
+   "rawYear": "约前30世纪—前5世纪",
+   "y0": -3000,
+   "y1": -500,
+   "category": "互证与辨误",
+   "summary": "同一城址多层堆积、泥板可转运，出土地不等于文书所记政权的辖境。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO007"
+  },
+  {
+   "id": "GEO008_L05",
+   "title": "希罗多德与尼罗河谷记述",
+   "rawYear": "约前5世纪",
+   "y0": -500,
+   "y1": -400,
+   "category": "人物与著述",
+   "summary": "《历史》卷二记埃及风土与制度，属外部观察者叙述，须与埃及本土碑铭、纸草对读。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO008"
+  },
+  {
+   "id": "GEO008_L06",
+   "title": "「上下埃及」是符号与政区叠合",
+   "rawYear": "约前31世纪起",
+   "y0": -3100,
+   "y1": -300,
+   "category": "互证与辨误",
+   "summary": "王衔、冠式与地理分区相叠，不宜当作精确的行政边界。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO008"
+  },
+  {
+   "id": "GEO009_L05",
+   "title": "纸草文书与三角洲税册",
+   "rawYear": "约前3世纪—7世纪",
+   "y0": -300,
+   "y1": 700,
+   "category": "人物与著述",
+   "summary": "托勒密至拜占庭期税册、契约、书信大量存世，是地税与村社组织的主要材料。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO009"
+  },
+  {
+   "id": "GEO009_L06",
+   "title": "三角洲河道与城址位移",
+   "rawYear": "约前5世纪—14世纪",
+   "y0": -500,
+   "y1": 1400,
+   "category": "互证与辨误",
+   "summary": "尼罗河分支摆动导致港市兴废，同名城址未必同地。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO009"
+  },
+  {
+   "id": "GEO010_L05",
+   "title": "线形 B 与爱琴南部账目",
+   "rawYear": "约前14世纪—前13世纪",
+   "y0": -1400,
+   "y1": -1200,
+   "category": "人物与著述",
+   "summary": "克诺索斯、皮洛斯泥板为宫室账目，不是编年史，释读决定了对其社会组织的推断限度。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO010"
+  },
+  {
+   "id": "GEO010_L06",
+   "title": "「米诺斯／迈锡尼」是考古文化名",
+   "rawYear": "20世纪",
+   "y0": 1900,
+   "y1": 2000,
+   "category": "互证与辨误",
+   "summary": "两者为现代考古学命名，不是当时自称，也不能直接对应文献中的族群。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO010"
+  },
+  {
+   "id": "GEO011_L05",
+   "title": "保萨尼亚斯与希腊半岛地志",
+   "rawYear": "2世纪",
+   "y0": 100,
+   "y1": 200,
+   "category": "人物与著述",
+   "summary": "《希腊志》按路线记遗迹与传说，是旅行者视角，常与考古年代不一致。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "status": "学界通说",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO011"
+  },
+  {
+   "id": "GEO011_L06",
+   "title": "「希腊」从城邦到地域概念",
+   "rawYear": "约前8世纪—2世纪",
+   "y0": -800,
+   "y1": 200,
+   "category": "互证与辨误",
+   "summary": "古典期以城邦与方言群自别，后世地域概念是层累形成的。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO011"
+  },
+  {
+   "id": "GEO012_L05",
+   "title": "李维与意大利半岛建城叙事",
+   "rawYear": "约前1世纪—1世纪",
+   "y0": -50,
+   "y1": 50,
+   "category": "人物与著述",
+   "summary": "建城传说与共和制度叙述多经后人整理，早期部分须与铭刻、考古分层对读。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO012"
+  },
+  {
+   "id": "GEO012_L06",
+   "title": "「罗马公民权」是法律身份",
+   "rawYear": "约前3世纪—3世纪",
+   "y0": -300,
+   "y1": 200,
+   "category": "互证与辨误",
+   "summary": "同盟战争与卡拉卡拉敕令前后范围变化极大，不等于语言或血缘共同体。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO012"
+  },
+  {
+   "id": "GEO013_L05",
+   "title": "印度河印章与未释读文字",
+   "rawYear": "约前26世纪—前19世纪",
+   "y0": -2600,
+   "y1": -1800,
+   "category": "人物与著述",
+   "summary": "印章、砝码与城址规划提供大量材料，但文字未释读，任何「王名／族名」读法都属假说。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO013"
+  },
+  {
+   "id": "GEO013_L06",
+   "title": "「哈拉帕文化」是考古学标签",
+   "rawYear": "20世纪",
+   "y0": 1900,
+   "y1": 2000,
+   "category": "互证与辨误",
+   "summary": "以典型遗址命名的考古文化，不等于文献中的政权或人群。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO013"
+  },
+  {
+   "id": "GEO014_L05",
+   "title": "《摩奴法典》与恒河平原法文献",
+   "rawYear": "约前2世纪—2世纪",
+   "y0": -200,
+   "y1": 200,
+   "category": "人物与著述",
+   "summary": "法论类文本成书年代与适用范围争议大，不宜当作某一时点的社会实录。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO014"
+  },
+  {
+   "id": "GEO014_L06",
+   "title": "「种姓」多层概念不可合并",
+   "rawYear": "约前5世纪—20世纪",
+   "y0": -500,
+   "y1": 2000,
+   "category": "互证与辨误",
+   "summary": "瓦尔纳、阇提、近现代 census 分类是不同层的概念，不能互推。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO014"
+  },
+  {
+   "id": "GEO015_L05",
+   "title": "阿育王铭刻与德干高原",
+   "rawYear": "约前3世纪",
+   "y0": -300,
+   "y1": -200,
+   "category": "人物与著述",
+   "summary": "摩崖与石柱敕令分布广，是纪年与行政范围的重要锚点，但刻立地不等于辖境线。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO015"
+  },
+  {
+   "id": "GEO015_L06",
+   "title": "「德干」是地貌与历史地域名",
+   "rawYear": "约10世纪起",
+   "y0": 900,
+   "y1": 1900,
+   "category": "互证与辨误",
+   "summary": "作为地理与政治地域名随政权更迭伸缩，不作精确边界。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO015"
+  },
+  {
+   "id": "GEO016_L05",
+   "title": "《波波尔·乌》与低地玛雅叙事",
+   "rawYear": "约16世纪—18世纪",
+   "y0": 1500,
+   "y1": 1800,
+   "category": "人物与著述",
+   "summary": "殖民期基切玛雅文本经转录保存，含创世与王系叙事，须与古典期铭文分 layer 读。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO016"
+  },
+  {
+   "id": "GEO016_L06",
+   "title": "「玛雅崩溃」宜作网络衰退",
+   "rawYear": "约8世纪—10世纪",
+   "y0": 700,
+   "y1": 1000,
+   "category": "互证与辨误",
+   "summary": "低地诸城邦纪年终止有先后，是政治网络变化，不是人群或文明整体消失。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO016"
+  },
+  {
+   "id": "GEO017_L05",
+   "title": "兰达抄本与尤卡坦",
+   "rawYear": "16世纪",
+   "y0": 1500,
+   "y1": 1600,
+   "category": "人物与著述",
+   "summary": "《尤卡坦事物记》含文字、历法与节期记录，但作者立场与转录误差须一并计入。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "status": "学界通说",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO017"
+  },
+  {
+   "id": "GEO017_L06",
+   "title": "「玛雅」作为统称是后起",
+   "rawYear": "20世纪",
+   "y0": 1900,
+   "y1": 2000,
+   "category": "互证与辨误",
+   "summary": "诸语、诸城邦并无统一自称，统称是学术与行政便利。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "status": "学界通说",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO017"
+  },
+  {
+   "id": "GEO018_L05",
+   "title": "结绳记事与安第斯行政",
+   "rawYear": "约13世纪—16世纪",
+   "y0": 1200,
+   "y1": 1600,
+   "category": "人物与著述",
+   "summary": "奇普以绳结记数，行政用途有实证；叙事性释读仍属研究前沿，不宜当编年史。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO018"
+  },
+  {
+   "id": "GEO018_L06",
+   "title": "「印加帝国」名称与自称",
+   "rawYear": "16世纪",
+   "y0": 1500,
+   "y1": 1600,
+   "category": "互证与辨误",
+   "summary": "西班牙编年中的「印加」既可指统治者亦可指政治体，须分语境。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "status": "学界通说",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO018"
+  },
+  {
+   "id": "GEO019_L05",
+   "title": "希罗多德与草原西段记述",
+   "rawYear": "约前5世纪",
+   "y0": -500,
+   "y1": -400,
+   "category": "人物与著述",
+   "summary": "对黑海以北诸共同体的记述为外部视角，常与考古学文化命名混用。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO019"
+  },
+  {
+   "id": "GEO019_L06",
+   "title": "「斯基泰」是文献他称与考古标签",
+   "rawYear": "约前8世纪—前3世纪",
+   "y0": -800,
+   "y1": -200,
+   "category": "互证与辨误",
+   "summary": "文献他称与考古学文化不是同一层，不能合并成一个人群。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO019"
+  },
+  {
+   "id": "GEO020_L05",
+   "title": "《蒙古秘史》与蒙古高原",
+   "rawYear": "约13世纪",
+   "y0": 1200,
+   "y1": 1300,
+   "category": "人物与著述",
+   "summary": "叙事与谱系兼有，成书与传抄过程复杂，须与碑铭、波斯文史书对读。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO020"
+  },
+  {
+   "id": "GEO020_L06",
+   "title": "「蒙古」从部落名到政治体名",
+   "rawYear": "约12世纪—13世纪",
+   "y0": 1100,
+   "y1": 1300,
+   "category": "互证与辨误",
+   "summary": "称谓所指范围随统一过程扩大，不作血统式理解。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO020"
+  },
+  {
+   "id": "GEO021_L05",
+   "title": "《西域图记》与天山—帕米尔",
+   "rawYear": "7世纪",
+   "y0": 600,
+   "y1": 700,
+   "category": "人物与著述",
+   "summary": "裴矩记通道与诸国风土，属隋代边政视角，路线不等于固定管辖。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO021"
+  },
+  {
+   "id": "GEO021_L06",
+   "title": "「葱岭」等山岳称谓的伸缩",
+   "rawYear": "约前2世纪—10世纪",
+   "y0": -200,
+   "y1": 1000,
+   "category": "互证与辨误",
+   "summary": "文献中的山岳与隘口名称随交通线变动，不能当精确测绘图。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO021"
+  },
+  {
+   "id": "GEO022_L05",
+   "title": "斯特拉波与地中海盆地",
+   "rawYear": "约前1世纪—1世纪",
+   "y0": -50,
+   "y1": 50,
+   "category": "人物与著述",
+   "summary": "《地理志》汇总前代资料，是文本汇编而非实测，海域分区名多沿用旧称。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO022"
+  },
+  {
+   "id": "GEO022_L06",
+   "title": "「地中海」是多语多名的海域",
+   "rawYear": "约前8世纪起",
+   "y0": -800,
+   "y1": 1500,
+   "category": "互证与辨误",
+   "summary": "希腊、拉丁、阿拉伯、奥斯曼文献各有海域划分，不能只取一套。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO022"
+  },
+  {
+   "id": "GEO023_L05",
+   "title": "《厄立特里亚海航行记》与红海",
+   "rawYear": "1世纪",
+   "y0": 1,
+   "y1": 100,
+   "category": "人物与著述",
+   "summary": "记港口、季风与货品，是研究印度洋贸易的关键文本，作者与成书年代仍有讨论。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO023"
+  },
+  {
+   "id": "GEO023_L06",
+   "title": "「红海」名称与航段划分",
+   "rawYear": "约前3世纪—16世纪",
+   "y0": -300,
+   "y1": 1600,
+   "category": "互证与辨误",
+   "summary": "文献中的海域范围常含亚丁湾乃至更远，与今名不等同。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO023"
+  },
+  {
+   "id": "GEO024_L05",
+   "title": "波斯湾港口与泥板账目",
+   "rawYear": "约前20世纪—前5世纪",
+   "y0": -2000,
+   "y1": -500,
+   "category": "人物与著述",
+   "summary": "两河南部文书常记 Dilmun、Magan 等地的货品，地名对应仍有争论。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO024"
+  },
+  {
+   "id": "GEO024_L06",
+   "title": "古地名今地对应须存疑",
+   "rawYear": "20世纪",
+   "y0": 1900,
+   "y1": 2000,
+   "category": "互证与辨误",
+   "summary": "Dilmun／Magan 等的比定是学术假说，不作确定疆界依据。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO024"
+  },
+  {
+   "id": "GEO025_L05",
+   "title": "季风与《航海书》传统",
+   "rawYear": "约1世纪—16世纪",
+   "y0": 1,
+   "y1": 1600,
+   "category": "人物与著述",
+   "summary": "从希腊化时期到阿拉伯航海文献，季风时序是跨洋航行的共同知识基础。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO025"
+  },
+  {
+   "id": "GEO025_L06",
+   "title": "「印度洋季风区」是分析概念",
+   "rawYear": "20世纪",
+   "y0": 1900,
+   "y1": 2000,
+   "category": "互证与辨误",
+   "summary": "作为气候与贸易分析单元是近现代框架，不是古代政区。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "status": "学界通说",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO025"
+  },
+  {
+   "id": "GEO026_L05",
+   "title": "岩画分期与撒哈拉变干",
+   "rawYear": "约前50世纪—前30世纪",
+   "y0": -5000,
+   "y1": -3000,
+   "category": "人物与著述",
+   "summary": "牛群岩画、水牛期等分期基于图像与气候序列，年代多有区间与争议。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO026"
+  },
+  {
+   "id": "GEO026_L06",
+   "title": "「撒哈拉」不是自古不变的沙漠",
+   "rawYear": "约前50世纪起",
+   "y0": -5000,
+   "y1": 2000,
+   "category": "互证与辨误",
+   "summary": "全新世湿润期与后续干旱化是长时段过程，不宜用今日地貌倒推史前。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO026"
+  },
+  {
+   "id": "GEO027_L05",
+   "title": "阿拉伯半岛铭刻与商道",
+   "rawYear": "约前6世纪—7世纪",
+   "y0": -600,
+   "y1": 700,
+   "category": "人物与著述",
+   "summary": "赛法伊、奈巴泰、南阿拉伯铭刻与碑记并存，材料分布极不均衡。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO027"
+  },
+  {
+   "id": "GEO027_L06",
+   "title": "「阿拉伯」在文献中的广狭",
+   "rawYear": "约前5世纪—10世纪",
+   "y0": -500,
+   "y1": 1000,
+   "category": "互证与辨误",
+   "summary": "古典文献与早期伊斯兰文献所指范围差别大，须按文本年代读。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO027"
+  },
+  {
+   "id": "GEO028_L05",
+   "title": "《盎格鲁—撒克逊编年史》与不列颠",
+   "rawYear": "约9世纪—12世纪",
+   "y0": 800,
+   "y1": 1200,
+   "category": "人物与著述",
+   "summary": "多抄本系统，纪年与追记层累，须与特许状、钱币、考古互证。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO028"
+  },
+  {
+   "id": "GEO028_L06",
+   "title": "「不列颠」名称的多义",
+   "rawYear": "约前1世纪—12世纪",
+   "y0": -100,
+   "y1": 1200,
+   "category": "互证与辨误",
+   "summary": "地理名、罗马行省名、后世政治体名不是同一所指。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO028"
+  },
+  {
+   "id": "GEO029_L05",
+   "title": "《古事记》《日本书纪》与列岛",
+   "rawYear": "8世纪",
+   "y0": 700,
+   "y1": 800,
+   "category": "人物与著述",
+   "summary": "两书叙事与谱系各有编撰立场，早期部分须与木简、考古、中国史籍对读。",
+   "boundary": "文本成书与传抄层须分读，不把后起叙述倒灌进所叙年代。",
+   "region": "*",
+   "precision": "exact",
+   "consensus": "settled",
+   "status": "学界通说",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO029"
+  },
+  {
+   "id": "GEO029_L06",
+   "title": "「日本」国号与「倭」称",
+   "rawYear": "约1世纪—8世纪",
+   "y0": 1,
+   "y1": 800,
+   "category": "互证与辨误",
+   "summary": "不同文献中的称谓带有撰者立场，不沿用为价值判断。",
+   "boundary": "只列读法与互证方法，不作疆界、领土或主权判断。",
+   "region": "*",
+   "precision": "range",
+   "consensus": "date_contested",
+   "status": "断代有争议",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    },
+    {
+     "url": "https://www.cssn.cn/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "域名级检索入口，非具体引文页；本轮未逐条附引文"
+    }
+   ],
+   "layer": "fact",
+   "tier": "depth2",
+   "geoId": "GEO029"
+  }
+ ]
+}

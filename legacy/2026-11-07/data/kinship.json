@@ -1,0 +1,562 @@
+{
+ "meta": {
+  "title": "亲属关系与继嗣制",
+  "version": "1.0",
+  "note": "关系称谓穷举表 + 按文明圈抽签的继嗣制；称谓由 kinship.js 从实际关系链推导，不写死到某个族人。",
+  "caveat": "本局开局抽一种继嗣制，属推演设定，不是对该文明圈的全域断言。同一文明在不同时期、地域、阶层做法差别很大，父系、母系、双系、从妻居往往并存。印度河文字未破译，继嗣无直接材料，此处只作玩法近似并明确标注；草原与中美洲各城邦差异大，亦不排他。入赘、收继、妾、王室近亲婚等按历史制度性称谓记录，不作现代价值判断，也不倒灌进当代伦理。",
+  "limits": "称谓以汉语亲属系统为主，用于本局读法；其他文明的本土称法不逐一对译，避免把汉语称谓当作当地制度的事实。",
+  "academic": "通识级框架，域名级检索入口，不作学术引用；不指认任何真实家族世系。"
+ },
+ "systems": [
+  {
+   "key": "patrilineal",
+   "name": "父系继嗣",
+   "short": "父系",
+   "desc": "按父方计世系、承祧与家产；本局族谱以父方为主线。",
+   "weight": {
+    "huaxia": 0.62,
+    "meso": 0.68,
+    "nile": 0.48,
+    "aegean": 0.72,
+    "indus": 0.18,
+    "maya": 0.3,
+    "steppe": 0.34
+   }
+  },
+  {
+   "key": "matrilineal",
+   "name": "母系继嗣",
+   "short": "母系",
+   "desc": "按母方计世系与承继；舅父常居监护之位，生父未必为族长。",
+   "weight": {
+    "huaxia": 0.08,
+    "meso": 0.06,
+    "nile": 0.22,
+    "aegean": 0.05,
+    "indus": 0.12,
+    "maya": 0.18,
+    "steppe": 0.14
+   }
+  },
+  {
+   "key": "bilateral",
+   "name": "双系并计",
+   "short": "双系",
+   "desc": "父方母方两系都记，承继与称法不偏一支；本局两条线同时入册。",
+   "weight": {
+    "huaxia": 0.2,
+    "meso": 0.2,
+    "nile": 0.2,
+    "aegean": 0.18,
+    "indus": 0.6,
+    "maya": 0.38,
+    "steppe": 0.34
+   }
+  },
+  {
+   "key": "uxorilocal",
+   "name": "从妻居 / 入赘",
+   "short": "入赘",
+   "desc": "夫就妻家居住，子女归妻方族册；本局标「赘婿」，不改写其本姓。",
+   "weight": {
+    "huaxia": 0.1,
+    "meso": 0.06,
+    "nile": 0.1,
+    "aegean": 0.05,
+    "indus": 0.1,
+    "maya": 0.14,
+    "steppe": 0.18
+   }
+  }
+ ],
+ "terms": [
+  {
+   "key": "self",
+   "term": "本人",
+   "kind": "self",
+   "path": "self"
+  },
+  {
+   "key": "husband",
+   "term": "夫",
+   "kind": "affine",
+   "path": "spouse:male"
+  },
+  {
+   "key": "wife",
+   "term": "妻",
+   "kind": "affine",
+   "path": "spouse:female"
+  },
+  {
+   "key": "spouse",
+   "term": "配偶",
+   "kind": "affine",
+   "path": "spouse"
+  },
+  {
+   "key": "concubine",
+   "term": "妾",
+   "kind": "affine",
+   "path": "spouse:secondary",
+   "note": "历史制度性称谓，只作记载，不作价值判断"
+  },
+  {
+   "key": "second_wife",
+   "term": "继室 / 填房",
+   "kind": "affine",
+   "path": "spouse:later"
+  },
+  {
+   "key": "uxorilocal_husband",
+   "term": "赘婿",
+   "kind": "affine",
+   "path": "spouse:uxorilocal",
+   "note": "从妻居的夫；本局只改居住与族册归属，不改其本姓"
+  },
+  {
+   "key": "father",
+   "term": "父",
+   "kind": "blood",
+   "path": "parent:male"
+  },
+  {
+   "key": "mother",
+   "term": "母",
+   "kind": "blood",
+   "path": "parent:female"
+  },
+  {
+   "key": "stepfather",
+   "term": "继父",
+   "kind": "affine",
+   "path": "parent:spouse:later:male"
+  },
+  {
+   "key": "stepmother",
+   "term": "继母",
+   "kind": "affine",
+   "path": "parent:spouse:later:female"
+  },
+  {
+   "key": "adoptive_father",
+   "term": "养父",
+   "kind": "descent",
+   "path": "parent:adoptive:male"
+  },
+  {
+   "key": "adoptive_mother",
+   "term": "养母",
+   "kind": "descent",
+   "path": "parent:adoptive:female"
+  },
+  {
+   "key": "son",
+   "term": "子",
+   "kind": "blood",
+   "path": "child:male"
+  },
+  {
+   "key": "daughter",
+   "term": "女",
+   "kind": "blood",
+   "path": "child:female"
+  },
+  {
+   "key": "stepson",
+   "term": "继子",
+   "kind": "affine",
+   "path": "spouse:child:male"
+  },
+  {
+   "key": "stepdaughter",
+   "term": "继女",
+   "kind": "affine",
+   "path": "spouse:child:female"
+  },
+  {
+   "key": "adopted_son",
+   "term": "养子 / 嗣子",
+   "kind": "descent",
+   "path": "child:adoptive"
+  },
+  {
+   "key": "heir",
+   "term": "嫡长 / 承祧子",
+   "kind": "descent",
+   "path": "child:heir"
+  },
+  {
+   "key": "elder_brother",
+   "term": "兄",
+   "kind": "blood",
+   "path": "sibling:male:older"
+  },
+  {
+   "key": "younger_brother",
+   "term": "弟",
+   "kind": "blood",
+   "path": "sibling:male:younger"
+  },
+  {
+   "key": "elder_sister",
+   "term": "姊",
+   "kind": "blood",
+   "path": "sibling:female:older"
+  },
+  {
+   "key": "younger_sister",
+   "term": "妹",
+   "kind": "blood",
+   "path": "sibling:female:younger"
+  },
+  {
+   "key": "half_sib",
+   "term": "同父异母 / 同母异父",
+   "kind": "blood",
+   "path": "sibling:half"
+  },
+  {
+   "key": "paternal_grandfather",
+   "term": "祖父",
+   "kind": "blood",
+   "path": "parent:male:parent:male"
+  },
+  {
+   "key": "paternal_grandmother",
+   "term": "祖母",
+   "kind": "blood",
+   "path": "parent:male:parent:female"
+  },
+  {
+   "key": "maternal_grandfather",
+   "term": "外祖父",
+   "kind": "blood",
+   "path": "parent:female:parent:male"
+  },
+  {
+   "key": "maternal_grandmother",
+   "term": "外祖母",
+   "kind": "blood",
+   "path": "parent:female:parent:female"
+  },
+  {
+   "key": "great_grandfather",
+   "term": "曾祖父",
+   "kind": "blood",
+   "path": "grand:parent:male"
+  },
+  {
+   "key": "great_grandmother",
+   "term": "曾祖母",
+   "term_alt": "曾祖母",
+   "kind": "blood",
+   "path": "grand:parent:female"
+  },
+  {
+   "key": "grandson",
+   "term": "孙",
+   "kind": "blood",
+   "path": "child:child:male"
+  },
+  {
+   "key": "granddaughter",
+   "term": "孙女",
+   "kind": "blood",
+   "path": "child:child:female"
+  },
+  {
+   "key": "daughter_son",
+   "term": "外孙",
+   "kind": "blood",
+   "path": "child:female:child:male"
+  },
+  {
+   "key": "daughter_daughter",
+   "term": "外孙女",
+   "kind": "blood",
+   "path": "child:female:child:female"
+  },
+  {
+   "key": "paternal_uncle_elder",
+   "term": "伯父",
+   "kind": "blood",
+   "path": "parent:male:sibling:male:older"
+  },
+  {
+   "key": "paternal_uncle_younger",
+   "term": "叔父",
+   "kind": "blood",
+   "path": "parent:male:sibling:male:younger"
+  },
+  {
+   "key": "paternal_aunt",
+   "term": "姑母",
+   "kind": "blood",
+   "path": "parent:male:sibling:female"
+  },
+  {
+   "key": "paternal_uncle_wife",
+   "term": "伯母 / 叔母（婶）",
+   "kind": "affine",
+   "path": "paternal_uncle:spouse:female"
+  },
+  {
+   "key": "paternal_aunt_husband",
+   "term": "姑父",
+   "kind": "affine",
+   "path": "paternal_aunt:spouse:male",
+   "note": "父之姊妹之夫；本局按实配关系推导，不假定存在"
+  },
+  {
+   "key": "maternal_uncle",
+   "term": "舅父",
+   "kind": "blood",
+   "path": "parent:female:sibling:male"
+  },
+  {
+   "key": "maternal_aunt",
+   "term": "姨母",
+   "kind": "blood",
+   "path": "parent:female:sibling:female"
+  },
+  {
+   "key": "maternal_uncle_wife",
+   "term": "舅母（舅妈）",
+   "kind": "affine",
+   "path": "maternal_uncle:spouse:female"
+  },
+  {
+   "key": "maternal_aunt_husband",
+   "term": "姨父",
+   "kind": "affine",
+   "path": "maternal_aunt:spouse:male"
+  },
+  {
+   "key": "paternal_cousin",
+   "term": "堂兄弟姊妹",
+   "kind": "blood",
+   "path": "paternal_uncle:child"
+  },
+  {
+   "key": "maternal_cousin_fu",
+   "term": "姑表兄弟姊妹",
+   "kind": "blood",
+   "path": "paternal_aunt:child"
+  },
+  {
+   "key": "maternal_cousin_jiu",
+   "term": "舅表兄弟姊妹",
+   "kind": "blood",
+   "path": "maternal_uncle:child"
+  },
+  {
+   "key": "maternal_cousin_yi",
+   "term": "姨表兄弟姊妹",
+   "kind": "blood",
+   "path": "maternal_aunt:child"
+  },
+  {
+   "key": "nephew",
+   "term": "侄",
+   "kind": "blood",
+   "path": "sibling:male:child:male"
+  },
+  {
+   "key": "niece",
+   "term": "侄女",
+   "kind": "blood",
+   "path": "sibling:male:child:female"
+  },
+  {
+   "key": "sister_son",
+   "term": "甥",
+   "kind": "blood",
+   "path": "sibling:female:child:male"
+  },
+  {
+   "key": "sister_daughter",
+   "term": "甥女",
+   "kind": "blood",
+   "path": "sibling:female:child:female"
+  },
+  {
+   "key": "father_in_law",
+   "term": "岳父",
+   "kind": "affine",
+   "path": "spouse:parent:male"
+  },
+  {
+   "key": "mother_in_law",
+   "term": "岳母",
+   "kind": "affine",
+   "path": "spouse:parent:female"
+  },
+  {
+   "key": "husband_father",
+   "term": "翁（公公）",
+   "kind": "affine",
+   "path": "spouse:male:parent:male"
+  },
+  {
+   "key": "husband_mother",
+   "term": "姑（婆婆）",
+   "kind": "affine",
+   "path": "spouse:male:parent:female"
+  },
+  {
+   "key": "wife_brother_elder",
+   "term": "内兄 / 大舅子",
+   "kind": "affine",
+   "path": "spouse:female:sibling:male:older"
+  },
+  {
+   "key": "wife_brother_younger",
+   "term": "内弟 / 小舅子",
+   "kind": "affine",
+   "path": "spouse:female:sibling:male:younger"
+  },
+  {
+   "key": "wife_sister",
+   "term": "大姨子 / 小姨子",
+   "kind": "affine",
+   "path": "spouse:female:sibling:female"
+  },
+  {
+   "key": "husband_brother",
+   "term": "大伯子 / 小叔子",
+   "kind": "affine",
+   "path": "spouse:male:sibling:male"
+  },
+  {
+   "key": "husband_sister",
+   "term": "大姑子 / 小姑子",
+   "kind": "affine",
+   "path": "spouse:male:sibling:female"
+  },
+  {
+   "key": "brother_wife_elder",
+   "term": "嫂",
+   "kind": "affine",
+   "path": "sibling:male:older:spouse:female"
+  },
+  {
+   "key": "brother_wife_younger",
+   "term": "弟媳（弟妇）",
+   "kind": "affine",
+   "path": "sibling:male:younger:spouse:female"
+  },
+  {
+   "key": "sister_husband",
+   "term": "姊夫 / 妹夫",
+   "kind": "affine",
+   "path": "sibling:female:spouse:male"
+  },
+  {
+   "key": "co_sisters",
+   "term": "妯娌",
+   "kind": "affine",
+   "path": "sibling:male:spouse:mutual",
+   "note": "兄弟之妻互称"
+  },
+  {
+   "key": "co_brothers_in_law",
+   "term": "连襟",
+   "kind": "affine",
+   "path": "sibling:female:spouse:mutual",
+   "note": "姊妹之夫互称"
+  },
+  {
+   "key": "in_laws",
+   "term": "亲家 / 亲家公 / 亲家母",
+   "kind": "affine",
+   "path": "child:spouse:parent"
+  },
+  {
+   "key": "lineage_heir",
+   "term": "宗子 / 嫡长",
+   "kind": "descent",
+   "path": "descent:primary"
+  },
+  {
+   "key": "cadet",
+   "term": "庶支 / 旁支",
+   "kind": "descent",
+   "path": "descent:cadet"
+  },
+  {
+   "key": "adoption",
+   "term": "过继 / 立嗣",
+   "kind": "descent",
+   "path": "descent:adoption"
+  },
+  {
+   "key": "extinct",
+   "term": "绝嗣",
+   "kind": "descent",
+   "path": "descent:extinct"
+  },
+  {
+   "key": "virilocal",
+   "term": "从夫居",
+   "kind": "household",
+   "path": "residence:virilocal"
+  },
+  {
+   "key": "uxorilocal",
+   "term": "从妻居",
+   "kind": "household",
+   "path": "residence:uxorilocal"
+  },
+  {
+   "key": "neolocal",
+   "term": "另立新居",
+   "kind": "household",
+   "path": "residence:neolocal"
+  },
+  {
+   "key": "bilocal",
+   "term": "两可居",
+   "kind": "household",
+   "path": "residence:bilocal"
+  },
+  {
+   "key": "levirate",
+   "term": "收继婚（兄终弟及之婚俗）",
+   "kind": "household",
+   "path": "residence:levirate",
+   "note": "部分游牧与古代社会可见的制度性记载；只作称谓，不推广到所有文明"
+  }
+ ],
+ "residences": [
+  {
+   "key": "virilocal",
+   "name": "从夫居",
+   "note": "妻就夫家；华夏、两河、地中海常见做法之一"
+  },
+  {
+   "key": "uxorilocal",
+   "name": "从妻居 / 入赘",
+   "note": "夫就妻家；子女归妻方族册"
+  },
+  {
+   "key": "neolocal",
+   "name": "另立新居",
+   "note": "夫妇另立门户，不并入任何一方族册"
+  },
+  {
+   "key": "bilocal",
+   "name": "两可居",
+   "note": "依家计在两方之间流动"
+  }
+ ],
+ "note_by_region": {
+  "indus": "印度河文字未破译，继嗣与婚姻无直接文献；本局按双系近似，不可视为史实。",
+  "maya": "玛雅各城邦差异大，王室与平民做法不同；本局只取可见的多种做法之一。",
+  "steppe": "游牧社会有收继婚与服役婚记载，亦有父系谱系；两者并存，不排他。",
+  "nile": "古埃及王室有近亲婚记载，平民未必同俗；本局不与任何具体王室攀附。",
+  "aegean": "希腊罗马父家长制之外，斯巴达等地女性承产另有记载；不全域化。",
+  "meso": "两河契约与嫁妆材料丰富，父系为主，但女性财产权另有条文；不简化。",
+  "huaxia": "宗法以父系为主，但入赘、母系遗风、舅权在不同时期与地域都可见；不排他。"
+ }
+}

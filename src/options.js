@@ -122,6 +122,54 @@
       const a=pool[Math.floor(rnd()*(pool.length||1))],b=no[Math.floor(rnd()*(no.length||1))];
       if(!a||!b)return null;
       ctx.surname=a.title;ctx.nameNote=b.title;ctx.surnameId=a.id;ctx.nameNoteId=b.id;
+    }else if(need==='ruler'){
+      /* 同期在位君主：传说层不进依据池；按年代窗口取，填词带称谓 */
+      const R=D.rulers||{rulers:[]};
+      const pool=R.rulers.filter(x=>x.layer!=='legend'
+        &&S.year>=x.y0-40&&S.year<=x.y1+40);
+      const list=pool.length?pool:R.rulers.filter(x=>x.layer!=='legend');
+      const x=list[Math.floor(rnd()*(list.length||1))];
+      if(!x)return null;
+      ctx.ruler=x.name+'（'+x.title+' · '+x.polity+'）';ctx.rulerId=x.id;
+      ctx.basisId=x.id;ctx.basisDim='DY_R';
+    }else if(need==='house'){
+      /* 同期名族：地望不是血统凭证，卡面只作里籍与年代参照 */
+      const H=D.houses||{houses:[]};
+      const pool=H.houses.filter(x=>S.year>=x.y0-60&&S.year<=x.y1+60);
+      const list=pool.length?pool:H.houses;
+      const x=list[Math.floor(rnd()*(list.length||1))];
+      if(!x)return null;
+      ctx.house=x.name;ctx.houseId=x.id;ctx.basisId=x.id;ctx.basisDim='DY_H';
+    }else if(need==='house_note'){
+      const H=D.houses||{houses:[],notes:[]};
+      const pool=H.houses.filter(x=>S.year>=x.y0-80&&S.year<=x.y1+80);
+      const list=pool.length?pool:H.houses;
+      const a=list[Math.floor(rnd()*(list.length||1))];
+      const b=(H.notes||[])[Math.floor(rnd()*((H.notes||[]).length||1))];
+      if(!a||!b)return null;
+      ctx.house=a.name;ctx.houseNote=b.title;ctx.houseId=a.id;
+      ctx.basisId=a.id;ctx.basisDim='DY_H';
+    }else if(need==='succession'){
+      /* v1.0：继立方式只作「法理继统」的读法依据，不写成血统相承 */
+      const R=D.rulers||{rulers:[]};
+      const pool=R.rulers.filter(x=>x.layer!=='legend'&&x.succession
+        &&S.year>=x.y0-60&&S.year<=x.y1+60);
+      const list=pool.length?pool:R.rulers.filter(x=>x.layer!=='legend'&&x.succession);
+      const x=list[Math.floor(rnd()*(list.length||1))];
+      if(!x)return null;
+      ctx.ruler=x.name;ctx.succ=x.succession;ctx.polity=x.polity;
+      ctx.rulerId=x.id;ctx.basisId=x.id;ctx.basisDim='DY_R';
+    }else if(need==='house_peer'){
+      /* v1.0：两家同期并立名族，明确「不排成前后相续」 */
+      const H=D.houses||{houses:[]};
+      const pool=H.houses.filter(x=>S.year>=x.y0-80&&S.year<=x.y1+80);
+      const list=pool.length?pool:H.houses;
+      const i=Math.floor(rnd()*(list.length||1));
+      const a=list[i],b=list[(i+1+Math.floor(rnd()*Math.max(1,list.length-1)))%list.length];
+      if(!a||!b||a.id===b.id)return null;
+      ctx.houseA=a.name;ctx.houseB=b.name;
+      ctx.houseAId=a.id;ctx.houseBId=b.id;
+      ctx.basisId=a.id;ctx.basisDim='DY_H';
     }else if(['price','risk','mineral','weather','specimen'].indexOf(need)>=0){
       /* 第三轮：五个新维度从收集册带进选项，填词取自同期真实条目 */
       const dim={price:'PY',risk:'RS',mineral:'GM',weather:'WO',specimen:'BC'}[need];

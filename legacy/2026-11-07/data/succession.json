@@ -1,0 +1,3114 @@
+{
+ "meta": {
+  "description": "朝代更迭链与同期政权映射",
+  "rule": "仅当同文明圈实体纪年首尾不重叠时才构成线性更迭链；重叠者列为并存政权群。",
+  "linkRule": "itemLinks 仅表示年代窗口重叠，不表示隶属该政权；亦不表示人物在其治下任职。",
+  "generatedFrom": [
+   "entities.json",
+   "civilization.json"
+  ]
+ },
+ "chains": {
+  "huaxia": {
+   "region": "huaxia",
+   "title": "华夏王朝更迭长河",
+   "intro": "按考据年表首尾相续排列。终结年与建立年取自史料节点，间朝为本数据未逐朝收录的过渡期。",
+   "classification": "过渡类型与终结类型为整理口径，非史料原文分类；间朝名称取通识年表。",
+   "entities": [
+    {
+     "id": "C01",
+     "name": "姬周",
+     "startYear": -1046,
+     "endYear": -256,
+     "phases": [
+      {
+       "phase": "建立",
+       "label": "前1046",
+       "year": -1046,
+       "y1": -1046,
+       "precision": "exact",
+       "event": "武王克商，建立西周；前771年犬戎攻入镐京，西周亡。",
+       "note": "西周亡于镐京失守；东周王室继续存在，不能称前771年周朝整体终结。"
+      },
+      {
+       "phase": "扩张",
+       "label": "前1042—前1036",
+       "year": -1042,
+       "y1": -1036,
+       "precision": "approximate",
+       "event": "周公摄政、二次分封并制礼作乐，形成宗法—分封体系。",
+       "note": "各地封国与周王室关系不均衡。"
+      },
+      {
+       "phase": "鼎盛",
+       "label": "前10—前9世纪",
+       "year": -1000,
+       "y1": -801,
+       "precision": "approximate",
+       "event": "成康之后王权相对巩固，但缺少能精确排序的单一“极盛年”。",
+       "note": "内部族权、地方势力逐步增长。"
+      },
+      {
+       "phase": "分裂或转折",
+       "label": "前771—前770",
+       "year": -771,
+       "y1": -770,
+       "precision": "exact",
+       "event": "犬戎杀幽王；平王东迁，王畿缩小且诸侯权力上升。",
+       "note": "王室财政与军力下降，宗法秩序弱化。"
+      },
+      {
+       "phase": "衰落",
+       "label": "前7—前4世纪",
+       "year": -700,
+       "y1": -301,
+       "precision": "approximate",
+       "event": "春秋霸政转为战国兼并，周王仅保有名义共主地位。",
+       "note": "诸侯不再服从王室，土地与人口外流。"
+      },
+      {
+       "phase": "终结",
+       "label": "前256",
+       "year": -256,
+       "y1": -256,
+       "precision": "approximate",
+       "event": "秦攻取周王畿、废周赧王，周祀终结。",
+       "note": "秦国兼并王畿，周王室失去最后政治基础。[11][61]"
+      }
+     ],
+     "endReason": "秦国兼并王畿，周王室失去最后政治基础。[11][61]",
+     "transition": "兼并",
+     "gapToNext": {
+      "from": -256,
+      "to": -221,
+      "years": 35,
+      "name": "战国晚期（周祀已绝，秦未称帝）",
+      "note": "周王室前 256 年失王畿，秦前 221 年方称帝；此段本数据未收录统一政权。"
+     }
+    },
+    {
+     "id": "C02",
+     "name": "嬴秦",
+     "startYear": -221,
+     "endYear": -207,
+     "phases": [
+      {
+       "phase": "建立",
+       "label": "前221",
+       "year": -221,
+       "y1": -221,
+       "precision": "exact",
+       "event": "秦王政灭六国，称始皇帝，推行郡县与统一制度。",
+       "note": "六国旧贵族、地方文化与军事残余未被完全消化。"
+      },
+      {
+       "phase": "扩张",
+       "label": "前221—前214",
+       "year": -221,
+       "y1": -214,
+       "precision": "approximate",
+       "event": "南征百越、北逐匈奴并筑长城、开灵渠。",
+       "note": "远征与工程同时消耗民力与财政。"
+      },
+      {
+       "phase": "鼎盛",
+       "label": "前213—前210",
+       "year": -213,
+       "y1": -210,
+       "precision": "approximate",
+       "event": "中央法令、交通与度量衡体系继续推行。",
+       "note": "高压刑罚、徭役与继位危机迅速削弱统治。"
+      },
+      {
+       "phase": "分裂或转折",
+       "label": "前210—前209",
+       "year": -210,
+       "y1": -209,
+       "precision": "exact",
+       "event": "秦始皇死；沙丘政变引发赵高、李斯权力冲突。",
+       "note": "中枢合法性破裂，地方矛盾集中爆发。"
+      },
+      {
+       "phase": "衰落",
+       "label": "前209—前207",
+       "year": -209,
+       "y1": -207,
+       "precision": "exact",
+       "event": "陈胜吴广起义、六国复起及巨鹿之战等连续战争。",
+       "note": "大规模反秦战争、军事失利与统治集团内斗。"
+      },
+      {
+       "phase": "终结",
+       "label": "前207",
+       "year": -207,
+       "y1": -207,
+       "precision": "exact",
+       "event": "子婴降刘邦，秦朝失去中央统治权。",
+       "note": "统治基础迅速崩溃，秦末战争直接终结政权。[11][12]"
+      }
+     ],
+     "endReason": "统治基础迅速崩溃，秦末战争直接终结政权。[11][12]",
+     "transition": "战争与起义",
+     "gapToNext": {
+      "from": -207,
+      "to": -202,
+      "years": 5,
+      "name": "楚汉之际",
+      "note": "秦前 207 年失中央统治权，汉前 202 年建立；期间为战争与诸侯并立。"
+     }
+    },
+    {
+     "id": "C03",
+     "name": "刘汉",
+     "startYear": -202,
+     "endYear": 220,
+     "phases": [
+      {
+       "phase": "建立",
+       "label": "前202",
+       "year": -202,
+       "y1": -202,
+       "precision": "exact",
+       "event": "刘邦称帝，建立西汉。",
+       "note": "异姓诸侯、功臣集团与北方匈奴形成张力。"
+      },
+      {
+       "phase": "扩张",
+       "label": "前141—前87",
+       "year": -141,
+       "y1": -87,
+       "precision": "approximate",
+       "event": "汉武帝开疆、设郡县、通西域并强化财政。",
+       "note": "战争开支与土地兼并造成中期危机。"
+      },
+      {
+       "phase": "鼎盛",
+       "label": "前1世纪—公元1世纪",
+       "year": -100,
+       "y1": 100,
+       "precision": "approximate",
+       "event": "昭宣至东汉初期社会恢复，丝绸之路与官僚体系扩展。",
+       "note": "外戚、宦官与豪强土地集中不断加剧。"
+      },
+      {
+       "phase": "分裂或转折",
+       "label": "8—23",
+       "year": 8,
+       "y1": 23,
+       "precision": "exact",
+       "event": "王莽代汉、建立新朝；绿林赤眉起事。",
+       "note": "改革脱离实际，货币与土地政策激化矛盾。"
+      },
+      {
+       "phase": "衰落",
+       "label": "184—220",
+       "year": 184,
+       "y1": 220,
+       "precision": "approximate",
+       "event": "黄巾起义、地方军事集团崛起及军阀割据。",
+       "note": "中央权威崩溃，地方军政权力独立。"
+      },
+      {
+       "phase": "终结",
+       "label": "220",
+       "year": 220,
+       "y1": 220,
+       "precision": "exact",
+       "event": "曹丕迫使汉献帝禅让，东汉结束。",
+       "note": "权臣代汉，三国分立形成。[11][15]"
+      }
+     ],
+     "endReason": "权臣代汉，三国分立形成。[11][15]",
+     "transition": "权臣代立",
+     "gapToNext": {
+      "from": 220,
+      "to": 618,
+      "years": 398,
+      "name": "三国两晋南北朝至隋",
+      "note": "220—618 年间政权并立、更迭频繁，本数据未逐朝收录。"
+     }
+    },
+    {
+     "id": "C04",
+     "name": "李唐",
+     "startYear": 618,
+     "endYear": 907,
+     "phases": [
+      {
+       "phase": "建立",
+       "label": "618",
+       "year": 618,
+       "y1": 618,
+       "precision": "exact",
+       "event": "李渊在长安称帝，建立唐朝。",
+       "note": "统一战争尚未完成，地方割据与突厥压力仍在。"
+      },
+      {
+       "phase": "扩张",
+       "label": "626—755",
+       "year": 626,
+       "y1": 755,
+       "precision": "approximate",
+       "event": "贞观、开元时期控制西域与漠北部分区域，行政与贸易网络扩大。",
+       "note": "边将权力集中、府兵制变化及财政压力累积。"
+      },
+      {
+       "phase": "鼎盛",
+       "label": "713—741",
+       "year": 713,
+       "y1": 741,
+       "precision": "approximate",
+       "event": "开元时期人口、城市、科举与边疆体系达到唐代高峰。",
+       "note": "边镇军制转变使中央对武将控制下降。"
+      },
+      {
+       "phase": "分裂或转折",
+       "label": "755—763",
+       "year": 755,
+       "y1": 763,
+       "precision": "exact",
+       "event": "安禄山起兵，安史之乱历时约八年。",
+       "note": "叛乱破坏财政、人口与边疆，河朔形成半独立藩镇。"
+      },
+      {
+       "phase": "衰落",
+       "label": "9世纪",
+       "year": 801,
+       "y1": 900,
+       "precision": "approximate",
+       "event": "宦官专权、牛李党争、藩镇割据及农民起义加剧。",
+       "note": "中央税基和军力持续削弱。"
+      },
+      {
+       "phase": "终结",
+       "label": "907",
+       "year": 907,
+       "y1": 907,
+       "precision": "exact",
+       "event": "朱温代唐，建立后梁。",
+       "note": "藩镇与军阀体系最终取代唐中央。[11][14]"
+      }
+     ],
+     "endReason": "藩镇与军阀体系最终取代唐中央。[11][14]",
+     "transition": "藩镇代立",
+     "gapToNext": {
+      "from": 907,
+      "to": 960,
+      "years": 53,
+      "name": "五代十国",
+      "note": "907—960 年间中原政权快速更替，本数据未逐朝收录。"
+     }
+    },
+    {
+     "id": "C05",
+     "name": "赵宋",
+     "startYear": 960,
+     "endYear": 1279,
+     "phases": [
+      {
+       "phase": "建立",
+       "label": "960",
+       "year": 960,
+       "y1": 960,
+       "precision": "exact",
+       "event": "赵匡胤陈桥兵变后建立北宋，定都开封。",
+       "note": "统一并未完成，燕云地区长期不在控制之下。"
+      },
+      {
+       "phase": "扩张",
+       "label": "963—1005",
+       "year": 963,
+       "y1": 1005,
+       "precision": "approximate",
+       "event": "削平荆湖、后蜀、南汉等政权，与辽形成长期对峙。",
+       "note": "强干弱枝与岁币换取和平的财政模式形成。"
+      },
+      {
+       "phase": "鼎盛",
+       "label": "11世纪",
+       "year": 1001,
+       "y1": 1100,
+       "precision": "approximate",
+       "event": "城市、贸易、印刷、科举与财政规模扩大。",
+       "note": "冗兵、冗官、岁币及改革冲突削弱国家动员。"
+      },
+      {
+       "phase": "分裂或转折",
+       "label": "1125—1127",
+       "year": 1125,
+       "y1": 1127,
+       "precision": "exact",
+       "event": "金军南下，靖康之变后北宋亡；赵构建立南宋。",
+       "note": "联金灭辽战略失误与军事防线崩溃。"
+      },
+      {
+       "phase": "衰落",
+       "label": "1206—1276",
+       "year": 1206,
+       "y1": 1276,
+       "precision": "approximate",
+       "event": "宋蒙战争长期化，财政、兵员与内部政治消耗加剧。",
+       "note": "长期战争与治理分裂削弱南宋抵抗能力。"
+      },
+      {
+       "phase": "终结",
+       "label": "1279",
+       "year": 1279,
+       "y1": 1279,
+       "precision": "exact",
+       "event": "崖山海战后，南宋残余政权被元朝消灭。",
+       "note": "军事失败与多年战争消耗共同导致政权终结。[11]"
+      }
+     ],
+     "endReason": "军事失败与多年战争消耗共同导致政权终结。[11]",
+     "transition": "军事征服",
+     "gapToNext": {
+      "from": 1279,
+      "to": 1368,
+      "years": 89,
+      "name": "元朝",
+      "note": "1279—1368 年为元统治期，本数据未建立该政权六阶段年表。"
+     }
+    },
+    {
+     "id": "C06",
+     "name": "朱明",
+     "startYear": 1368,
+     "endYear": 1644,
+     "phases": [
+      {
+       "phase": "建立",
+       "label": "1368",
+       "year": 1368,
+       "y1": 1368,
+       "precision": "exact",
+       "event": "朱元璋称帝，建立明朝，随后北伐收复大都。",
+       "note": "北元残余、沿海倭患与边疆压力持续存在。"
+      },
+      {
+       "phase": "扩张",
+       "label": "1381—1424",
+       "year": 1381,
+       "y1": 1424,
+       "precision": "approximate",
+       "event": "平定云南、设置卫所并派郑和下西洋。",
+       "note": "远征、营建与边防开支造成财政负担。"
+      },
+      {
+       "phase": "鼎盛",
+       "label": "1402—1435",
+       "year": 1402,
+       "y1": 1435,
+       "precision": "approximate",
+       "event": "永乐至宣德时期迁都北京、修《永乐大典》并扩大朝贡贸易。",
+       "note": "皇位继承与宦官权力开始影响后期政治。"
+      },
+      {
+       "phase": "分裂或转折",
+       "label": "1449",
+       "year": 1449,
+       "y1": 1449,
+       "precision": "exact",
+       "event": "土木堡之变，英宗被瓦剌俘虏。",
+       "note": "京营主力受损，边防政策由主动转为防御。"
+      },
+      {
+       "phase": "衰落",
+       "label": "1582—1644",
+       "year": 1582,
+       "y1": 1644,
+       "precision": "approximate",
+       "event": "万历后期怠政、三大征消耗、党争与农民战争叠加。",
+       "note": "财政破产、灾害与辽东战争同时发生。"
+      },
+      {
+       "phase": "终结",
+       "label": "1644",
+       "year": 1644,
+       "y1": 1644,
+       "precision": "exact",
+       "event": "李自成军进入北京，崇祯帝自杀，明朝中央政权终结。",
+       "note": "内部农民战争、财政崩溃与东北军事压力共同终结北京政权。[11]"
+      }
+     ],
+     "endReason": "内部农民战争、财政崩溃与东北军事压力共同终结北京政权。[11]",
+     "transition": "内乱与外患",
+     "gapToNext": null
+    }
+   ],
+   "totalTurns": 36,
+   "from": -1046,
+   "to": 1644,
+   "tail": "朱明 1644 年之后尚有清及近现代，本数据未继续建立六阶段实体年表，链止于此。"
+  }
+ },
+ "coexisting": {
+  "aegean": {
+   "reason": "政权纪年互相重叠，不构成首尾相续的王朝链",
+   "entities": [
+    {
+     "id": "C09",
+     "name": "罗马共和国→罗马帝国",
+     "startYear": -509,
+     "endYear": 476
+    },
+    {
+     "id": "C08",
+     "name": "哈布斯堡王朝",
+     "startYear": 1273,
+     "endYear": 1918
+    },
+    {
+     "id": "C12",
+     "name": "奥斯曼帝国",
+     "startYear": 1299,
+     "endYear": 1918
+    },
+    {
+     "id": "C07",
+     "name": "美第奇家族",
+     "startYear": 1397,
+     "endYear": 1737
+    }
+   ]
+  },
+  "meso": {
+   "reason": "该文明圈当前只有一个实体年表",
+   "entities": [
+    {
+     "id": "C10",
+     "name": "阿拔斯王朝",
+     "startYear": 750,
+     "endYear": 1258
+    }
+   ]
+  },
+  "indus": {
+   "reason": "该文明圈当前只有一个实体年表",
+   "entities": [
+    {
+     "id": "C11",
+     "name": "莫卧儿帝国",
+     "startYear": 1526,
+     "endYear": 1857
+    }
+   ]
+  }
+ },
+ "itemLinks": {
+  "P001": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "P002": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "P003": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "P004": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "P005": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "P006": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "P007": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "P008": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "P009": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "P010": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "P022": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "P023": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "P024": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "P025": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "P026": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "P027": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "P028": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "P029": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "P030": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "T001": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "T002": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "T003": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "T004": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "T005": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "T006": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "T007": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "T008": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "T009": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "T010": [
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   }
+  ],
+  "T022": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "T023": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "T024": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "T025": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "T026": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "T027": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "T028": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "C001": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "C002": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "C003": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "C004": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "C005": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "C006": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "C007": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "C008": [
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "C009": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "C010": [
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   }
+  ],
+  "C011": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "C012": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "C013": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   },
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "C014": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "C015": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "C016": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "C029": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "C030": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "C031": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "C032": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "C033": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "C034": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "C035": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "C037": [
+   {
+    "id": "C07",
+    "name": "美第奇家族",
+    "startYear": 1397,
+    "endYear": 1737
+   },
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "C038": [
+   {
+    "id": "C07",
+    "name": "美第奇家族",
+    "startYear": 1397,
+    "endYear": 1737
+   },
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "C039": [
+   {
+    "id": "C07",
+    "name": "美第奇家族",
+    "startYear": 1397,
+    "endYear": 1737
+   },
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "B001": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "B002": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "B003": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "B004": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "B005": [
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   }
+  ],
+  "B006": [
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   }
+  ],
+  "B007": [
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   }
+  ],
+  "B008": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "B009": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "B010": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "B011": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "B012": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "B013": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "B024": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "B025": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "B026": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "B027": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "B029": [
+   {
+    "id": "C07",
+    "name": "美第奇家族",
+    "startYear": 1397,
+    "endYear": 1737
+   },
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "B030": [
+   {
+    "id": "C07",
+    "name": "美第奇家族",
+    "startYear": 1397,
+    "endYear": 1737
+   },
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "B031": [
+   {
+    "id": "C07",
+    "name": "美第奇家族",
+    "startYear": 1397,
+    "endYear": 1737
+   },
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "B032": [
+   {
+    "id": "C07",
+    "name": "美第奇家族",
+    "startYear": 1397,
+    "endYear": 1737
+   },
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "B033": [
+   {
+    "id": "C07",
+    "name": "美第奇家族",
+    "startYear": 1397,
+    "endYear": 1737
+   },
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "B034": [
+   {
+    "id": "C07",
+    "name": "美第奇家族",
+    "startYear": 1397,
+    "endYear": 1737
+   },
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "B035": [
+   {
+    "id": "C07",
+    "name": "美第奇家族",
+    "startYear": 1397,
+    "endYear": 1737
+   },
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "B036": [
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "R001": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "R002": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "R003": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "R004": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "R008": [
+   {
+    "id": "C10",
+    "name": "阿拔斯王朝",
+    "startYear": 750,
+    "endYear": 1258
+   }
+  ],
+  "R011": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "R012": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "M021": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "M022": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "M023": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "M026": [
+   {
+    "id": "C10",
+    "name": "阿拔斯王朝",
+    "startYear": 750,
+    "endYear": 1258
+   }
+  ],
+  "M029": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "M030": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "M031": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "M032": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "K040": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "K041": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "K042": [
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   }
+  ],
+  "K048": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "K049": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "A013": [
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "A014": [
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "U013": [
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "U014": [
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "U015": [
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "F013": [
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "F015": [
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "J013": [
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "J014": [
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "J016": [
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "G001": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "G002": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "G003": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "G006": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "G021": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "G022": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "G023": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "G026": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "G029": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "G030": [
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   }
+  ],
+  "V002": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "V003": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "V004": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "V005": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "V006": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "V007": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "V008": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "V009": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "V010": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "V012": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "V015": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "V016": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "V025": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "V026": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "V027": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "V030": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "N001": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "N002": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "N003": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "N004": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "N005": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "N006": [
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   }
+  ],
+  "N007": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "N008": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "N009": [
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   }
+  ],
+  "N010": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "N011": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "N012": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "N014": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "N015": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "N016": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "N017": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "N020": [
+   {
+    "id": "C10",
+    "name": "阿拔斯王朝",
+    "startYear": 750,
+    "endYear": 1258
+   }
+  ],
+  "N021": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "N022": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "W001": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "W002": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "W003": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "W004": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "W005": [
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "W006": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "W007": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "W008": [
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "W009": [
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "W010": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "W012": [
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   }
+  ],
+  "W013": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "W014": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "W015": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "W016": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "W017": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "W018": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "W019": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "W022": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "W023": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "W024": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "W026": [
+   {
+    "id": "C10",
+    "name": "阿拔斯王朝",
+    "startYear": 750,
+    "endYear": 1258
+   }
+  ],
+  "W027": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "W028": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "W039": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "W040": [
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "W041": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "W042": [
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   }
+  ],
+  "W043": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "W044": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "W045": [
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "W046": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "W047": [
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "W048": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "E006": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "E007": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "E008": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "E009": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "E010": [
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "E011": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "L005": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "L008": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "L009": [
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   }
+  ],
+  "L010": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "S001": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "S002": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   },
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "S003": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "S004": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "S005": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "S006": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "S007": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "H007": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ],
+  "H008": [
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "H009": [
+   {
+    "id": "C07",
+    "name": "美第奇家族",
+    "startYear": 1397,
+    "endYear": 1737
+   },
+   {
+    "id": "C08",
+    "name": "哈布斯堡王朝",
+    "startYear": 1273,
+    "endYear": 1918
+   },
+   {
+    "id": "C12",
+    "name": "奥斯曼帝国",
+    "startYear": 1299,
+    "endYear": 1918
+   }
+  ],
+  "H010": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "H011": [
+   {
+    "id": "C06",
+    "name": "朱明",
+    "startYear": 1368,
+    "endYear": 1644
+   }
+  ],
+  "X001": [
+   {
+    "id": "C01",
+    "name": "姬周",
+    "startYear": -1046,
+    "endYear": -256
+   }
+  ],
+  "X002": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "X003": [
+   {
+    "id": "C02",
+    "name": "嬴秦",
+    "startYear": -221,
+    "endYear": -207
+   },
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   }
+  ],
+  "X004": [
+   {
+    "id": "C03",
+    "name": "刘汉",
+    "startYear": -202,
+    "endYear": 220
+   },
+   {
+    "id": "C04",
+    "name": "李唐",
+    "startYear": 618,
+    "endYear": 907
+   },
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "X005": [
+   {
+    "id": "C05",
+    "name": "赵宋",
+    "startYear": 960,
+    "endYear": 1279
+   }
+  ],
+  "X009": [
+   {
+    "id": "C09",
+    "name": "罗马共和国→罗马帝国",
+    "startYear": -509,
+    "endYear": 476
+   }
+  ]
+ },
+ "entityLinks": {
+  "C01": [
+   "P001",
+   "P002",
+   "P003",
+   "P004",
+   "P007",
+   "T001",
+   "T002",
+   "T003",
+   "C001",
+   "C002",
+   "C003",
+   "C004",
+   "C005",
+   "C006",
+   "C007",
+   "B001",
+   "B002",
+   "B003",
+   "B004",
+   "R001",
+   "R002",
+   "R003",
+   "R004",
+   "M021",
+   "M023",
+   "K040",
+   "G002",
+   "G003",
+   "G029",
+   "V002",
+   "V003",
+   "V005",
+   "V006",
+   "V007",
+   "V012",
+   "V030",
+   "N001",
+   "N002",
+   "N003",
+   "N008",
+   "N012",
+   "W001",
+   "W002",
+   "W003",
+   "W004",
+   "W006",
+   "W007",
+   "W022",
+   "W023",
+   "W039",
+   "W046",
+   "W048",
+   "E007",
+   "E008",
+   "L008",
+   "S001",
+   "S002",
+   "X001"
+  ],
+  "C03": [
+   "P005",
+   "P006",
+   "P007",
+   "P008",
+   "P009",
+   "P010",
+   "T003",
+   "T004",
+   "T005",
+   "T006",
+   "T007",
+   "T008",
+   "T009",
+   "C005",
+   "C006",
+   "C007",
+   "C008",
+   "C009",
+   "B003",
+   "B004",
+   "M022",
+   "K041",
+   "G001",
+   "G021",
+   "V004",
+   "V008",
+   "V009",
+   "V012",
+   "V025",
+   "V030",
+   "N002",
+   "N003",
+   "N004",
+   "N005",
+   "N007",
+   "N008",
+   "N014",
+   "N015",
+   "N017",
+   "W005",
+   "W006",
+   "W007",
+   "W008",
+   "W009",
+   "W010",
+   "W023",
+   "W039",
+   "W040",
+   "W041",
+   "W045",
+   "W047",
+   "W048",
+   "E009",
+   "E010",
+   "S002",
+   "S003",
+   "S004",
+   "X002",
+   "X003",
+   "X004"
+  ],
+  "C02": [
+   "P007",
+   "T003",
+   "C005",
+   "C006",
+   "C007",
+   "C008",
+   "B003",
+   "B004",
+   "V012",
+   "V030",
+   "N002",
+   "N003",
+   "N008",
+   "W005",
+   "W006",
+   "W007",
+   "W008",
+   "W009",
+   "W023",
+   "W039",
+   "W040",
+   "W045",
+   "W047",
+   "W048",
+   "E010",
+   "S002",
+   "X003"
+  ],
+  "C09": [
+   "P022",
+   "P023",
+   "P024",
+   "P025",
+   "P026",
+   "P027",
+   "P028",
+   "P029",
+   "P030",
+   "T022",
+   "T023",
+   "T024",
+   "T025",
+   "T026",
+   "T027",
+   "T028",
+   "C029",
+   "C030",
+   "C031",
+   "C032",
+   "C033",
+   "C034",
+   "C035",
+   "B024",
+   "B025",
+   "B026",
+   "B027",
+   "R011",
+   "R012",
+   "M029",
+   "M030",
+   "M031",
+   "M032",
+   "K048",
+   "K049",
+   "V015",
+   "V016",
+   "N021",
+   "N022",
+   "W027",
+   "W028",
+   "E006",
+   "L005",
+   "S006",
+   "S007",
+   "H007",
+   "X009"
+  ],
+  "C04": [
+   "T010",
+   "C010",
+   "B005",
+   "B006",
+   "B007",
+   "K042",
+   "G030",
+   "N006",
+   "N009",
+   "W012",
+   "W042",
+   "L009",
+   "X004"
+  ],
+  "C05": [
+   "C011",
+   "C012",
+   "C013",
+   "B008",
+   "B009",
+   "B010",
+   "B011",
+   "G022",
+   "G023",
+   "V026",
+   "N010",
+   "N016",
+   "W013",
+   "W014",
+   "W015",
+   "W024",
+   "W043",
+   "E011",
+   "L010",
+   "H010",
+   "X004",
+   "X005"
+  ],
+  "C06": [
+   "C013",
+   "C014",
+   "C015",
+   "C016",
+   "B012",
+   "B013",
+   "G006",
+   "G026",
+   "V010",
+   "V027",
+   "N011",
+   "W016",
+   "W017",
+   "W018",
+   "W019",
+   "W044",
+   "S005",
+   "H011"
+  ],
+  "C07": [
+   "C037",
+   "C038",
+   "C039",
+   "B029",
+   "B030",
+   "B031",
+   "B032",
+   "B033",
+   "B034",
+   "B035",
+   "H009"
+  ],
+  "C08": [
+   "C037",
+   "C038",
+   "C039",
+   "B029",
+   "B030",
+   "B031",
+   "B032",
+   "B033",
+   "B034",
+   "B035",
+   "B036",
+   "A013",
+   "A014",
+   "U013",
+   "U014",
+   "U015",
+   "F013",
+   "F015",
+   "J013",
+   "J014",
+   "J016",
+   "H008",
+   "H009"
+  ],
+  "C12": [
+   "C037",
+   "C038",
+   "C039",
+   "B029",
+   "B030",
+   "B031",
+   "B032",
+   "B033",
+   "B034",
+   "B035",
+   "B036",
+   "A013",
+   "A014",
+   "U013",
+   "U014",
+   "U015",
+   "F013",
+   "F015",
+   "J013",
+   "J014",
+   "J016",
+   "H008",
+   "H009"
+  ],
+  "C10": [
+   "R008",
+   "M026",
+   "N020",
+   "W026"
+  ]
+ }
+}

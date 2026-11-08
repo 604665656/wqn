@@ -1,0 +1,71 @@
+{
+ "meta": {
+  "title": "程序化美术 · 时代色板与几何纹样",
+  "method": "全部为离线 SVG 几何绘制：色块、线条、圆弧、点阵与重复纹样。不使用任何外部图片、字体文件或网络资源。",
+  "discipline": "装饰纹样不对应任何具体考古器物纹饰的复原，也不描摹旗徽与任何范围表达；只作为时代氛围的视觉索引。",
+  "determinism": "画面由 年份／文明圈／时代／卷数／固定散列 决定，不调用游戏主随机数，同种子同选择序列画面一致。",
+  "seedNote": "同一参数必得同一张图；不同卷、不同时代会自然换色换纹。"
+ },
+ "eras": [
+  {"key":"neolithic","name":"新石器·聚落","bg":"#1b1a12","ink":"#e3d7ae","accent":"#c8a04a","accent2":"#7d9a68","sky":"#2a2a1c","ground":"#3a3421","motif":"cord","glyph":"hut","light":"#e8c878"},
+  {"key":"bronze","name":"青铜·古国","bg":"#1d1710","ink":"#eddcb4","accent":"#c98b3c","accent2":"#8f6b3f","sky":"#30241a","ground":"#45321f","motif":"lei","glyph":"vessel","light":"#e0a85c"},
+  {"key":"axial","name":"轴心·古典","bg":"#161a1a","ink":"#e6ddc4","accent":"#b9a05a","accent2":"#6f93a0","sky":"#222c2c","ground":"#33403c","motif":"meander","glyph":"column","light":"#d9c482"},
+  {"key":"empire","name":"帝国·丝路","bg":"#1c1512","ink":"#f0dcb8","accent":"#cf8a4b","accent2":"#a2543f","sky":"#33201a","ground":"#4a2e22","motif":"pearl","glyph":"camel","light":"#e8a765"},
+  {"key":"medieval","name":"中古·交融","bg":"#17161d","ink":"#e6dcc8","accent":"#9c86b0","accent2":"#6d8fa8","sky":"#262333","ground":"#373247","motif":"arabesque","glyph":"arch","light":"#c3a9d8"},
+  {"key":"voyage","name":"大航海·启蒙","bg":"#101a22","ink":"#e0e6dc","accent":"#6fa8bf","accent2":"#b8a066","sky":"#18313f","ground":"#24404d","motif":"wave","glyph":"ship","light":"#9fd2e0"},
+  {"key":"industry","name":"工业·激荡","bg":"#1a1918","ink":"#e2ded4","accent":"#a98457","accent2":"#7c8a92","sky":"#2a2c2d","ground":"#3d4042","motif":"gear","glyph":"wheel","light":"#c9ad82"},
+  {"key":"modern","name":"当代·互联","bg":"#101820","ink":"#e4ecf0","accent":"#5fb0a8","accent2":"#7f9fd0","sky":"#152733","ground":"#1e3944","motif":"grid","glyph":"tower","light":"#8fd6cf"},
+  {"key":"future","name":"推演·星海","bg":"#0d1020","ink":"#dfe4f5","accent":"#8f8fd8","accent2":"#5a78b8","sky":"#141934","ground":"#1d2344","motif":"star","glyph":"orbit","light":"#b6b6f0"}
+ ],
+ "regions": {
+  "huaxia":{"motif":"lei","glyph":"vessel","accent":"#c9a227","name":"黄河"},
+  "meso":{"motif":"zigzag","glyph":"tablet","accent":"#c98b5a","name":"两河"},
+  "nile":{"motif":"reed","glyph":"reed","accent":"#d0b45e","name":"河谷"},
+  "aegean":{"motif":"meander","glyph":"column","accent":"#7fa8c8","name":"海岬"},
+  "indus":{"motif":"grid","glyph":"seal","accent":"#b58f6a","name":"南亚"},
+  "maya":{"motif":"step","glyph":"step","accent":"#8fae7a","name":"雨林"},
+  "steppe":{"motif":"wave","glyph":"horse","accent":"#a9a0c0","name":"长风"}
+ },
+ "motifs": [
+  {"key":"cord","name":"绳纹","desc":"连续短斜线，模拟陶器拍印的一般印象"},
+  {"key":"lei","name":"回形折线","desc":"方折回环，几何重复"},
+  {"key":"meander","name":"曲折带","desc":"等距折线带"},
+  {"key":"pearl","name":"联珠","desc":"等距圆点环"},
+  {"key":"arabesque","name":"卷草","desc":"对称弧线组合"},
+  {"key":"wave","name":"水波","desc":"正弦式平行曲线"},
+  {"key":"gear","name":"齿纹","desc":"等距短线与圆环"},
+  {"key":"grid","name":"方格","desc":"细线网格"},
+  {"key":"star","name":"星点","desc":"散点密度渐变"},
+  {"key":"zigzag","name":"锯齿","desc":"三角折线"},
+  {"key":"reed","name":"苇叶","desc":"细长弧叶"},
+  {"key":"step","name":"阶梯","desc":"矩形阶梯重复"}
+ ],
+ "scenes": {
+  "opening":{"name":"开局 · 第一堆篝火","elements":["sky","stars","ridges","ground","fire","figures","motifBand"]},
+  "choice":{"name":"抉择 · 当前一笔","elements":["sky","ridges","ground","glyph","motifBand"]},
+  "volume":{"name":"卷末 · 汇流","elements":["sky","moon","river","banks","scroll","motifBand"]},
+  "ending":{"name":"终章 · 收卷","elements":["sky","sun","ridges","tree","path","motifBand"]},
+  "turnover":{"name":"更迭 · 两朝之间","elements":["sky","gate","bands","dots","motifBand"]},
+  "family":{"name":"族谱 · 世代","elements":["sky","tree","roots","dots","motifBand"]},
+  "atlas":{"name":"舆地 · 山河","elements":["sky","ridges","river","compass","motifBand"]},
+  "civ":{"name":"文明 · 册页","elements":["sky","book","glyph","dots","motifBand"]}
+ },
+ "glyphs": [
+  {"key":"hut","name":"聚落","shape":"triangle"},
+  {"key":"vessel","name":"器","shape":"jar"},
+  {"key":"column","name":"柱","shape":"column"},
+  {"key":"camel","name":"行旅","shape":"arc"},
+  {"key":"arch","name":"券","shape":"arch"},
+  {"key":"ship","name":"舟","shape":"boat"},
+  {"key":"wheel","name":"轮","shape":"wheel"},
+  {"key":"tower","name":"塔","shape":"tower"},
+  {"key":"orbit","name":"环","shape":"orbit"},
+  {"key":"tablet","name":"泥板","shape":"tablet"},
+  {"key":"reed","name":"苇","shape":"reed"},
+  {"key":"seal","name":"印","shape":"seal"},
+  {"key":"step","name":"阶","shape":"step"},
+  {"key":"horse","name":"马","shape":"horse"}
+ ],
+ "paletteNote": "色板只按时代与文明圈换气氛，不表示任何政权、族属或范围归属；高对比度模式下自动提亮描边。",
+ "reviewNote": "送审版保留同一套几何装饰，不含任何范围线、旗徽、称谓文字或敏感图形。"
+}

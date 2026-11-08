@@ -1,0 +1,9 @@
+wqn-source.zip 是「可重建工程包」：含 src/、data/、test/、tools/、docs/、
+assets/layers/（抠好的透明层）、assets/scenes/（场景板与缩略图）、assets/core.png（基准图）。
+
+为控制分发体积，本包不含 assets/raw/ 下的原始带底整图（约 185 MB）。
+这些整图仍按抠图纪律原样留档在工程目录内，一张未删、不参与抠图；
+需要核验生成端源图时可单独索取。
+
+重建单文件：node build.js（完整版）、node build.js --review（送审版）
+回归：node test/logic.test.js 等八套；综合实测：node tools/check_v23.js

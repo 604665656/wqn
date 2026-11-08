@@ -1,0 +1,679 @@
+{
+ "meta": {
+  "title": "离线合成音乐 · 调式与音效表",
+  "method": "全部由 Web Audio 振荡器与程序化噪声实时合成，不加载任何音频文件、不联网、不占用外部资源。浏览器要求首次用户点击后才能出声，故默认静音，设置页可开启。",
+  "discipline": "调式是常见的音阶组织方式，用于氛围，不宣称是任何历史曲目、礼制用乐或考古复原录音；不对应具体朝代的乐律制度。",
+  "determinism": "旋律序列由固定散列生成，不调用游戏主随机数，不影响同种子复盘与存档。",
+  "privacy": "声音设置只存本机浏览器，不写入游戏存档，不参与分享串。"
+ },
+ "scales": [
+  {
+   "key": "pentatonic",
+   "name": "五声·宫调",
+   "semitones": [
+    0,
+    2,
+    4,
+    7,
+    9,
+    12,
+    14,
+    16
+   ],
+   "base": 261.63,
+   "desc": "以五声音阶为骨架，最常用的一档",
+   "hint": "适合编年与家族视角"
+  },
+  {
+   "key": "pentatonicYu",
+   "name": "五声·羽调",
+   "semitones": [
+    0,
+    3,
+    5,
+    7,
+    10,
+    12,
+    15,
+    17
+   ],
+   "base": 220.0,
+   "desc": "同音列移位的柔和排列",
+   "hint": "适合夜卷与收卷"
+  },
+  {
+   "key": "hijaz",
+   "name": "西亚·增二度列",
+   "semitones": [
+    0,
+    1,
+    4,
+    5,
+    7,
+    8,
+    11,
+    12
+   ],
+   "base": 293.66,
+   "desc": "含增二度的常见调式色彩",
+   "hint": "适合两河、河谷与丝路题材"
+  },
+  {
+   "key": "dorian",
+   "name": "地中海·多利亚列",
+   "semitones": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    9,
+    10,
+    12
+   ],
+   "base": 293.66,
+   "desc": "七声排列，收束平稳",
+   "hint": "适合海岬与古典题材"
+  },
+  {
+   "key": "yaman",
+   "name": "南亚·上行音列",
+   "semitones": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    9,
+    11,
+    12
+   ],
+   "base": 261.63,
+   "desc": "带升高四级的上行排列",
+   "hint": "适合南亚与中古题材"
+  },
+  {
+   "key": "meso5",
+   "name": "中美洲·五声列",
+   "semitones": [
+    0,
+    2,
+    5,
+    7,
+    9,
+    12,
+    14,
+    17
+   ],
+   "base": 246.94,
+   "desc": "跳进较多的五声排列",
+   "hint": "适合雨林与城邦题材"
+  },
+  {
+   "key": "steppe4",
+   "name": "草原·四声列",
+   "semitones": [
+    0,
+    2,
+    5,
+    7,
+    12,
+    14,
+    17,
+    19
+   ],
+   "base": 196.0,
+   "desc": "开阔的四声骨架",
+   "hint": "适合长风与行旅题材"
+  },
+  {
+   "key": "whole",
+   "name": "近世·等分列",
+   "semitones": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14
+   ],
+   "base": 261.63,
+   "desc": "等分音列，用于近世与推演段落",
+   "hint": "适合工业、当代与虚构推演"
+  }
+ ],
+ "beds": [
+  {
+   "key": "off",
+   "name": "静",
+   "type": "none",
+   "desc": "只留事件音，不留环境底噪"
+  },
+  {
+   "key": "wind",
+   "name": "风",
+   "type": "noise",
+   "cutoff": 520,
+   "gain": 0.045,
+   "lfo": 0.07,
+   "desc": "低通缓变噪声，模拟长风"
+  },
+  {
+   "key": "fire",
+   "name": "篝火",
+   "type": "crackle",
+   "cutoff": 1400,
+   "gain": 0.05,
+   "lfo": 0.19,
+   "desc": "稀疏爆裂声，模拟火堆"
+  },
+  {
+   "key": "rain",
+   "name": "雨",
+   "type": "noise",
+   "cutoff": 2100,
+   "gain": 0.038,
+   "lfo": 0.11,
+   "desc": "较高频的连续噪声"
+  },
+  {
+   "key": "sea",
+   "name": "水",
+   "type": "noise",
+   "cutoff": 340,
+   "gain": 0.052,
+   "lfo": 0.055,
+   "desc": "缓慢起伏的低频噪声"
+  },
+  {
+   "key": "market",
+   "name": "市井",
+   "type": "pulse",
+   "cutoff": 900,
+   "gain": 0.03,
+   "lfo": 0.28,
+   "desc": "极低音量的疏落脉冲，示意人声起伏，不含语音"
+  },
+  {
+   "key": "bird",
+   "name": "鸟鸣",
+   "type": "chirp",
+   "cutoff": 0,
+   "gain": 0.05,
+   "lfo": 0,
+   "desc": "稀疏短促的啁啾脉冲，晴天环境示意，不含真实鸟录音"
+  }
+ ],
+ "cues": {
+  "tap": {
+   "name": "轻触",
+   "notes": [
+    0,
+    4
+   ],
+   "dur": 0.09,
+   "wave": "sine",
+   "gain": 0.11,
+   "desc": "点按钮"
+  },
+  "choose": {
+   "name": "落笔",
+   "notes": [
+    0,
+    4,
+    7
+   ],
+   "dur": 0.2,
+   "wave": "triangle",
+   "gain": 0.16,
+   "desc": "选定一个选项"
+  },
+  "study": {
+   "name": "研习",
+   "notes": [
+    0,
+    2,
+    4,
+    7
+   ],
+   "dur": 0.3,
+   "wave": "sine",
+   "gain": 0.14,
+   "desc": "条目写回文明册"
+  },
+  "quizOk": {
+   "name": "判读稳妥",
+   "notes": [
+    0,
+    4,
+    7,
+    12
+   ],
+   "dur": 0.34,
+   "wave": "sine",
+   "gain": 0.15,
+   "desc": "选了分层存疑"
+  },
+  "quizMid": {
+   "name": "按通说",
+   "notes": [
+    0,
+    4,
+    9
+   ],
+   "dur": 0.24,
+   "wave": "triangle",
+   "gain": 0.12,
+   "desc": "折中记下"
+  },
+  "quizBad": {
+   "name": "误读取",
+   "notes": [
+    0,
+    1
+   ],
+   "dur": 0.26,
+   "wave": "sawtooth",
+   "gain": 0.09,
+   "desc": "选了常见误解"
+  },
+  "gather": {
+   "name": "汇流",
+   "notes": [
+    0,
+    2,
+    4,
+    7,
+    9,
+    12
+   ],
+   "dur": 0.72,
+   "wave": "sine",
+   "gain": 0.17,
+   "desc": "卷末汇流"
+  },
+  "turnover": {
+   "name": "更迭",
+   "notes": [
+    0,
+    3,
+    7,
+    10
+   ],
+   "dur": 0.55,
+   "wave": "triangle",
+   "gain": 0.15,
+   "desc": "朝代或阶段更替"
+  },
+  "ending": {
+   "name": "收卷",
+   "notes": [
+    12,
+    9,
+    7,
+    4,
+    0
+   ],
+   "dur": 1.1,
+   "wave": "sine",
+   "gain": 0.19,
+   "desc": "终章与收卷报告"
+  },
+  "project": {
+   "name": "验收",
+   "notes": [
+    0,
+    5,
+    7,
+    12
+   ],
+   "dur": 0.42,
+   "wave": "triangle",
+   "gain": 0.14,
+   "desc": "跨笔工程验收"
+  },
+  "warn": {
+   "name": "警觉",
+   "notes": [
+    0,
+    1
+   ],
+   "dur": 0.2,
+   "wave": "square",
+   "gain": 0.07,
+   "desc": "失手或存续危机"
+  }
+ },
+ "scores": [
+  {
+   "key": "chronicle",
+   "name": "编年慢板",
+   "scale": "pentatonic",
+   "tempo": 62,
+   "pattern": [
+    0,
+    2,
+    4,
+    3,
+    1,
+    2,
+    0,
+    4
+   ],
+   "bars": 2,
+   "desc": "疏落单行，留白多"
+  },
+  {
+   "key": "river",
+   "name": "长河行",
+   "scale": "pentatonicYu",
+   "tempo": 54,
+   "pattern": [
+    0,
+    3,
+    2,
+    5,
+    4,
+    2,
+    1,
+    0
+   ],
+   "bars": 2,
+   "desc": "低音区缓行"
+  },
+  {
+   "key": "caravan",
+   "name": "行旅",
+   "scale": "hijaz",
+   "tempo": 76,
+   "pattern": [
+    0,
+    2,
+    3,
+    1,
+    4,
+    3,
+    2,
+    0
+   ],
+   "bars": 2,
+   "desc": "带增二度的行进感"
+  },
+  {
+   "key": "harbor",
+   "name": "海岬",
+   "scale": "dorian",
+   "tempo": 68,
+   "pattern": [
+    0,
+    2,
+    4,
+    3,
+    5,
+    4,
+    2,
+    0
+   ],
+   "bars": 2,
+   "desc": "平稳起伏"
+  },
+  {
+   "key": "monsoon",
+   "name": "季风",
+   "scale": "yaman",
+   "tempo": 70,
+   "pattern": [
+    0,
+    2,
+    4,
+    6,
+    5,
+    4,
+    2,
+    0
+   ],
+   "bars": 2,
+   "desc": "逐级上行"
+  },
+  {
+   "key": "stone",
+   "name": "石阶",
+   "scale": "meso5",
+   "tempo": 72,
+   "pattern": [
+    0,
+    2,
+    3,
+    1,
+    4,
+    2,
+    0,
+    3
+   ],
+   "bars": 2,
+   "desc": "跳进较多"
+  },
+  {
+   "key": "grass",
+   "name": "长风",
+   "scale": "steppe4",
+   "tempo": 58,
+   "pattern": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1,
+    0,
+    2
+   ],
+   "bars": 2,
+   "desc": "开阔少音"
+  },
+  {
+   "key": "age",
+   "name": "近世",
+   "scale": "whole",
+   "tempo": 84,
+   "pattern": [
+    0,
+    2,
+    3,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "bars": 2,
+   "desc": "等分音列"
+  },
+  {
+   "key": "quiet",
+   "name": "收卷",
+   "scale": "pentatonicYu",
+   "tempo": 46,
+   "pattern": [
+    0,
+    2,
+    1,
+    0,
+    4,
+    3,
+    2,
+    0
+   ],
+   "bars": 1,
+   "desc": "最轻，适合收卷报告"
+  }
+ ],
+ "regionDefaults": {
+  "huaxia": "chronicle",
+  "meso": "caravan",
+  "nile": "river",
+  "aegean": "harbor",
+  "indus": "monsoon",
+  "maya": "stone",
+  "steppe": "grass"
+ },
+ "eraDefaults": {
+  "neolithic": "chronicle",
+  "bronze": "stone",
+  "axial": "harbor",
+  "empire": "caravan",
+  "medieval": "monsoon",
+  "voyage": "harbor",
+  "industry": "age",
+  "modern": "age",
+  "future": "quiet"
+ },
+ "volumeDefault": 0.45,
+ "disclaimer": "所有声音都是实时合成的示意音，不是历史录音、不是任何曲目的复原，也不代表古代乐律制度；可随时关闭，关闭后不产生任何音频节点。 天气环境音随推演情境自动切换，只在底噪设为「自动」时生效。 v1.5 起另有三种合成语气音，不含字词、不联网、不打包音频文件。",
+ "weatherBeds": {
+  "sun": "bird",
+  "rain": "rain",
+  "cloud": "wind",
+  "night": "fire",
+  "snow": "wind",
+  "dust": "wind"
+ },
+ "guideCues": {
+  "curious": "上扬短滑音（好奇）",
+  "happy": "两段上扬滑音（欢喜）",
+  "hesitate": "下行滑音（迟疑）",
+  "sad": "缓降双音（低落）",
+  "surprise": "急促跳音（惊讶）",
+  "calm": "平稳单音（平静）",
+  "type": "合成非语言语气音，不含字词，不是配音包"
+ },
+ "bedUnlock": [
+  {
+   "key": "auto",
+   "name": "跟随天气",
+   "need": null,
+   "note": "底噪自动按舞台天气挑环境音"
+  },
+  {
+   "key": "off",
+   "name": "静",
+   "need": null,
+   "note": "不播环境音"
+  },
+  {
+   "key": "bird",
+   "name": "晴 · 鸟鸣",
+   "need": null,
+   "note": "晴日鸟鸣与柔风"
+  },
+  {
+   "key": "wind",
+   "name": "风",
+   "need": {
+    "k": "turn",
+    "n": 6
+   },
+   "note": "阴天与风沙的宽频风声"
+  },
+  {
+   "key": "rain",
+   "name": "雨",
+   "need": {
+    "k": "turn",
+    "n": 4
+   },
+   "note": "斜雨落地的细密噪声"
+  },
+  {
+   "key": "fire",
+   "name": "夜 · 篝火",
+   "need": {
+    "k": "vol",
+    "n": 2
+   },
+   "note": "夜间篝火爆裂声"
+  },
+  {
+   "key": "market",
+   "name": "市井",
+   "need": {
+    "k": "turn",
+    "n": 10
+   },
+   "note": "远处人声与市集律动"
+  },
+  {
+   "key": "sea",
+   "name": "舟航 · 水",
+   "need": {
+    "k": "vol",
+    "n": 5
+   },
+   "note": "平缓水波声"
+  }
+ ],
+ "voicePacks": [
+  {
+   "key": "bright",
+   "name": "清亮",
+   "pitch": 1.28,
+   "rate": 0.96,
+   "cue": 1.12,
+   "note": "偏高偏快，适合引路与欢喜台词"
+  },
+  {
+   "key": "gentle",
+   "name": "温和",
+   "pitch": 1.08,
+   "rate": 0.88,
+   "cue": 1.0,
+   "note": "中等偏缓，适合日常叙述与研习"
+  },
+  {
+   "key": "deep",
+   "name": "低沉",
+   "pitch": 0.86,
+   "rate": 0.82,
+   "cue": 0.86,
+   "note": "偏低偏慢，适合卷末、终章与更迭"
+  },
+  {
+   "key": "mute",
+   "name": "不出声",
+   "pitch": 1.0,
+   "rate": 0.9,
+   "cue": 0.0,
+   "note": "只做立绘说话表演与字幕，不播语气音、不调系统音色"
+  }
+ ],
+ "voicePackDefault": "gentle",
+ "talkMoods": [
+  {
+   "key": "happy",
+   "re": "喜|丰|成|顺|得|安|欢",
+   "cue": "happy"
+  },
+  {
+   "key": "surprise",
+   "re": "异|骤|险|失手|变|忽",
+   "cue": "surprise"
+  },
+  {
+   "key": "sad",
+   "re": "凋|散|故|衰|诀|终|落",
+   "cue": "sad"
+  },
+  {
+   "key": "hesitate",
+   "re": "疑|未得|存异|两存|辨|或",
+   "cue": "hesitate"
+  },
+  {
+   "key": "curious",
+   "re": "问|闻|考|索|寻|探",
+   "cue": "curious"
+  }
+ ]
+}

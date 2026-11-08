@@ -1,0 +1,5610 @@
+{
+ "meta": {
+  "added": "2026-11-07",
+  "count": 153,
+  "entities": 20,
+  "note": "世家／名族全册为通识级框架锚点。兴起／鼎盛／散脉是约略时段，不是精确纪年；「散脉」指制度环境变化后政治或经济地位消退，不是家族人口消失。",
+  "sources": "sources 只给域名级检索入口、quote 留空、不伪造引文，不用于学术引用。",
+  "boundary": "郡望不等于血统凭证；谱牒与《氏族志》不等于逐代可核世系；本局推演族人不与真实世家攀附血缘；并立政权与氏族分支不排成单线。",
+  "excluded": "不作生物种族分类、不作血统纯正推断、不把文学流派或地域商帮写成血缘家族、不把「衰落」写成家族绝灭。",
+  "container": "日本、朝鲜、越南与西欧条目在既有 7 文明圈体系里归入 aegean 容器，仅作玩法地理底色，不表示属于爱琴文明圈。",
+  "wide2": "第十一轮广域扩容：新增 56 家，刻意偏向非华夏圈；均为通识级框架锚点，域名级出处、引文留空，不作学术引用。各圈史料密度不均，不作跨文明家族数量比较。"
+ },
+ "houses": [
+  {
+   "id": "H001",
+   "name": "鲁三桓",
+   "alias": "季孙／叔孙／孟孙氏",
+   "region": "huaxia",
+   "category": "先秦世卿",
+   "y0": -700,
+   "y1": -400,
+   "peak": -500,
+   "rawYear": "约前7—前5世纪",
+   "seat": "鲁国",
+   "rise": "三家出自桓公之后，世执鲁政",
+   "peakEvent": "三分公室、公室寄于三家",
+   "fall": "战国初期鲁国衰微，三桓记载渐稀",
+   "figures": [
+    "季文子",
+    "季武子"
+   ],
+   "boundary": "「三桓」是三组世卿，不是单一姓氏；同出桓公不等于可逐代连成可靠谱系。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H002",
+   "name": "晋六卿",
+   "alias": "韩／赵／魏／范／中行／知氏",
+   "region": "huaxia",
+   "category": "先秦世卿",
+   "y0": -632,
+   "y1": -453,
+   "peak": -500,
+   "rawYear": "约前7—前5世纪",
+   "seat": "晋国",
+   "rise": "卿族轮流执政、各有采邑",
+   "peakEvent": "六卿兼并，剩韩赵魏知四家",
+   "fall": "知氏灭于前453，三家分晋",
+   "figures": [
+    "赵盾",
+    "韩厥",
+    "魏绛"
+   ],
+   "boundary": "「六卿」是职位集团，成员随时代变化，不宜当成六个固定家族。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H003",
+   "name": "齐田氏（陈氏）",
+   "alias": "田／陈",
+   "region": "huaxia",
+   "category": "先秦世卿",
+   "y0": -672,
+   "y1": -386,
+   "peak": -480,
+   "rawYear": "约前7—前4世纪",
+   "seat": "齐国",
+   "rise": "陈完奔齐，以田为氏",
+   "peakEvent": "以量贷出、以小斗收进收民心",
+   "fall": "前386 田和列为诸侯，姜齐为田齐所代",
+   "figures": [
+    "田桓子",
+    "田成子"
+   ],
+   "boundary": "「田氏代齐」是政权更替，不是所有姜姓人口消失。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H004",
+   "name": "郑七穆",
+   "alias": "罕／驷／丰等七族",
+   "region": "huaxia",
+   "category": "先秦世卿",
+   "y0": -600,
+   "y1": -500,
+   "peak": -540,
+   "rawYear": "约前6世纪",
+   "seat": "郑国",
+   "rise": "郑穆公之后七族轮流执政",
+   "peakEvent": "子产执政时七穆格局成形",
+   "fall": "郑国衰微，七族记载渐少",
+   "figures": [
+    "子产",
+    "子展"
+   ],
+   "boundary": "「七穆」为穆公之后的七个支族，具体成员列举在文献间有出入。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H005",
+   "name": "楚屈·昭·景",
+   "alias": "三姓",
+   "region": "huaxia",
+   "category": "先秦世卿",
+   "y0": -700,
+   "y1": -223,
+   "peak": -400,
+   "rawYear": "约前7—前3世纪",
+   "seat": "楚国",
+   "rise": "王族分支世掌要职",
+   "peakEvent": "屈氏出令尹、昭景为柱国",
+   "fall": "秦灭楚后三姓散入郡县",
+   "figures": [
+    "屈原",
+    "昭阳",
+    "景翠"
+   ],
+   "boundary": "「楚辞里的屈氏」与「三姓世卿」是两类材料，不能直接互证谱系。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H006",
+   "name": "周姬姓诸侯",
+   "alias": "鲁／晋／卫／燕等",
+   "region": "huaxia",
+   "category": "先秦王族",
+   "y0": -1046,
+   "y1": -256,
+   "peak": -800,
+   "rawYear": "约前11—前3世纪",
+   "seat": "各封国",
+   "rise": "宗法分封，姬姓多封",
+   "peakEvent": "诸侯各自立国，王室渐失约束",
+   "fall": "秦并六国、周祀终结",
+   "figures": [
+    "周公旦",
+    "召公奭"
+   ],
+   "boundary": "姬姓是姓不是氏，同姓不表示同一父系可逐代考实。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H007",
+   "name": "宋子氏／殷遗",
+   "alias": "子姓",
+   "region": "huaxia",
+   "category": "先秦王族",
+   "y0": -1046,
+   "y1": -286,
+   "peak": -700,
+   "rawYear": "约前11—前3世纪",
+   "seat": "宋国",
+   "rise": "殷商之后封于宋",
+   "peakEvent": "宋襄公前后为诸侯会盟参与者",
+   "fall": "前286 宋为齐楚魏所分",
+   "figures": [
+    "宋襄公",
+    "孔子（先世）"
+   ],
+   "boundary": "孔子先世出自宋国是文献记载，不等于可逐代核实的完整谱系。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H008",
+   "name": "秦嬴姓",
+   "alias": "嬴／赵氏",
+   "region": "huaxia",
+   "category": "先秦王族",
+   "y0": -900,
+   "y1": -207,
+   "peak": -350,
+   "rawYear": "约前9—前3世纪",
+   "seat": "秦",
+   "rise": "非子受封附庸，襄公始为诸侯",
+   "peakEvent": "商鞅变法后军功爵制削弱世卿",
+   "fall": "前207 秦亡，宗室散",
+   "figures": [
+    "秦襄公",
+    "商鞅"
+   ],
+   "boundary": "「嬴姓赵氏」的姓氏关系在文献里说法不一，不作定论。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H009",
+   "name": "吕氏（外戚）",
+   "alias": "",
+   "region": "huaxia",
+   "category": "汉外戚",
+   "y0": -202,
+   "y1": -180,
+   "peak": -188,
+   "rawYear": "前2世纪",
+   "seat": "长安",
+   "rise": "高祖姻族，佐定天下",
+   "peakEvent": "吕后临朝，诸吕封王",
+   "fall": "前180 诸吕被诛",
+   "figures": [
+    "吕后",
+    "吕产"
+   ],
+   "boundary": "外戚是婚姻带来的政治集团，不是「世代掌权的世家」连续体。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H010",
+   "name": "窦氏（外戚）",
+   "alias": "",
+   "region": "huaxia",
+   "category": "汉外戚",
+   "y0": -180,
+   "y1": 100,
+   "peak": -140,
+   "rawYear": "前2—公元1世纪",
+   "seat": "长安",
+   "rise": "文帝窦后家族",
+   "peakEvent": "窦婴、窦宪前后两度显贵",
+   "fall": "东汉窦氏亦曾专权，数次被诛",
+   "figures": [
+    "窦太后",
+    "窦婴",
+    "窦宪"
+   ],
+   "boundary": "西汉窦氏与东汉窦氏是否同族连续，材料不足，不当写成一姓千年。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H011",
+   "name": "卫氏／霍氏",
+   "alias": "",
+   "region": "huaxia",
+   "category": "汉外戚",
+   "y0": -140,
+   "y1": -66,
+   "peak": -120,
+   "rawYear": "前2世纪",
+   "seat": "长安",
+   "rise": "卫子夫、卫青、霍去病以军功起",
+   "peakEvent": "霍光辅政，权倾昭宣",
+   "fall": "前66 霍氏族灭",
+   "figures": [
+    "卫青",
+    "霍去病",
+    "霍光"
+   ],
+   "boundary": "「卫霍」是姻亲与军功集团，霍光之后被族灭，不作绵延世家。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H012",
+   "name": "王氏（元后家）",
+   "alias": "",
+   "region": "huaxia",
+   "category": "汉外戚",
+   "y0": -50,
+   "y1": 9,
+   "peak": -10,
+   "rawYear": "前1世纪—公元初",
+   "seat": "长安",
+   "rise": "元帝王皇后家族",
+   "peakEvent": "王凤、王莽相继秉政",
+   "fall": "王莽建新，公元23 年败",
+   "figures": [
+    "王政君",
+    "王莽"
+   ],
+   "boundary": "「王莽出自琅琊王氏」是常见混淆，元后王氏与琅琊王氏不是一支。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H013",
+   "name": "弘农杨氏",
+   "alias": "弘农郡",
+   "region": "huaxia",
+   "category": "汉晋士族",
+   "y0": -150,
+   "y1": 600,
+   "peak": 100,
+   "rawYear": "前2—公元7世纪",
+   "seat": "弘农",
+   "rise": "杨敞以丞相起家",
+   "peakEvent": "东汉「四世三公」，魏晋以降仍标郡望",
+   "fall": "隋唐科举与门阀政治变化后，郡望渐成符号",
+   "figures": [
+    "杨震",
+    "杨修",
+    "杨素"
+   ],
+   "boundary": "「四世三公」是官位叙述，不等于四代都有可核的完整谱牒。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H014",
+   "name": "汝南袁氏",
+   "alias": "汝南郡",
+   "region": "huaxia",
+   "category": "汉晋士族",
+   "y0": 100,
+   "y1": 200,
+   "peak": 180,
+   "rawYear": "公元1—3世纪",
+   "seat": "汝南",
+   "rise": "袁安以经学入仕",
+   "peakEvent": "「四世三公」，门生故吏遍天下",
+   "fall": "袁绍袁术败亡后政治势力散",
+   "figures": [
+    "袁安",
+    "袁绍",
+    "袁术"
+   ],
+   "boundary": "郡望是地望标识，不是血统证明；同称「汝南袁氏」者未必同支。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H015",
+   "name": "颍川荀氏",
+   "alias": "颍川郡",
+   "region": "huaxia",
+   "category": "汉晋士族",
+   "y0": 100,
+   "y1": 400,
+   "peak": 190,
+   "rawYear": "公元2—5世纪",
+   "seat": "颍川",
+   "rise": "荀淑以德行与经学知名",
+   "peakEvent": "荀彧、荀攸佐曹操，荀氏出多士",
+   "fall": "南朝以后支系散",
+   "figures": [
+    "荀淑",
+    "荀彧",
+    "荀勖"
+   ],
+   "boundary": "「颍川多士」是地域性士人网络，不都是一族。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H016",
+   "name": "颍川陈氏",
+   "alias": "颍川郡",
+   "region": "huaxia",
+   "category": "汉晋士族",
+   "y0": 100,
+   "y1": 500,
+   "peak": 200,
+   "rawYear": "公元2—6世纪",
+   "seat": "颍川",
+   "rise": "陈寔以名士领袖起",
+   "peakEvent": "陈群创九品官人法，陈氏累世显",
+   "fall": "南朝以后郡望符号化",
+   "figures": [
+    "陈寔",
+    "陈群",
+    "陈寿（异支，存疑）"
+   ],
+   "boundary": "谱系攀附常见，陈寿与陈群是否同族不宜断言。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H017",
+   "name": "扶风班氏",
+   "alias": "扶风",
+   "region": "huaxia",
+   "category": "汉晋士族",
+   "y0": -50,
+   "y1": 200,
+   "peak": 80,
+   "rawYear": "前1—公元2世纪",
+   "seat": "扶风",
+   "rise": "班况、班婕妤以外戚与边事起",
+   "peakEvent": "班固、班超、班昭以史学与西域事显",
+   "fall": "东汉末渐散",
+   "figures": [
+    "班固",
+    "班超",
+    "班昭"
+   ],
+   "boundary": "家族以著述与边功并称，不能简化为「史学世家」单线。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H018",
+   "name": "涿郡卢氏（先声）",
+   "alias": "范阳／涿郡",
+   "region": "huaxia",
+   "category": "汉晋士族",
+   "y0": 100,
+   "y1": 900,
+   "peak": 300,
+   "rawYear": "公元2—10世纪",
+   "seat": "涿郡",
+   "rise": "卢植以经学、军事知名",
+   "peakEvent": "北朝为「范阳卢氏」列入高门",
+   "fall": "唐以后郡望渐成称谓",
+   "figures": [
+    "卢植",
+    "卢毓"
+   ],
+   "boundary": "范阳卢氏的魏晋谱系与东汉卢植之间，材料有缺环。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H019",
+   "name": "琅琊王氏",
+   "alias": "琅琊郡",
+   "region": "huaxia",
+   "category": "魏晋门阀",
+   "y0": 200,
+   "y1": 900,
+   "peak": 320,
+   "rawYear": "公元3—10世纪",
+   "seat": "琅琊→建康",
+   "rise": "王祥以孝行入仕，王戎王衍列名士",
+   "peakEvent": "「王与马，共天下」，王导王敦定东晋格局",
+   "fall": "唐以后郡望符号化，支系散",
+   "figures": [
+    "王祥",
+    "王导",
+    "王羲之",
+    "王献之"
+   ],
+   "boundary": "「王与马共天下」是政治格局描述，不是王氏取代司马氏称帝。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H020",
+   "name": "陈郡谢氏",
+   "alias": "陈郡",
+   "region": "huaxia",
+   "category": "魏晋门阀",
+   "y0": 250,
+   "y1": 900,
+   "peak": 380,
+   "rawYear": "公元3—10世纪",
+   "seat": "陈郡→建康",
+   "rise": "谢缵、谢衡以经学起",
+   "peakEvent": "谢安、谢玄主持淝水，谢氏与王氏并称",
+   "fall": "南朝后渐衰，唐时仍标郡望",
+   "figures": [
+    "谢安",
+    "谢玄",
+    "谢灵运"
+   ],
+   "boundary": "「王谢」并称是门第排序，不代表两族有稳定姻亲同盟或共同血统。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H021",
+   "name": "颍川庾氏",
+   "alias": "颍川",
+   "region": "huaxia",
+   "category": "魏晋门阀",
+   "y0": 250,
+   "y1": 400,
+   "peak": 340,
+   "rawYear": "公元3—5世纪",
+   "seat": "颍川→建康",
+   "rise": "庾氏以名士与外戚双重身份起",
+   "peakEvent": "庾亮、庾冰辅政，庾氏掌荆扬",
+   "fall": "桓温崛起后势力散",
+   "figures": [
+    "庾亮",
+    "庾翼"
+   ],
+   "boundary": "外戚身份与士族门第是两条线，随婚姻与政局变化。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H022",
+   "name": "谯国桓氏",
+   "alias": "谯国",
+   "region": "huaxia",
+   "category": "魏晋门阀",
+   "y0": 250,
+   "y1": 404,
+   "peak": 370,
+   "rawYear": "公元3—5世纪",
+   "seat": "谯国→荆州",
+   "rise": "桓彝渡江，桓温以军功起",
+   "peakEvent": "桓温专权、桓玄一度篡立",
+   "fall": "404 桓玄败，桓氏政治势力瓦解",
+   "figures": [
+    "桓温",
+    "桓玄"
+   ],
+   "boundary": "「桓氏篡晋」是短期政变，不等于桓氏世代为帝。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H023",
+   "name": "太原王氏",
+   "alias": "太原郡",
+   "region": "huaxia",
+   "category": "魏晋门阀",
+   "y0": 200,
+   "y1": 900,
+   "peak": 350,
+   "rawYear": "公元3—10世纪",
+   "seat": "太原",
+   "rise": "王昶、王浑以军功入晋",
+   "peakEvent": "北朝与唐列为高门，出宰相多人",
+   "fall": "唐末门阀政治消退",
+   "figures": [
+    "王昶",
+    "王坦之",
+    "王维（郡望归属有讨论）"
+   ],
+   "boundary": "唐人常标郡望，诗人王维是否属太原王氏支系有异说。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H024",
+   "name": "清河崔氏",
+   "alias": "清河郡",
+   "region": "huaxia",
+   "category": "五姓七望",
+   "y0": 200,
+   "y1": 900,
+   "peak": 450,
+   "rawYear": "公元3—10世纪",
+   "seat": "清河",
+   "rise": "崔琰、崔林仕魏",
+   "peakEvent": "北朝崔浩国史案前后盛衰剧烈",
+   "fall": "唐列为禁婚家之一，后渐散",
+   "figures": [
+    "崔琰",
+    "崔浩",
+    "崔颢（郡望存疑）"
+   ],
+   "boundary": "「五姓七望」是唐人门第观念中的分组，不是六朝一直存在的固定名单。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H025",
+   "name": "博陵崔氏",
+   "alias": "博陵郡",
+   "region": "huaxia",
+   "category": "五姓七望",
+   "y0": 200,
+   "y1": 900,
+   "peak": 500,
+   "rawYear": "公元3—10世纪",
+   "seat": "博陵",
+   "rise": "崔氏分清河、博陵二望",
+   "peakEvent": "北朝隋唐累世为官",
+   "fall": "唐以后郡望符号化",
+   "figures": [
+    "崔寔",
+    "崔护（存疑）"
+   ],
+   "boundary": "同姓不同望，不能因「崔」字合并为一族。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H026",
+   "name": "范阳卢氏",
+   "alias": "范阳郡",
+   "region": "huaxia",
+   "category": "五姓七望",
+   "y0": 200,
+   "y1": 900,
+   "peak": 450,
+   "rawYear": "公元3—10世纪",
+   "seat": "范阳",
+   "rise": "卢毓、卢钦仕魏晋",
+   "peakEvent": "北朝高门，与崔郑王李联姻",
+   "fall": "唐以后渐散",
+   "figures": [
+    "卢植（先声）",
+    "卢照邻（郡望存疑）"
+   ],
+   "boundary": "「范阳卢氏」是地望标签，联姻圈不等于可考的血缘网络。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H027",
+   "name": "赵郡李氏",
+   "alias": "赵郡",
+   "region": "huaxia",
+   "category": "五姓七望",
+   "y0": 200,
+   "y1": 900,
+   "peak": 450,
+   "rawYear": "公元3—10世纪",
+   "seat": "赵郡",
+   "rise": "李氏以经学、吏事起",
+   "peakEvent": "北朝隋唐出相多人",
+   "fall": "唐末门第消退",
+   "figures": [
+    "李顺",
+    "李德裕（族属有讨论）"
+   ],
+   "boundary": "李德裕属赵郡李氏还是陇西李氏，文献说法不一，不作定论。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H028",
+   "name": "陇西李氏",
+   "alias": "陇西郡",
+   "region": "huaxia",
+   "category": "五姓七望",
+   "y0": 200,
+   "y1": 900,
+   "peak": 550,
+   "rawYear": "公元3—10世纪",
+   "seat": "陇西",
+   "rise": "李暠据西凉，李氏以军功起",
+   "peakEvent": "李唐皇室自称陇西李氏，门第被抬到极顶",
+   "fall": "唐末门阀消退",
+   "figures": [
+    "李暠",
+    "李渊"
+   ],
+   "boundary": "李唐皇室与陇西李氏的谱系连接含政治建构，不作纯血统认定。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H029",
+   "name": "荥阳郑氏",
+   "alias": "荥阳郡",
+   "region": "huaxia",
+   "category": "五姓七望",
+   "y0": 200,
+   "y1": 900,
+   "peak": 450,
+   "rawYear": "公元3—10世纪",
+   "seat": "荥阳",
+   "rise": "郑冲、郑袤仕魏晋",
+   "peakEvent": "北朝为高门，与崔卢联姻",
+   "fall": "唐以后渐散",
+   "figures": [
+    "郑冲",
+    "郑羲"
+   ],
+   "boundary": "联姻记录能说明社会关系，不能直接证明生物学世系。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H030",
+   "name": "河东裴氏",
+   "alias": "河东郡",
+   "region": "huaxia",
+   "category": "北朝士族",
+   "y0": 200,
+   "y1": 900,
+   "peak": 500,
+   "rawYear": "公元3—10世纪",
+   "seat": "河东",
+   "rise": "裴氏以吏事与律学起",
+   "peakEvent": "唐出宰相数十人，有「宰相世家」之称",
+   "fall": "唐末渐散",
+   "figures": [
+    "裴松之",
+    "裴度",
+    "裴矩"
+   ],
+   "boundary": "「出宰相 X 人」是后世统计，不同统计口径差异大。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H031",
+   "name": "河东柳氏",
+   "alias": "河东郡",
+   "region": "huaxia",
+   "category": "北朝士族",
+   "y0": 250,
+   "y1": 900,
+   "peak": 500,
+   "rawYear": "公元3—10世纪",
+   "seat": "河东",
+   "rise": "柳氏以门第与文学起",
+   "peakEvent": "柳宗元属河东柳氏",
+   "fall": "唐以后散",
+   "figures": [
+    "柳宗元",
+    "柳公权"
+   ],
+   "boundary": "柳宗元与柳公权是否同支，材料不足以断言。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H032",
+   "name": "京兆韦氏",
+   "alias": "京兆",
+   "region": "huaxia",
+   "category": "北朝士族",
+   "y0": 200,
+   "y1": 900,
+   "peak": 550,
+   "rawYear": "公元3—10世纪",
+   "seat": "长安",
+   "rise": "韦氏以关中著姓起",
+   "peakEvent": "唐「城南韦杜，去天尺五」",
+   "fall": "唐末渐散",
+   "figures": [
+    "韦应物",
+    "韦庄（郡望存疑）"
+   ],
+   "boundary": "俗谚是门第感受，不是可核的官位统计。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H033",
+   "name": "京兆杜氏",
+   "alias": "京兆",
+   "region": "huaxia",
+   "category": "北朝士族",
+   "y0": 200,
+   "y1": 900,
+   "peak": 550,
+   "rawYear": "公元3—10世纪",
+   "seat": "长安",
+   "rise": "杜预以经学、军功起",
+   "peakEvent": "唐杜如晦、杜甫标京兆",
+   "fall": "唐末渐散",
+   "figures": [
+    "杜预",
+    "杜如晦",
+    "杜甫"
+   ],
+   "boundary": "杜甫自称「杜陵野老」是地望自述，不等于可连到杜预的逐代谱。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H034",
+   "name": "吴郡顾氏",
+   "alias": "吴郡",
+   "region": "huaxia",
+   "category": "江东士族",
+   "y0": 200,
+   "y1": 600,
+   "peak": 320,
+   "rawYear": "公元3—7世纪",
+   "seat": "吴郡",
+   "rise": "顾雍仕孙吴，江东著姓",
+   "peakEvent": "东晋南朝与陆朱张并称「吴四姓」",
+   "fall": "南朝后期渐散",
+   "figures": [
+    "顾雍",
+    "顾恺之（族属有讨论）"
+   ],
+   "boundary": "「吴四姓」是地域门第并称，不是四族共祖。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H035",
+   "name": "吴郡陆氏",
+   "alias": "吴郡",
+   "region": "huaxia",
+   "category": "江东士族",
+   "y0": 200,
+   "y1": 700,
+   "peak": 320,
+   "rawYear": "公元3—8世纪",
+   "seat": "吴郡",
+   "rise": "陆逊以军功起",
+   "peakEvent": "陆机陆云以文学显，南朝仍为高门",
+   "fall": "唐以后渐散",
+   "figures": [
+    "陆逊",
+    "陆机",
+    "陆羽（族属存疑）"
+   ],
+   "boundary": "同姓与同郡望不能自动连成一家。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H036",
+   "name": "吴郡朱氏／张氏",
+   "alias": "吴郡",
+   "region": "huaxia",
+   "category": "江东士族",
+   "y0": 200,
+   "y1": 600,
+   "peak": 320,
+   "rawYear": "公元3—7世纪",
+   "seat": "吴郡",
+   "rise": "孙吴时期江东著姓",
+   "peakEvent": "与顾陆并称「吴四姓」",
+   "fall": "南朝后渐散",
+   "figures": [
+    "朱桓",
+    "张温"
+   ],
+   "boundary": "并称出自地域门第，不宜当作四个血缘集团。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H037",
+   "name": "吴兴沈氏",
+   "alias": "吴兴",
+   "region": "huaxia",
+   "category": "江东士族",
+   "y0": 250,
+   "y1": 600,
+   "peak": 450,
+   "rawYear": "公元3—7世纪",
+   "seat": "吴兴",
+   "rise": "沈氏以武力强宗起",
+   "peakEvent": "沈约以史学文学显，南朝显贵",
+   "fall": "南朝后渐散",
+   "figures": [
+    "沈约",
+    "沈充"
+   ],
+   "boundary": "「由武入文」是家族策略概括，不是每代都有可考记载。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H038",
+   "name": "会稽虞氏",
+   "alias": "会稽",
+   "region": "huaxia",
+   "category": "江东士族",
+   "y0": 200,
+   "y1": 600,
+   "peak": 350,
+   "rawYear": "公元3—7世纪",
+   "seat": "会稽",
+   "rise": "虞翻以经学起",
+   "peakEvent": "虞喜、虞预以历法史学显",
+   "fall": "南朝后渐散",
+   "figures": [
+    "虞翻",
+    "虞喜"
+   ],
+   "boundary": "家学传统与仕宦记录是两类材料。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H039",
+   "name": "会稽孔氏",
+   "alias": "会稽",
+   "region": "huaxia",
+   "category": "江东士族",
+   "y0": 200,
+   "y1": 900,
+   "peak": 350,
+   "rawYear": "公元3—10世纪",
+   "seat": "会稽",
+   "rise": "孔氏以经学与南渡士族起",
+   "peakEvent": "孔稚珪、孔颖达（族属有讨论）",
+   "fall": "唐以后郡望符号化",
+   "figures": [
+    "孔融（异支）",
+    "孔颖达"
+   ],
+   "boundary": "同姓孔不自动等于曲阜孔氏嫡系，这是最常见的攀附误读。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H040",
+   "name": "陈郡袁氏",
+   "alias": "陈郡",
+   "region": "huaxia",
+   "category": "魏晋门阀",
+   "y0": 200,
+   "y1": 700,
+   "peak": 400,
+   "rawYear": "公元3—8世纪",
+   "seat": "陈郡",
+   "rise": "袁氏以经学、清议起",
+   "peakEvent": "与汝南袁氏并见，南朝袁粲等显",
+   "fall": "唐以后渐散",
+   "figures": [
+    "袁宏",
+    "袁粲"
+   ],
+   "boundary": "陈郡袁氏与汝南袁氏不同望，常被混为一谈。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H041",
+   "name": "济阳江氏",
+   "alias": "济阳",
+   "region": "huaxia",
+   "category": "魏晋门阀",
+   "y0": 250,
+   "y1": 600,
+   "peak": 400,
+   "rawYear": "公元3—7世纪",
+   "seat": "济阳→江南",
+   "rise": "江氏南渡",
+   "peakEvent": "江淹、江总以文学显",
+   "fall": "南朝后渐散",
+   "figures": [
+    "江淹",
+    "江总"
+   ],
+   "boundary": "「江郎才尽」是后世成语，不宜当作生平考据。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H042",
+   "name": "兰陵萧氏",
+   "alias": "兰陵",
+   "region": "huaxia",
+   "category": "南朝皇族士族",
+   "y0": 300,
+   "y1": 900,
+   "peak": 500,
+   "rawYear": "公元4—10世纪",
+   "seat": "兰陵→建康",
+   "rise": "萧氏南渡，齐梁两朝皇室所出",
+   "peakEvent": "齐梁皇族与士族双重身份",
+   "fall": "唐以后郡望符号化，萧瑀等仍显",
+   "figures": [
+    "萧道成",
+    "萧衍",
+    "萧统"
+   ],
+   "boundary": "齐梁是否同族连续有讨论，不作一姓两朝直系认定。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H043",
+   "name": "彭城刘氏",
+   "alias": "彭城",
+   "region": "huaxia",
+   "category": "南朝皇族士族",
+   "y0": 300,
+   "y1": 700,
+   "peak": 450,
+   "rawYear": "公元4—8世纪",
+   "seat": "彭城→建康",
+   "rise": "刘裕起自寒门军功",
+   "peakEvent": "宋皇室，后以郡望标举",
+   "fall": "南朝后渐散",
+   "figures": [
+    "刘裕",
+    "刘义庆"
+   ],
+   "boundary": "自称彭城与是否可连到汉代宗室，材料不足。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H044",
+   "name": "琅琊颜氏",
+   "alias": "琅琊",
+   "region": "huaxia",
+   "category": "魏晋门阀",
+   "y0": 250,
+   "y1": 900,
+   "peak": 500,
+   "rawYear": "公元3—10世纪",
+   "seat": "琅琊→江南",
+   "rise": "颜含南渡",
+   "peakEvent": "颜之推《颜氏家训》，颜真卿标琅琊",
+   "fall": "唐以后郡望符号化",
+   "figures": [
+    "颜之推",
+    "颜师古",
+    "颜真卿"
+   ],
+   "boundary": "《颜氏家训》是家训文本，不是谱牒实证。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H045",
+   "name": "高平郗氏",
+   "alias": "高平",
+   "region": "huaxia",
+   "category": "魏晋门阀",
+   "y0": 250,
+   "y1": 450,
+   "peak": 350,
+   "rawYear": "公元3—5世纪",
+   "seat": "高平→建康",
+   "rise": "郗鉴以流民帅起",
+   "peakEvent": "郗氏与王氏联姻，东晋显",
+   "fall": "南朝后渐散",
+   "figures": [
+    "郗鉴",
+    "郗愔"
+   ],
+   "boundary": "流民武装与门第联姻是两条不同的上升路径。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H046",
+   "name": "太原温氏",
+   "alias": "太原",
+   "region": "huaxia",
+   "category": "魏晋门阀",
+   "y0": 250,
+   "y1": 500,
+   "peak": 380,
+   "rawYear": "公元3—6世纪",
+   "seat": "太原→江南",
+   "rise": "温峤以军功与名士起",
+   "peakEvent": "东晋显，后渐散",
+   "fall": "南朝后记载稀",
+   "figures": [
+    "温峤",
+    "温子昇（异支存疑）"
+   ],
+   "boundary": "同郡望异支不宜合并。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H047",
+   "name": "代北元氏（拓跋）",
+   "alias": "河南／代北",
+   "region": "huaxia",
+   "category": "北朝皇族",
+   "y0": 386,
+   "y1": 600,
+   "peak": 500,
+   "rawYear": "公元4—7世纪",
+   "seat": "平城→洛阳",
+   "rise": "拓跋珪建魏",
+   "peakEvent": "孝文帝改姓元、迁洛、定姓族",
+   "fall": "北魏分裂后支系散",
+   "figures": [
+    "拓跋珪",
+    "元宏"
+   ],
+   "boundary": "改姓是改制，不等于全族血统改变；「元氏」与北朝其他元氏非同支。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H048",
+   "name": "河南长孙氏",
+   "alias": "河南",
+   "region": "huaxia",
+   "category": "关陇集团",
+   "y0": 386,
+   "y1": 700,
+   "peak": 550,
+   "rawYear": "公元5—8世纪",
+   "seat": "代北→长安",
+   "rise": "出自拓跋宗室旁支",
+   "peakEvent": "长孙无忌佐唐，列入关陇",
+   "fall": "唐以后渐散",
+   "figures": [
+    "长孙晟",
+    "长孙无忌",
+    "长孙皇后"
+   ],
+   "boundary": "「关陇集团」是现代史学的分析概念，不是当时人自认的组织名。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H049",
+   "name": "河南宇文氏",
+   "alias": "河南",
+   "region": "huaxia",
+   "category": "关陇集团",
+   "y0": 500,
+   "y1": 620,
+   "peak": 560,
+   "rawYear": "公元6—7世纪",
+   "seat": "代北→长安",
+   "rise": "宇文泰总西魏军政",
+   "peakEvent": "北周皇室，隋代以后散",
+   "fall": "唐初记载渐稀",
+   "figures": [
+    "宇文泰",
+    "宇文邕",
+    "宇文护"
+   ],
+   "boundary": "「八柱国」是军政编制，不是八个世袭家族名册。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H050",
+   "name": "河南独孤氏",
+   "alias": "河南",
+   "region": "huaxia",
+   "category": "关陇集团",
+   "y0": 500,
+   "y1": 700,
+   "peak": 560,
+   "rawYear": "公元6—8世纪",
+   "seat": "代北→长安",
+   "rise": "独孤信为八柱国之一",
+   "peakEvent": "三女分嫁北周、隋、唐皇室，联姻网络显",
+   "fall": "唐以后渐散",
+   "figures": [
+    "独孤信",
+    "独孤伽罗"
+   ],
+   "boundary": "「三朝国丈」类说法是后世概括，需按各人具体身份分辨。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H051",
+   "name": "河南窦氏／于氏／穆氏／陆氏",
+   "alias": "代北改姓诸族",
+   "region": "huaxia",
+   "category": "关陇集团",
+   "y0": 386,
+   "y1": 700,
+   "peak": 550,
+   "rawYear": "公元5—8世纪",
+   "seat": "代北→洛阳→长安",
+   "rise": "孝文帝改姓后形成河南郡望",
+   "peakEvent": "北朝隋唐累世仕宦",
+   "fall": "唐以后郡望符号化",
+   "figures": [
+    "窦炽",
+    "于谨",
+    "穆崇",
+    "陆俟"
+   ],
+   "boundary": "改姓与郡望是制度标签，同姓不表示同一起源。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H052",
+   "name": "八柱国家",
+   "alias": "关陇军事集团",
+   "region": "huaxia",
+   "category": "关陇集团",
+   "y0": 530,
+   "y1": 620,
+   "peak": 560,
+   "rawYear": "公元6—7世纪",
+   "seat": "长安",
+   "rise": "西魏府兵制下的八位柱国",
+   "peakEvent": "宇文泰、李虎、独孤信等家族互通婚姻",
+   "fall": "隋唐皇室多出此网络",
+   "figures": [
+    "宇文泰",
+    "李虎",
+    "杨忠"
+   ],
+   "boundary": "这是史学概括的集团，不是有会籍的实体组织；成员后代不必都显贵。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H053",
+   "name": "五姓七望",
+   "alias": "清河崔／博陵崔／范阳卢／赵郡李／陇西李／荥阳郑／太原王",
+   "region": "huaxia",
+   "category": "门第观念",
+   "y0": 400,
+   "y1": 900,
+   "peak": 700,
+   "rawYear": "公元5—10世纪",
+   "seat": "两京",
+   "rise": "北朝姓族评定与婚姻圈",
+   "peakEvent": "唐初修《氏族志》，高宗时禁婚家",
+   "fall": "唐末科举与战乱后门第消退",
+   "figures": [],
+   "boundary": "《氏族志》是政治排序，不是谱牒真伪鉴定；「禁婚家」反映朝廷对门第的态度。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H054",
+   "name": "牛李党争中的「李」与「牛」",
+   "alias": "—",
+   "region": "huaxia",
+   "category": "政治群体",
+   "y0": 800,
+   "y1": 860,
+   "peak": 840,
+   "rawYear": "公元9世纪",
+   "seat": "长安",
+   "rise": "科举出身与门第出身的政务分歧",
+   "peakEvent": "两派争执持续数十年",
+   "fall": "唐末党争随朝局消散",
+   "figures": [
+    "李德裕",
+    "牛僧孺"
+   ],
+   "boundary": "「牛党／李党」是政治派别标签，不是两个姓氏集团，更不是两族世仇。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H055",
+   "name": "曲阜孔氏",
+   "alias": "阙里",
+   "region": "huaxia",
+   "category": "世袭奉祀与士绅",
+   "y0": -500,
+   "y1": 1900,
+   "peak": 1000,
+   "rawYear": "前5世纪—20世纪",
+   "seat": "曲阜",
+   "rise": "孔子之后世居阙里",
+   "peakEvent": "历代封衍圣公，奉祀与谱牒并行",
+   "fall": "20 世纪制度变化后转为文化家族",
+   "figures": [
+    "孔子",
+    "孔鲋",
+    "孔尚任"
+   ],
+   "boundary": "「衍圣公」是封号；谱牒连续性与生物学世系不是同一件事。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H056",
+   "name": "眉山苏氏",
+   "alias": "眉州",
+   "region": "huaxia",
+   "category": "宋士大夫家族",
+   "y0": 1000,
+   "y1": 1300,
+   "peak": 1050,
+   "rawYear": "公元11—14世纪",
+   "seat": "眉山→开封",
+   "rise": "苏洵以文章起",
+   "peakEvent": "苏轼苏辙同榜，蜀学一脉",
+   "fall": "宋以后支系散",
+   "figures": [
+    "苏洵",
+    "苏轼",
+    "苏辙"
+   ],
+   "boundary": "「三苏」是文学并称，不等于家族累世为官的门阀。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H057",
+   "name": "临川王氏",
+   "alias": "临川",
+   "region": "huaxia",
+   "category": "宋士大夫家族",
+   "y0": 1000,
+   "y1": 1200,
+   "peak": 1070,
+   "rawYear": "公元11—13世纪",
+   "seat": "临川→开封",
+   "rise": "王益之、王安石以科举入仕",
+   "peakEvent": "王安石主持熙宁变法",
+   "fall": "北宋末以后政治评价反复",
+   "figures": [
+    "王安石",
+    "王雱"
+   ],
+   "boundary": "变法争议属政治史，不宜写成家族命运的单线因果。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H058",
+   "name": "庐陵欧阳氏",
+   "alias": "庐陵",
+   "region": "huaxia",
+   "category": "宋士大夫家族",
+   "y0": 1000,
+   "y1": 1300,
+   "peak": 1050,
+   "rawYear": "公元11—14世纪",
+   "seat": "庐陵",
+   "rise": "欧阳修以科举起",
+   "peakEvent": "主修《新唐书》《新五代史》，修族谱",
+   "fall": "宋以后支系散",
+   "figures": [
+    "欧阳修"
+   ],
+   "boundary": "欧阳氏《图谱》是族谱编排的早期案例，不等于谱中每一代都可核。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H059",
+   "name": "吴郡范氏（范仲淹族）",
+   "alias": "吴县",
+   "region": "huaxia",
+   "category": "宋士大夫家族",
+   "y0": 1000,
+   "y1": 1600,
+   "peak": 1040,
+   "rawYear": "公元11—17世纪",
+   "seat": "苏州",
+   "rise": "范仲淹以科举入仕",
+   "peakEvent": "设义田义庄，家族赈恤制度化",
+   "fall": "明清义庄续有兴废",
+   "figures": [
+    "范仲淹",
+    "范纯仁"
+   ],
+   "boundary": "义庄是宗族经济制度，不是「世家」的政治特权。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H060",
+   "name": "涑水司马氏",
+   "alias": "涑水",
+   "region": "huaxia",
+   "category": "宋士大夫家族",
+   "y0": 1000,
+   "y1": 1300,
+   "peak": 1080,
+   "rawYear": "公元11—14世纪",
+   "seat": "夏县→洛阳",
+   "rise": "司马光以科举入仕",
+   "peakEvent": "主修《资治通鉴》",
+   "fall": "宋以后支系散",
+   "figures": [
+    "司马光",
+    "司马康"
+   ],
+   "boundary": "史学成就与门第延续是两条线。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H061",
+   "name": "河南程氏／横渠张氏／濂溪周氏",
+   "alias": "洛／关中／道州",
+   "region": "huaxia",
+   "category": "宋理学家族",
+   "y0": 1000,
+   "y1": 1400,
+   "peak": 1080,
+   "rawYear": "公元11—15世纪",
+   "seat": "洛阳、关中、道州",
+   "rise": "以讲学与著述起",
+   "peakEvent": "二程、张载、周敦颐之学被后世并称",
+   "fall": "元明以后从祀与后裔封赠",
+   "figures": [
+    "程颢",
+    "程颐",
+    "张载",
+    "周敦颐"
+   ],
+   "boundary": "「濂洛关闽」是学派地理标签，不是四个血缘家族。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H062",
+   "name": "明州史氏",
+   "alias": "鄞县",
+   "region": "huaxia",
+   "category": "宋士大夫家族",
+   "y0": 1100,
+   "y1": 1300,
+   "peak": 1200,
+   "rawYear": "公元12—14世纪",
+   "seat": "明州",
+   "rise": "史氏以科举起",
+   "peakEvent": "史浩、史弥远、史嵩之相继执政",
+   "fall": "南宋末以后散",
+   "figures": [
+    "史浩",
+    "史弥远"
+   ],
+   "boundary": "「三相」是仕宦统计，政治评价分歧很大，不作家族定性。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H063",
+   "name": "桐城张氏／姚氏",
+   "alias": "桐城",
+   "region": "huaxia",
+   "category": "明清士绅",
+   "y0": 1500,
+   "y1": 1900,
+   "peak": 1700,
+   "rawYear": "公元16—20世纪",
+   "seat": "桐城",
+   "rise": "以科举与书院起",
+   "peakEvent": "张英张廷玉、姚鼐，桐城派文脉",
+   "fall": "清末科举废后转型",
+   "figures": [
+    "张英",
+    "张廷玉",
+    "姚鼐"
+   ],
+   "boundary": "「桐城派」是文学流派，不是张姚两族合称。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H064",
+   "name": "海宁查氏／陈氏",
+   "alias": "海宁",
+   "region": "huaxia",
+   "category": "明清士绅",
+   "y0": 1500,
+   "y1": 1900,
+   "peak": 1700,
+   "rawYear": "公元16—20世纪",
+   "seat": "海宁",
+   "rise": "以科举、藏书起",
+   "peakEvent": "查慎行、查嗣庭，陈氏有「一门三阁老」之称",
+   "fall": "清末以后转型",
+   "figures": [
+    "查慎行",
+    "陈元龙"
+   ],
+   "boundary": "「一门三阁老」类说法常含夸饰，需按各人官职分别核。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H065",
+   "name": "苏州潘氏／吴门文氏",
+   "alias": "苏州",
+   "region": "huaxia",
+   "category": "明清士绅与收藏",
+   "y0": 1500,
+   "y1": 1900,
+   "peak": 1750,
+   "rawYear": "公元16—20世纪",
+   "seat": "苏州",
+   "rise": "以科举、书画、收藏起",
+   "peakEvent": "潘氏藏书与文氏书画并称",
+   "fall": "近代转型",
+   "figures": [
+    "文徵明",
+    "潘祖荫"
+   ],
+   "boundary": "「收藏世家」是后世概括，藏品流转不等于家族连续收藏。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H066",
+   "name": "徽州汪氏／歙县鲍氏",
+   "alias": "徽州",
+   "region": "huaxia",
+   "category": "明清商绅",
+   "y0": 1400,
+   "y1": 1900,
+   "peak": 1700,
+   "rawYear": "公元15—20世纪",
+   "seat": "徽州",
+   "rise": "以盐业、典业起",
+   "peakEvent": "商而兼士，修谱建祠普遍",
+   "fall": "近代盐法与商路变化后转型",
+   "figures": [
+    "汪道昆",
+    "鲍志道"
+   ],
+   "boundary": "徽商「贾而好儒」是风气概括，不是每支都亦商亦儒。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H067",
+   "name": "山西票号诸族",
+   "alias": "祁县／太谷／平遥",
+   "region": "huaxia",
+   "category": "明清商绅",
+   "y0": 1700,
+   "y1": 1910,
+   "peak": 1820,
+   "rawYear": "公元18—20世纪",
+   "seat": "山西",
+   "rise": "以长途贸易与汇兑起",
+   "peakEvent": "乔、常、曹、渠等家族营票号",
+   "fall": "清末民初票号衰落",
+   "figures": [
+    "乔致庸",
+    "常万达"
+   ],
+   "boundary": "「晋商」是地域商帮，不是单一族；票号也不是现代银行。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H068",
+   "name": "广州十三行行商",
+   "alias": "广州",
+   "region": "huaxia",
+   "category": "明清商绅",
+   "y0": 1700,
+   "y1": 1840,
+   "peak": 1780,
+   "rawYear": "公元18—19世纪",
+   "seat": "广州",
+   "rise": "一口通商下的行商制度",
+   "peakEvent": "潘、伍、卢、叶等行商家族",
+   "fall": "鸦片战争后行商制度废",
+   "figures": [
+    "伍秉鉴",
+    "潘振承"
+   ],
+   "boundary": "行商是特许制度下的中介，不是自由市场意义的「商业世家」。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H069",
+   "name": "尤利乌斯氏族（gens Julia）",
+   "alias": "gens",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": -100,
+   "y1": 100,
+   "peak": -40,
+   "rawYear": "前1—公元1世纪",
+   "seat": "罗马",
+   "rise": "贵族氏族，出自阿尔巴传说",
+   "peakEvent": "恺撒、奥古斯都（过继入族）",
+   "fall": "帝国初期后主支渐稀",
+   "figures": [
+    "恺撒",
+    "奥古斯都"
+   ],
+   "boundary": "罗马 gens 是氏族与家名（nomen），「过继」会改变所属氏族，不等于生物学父系。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H070",
+   "name": "克劳狄乌斯氏族",
+   "alias": "gens",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": -100,
+   "y1": 100,
+   "peak": 0,
+   "rawYear": "前1—公元1世纪",
+   "seat": "罗马",
+   "rise": "萨宾起源的贵族氏族",
+   "peakEvent": "提比略、克劳狄、尼禄（过继）",
+   "fall": "公元1世纪后主支渐稀",
+   "figures": [
+    "克劳狄",
+    "尼禄"
+   ],
+   "boundary": "三名制里的氏族名与家族分支（stirps）要分开。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H071",
+   "name": "科尔内利乌斯／法比乌斯／埃米利乌斯氏族",
+   "alias": "gens",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": -300,
+   "y1": 100,
+   "peak": -100,
+   "rawYear": "前3—公元1世纪",
+   "seat": "罗马",
+   "rise": "共和国显贵氏族",
+   "peakEvent": "多次出任执政官",
+   "fall": "帝国时期政治角色变化",
+   "figures": [
+    "西庇阿",
+    "法比乌斯",
+    "保卢斯"
+   ],
+   "boundary": "「显贵氏族」不等于连续掌权，共和国选举制下官职不世袭。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H072",
+   "name": "瓦莱里乌斯／尤尼乌斯／塞姆普罗尼乌斯氏族",
+   "alias": "gens",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": -300,
+   "y1": 50,
+   "peak": -100,
+   "rawYear": "前3—前1世纪",
+   "seat": "罗马",
+   "rise": "共和国名门",
+   "peakEvent": "格拉古兄弟属塞姆普罗尼乌斯氏族",
+   "fall": "共和国末期内战后渐散",
+   "figures": [
+    "布鲁图斯",
+    "格拉古兄弟"
+   ],
+   "boundary": "同一氏族内可有平民分支（plebeian），不能一律视为贵族。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H073",
+   "name": "卡佩／瓦卢瓦／波旁",
+   "alias": "王族",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 987,
+   "y1": 1792,
+   "peak": 1300,
+   "rawYear": "公元10—18世纪",
+   "seat": "法兰西",
+   "rise": "卡佩王朝建立",
+   "peakEvent": "瓦卢瓦、波旁的分支继统",
+   "fall": "1792 君主制中断，后有复辟",
+   "figures": [
+    "腓力二世",
+    "路易十四"
+   ],
+   "boundary": "「王朝」按继统法分支，不是现代意义的姓氏家族；女性继承与萨利克法常引争议。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H074",
+   "name": "金雀花／兰开斯特／约克",
+   "alias": "王族",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 1154,
+   "y1": 1485,
+   "peak": 1400,
+   "rawYear": "公元12—15世纪",
+   "seat": "英格兰",
+   "rise": "亨利二世建立金雀花",
+   "peakEvent": "玫瑰战争两分支争位",
+   "fall": "1485 都铎继立",
+   "figures": [
+    "亨利二世",
+    "亨利五世"
+   ],
+   "boundary": "两分支同出一族，内战不是「两个家族灭对方」。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H075",
+   "name": "哈布斯堡",
+   "alias": "王族",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 1273,
+   "y1": 1918,
+   "peak": 1550,
+   "rawYear": "公元13—20世纪",
+   "seat": "奥地利／西班牙",
+   "rise": "鲁道夫一世当选",
+   "peakEvent": "查理五世时领地最广，婚姻继承显著",
+   "fall": "1918 奥匈终结",
+   "figures": [
+    "查理五世",
+    "玛丽亚·特蕾西亚"
+   ],
+   "boundary": "「用婚姻取得领地」是王朝策略概括，各次继承仍有各自的法理争议。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H076",
+   "name": "美第奇",
+   "alias": "银行与统治家族",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 1397,
+   "y1": 1737,
+   "peak": 1450,
+   "rawYear": "公元15—18世纪",
+   "seat": "佛罗伦萨",
+   "rise": "乔凡尼创银行",
+   "peakEvent": "科西莫、洛伦佐，出教皇与王后",
+   "fall": "1737 主支绝嗣",
+   "figures": [
+    "科西莫",
+    "洛伦佐",
+    "利奥十世"
+   ],
+   "boundary": "银行家族、城市统治者、教皇三者身份不同层，不能混作「王朝」。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H077",
+   "name": "富格尔／韦尔泽",
+   "alias": "银行家族",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 1450,
+   "y1": 1650,
+   "peak": 1520,
+   "rawYear": "公元15—17世纪",
+   "seat": "奥格斯堡",
+   "rise": "以纺织与矿业金融起",
+   "peakEvent": "资助查理五世，涉足美洲殖民",
+   "fall": "17 世纪后衰落",
+   "figures": [
+    "雅各布·富格尔"
+   ],
+   "boundary": "「金融家族控制皇帝」是夸张说法；债权关系不等于政治统治。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H078",
+   "name": "斯福尔扎／维斯孔蒂",
+   "alias": "城市统治家族",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 1277,
+   "y1": 1535,
+   "peak": 1450,
+   "rawYear": "公元13—16世纪",
+   "seat": "米兰",
+   "rise": "维斯孔蒂任米兰领主",
+   "peakEvent": "斯福尔扎以佣兵队长继立公爵",
+   "fall": "1535 后归哈布斯堡",
+   "figures": [
+    "弗朗切斯科·斯福尔扎"
+   ],
+   "boundary": "领主（signore）与公爵是不同法理身份，雇佣兵出身不等于世袭贵族。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H079",
+   "name": "留里克／罗曼诺夫",
+   "alias": "王族",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 862,
+   "y1": 1917,
+   "peak": 1600,
+   "rawYear": "公元9—20世纪",
+   "seat": "诺夫哥罗德→莫斯科",
+   "rise": "留里克受邀之说见于后世编年",
+   "peakEvent": "1613 罗曼诺夫继立，1917 终结",
+   "fall": "末代尼古拉二世退位",
+   "figures": [
+    "伊凡四世",
+    "彼得一世"
+   ],
+   "boundary": "「留里克受邀」出自《往年纪事》，属后世叙述；两朝是否同族连续有讨论。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H080",
+   "name": "雅盖隆／维特尔斯巴赫／韦尔夫",
+   "alias": "王族",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 1100,
+   "y1": 1800,
+   "peak": 1400,
+   "rawYear": "公元12—19世纪",
+   "seat": "中欧",
+   "rise": "各领地王朝家族",
+   "peakEvent": "通过婚姻与选举获得多顶王冠",
+   "fall": "近代民族国家形成后转型",
+   "figures": [
+    "卡齐米日四世",
+    "奥托一世（韦尔夫早期）"
+   ],
+   "boundary": "「家族拥有多个王位」是复合君主国现象，不等于统一帝国。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H081",
+   "name": "藤原氏（北家·摄关）",
+   "alias": "氏（uji）",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 700,
+   "y1": 1200,
+   "peak": 1000,
+   "rawYear": "公元8—13世纪",
+   "seat": "平安京",
+   "rise": "藤原镰足之后，北家得势",
+   "peakEvent": "摄关政治，与天皇家族长期联姻",
+   "fall": "院政与武家兴起后政治角色变化",
+   "figures": [
+    "藤原道长",
+    "藤原赖通"
+   ],
+   "boundary": "日本「氏」是氏族与家名，摄关是官职，不能当成「藤原朝」。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H082",
+   "name": "清和源氏／桓武平氏",
+   "alias": "氏（uji）",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 900,
+   "y1": 1400,
+   "peak": 1150,
+   "rawYear": "公元10—15世纪",
+   "seat": "日本",
+   "rise": "天皇赐姓降为臣籍",
+   "peakEvent": "源赖朝开镰仓幕府，平清盛一度执政",
+   "fall": "武家政权更替后支系散",
+   "figures": [
+    "源赖朝",
+    "平清盛"
+   ],
+   "boundary": "「源平」是赐姓分支，不是两个自古对立的种族。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H083",
+   "name": "北条氏／足利氏／德川氏",
+   "alias": "武家",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 1200,
+   "y1": 1868,
+   "peak": 1600,
+   "rawYear": "公元13—19世纪",
+   "seat": "镰仓／室町／江户",
+   "rise": "北条为镰仓执权",
+   "peakEvent": "足利室町，德川江户幕府",
+   "fall": "1868 幕府终结",
+   "figures": [
+    "北条时宗",
+    "足利尊氏",
+    "德川家康"
+   ],
+   "boundary": "执权、将军、大名是不同职位；「北条」另有后北条氏，非同一族。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H084",
+   "name": "岛津／毛利／上杉／武田",
+   "alias": "大名",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 1400,
+   "y1": 1600,
+   "peak": 1550,
+   "rawYear": "公元15—17世纪",
+   "seat": "日本各分国",
+   "rise": "守护大名起家",
+   "peakEvent": "战国时割据一方",
+   "fall": "关原后移封或减封",
+   "figures": [
+    "岛津义弘",
+    "毛利元就",
+    "上杉谦信",
+    "武田信玄"
+   ],
+   "boundary": "「战国大名」是领地统治者，家族收养与改姓常见，谱系不作血统断言。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H085",
+   "name": "古莱什／哈希姆／倭马亚／阿拔斯",
+   "alias": "部族与氏族",
+   "region": "meso",
+   "category": "域外氏族／王族",
+   "y0": 500,
+   "y1": 1258,
+   "peak": 750,
+   "rawYear": "公元6—13世纪",
+   "seat": "麦加→大马士革→巴格达",
+   "rise": "古莱什为麦加部族",
+   "peakEvent": "四大哈里发、倭马亚朝、阿拔斯朝",
+   "fall": "1258 巴格达陷落，哈里发名号转移",
+   "figures": [
+    "阿里",
+    "穆阿维叶",
+    "马蒙"
+   ],
+   "boundary": "部族、氏族、王朝是三层，不能把「阿拉伯人」写成一族。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H086",
+   "name": "法蒂玛／塞尔柱／布韦希／萨法维",
+   "alias": "王朝家族",
+   "region": "meso",
+   "category": "域外氏族／王族",
+   "y0": 900,
+   "y1": 1700,
+   "peak": 1100,
+   "rawYear": "公元10—18世纪",
+   "seat": "开罗／巴格达／伊斯法罕",
+   "rise": "以教派或部族支持立国",
+   "peakEvent": "各自控制不同区域，常同时并立",
+   "fall": "先后为其他政权所代",
+   "figures": [
+    "萨拉丁（塞尔柱时代）",
+    "阿拔斯一世"
+   ],
+   "boundary": "这些政权在时间上大幅重叠，不排成相续单线。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H087",
+   "name": "阿契美尼德／萨珊",
+   "alias": "王族",
+   "region": "meso",
+   "category": "域外氏族／王族",
+   "y0": -550,
+   "y1": 651,
+   "peak": 300,
+   "rawYear": "前6—公元7世纪",
+   "seat": "波斯",
+   "rise": "居鲁士、阿尔达希尔立国",
+   "peakEvent": "大流士一世、库思老一世",
+   "fall": "651 萨珊终结",
+   "figures": [
+    "大流士一世",
+    "库思老一世"
+   ],
+   "boundary": "两朝相隔数百年（含塞琉古、帕提亚），不是连续一姓统治。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H088",
+   "name": "孔雀／笈多／戒日王族",
+   "alias": "王族",
+   "region": "indus",
+   "category": "域外氏族／王族",
+   "y0": -322,
+   "y1": 650,
+   "peak": 400,
+   "rawYear": "前4—公元7世纪",
+   "seat": "北印度",
+   "rise": "旃陀罗笈多、旃陀罗笈多一世立国",
+   "peakEvent": "阿育王、沙摩陀罗笈多",
+   "fall": "戒日王死后北印度再分裂",
+   "figures": [
+    "阿育王",
+    "戒日王"
+   ],
+   "boundary": "「印度王朝」是地理概括，各朝疆域与族属差异很大。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H089",
+   "name": "拉其普特诸族",
+   "alias": "乔汉／帕拉马拉等",
+   "region": "indus",
+   "category": "域外氏族／王族",
+   "y0": 700,
+   "y1": 1600,
+   "peak": 1200,
+   "rawYear": "公元8—17世纪",
+   "seat": "拉贾斯坦",
+   "rise": "部族与土地结合形成王族",
+   "peakEvent": "德里苏丹时期多次抵抗",
+   "fall": "莫卧儿时期部分纳入 mansabdar 体系",
+   "figures": [
+    "普里特维拉杰三世"
+   ],
+   "boundary": "「拉其普特」是后世集合称谓，不是单一家族或种族。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H090",
+   "name": "莫卧儿（帖木儿后裔）",
+   "alias": "王族",
+   "region": "indus",
+   "category": "域外氏族／王族",
+   "y0": 1526,
+   "y1": 1857,
+   "peak": 1600,
+   "rawYear": "公元16—19世纪",
+   "seat": "德里／阿格拉",
+   "rise": "巴布尔自中亚南下",
+   "peakEvent": "阿克巴至奥朗则布",
+   "fall": "1857 名号终结",
+   "figures": [
+    "巴布尔",
+    "阿克巴"
+   ],
+   "boundary": "自称帖木儿后裔属王朝合法性叙述，不作纯血统认定。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H091",
+   "name": "马拉塔诸族",
+   "alias": "佩什瓦／辛迪亚／霍尔卡",
+   "region": "indus",
+   "category": "域外氏族／王族",
+   "y0": 1650,
+   "y1": 1818,
+   "peak": 1750,
+   "rawYear": "公元17—19世纪",
+   "seat": "德干",
+   "rise": "希瓦吉立国",
+   "peakEvent": "佩什瓦执政后形成联盟",
+   "fall": "1818 英军击败后终结",
+   "figures": [
+    "希瓦吉",
+    "巴吉拉奥"
+   ],
+   "boundary": "「马拉塔帝国」实为联盟，几个家族互不统属。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H092",
+   "name": "马其顿／科穆宁／杜卡斯／巴列奥略",
+   "alias": "拜占庭王朝家族",
+   "region": "aegean",
+   "category": "域外氏族／王族",
+   "y0": 867,
+   "y1": 1453,
+   "peak": 1100,
+   "rawYear": "公元9—15世纪",
+   "seat": "君士坦丁堡",
+   "rise": "巴西尔一世、阿历克塞一世立朝",
+   "peakEvent": "科穆宁中兴、巴列奥略复国",
+   "fall": "1453 城陷",
+   "figures": [
+    "巴西尔二世",
+    "阿历克塞一世",
+    "米海尔八世"
+   ],
+   "boundary": "「王朝」按继统分组，共治皇帝与姻亲继立常见，不作单线父子谱。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H093",
+   "name": "托勒密",
+   "alias": "王族",
+   "region": "nile",
+   "category": "域外氏族／王族",
+   "y0": -305,
+   "y1": -30,
+   "peak": -150,
+   "rawYear": "前4—前1世纪",
+   "seat": "亚历山大里亚",
+   "rise": "托勒密一世自立为法老",
+   "peakEvent": "早期富庶，后期内斗与罗马介入",
+   "fall": "前30 克娄巴特拉七世卒，王朝终结",
+   "figures": [
+    "托勒密一世",
+    "克娄巴特拉七世"
+   ],
+   "boundary": "兄妹婚是王朝习俗记载，不宜以现代亲属称谓直接类比。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H094",
+   "name": "孛儿只斤／阿史那／耶律／完颜／嵬名",
+   "alias": "草原与内陆王族",
+   "region": "steppe",
+   "category": "域外氏族／王族",
+   "y0": 550,
+   "y1": 1400,
+   "peak": 1200,
+   "rawYear": "公元6—15世纪",
+   "seat": "漠北／契丹／女真／河西",
+   "rise": "部族联盟推举可汗",
+   "peakEvent": "辽、金、西夏、蒙古诸政权",
+   "fall": "元明之际支系散",
+   "figures": [
+    "铁木真",
+    "耶律阿保机",
+    "完颜阿骨打",
+    "李元昊"
+   ],
+   "boundary": "「部族」不等于现代民族；不同政权族属与语言各不相同。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H095",
+   "name": "弘吉剌／药罗葛／回鹘诸族",
+   "alias": "部族与姻族",
+   "region": "steppe",
+   "category": "域外氏族／王族",
+   "y0": 600,
+   "y1": 1500,
+   "peak": 1200,
+   "rawYear": "公元7—16世纪",
+   "seat": "漠北／河西",
+   "rise": "以联姻与部落联盟显",
+   "peakEvent": "弘吉剌与蒙古皇室世代通婚",
+   "fall": "后渐融入其他部落联盟",
+   "figures": [],
+   "boundary": "「世代通婚」是政治联姻模式，不是全社会血缘规则。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H096",
+   "name": "帕伦克／科潘王族",
+   "alias": "城邦王族",
+   "region": "maya",
+   "category": "域外氏族／王族",
+   "y0": 300,
+   "y1": 900,
+   "peak": 650,
+   "rawYear": "公元4—10世纪",
+   "seat": "玛雅低地城邦",
+   "rise": "城邦君主世系见于铭文",
+   "peakEvent": "帕卡尔、「十八兔」时期铭文最盛",
+   "fall": "9—10 世纪低地城邦网络衰退",
+   "figures": [
+    "帕卡尔",
+    "「十八兔」"
+   ],
+   "boundary": "「玛雅崩溃」宜写作部分城邦网络衰退，不是文明整体灭绝。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H097",
+   "name": "特诺奇蒂特兰王族／库斯科 panaca",
+   "alias": "王族",
+   "region": "maya",
+   "category": "域外氏族／王族",
+   "y0": 1300,
+   "y1": 1535,
+   "peak": 1500,
+   "rawYear": "公元14—16世纪",
+   "seat": "中美洲／安第斯",
+   "rise": "城邦与联盟的统治家族",
+   "peakEvent": "蒙特祖玛二世、阿塔瓦尔帕时期",
+   "fall": "西班牙征服后殖民期记载改写谱系",
+   "figures": [
+    "蒙特祖玛二世",
+    "阿塔瓦尔帕"
+   ],
+   "boundary": "早期材料多经殖民期转写，谱系与继位顺序有争议。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ]
+  },
+  {
+   "id": "H098",
+   "name": "苏美尔城邦祭司家族",
+   "alias": "拉伽什／乌尔",
+   "region": "meso",
+   "category": "两河城邦",
+   "y0": -2900,
+   "y1": -2000,
+   "peak": -2400,
+   "rawYear": "约前29—前20世纪",
+   "seat": "苏美尔诸城",
+   "rise": "神庙经济与城邦管理者家族并立",
+   "peakEvent": "乌尔第三王朝时期王室与神庙家族交织",
+   "fall": "阿摩利人迁入后城邦格局重组",
+   "figures": [],
+   "boundary": "「苏美尔人」是语言文化群体，不是一个血缘家族；城邦互不统属。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H099",
+   "name": "阿卡德王族",
+   "alias": "萨尔贡家系",
+   "region": "meso",
+   "category": "两河王族",
+   "y0": -2334,
+   "y1": -2154,
+   "peak": -2250,
+   "rawYear": "约前24—前22世纪",
+   "seat": "阿卡德",
+   "rise": "萨尔贡以军事统一两河诸城",
+   "peakEvent": "纳拉姆辛时期王权神化",
+   "fall": "库提人入据后阿卡德解体",
+   "figures": [
+    "萨尔贡",
+    "纳拉姆辛"
+   ],
+   "boundary": "王表纪年有多种复原，「帝国」是现代概括。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H100",
+   "name": "乌尔第三王朝",
+   "alias": "乌尔纳姆家系",
+   "region": "meso",
+   "category": "两河王族",
+   "y0": -2112,
+   "y1": -2004,
+   "peak": -2050,
+   "rawYear": "约前22—前21世纪",
+   "seat": "乌尔",
+   "rise": "乌尔纳姆重建统一行政与法典",
+   "peakEvent": "舒尔吉时期文书行政极盛",
+   "fall": "埃兰人攻入乌尔，王朝终结",
+   "figures": [
+    "乌尔纳姆",
+    "舒尔吉"
+   ],
+   "boundary": "「乌尔纳姆法典」是最早成文法之一，不等于现代法典体系。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H101",
+   "name": "古巴比伦王族",
+   "alias": "阿摩利系",
+   "region": "meso",
+   "category": "两河王族",
+   "y0": -1894,
+   "y1": -1595,
+   "peak": -1760,
+   "rawYear": "约前19—前16世纪",
+   "seat": "巴比伦",
+   "rise": "阿摩利首领立国于巴比伦",
+   "peakEvent": "汉谟拉比统一两河并刊布法典",
+   "fall": "赫梯人袭巴比伦后衰落",
+   "figures": [
+    "汉谟拉比"
+   ],
+   "boundary": "「中年表／低年表」在位年差可达百年，不作精确排序。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H102",
+   "name": "加喜特王族",
+   "alias": "喀西特系",
+   "region": "meso",
+   "category": "两河王族",
+   "y0": -1595,
+   "y1": -1155,
+   "peak": -1350,
+   "rawYear": "约前16—前12世纪",
+   "seat": "巴比伦",
+   "rise": "加喜特人入主巴比伦",
+   "peakEvent": "与埃及、亚述并列的外交与联姻网络",
+   "fall": "埃兰人劫掠后终结",
+   "figures": [],
+   "boundary": "统治集团与本地居民不是同一人群，不作血统替换叙述。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H103",
+   "name": "亚述王族",
+   "alias": "阿淑尔系",
+   "region": "meso",
+   "category": "两河王族",
+   "y0": -1365,
+   "y1": -612,
+   "peak": -700,
+   "rawYear": "约前14—前7世纪",
+   "seat": "阿淑尔／尼尼微",
+   "rise": "中亚述时期由城邦扩为领土国家",
+   "peakEvent": "萨尔贡二世、亚述巴尼帕时期疆域最广",
+   "fall": "尼尼微陷落，行政网络瓦解",
+   "figures": [
+    "提格拉特帕拉沙尔三世",
+    "亚述巴尼帕"
+   ],
+   "boundary": "「亚述人灭绝」是旧说；行政与人口延续需分开谈。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H104",
+   "name": "新巴比伦（迦勒底）王族",
+   "alias": "",
+   "region": "meso",
+   "category": "两河王族",
+   "y0": -626,
+   "y1": -539,
+   "peak": -580,
+   "rawYear": "前626—前539",
+   "seat": "巴比伦",
+   "rise": "那波帕拉萨尔自立",
+   "peakEvent": "尼布甲尼撒二世营建巴比伦",
+   "fall": "居鲁士入城，政权归阿契美尼德",
+   "figures": [
+    "尼布甲尼撒二世",
+    "那波尼德"
+   ],
+   "boundary": "「巴比伦之囚」与「空中花园」的材料性质不同，不作互证。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H105",
+   "name": "米底／波斯贵族七氏",
+   "alias": "",
+   "region": "meso",
+   "category": "波斯贵族",
+   "y0": -700,
+   "y1": -330,
+   "peak": -520,
+   "rawYear": "约前7—前4世纪",
+   "seat": "波斯／米底",
+   "rise": "七氏参与立国与大流士继立",
+   "peakEvent": "阿契美尼德时期任总督与禁卫",
+   "fall": "马其顿征服后政治身份重组",
+   "figures": [
+    "大流士一世",
+    "欧塔涅斯"
+   ],
+   "boundary": "「七氏」出自希罗多德叙述，史料性质需与铭文分辨。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H106",
+   "name": "塞琉古王族",
+   "alias": "",
+   "region": "meso",
+   "category": "希腊化王族",
+   "y0": -312,
+   "y1": -64,
+   "peak": -200,
+   "rawYear": "前312—前64",
+   "seat": "安条克／塞琉西亚",
+   "rise": "亚历山大部将自立",
+   "peakEvent": "安条克三世一度恢复广大辖境",
+   "fall": "内乱与罗马东进后终结",
+   "figures": [
+    "塞琉古一世",
+    "安条克三世"
+   ],
+   "boundary": "希腊化王朝与本地祭司家族并立，不是单线统治。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H107",
+   "name": "帕提亚（阿萨息斯）与苏伦氏",
+   "alias": "",
+   "region": "meso",
+   "category": "伊朗王族与贵族",
+   "y0": -247,
+   "y1": 224,
+   "peak": 50,
+   "rawYear": "前247—公元224",
+   "seat": "泰西封",
+   "rise": "阿萨息斯立国，七大家族分掌军政",
+   "peakEvent": "与罗马长期对峙，贵族会议权重高",
+   "fall": "萨珊取代，部分家族转入新朝",
+   "figures": [
+    "米特拉达梯一世",
+    "苏伦"
+   ],
+   "boundary": "「七大家族」是后世归纳，成员与权力随时代变化。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H108",
+   "name": "萨珊王族",
+   "alias": "",
+   "region": "meso",
+   "category": "伊朗王族",
+   "y0": 224,
+   "y1": 651,
+   "peak": 550,
+   "rawYear": "公元224—651",
+   "seat": "泰西封／伊斯法罕",
+   "rise": "阿尔达希尔一世取代帕提亚",
+   "peakEvent": "库思老一世时期行政与军事整合",
+   "fall": "651 年终结，名号与后裔另有延续",
+   "figures": [
+    "阿尔达希尔一世",
+    "库思老一世"
+   ],
+   "boundary": "「波斯帝国」跨三朝（阿契美尼德／帕提亚／萨珊），不能写成一姓。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H109",
+   "name": "布韦希／塞尔柱／花剌子模诸族",
+   "alias": "",
+   "region": "meso",
+   "category": "伊斯兰地方王朝",
+   "y0": 932,
+   "y1": 1231,
+   "peak": 1100,
+   "rawYear": "公元10—13世纪",
+   "seat": "巴格达／伊斯法罕／撒马尔罕",
+   "rise": "地方军事家族入主，哈里发保留名义",
+   "peakEvent": "塞尔柱时期苏丹与维齐尔制度成形",
+   "fall": "蒙古西征后政治格局重组",
+   "figures": [
+    "伊马德丁·赞吉？",
+    "塞尔柱·贝格"
+   ],
+   "boundary": "这些政权互相并立且年代重叠，不排成前后相续单线。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H110",
+   "name": "古王国孟菲斯王族",
+   "alias": "",
+   "region": "nile",
+   "category": "埃及王族",
+   "y0": -2686,
+   "y1": -2181,
+   "peak": -2550,
+   "rawYear": "约前27—前22世纪",
+   "seat": "孟菲斯",
+   "rise": "第三王朝起以孟菲斯为中心",
+   "peakEvent": "第四王朝金字塔营造极盛",
+   "fall": "第一中间期地方诺姆长官坐大",
+   "figures": [
+    "胡夫",
+    "哈夫拉"
+   ],
+   "boundary": "王表纪年依曼涅托与考古复原，不同方案差异数十年。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H111",
+   "name": "中王国底比斯王族",
+   "alias": "",
+   "region": "nile",
+   "category": "埃及王族",
+   "y0": -2055,
+   "y1": -1650,
+   "peak": -1900,
+   "rawYear": "约前21—前17世纪",
+   "seat": "底比斯",
+   "rise": "门图霍特普二世重新统一",
+   "peakEvent": "第十二王朝水利与行政整饬",
+   "fall": "第二中间期喜克索斯人入据",
+   "figures": [
+    "门图霍特普二世",
+    "辛努塞尔特三世"
+   ],
+   "boundary": "「中王国」是现代分期，当时人不如此自称。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H112",
+   "name": "新王国第十八王朝",
+   "alias": "",
+   "region": "nile",
+   "category": "埃及王族",
+   "y0": -1550,
+   "y1": -1295,
+   "peak": -1450,
+   "rawYear": "约前16—前13世纪",
+   "seat": "底比斯／阿马尔纳",
+   "rise": "雅赫摩斯逐喜克索斯后立朝",
+   "peakEvent": "图特摩斯三世、哈特谢普苏特时期极盛",
+   "fall": "埃赫那吞改革与后续复辟",
+   "figures": [
+    "哈特谢普苏特",
+    "图特摩斯三世",
+    "埃赫那吞"
+   ],
+   "boundary": "后世抹除记录影响材料分布，不能据「缺记载」推断不存在。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H113",
+   "name": "第十九—二十王朝（拉美西斯系）",
+   "alias": "",
+   "region": "nile",
+   "category": "埃及王族",
+   "y0": -1295,
+   "y1": -1069,
+   "peak": -1250,
+   "rawYear": "约前13—前11世纪",
+   "seat": "培尔-拉美西斯",
+   "rise": "塞提一世、拉美西斯二世",
+   "peakEvent": "卡迭什前后与赫梯并立、后缔和约",
+   "fall": "第三中间期王权分裂，祭司与地方势力上升",
+   "figures": [
+    "拉美西斯二世"
+   ],
+   "boundary": "「和约」是外交文书，不等于帝国无战事。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H114",
+   "name": "阿蒙大祭司家族（底比斯）",
+   "alias": "",
+   "region": "nile",
+   "category": "祭司与实权家族",
+   "y0": -1080,
+   "y1": -700,
+   "peak": -1000,
+   "rawYear": "约前11—前8世纪",
+   "seat": "底比斯",
+   "rise": "阿蒙神庙经济与祭司职位世袭化",
+   "peakEvent": "第三中间期大祭司一度与王权并立",
+   "fall": "努比亚与亚述势力介入后位置变化",
+   "figures": [],
+   "boundary": "祭司职位世袭不等于全族垄断，也不等于「祭司王朝」单线。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H115",
+   "name": "托勒密朝官僚与祭司家族",
+   "alias": "",
+   "region": "nile",
+   "category": "希腊化与本地士族",
+   "y0": -305,
+   "y1": -30,
+   "peak": -150,
+   "rawYear": "前4—前1世纪",
+   "seat": "亚历山大里亚／孟菲斯",
+   "rise": "马其顿官僚与埃及祭司家族并存",
+   "peakEvent": "王室与神庙敕令互动频繁",
+   "fall": "前30 年后并入罗马行省体系",
+   "figures": [],
+   "boundary": "希腊语文书与世俗体埃及语文书是两套材料，不宜互相倒推。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.metmuseum.org/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大都会博物馆（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H116",
+   "name": "罗马平民显贵分支",
+   "alias": "nobiles",
+   "region": "aegean",
+   "category": "罗马氏族",
+   "y0": -367,
+   "y1": 50,
+   "peak": -100,
+   "rawYear": "前4—公元1世纪",
+   "seat": "罗马",
+   "rise": "平民与贵族互通后形成的新显贵",
+   "peakEvent": "共和国后期凭军功与官职上升",
+   "fall": "元首制下门第含义改变",
+   "figures": [
+    "马略",
+    "西塞罗（新人之例）"
+   ],
+   "boundary": "「新人」（novus homo）指家族首位任高官者，不是血统等级。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H117",
+   "name": "西庇阿分支（科尔内利乌斯）",
+   "alias": "",
+   "region": "aegean",
+   "category": "罗马氏族",
+   "y0": -300,
+   "y1": -100,
+   "peak": -190,
+   "rawYear": "前3—前2世纪",
+   "seat": "罗马",
+   "rise": "氏族内一支以军功显",
+   "peakEvent": "第二次布匿战争后声势极盛",
+   "fall": "共和国后期渐失政治位置",
+   "figures": [
+    "大西庇阿",
+    "小西庇阿"
+   ],
+   "boundary": "氏族（gens）内的分支（stirps）不等于独立家族。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H118",
+   "name": "奥古斯都—朱里亚·克劳狄家系",
+   "alias": "",
+   "region": "aegean",
+   "category": "罗马皇族",
+   "y0": -27,
+   "y1": 68,
+   "peak": 14,
+   "rawYear": "前27—公元68",
+   "seat": "罗马",
+   "rise": "元首制确立，收养与联姻决定继统",
+   "peakEvent": "提比略至尼禄",
+   "fall": "68 年内战后终结，68—69 年四帝并立",
+   "figures": [
+    "奥古斯都",
+    "提比略",
+    "克劳狄",
+    "尼禄"
+   ],
+   "boundary": "「王朝」是后世分组；收养改变法理所属，不改生物学世系。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H119",
+   "name": "弗拉维／安敦尼／塞维鲁诸朝",
+   "alias": "",
+   "region": "aegean",
+   "category": "罗马皇族",
+   "y0": 69,
+   "y1": 235,
+   "peak": 150,
+   "rawYear": "公元1—3世纪",
+   "seat": "罗马",
+   "rise": "69 年后军事拥立成为常态",
+   "peakEvent": "五贤帝时期（后世概括）与塞维鲁朝",
+   "fall": "235 年后军人皇帝频替",
+   "figures": [
+    "韦斯巴芗",
+    "图拉真",
+    "塞普提米乌斯·塞维鲁"
+   ],
+   "boundary": "「五贤帝」是近代史学概括，当时无此制度名。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H120",
+   "name": "君士坦丁／狄奥多西家系",
+   "alias": "",
+   "region": "aegean",
+   "category": "罗马皇族",
+   "y0": 306,
+   "y1": 450,
+   "peak": 380,
+   "rawYear": "公元4—5世纪",
+   "seat": "君士坦丁堡",
+   "rise": "共治与分治常态化",
+   "peakEvent": "狄奥多西一世后东西分治",
+   "fall": "西罗马帝系 476 年中断",
+   "figures": [
+    "君士坦丁一世",
+    "狄奥多西一世"
+   ],
+   "boundary": "「西罗马亡于476」指西部帝位中断，东部延续千年。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H121",
+   "name": "拜占庭军区贵族（安纳托利亚）",
+   "alias": "",
+   "region": "aegean",
+   "category": "拜占庭地方权族",
+   "y0": 700,
+   "y1": 1100,
+   "peak": 950,
+   "rawYear": "公元8—12世纪",
+   "seat": "安纳托利亚",
+   "rise": "军区制下地方军事家族积累土地",
+   "peakEvent": "福卡斯、斯科莱鲁等家族一度争位",
+   "fall": "曼齐刻尔特后格局重组",
+   "figures": [
+    "尼基弗鲁斯·福卡斯"
+   ],
+   "boundary": "「军区贵族」是制度性群体，不是单一血缘家族。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H122",
+   "name": "科穆宁—安格洛斯—杜卡斯姻亲网",
+   "alias": "",
+   "region": "aegean",
+   "category": "拜占庭皇族",
+   "y0": 1081,
+   "y1": 1261,
+   "peak": 1150,
+   "rawYear": "公元11—13世纪",
+   "seat": "君士坦丁堡",
+   "rise": "阿历克塞一世以家族网络复振",
+   "peakEvent": "曼努埃尔一世时期外交与军事活跃",
+   "fall": "1204 年拉丁占领后分流，1261 复国另系",
+   "figures": [
+    "阿历克塞一世",
+    "曼努埃尔一世"
+   ],
+   "boundary": "1204—1261 同期并立拉丁帝国与尼西亚等政权，不作单线。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H123",
+   "name": "诺曼底／安茹（金雀花）分支",
+   "alias": "",
+   "region": "aegean",
+   "category": "西欧王族",
+   "y0": 911,
+   "y1": 1485,
+   "peak": 1200,
+   "rawYear": "公元10—15世纪",
+   "seat": "鲁昂／伦敦／安茹",
+   "rise": "诺曼公爵领与英格兰王位合并",
+   "peakEvent": "亨利二世时跨海峡复合领地",
+   "fall": "玫瑰战争后都铎继立",
+   "figures": [
+    "征服者威廉",
+    "亨利二世"
+   ],
+   "boundary": "「金雀花帝国」是现代地理概括，各领地继承法不同。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H124",
+   "name": "卡佩—瓦卢瓦—波旁分支",
+   "alias": "",
+   "region": "aegean",
+   "category": "西欧王族",
+   "y0": 987,
+   "y1": 1792,
+   "peak": 1500,
+   "rawYear": "公元10—18世纪",
+   "seat": "巴黎",
+   "rise": "卡佩由公爵选立为王",
+   "peakEvent": "瓦卢瓦、波旁按继统法分支",
+   "fall": "1792 君主制中断，后有复辟",
+   "figures": [
+    "腓力二世",
+    "路易十四",
+    "路易十六"
+   ],
+   "boundary": "分支继立与「一姓千年」不是一回事，萨利克法争议另标。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H125",
+   "name": "维特尔斯巴赫／哈布斯堡旁支",
+   "alias": "",
+   "region": "aegean",
+   "category": "中欧王族",
+   "y0": 1180,
+   "y1": 1918,
+   "peak": 1500,
+   "rawYear": "公元12—20世纪",
+   "seat": "巴伐利亚／奥地利／波希米亚",
+   "rise": "通过选举、婚姻与继承取得多顶王冠",
+   "peakEvent": "近代复合君主国并立",
+   "fall": "1918 后转私人身份",
+   "figures": [],
+   "boundary": "同一人持多个王位不等于「一个帝国」。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H126",
+   "name": "朝鲜两班门阀（庆州金氏等）",
+   "alias": "",
+   "region": "aegean",
+   "category": "东亚士族",
+   "y0": -57,
+   "y1": 1910,
+   "peak": 900,
+   "rawYear": "公元前1世纪—20世纪",
+   "seat": "庆州／开城／汉城",
+   "rise": "骨品制与后来的两班身份",
+   "peakEvent": "高丽与朝鲜时期科举、荫叙并行",
+   "fall": "1894 甲午更张后身份制度废",
+   "figures": [
+    "金庾信",
+    "崔承老"
+   ],
+   "boundary": "骨品、两班、门第是三套不同制度，不作血统纯正推断。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H127",
+   "name": "越南士族与阮／黎／陈诸朝",
+   "alias": "",
+   "region": "aegean",
+   "category": "东亚王族与士族",
+   "y0": 939,
+   "y1": 1945,
+   "peak": 1400,
+   "rawYear": "公元10—20世纪",
+   "seat": "升龙／顺化",
+   "rise": "自立后以科举与宗族组织地方",
+   "peakEvent": "黎朝、阮朝先后整合南北",
+   "fall": "1945 年帝制终结",
+   "figures": [
+    "黎利",
+    "阮福映"
+   ],
+   "boundary": "「阮」为常见姓氏，同姓不表示同一王朝族裔。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H128",
+   "name": "孔雀王族",
+   "alias": "",
+   "region": "indus",
+   "category": "南亚王族",
+   "y0": -322,
+   "y1": -185,
+   "peak": -260,
+   "rawYear": "约前4—前2世纪",
+   "seat": "华氏城",
+   "rise": "旃陀罗笈多自立",
+   "peakEvent": "阿育王铭文与行政网络",
+   "fall": "巽加继立，孔雀朝终结",
+   "figures": [
+    "旃陀罗笈多",
+    "阿育王"
+   ],
+   "boundary": "阿育王在位年依铭文与传世文献有多种复原。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H129",
+   "name": "巽加／甘婆王族",
+   "alias": "",
+   "region": "indus",
+   "category": "南亚王族",
+   "y0": -185,
+   "y1": -30,
+   "peak": -120,
+   "rawYear": "约前2—前1世纪",
+   "seat": "华氏城",
+   "rise": "普西亚密多罗巽加立朝",
+   "peakEvent": "婆罗门祭祀复兴的叙述见于后世文本",
+   "fall": "甘婆之后北印度再分裂",
+   "figures": [
+    "普西亚密多罗"
+   ],
+   "boundary": "「灭佛」一类概括多出自后世文本，材料性质需分辨。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H130",
+   "name": "贵霜王族",
+   "alias": "",
+   "region": "indus",
+   "category": "中亚—南亚王族",
+   "y0": 30,
+   "y1": 375,
+   "peak": 150,
+   "rawYear": "约公元1—4世纪",
+   "seat": "白沙瓦／马图拉",
+   "rise": "丘就却统一大月氏诸翕侯",
+   "peakEvent": "迦腻色伽时期钱币与佛教 patronage 极盛",
+   "fall": "萨珊与笈多压力下分裂",
+   "figures": [
+    "迦腻色伽"
+   ],
+   "boundary": "贵霜纪年起点争议可达数十年，不作精确在位年。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H131",
+   "name": "百乘（萨塔瓦哈纳）王族",
+   "alias": "",
+   "region": "indus",
+   "category": "德干王族",
+   "y0": -230,
+   "y1": 220,
+   "peak": 100,
+   "rawYear": "约前3—公元3世纪",
+   "seat": "普拉蒂什塔纳",
+   "rise": "德干高原政权，铭文与钱币为主",
+   "peakEvent": "与贵霜、罗马海贸往来",
+   "fall": "3 世纪后分裂为地方诸系",
+   "figures": [
+    "乔达米普特拉·萨塔卡尔尼"
+   ],
+   "boundary": "王朝世系与先后在不同往世书里不一致。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H132",
+   "name": "笈多王族",
+   "alias": "",
+   "region": "indus",
+   "category": "南亚王族",
+   "y0": 320,
+   "y1": 550,
+   "peak": 400,
+   "rawYear": "公元4—6世纪",
+   "seat": "华氏城",
+   "rise": "旃陀罗笈多一世立国",
+   "peakEvent": "沙摩陀罗笈多、旃陀罗笈多二世时期",
+   "fall": "嚈哒压力与封臣坐大后解体",
+   "figures": [
+    "沙摩陀罗笈多",
+    "旃陀罗笈多二世"
+   ],
+   "boundary": "「印度黄金时代」是后世概括，不宜作为全域判断。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H133",
+   "name": "普西亚布提（戒日王族）",
+   "alias": "",
+   "region": "indus",
+   "category": "南亚王族",
+   "y0": 580,
+   "y1": 650,
+   "peak": 630,
+   "rawYear": "公元6—7世纪",
+   "seat": "塔内萨尔／曲女城",
+   "rise": "地方王族联盟起家",
+   "peakEvent": "戒日王时期北印度短暂整合",
+   "fall": "647 年后北印度再分裂",
+   "figures": [
+    "戒日王"
+   ],
+   "boundary": "「戒日帝国」实为宗主权网络，不是直辖官僚帝国。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H134",
+   "name": "帕拉／塞纳／拉喜特拉库塔诸族",
+   "alias": "",
+   "region": "indus",
+   "category": "南亚地方王族",
+   "y0": 750,
+   "y1": 1200,
+   "peak": 900,
+   "rawYear": "公元8—13世纪",
+   "seat": "孟加拉／德干／比哈尔",
+   "rise": "区域王朝并立、互为姻亲与敌手",
+   "peakEvent": "帕拉时期佛教寺院网络活跃",
+   "fall": "突厥势力进入北印度后重组",
+   "figures": [],
+   "boundary": "三朝年代大幅重叠，不排成相续单线。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H135",
+   "name": "朱罗／潘地亚／哲罗王族",
+   "alias": "",
+   "region": "indus",
+   "category": "南印度王族",
+   "y0": -300,
+   "y1": 1300,
+   "peak": 1000,
+   "rawYear": "约前3—公元14世纪",
+   "seat": "坦贾武尔／马杜赖",
+   "rise": "泰米尔三王并立见于早期文献",
+   "peakEvent": "朱罗时期海军与神庙经济活跃",
+   "fall": "13—14 世纪后渐为其他政权所代",
+   "figures": [
+    "拉真陀罗一世"
+   ],
+   "boundary": "「三王」是文献并称，不是三个始终并存的固定王朝。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H136",
+   "name": "德里苏丹诸朝（奴隶／卡尔吉／图格拉克等）",
+   "alias": "",
+   "region": "indus",
+   "category": "南亚王族",
+   "y0": 1206,
+   "y1": 1526,
+   "peak": 1320,
+   "rawYear": "公元13—16世纪",
+   "seat": "德里",
+   "rise": "军事精英集团先后立朝",
+   "peakEvent": "图格拉克时期疆域一度最广",
+   "fall": "1526 莫卧儿入主",
+   "figures": [
+    "伊勒杜密什",
+    "阿拉乌丁·卡尔吉"
+   ],
+   "boundary": "「奴隶王朝」是后世称法，出身与制度身份需逐人分辨。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H137",
+   "name": "维查耶纳伽罗与巴赫马尼并立王族",
+   "alias": "",
+   "region": "indus",
+   "category": "南亚王族",
+   "y0": 1336,
+   "y1": 1565,
+   "peak": 1450,
+   "rawYear": "公元14—16世纪",
+   "seat": "亨比／古尔伯加",
+   "rise": "德干南北两政权同期并立",
+   "peakEvent": "克里希纳德瓦拉亚时期营造极盛",
+   "fall": "1565 后维查耶纳伽罗政治中心转移",
+   "figures": [
+    "克里希纳德瓦拉亚"
+   ],
+   "boundary": "两朝长期并存且互有战争，不能写成前后相续。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H138",
+   "name": "匈奴挛鞮氏与姻族",
+   "alias": "",
+   "region": "steppe",
+   "category": "草原王族",
+   "y0": -209,
+   "y1": 155,
+   "peak": -100,
+   "rawYear": "约前3—公元2世纪",
+   "seat": "漠北／漠南",
+   "rise": "冒顿统一部落联盟",
+   "peakEvent": "与汉廷和亲、互市并行",
+   "fall": "南北分裂后渐融入其他联盟",
+   "figures": [
+    "冒顿",
+    "呼韩邪"
+   ],
+   "boundary": "「匈奴」是政治联盟称谓，不等于单一族属。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H139",
+   "name": "鲜卑诸部大人家族",
+   "alias": "",
+   "region": "steppe",
+   "category": "草原联盟",
+   "y0": 150,
+   "y1": 550,
+   "peak": 350,
+   "rawYear": "公元2—6世纪",
+   "seat": "漠南／代北",
+   "rise": "檀石槐后部落联盟分散",
+   "peakEvent": "慕容、拓跋、宇文等部各自建国",
+   "fall": "南北朝后多并入定居政权行政",
+   "figures": [
+    "檀石槐",
+    "拓跋力微"
+   ],
+   "boundary": "「鲜卑人」是后世集合称谓，各部语言与来源不一。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H140",
+   "name": "柔然与高车诸部",
+   "alias": "",
+   "region": "steppe",
+   "category": "草原联盟",
+   "y0": 400,
+   "y1": 555,
+   "peak": 500,
+   "rawYear": "公元5—6世纪",
+   "seat": "漠北",
+   "rise": "郁久闾氏统领联盟",
+   "peakEvent": "与北魏长期对峙",
+   "fall": "突厥兴起后联盟瓦解",
+   "figures": [
+    "阿那瓌"
+   ],
+   "boundary": "可汗由部落会议推举，不是严格父死子继。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H141",
+   "name": "突厥阿史那氏",
+   "alias": "",
+   "region": "steppe",
+   "category": "草原王族",
+   "y0": 552,
+   "y1": 740,
+   "peak": 650,
+   "rawYear": "公元6—8世纪",
+   "seat": "漠北／于都斤山",
+   "rise": "土门自立为可汗",
+   "peakEvent": "东西突厥并立，一度控制丝路北道",
+   "fall": "第二突厥汗国衰后回鹘继起",
+   "figures": [
+    "土门",
+    "颉利可汗"
+   ],
+   "boundary": "东西突厥是并立政权，不宜写成同一汗国的前后期。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H142",
+   "name": "回鹘药罗葛／阿跌氏",
+   "alias": "",
+   "region": "steppe",
+   "category": "草原王族",
+   "y0": 744,
+   "y1": 840,
+   "peak": 800,
+   "rawYear": "公元8—9世纪",
+   "seat": "漠北／高昌",
+   "rise": "骨力裴罗立国，与唐廷联姻互市",
+   "peakEvent": "牟羽可汗时期势力极盛",
+   "fall": "840 年漠北政权瓦解，西迁后另立",
+   "figures": [
+    "骨力裴罗",
+    "牟羽可汗"
+   ],
+   "boundary": "西州回鹘、甘州回鹘与漠北汗国不是同一政权连续体。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H143",
+   "name": "契丹耶律氏与萧氏",
+   "alias": "",
+   "region": "steppe",
+   "category": "辽代王族与姻族",
+   "y0": 907,
+   "y1": 1125,
+   "peak": 1000,
+   "rawYear": "公元10—12世纪",
+   "seat": "上京／中京",
+   "rise": "耶律阿保机统一八部",
+   "peakEvent": "澶渊之后与北宋长期并立",
+   "fall": "金兴起后辽亡，西辽另立",
+   "figures": [
+    "耶律阿保机",
+    "萧绰"
+   ],
+   "boundary": "耶律与萧是固定通婚的两姓集团，不是同族；西辽不并入本朝。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H144",
+   "name": "女真完颜氏",
+   "alias": "",
+   "region": "steppe",
+   "category": "金代王族",
+   "y0": 1115,
+   "y1": 1234,
+   "peak": 1180,
+   "rawYear": "公元12—13世纪",
+   "seat": "上京／中都",
+   "rise": "阿骨打统一诸部抗辽",
+   "peakEvent": "世宗、章宗时期行政汉化与女真旧制并行",
+   "fall": "蒙古南下后终结",
+   "figures": [
+    "完颜阿骨打",
+    "完颜雍"
+   ],
+   "boundary": "「猛安谋克」是军政编制，不等于氏族名单。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H145",
+   "name": "蒙古孛儿只斤与弘吉剌姻族",
+   "alias": "",
+   "region": "steppe",
+   "category": "草原王族与姻族",
+   "y0": 1206,
+   "y1": 1634,
+   "peak": 1270,
+   "rawYear": "公元13—17世纪",
+   "seat": "漠北／大都",
+   "rise": "1206 忽里勒台推举铁木真为大汗",
+   "peakEvent": "元朝与四大汗国并立",
+   "fall": "北元后部盟重组，林丹汗后名号转移",
+   "figures": [
+    "铁木真",
+    "忽必烈",
+    "林丹汗"
+   ],
+   "boundary": "「蒙古帝国」在 13 世纪后期已是多个并立汗国，不作单线。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://en.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "英文维基百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H146",
+   "name": "蒂卡尔城邦王族",
+   "alias": "",
+   "region": "maya",
+   "category": "玛雅城邦王族",
+   "y0": 100,
+   "y1": 900,
+   "peak": 500,
+   "rawYear": "公元2—10世纪",
+   "seat": "蒂卡尔",
+   "rise": "低地城邦世系见于铭文",
+   "peakEvent": "与卡拉克穆尔争霸，铭文最盛",
+   "fall": "9—10 世纪低地立碑中止",
+   "figures": [],
+   "boundary": "「玛雅帝国」是误写；蒂卡尔只是城邦网络中的一员。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H147",
+   "name": "卡拉克穆尔与帕伦克并立王族",
+   "alias": "",
+   "region": "maya",
+   "category": "玛雅城邦王族",
+   "y0": 300,
+   "y1": 850,
+   "peak": 650,
+   "rawYear": "公元4—9世纪",
+   "seat": "卡拉克穆尔／帕伦克",
+   "rise": "与蒂卡尔同期并立的城邦联盟",
+   "peakEvent": "帕卡尔时期帕伦克营造极盛",
+   "fall": "低地网络衰退后仪式中心转移",
+   "figures": [
+    "帕卡尔"
+   ],
+   "boundary": "并立城邦的「王」不统辖其他城邦，不作单线帝系。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H148",
+   "name": "特奥蒂瓦坎与托尔特克统治集团",
+   "alias": "",
+   "region": "maya",
+   "category": "中美洲政权集团",
+   "y0": 100,
+   "y1": 1150,
+   "peak": 600,
+   "rawYear": "公元2—12世纪",
+   "seat": "特奥蒂瓦坎／图拉",
+   "rise": "多族群大城市，统治集团材料有限",
+   "peakEvent": "特奥蒂瓦坎衰落与后续托尔特克叙述",
+   "fall": "阿兹特克兴起后另立谱系",
+   "figures": [],
+   "boundary": "「托尔特克」常作后世合法性追述，考古对应有讨论。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H149",
+   "name": "阿兹特克三方联盟王族",
+   "alias": "",
+   "region": "maya",
+   "category": "中美洲联盟",
+   "y0": 1325,
+   "y1": 1521,
+   "peak": 1500,
+   "rawYear": "公元14—16世纪",
+   "seat": "特诺奇蒂特兰／特斯科科／特拉科潘",
+   "rise": "三城联盟，非单一帝国",
+   "peakEvent": "蒙特祖玛二世时期 tribute 网络最广",
+   "fall": "1521 后殖民期文本改写谱系",
+   "figures": [
+    "蒙特祖玛二世"
+   ],
+   "boundary": "「阿兹特克皇帝」是常见误写；实为联盟中的特拉托阿尼。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H150",
+   "name": "印加 panaca 王族",
+   "alias": "",
+   "region": "maya",
+   "category": "安第斯王族",
+   "y0": 1200,
+   "y1": 1535,
+   "peak": 1500,
+   "rawYear": "公元13—16世纪",
+   "seat": "库斯科",
+   "rise": "王族以 panaca（王室支系）组织",
+   "peakEvent": "帕查库提后行政整合极盛",
+   "fall": "内战与西班牙到来交织，殖民期记载改写",
+   "figures": [
+    "帕查库提",
+    "阿塔瓦尔帕"
+   ],
+   "boundary": "panaca 是王室支系组织，不等同现代家族；早期材料多经转写。",
+   "consensus": "date_contested",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.worldhistory.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "World History Encyclopedia（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H151",
+   "name": "关中韦杜与河东裴柳（并称）",
+   "alias": "",
+   "region": "huaxia",
+   "category": "隋唐士族并称",
+   "y0": 500,
+   "y1": 900,
+   "peak": 750,
+   "rawYear": "公元6—10世纪",
+   "seat": "长安／河东",
+   "rise": "关中与河东著姓长期并立",
+   "peakEvent": "唐「城南韦杜，去天尺五」",
+   "fall": "唐末门阀消退",
+   "figures": [
+    "韦应物",
+    "杜预",
+    "裴度",
+    "柳宗元"
+   ],
+   "boundary": "并称是门第感受，不是四族共祖或稳定同盟。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H152",
+   "name": "江南顾陆朱张（吴四姓）并称",
+   "alias": "",
+   "region": "huaxia",
+   "category": "江东士族并称",
+   "y0": 200,
+   "y1": 600,
+   "peak": 350,
+   "rawYear": "公元3—7世纪",
+   "seat": "吴郡",
+   "rise": "孙吴时期江东著姓并称",
+   "peakEvent": "东晋南朝与侨姓士族并存",
+   "fall": "南朝后渐散",
+   "figures": [
+    "顾雍",
+    "陆逊"
+   ],
+   "boundary": "「吴四姓」是地域门第分组，不是四个血缘集团。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  },
+  {
+   "id": "H153",
+   "name": "徽州与洞庭商绅宗族",
+   "alias": "",
+   "region": "huaxia",
+   "category": "明清商绅宗族",
+   "y0": 1400,
+   "y1": 1900,
+   "peak": 1700,
+   "rawYear": "公元15—20世纪",
+   "seat": "徽州／洞庭东山",
+   "rise": "以盐、典、布业与宗祠义田起",
+   "peakEvent": "商而兼士，修谱建祠普遍",
+   "fall": "近代商路与制度变化后转型",
+   "figures": [],
+   "boundary": "「商帮」是地域网络，不是一族；族谱含后世编排。",
+   "consensus": "settled",
+   "layer": "fact",
+   "sources": [
+    {
+     "url": "https://zh.wikipedia.org/",
+     "quote": "",
+     "rank": "百科／媒体",
+     "note": "中文维基百科（域名级检索入口）"
+    },
+    {
+     "url": "https://www.britannica.com/",
+     "quote": "",
+     "rank": "机构／学术",
+     "note": "大英百科（域名级检索入口）"
+    }
+   ],
+   "tier": "wide2"
+  }
+ ],
+ "notes": [
+  {
+   "title": "郡望／地望不等于血统凭证",
+   "text": "「琅琊王氏」「清河崔氏」是地望与社会身份标签。同称一望者未必同支，唐人标郡望常含攀附，不能据此推断生物学父系。"
+  },
+  {
+   "title": "谱牒与《氏族志》不是一回事",
+   "text": "《氏族志》《姓氏录》是朝廷主持的门第排序，带政治目的；族谱是家族自编文本，两者都不能当作逐代可核的世系实证。"
+  },
+  {
+   "title": "「四世三公」「一门三阁老」是仕宦统计，不是世家定义",
+   "text": "官位连续多代可以说明门第，但统计口径不一、常含夸饰；世家还涉及婚姻圈、家学、田产与地域网络。"
+  },
+  {
+   "title": "「衰落」多半是制度环境变化，不是家族消失",
+   "text": "科举、战乱、改朝、盐法、票号与行商制度变化，会改变一个家族的政治与经济位置，不等于这一姓的人不在了。"
+  },
+  {
+   "title": "并立与分支不作单线相续",
+   "text": "三国、南北朝、五代十国、辽宋夏金、日本氏族、罗马 gens、伊斯兰诸朝在时间上大幅重叠，不能排成一条「世家兴衰链」。"
+  },
+  {
+   "title": "氏族、王朝、部族、商帮是不同层",
+   "text": "gens（罗马氏族）、uji（日本氏）、部族、王朝、商帮、文学流派各有制度含义；把「桐城派」或「晋商」写成血缘家族是常见误读。"
+  },
+  {
+   "title": "联姻与收养会改写「所属」，不等于改写血缘",
+   "text": "罗马过继、日本赐姓与养子、王朝婚姻继承，改变的是法理上的家名与继统，不能与生物学世系混为一谈。"
+  },
+  {
+   "title": "本局族人不与真实世家攀附",
+   "text": "族谱里每一位都是推演生成的人物；即使改名为某姓，也不表示与任何真实世家有血缘或谱牒关系。"
+  }
+ ]
+}
