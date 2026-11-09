@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>全部 6 款游戏 · 玩法介绍与操作截图</title>
+<style>
+  :root{
+    --bg:#f6f7fb; --card:#ffffff; --ink:#1a1d26; --sub:#5b6172;
+    --line:#e6e8f0; --accent:#4f46e5; --accent-soft:#eef0ff;
+    --chip:#f1f3f9; --warn:#b45309; --warn-bg:#fff7ed;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"PingFang SC","Microsoft YaHei","Segoe UI",system-ui,sans-serif;
+    line-height:1.75;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1060px;margin:0 auto;padding:40px 24px 80px}
+  header{margin-bottom:32px}
+  h1{font-size:32px;letter-spacing:-.5px;margin:0 0 10px}
+  .lead{color:var(--sub);font-size:15px;margin:0 0 18px}
+  .tags{display:flex;flex-wrap:wrap;gap:8px}
+  .tag{background:var(--chip);border:1px solid var(--line);border-radius:999px;
+    padding:4px 12px;font-size:12px;color:var(--sub)}
+  .tag.hi{background:var(--accent-soft);border-color:#d9d7ff;color:var(--accent)}
+  nav{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:16px 20px;margin:24px 0 32px;display:flex;flex-wrap:wrap;gap:10px}
+  nav a{color:var(--accent);text-decoration:none;font-size:13px;
+    background:var(--accent-soft);padding:5px 12px;border-radius:8px}
+  nav a:hover{background:#e3e2ff}
+  section{background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:26px 28px;margin-bottom:24px;box-shadow:0 1px 3px rgba(20,24,50,.04)}
+  .sec-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+    border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:18px}
+  .num{width:30px;height:30px;flex:0 0 30px;border-radius:9px;background:var(--accent);
+    color:#fff;font-size:14px;font-weight:700;display:flex;align-items:center;
+    justify-content:center}
+  h2{font-size:21px;margin:0;letter-spacing:-.3px}
+  .badge{font-size:11px;color:var(--accent);background:var(--accent-soft);
+    padding:3px 9px;border-radius:6px;font-weight:600}
+  .badge.gray{color:var(--sub);background:var(--chip)}
+  .links{margin:0 0 18px;font-size:13px;color:var(--sub);word-break:break-all}
+  .links a{color:var(--accent);text-decoration:none}
+  h3{font-size:15px;margin:20px 0 8px;color:var(--ink)}
+  p{margin:0 0 10px;font-size:14px;color:var(--sub)}
+  ol,ul{margin:0 0 12px;padding-left:22px;font-size:14px;color:var(--sub)}
+  li{margin-bottom:6px}
+  strong{color:var(--ink);font-weight:600}
+  .note{background:var(--warn-bg);border-left:3px solid #f59e0b;color:var(--warn);
+    padding:10px 14px;border-radius:0 8px 8px 0;font-size:13px;margin:14px 0}
+  .shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+    gap:14px;margin-top:16px}
+  figure{margin:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;
+    background:#fafbfe}
+  figure img{width:100%;display:block;background:#11131a;object-fit:contain;
+    max-height:420px}
+  figcaption{font-size:12px;color:var(--sub);padding:9px 12px;border-top:1px solid var(--line)}
+  .cap-main{color:var(--accent);font-weight:600}
+  .foot{background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:26px 28px;margin-top:28px}
+  .foot h2{margin-bottom:12px}
+  .stat{display:flex;gap:24px;flex-wrap:wrap;margin:16px 0}
+  .stat div{background:var(--chip);border-radius:10px;padding:10px 18px}
+  .stat b{display:block;font-size:22px;color:var(--accent)}
+  .stat span{font-size:12px;color:var(--sub)}
+  code{background:var(--chip);padding:1px 6px;border-radius:5px;font-size:12px}
+  @media(max-width:600px){.wrap{padding:24px 14px 60px}h1{font-size:25px}
+    section,.foot{padding:20px 16px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>全部 6 款游戏 · 玩法介绍与操作截图</h1>
+  <p class="lead">2026-11-09 补充版。此前更新说明只写了「能玩、欢迎测试」和链接，这里把<strong>每款游戏具体怎么玩</strong>和<strong>真实操作画面</strong>补齐。玩法说明来自各工程 README，截图全部是真实 Edge / CDP 渲染，不是示意图。</p>
+  <div class="tags">
+    <span class="tag hi">6 款正式在线单 TOY</span>
+    <span class="tag">19 张真实截图</span>
+    <span class="tag">0 个 COLLECTION 合集</span>
+    <span class="tag">打开链接即玩 · 免下载</span>
+    <span class="tag">欢迎实测 / 提 BUG / 给建议</span>
+  </div>
+</header>
+
+<nav>
+  <a href="#g1">1 哈士喵的测试屋</a>
+  <a href="#g2">2 禁书目录</a>
+  <a href="#g3">3 杯雪</a>
+  <a href="#g4">4 上下五千年</a>
+  <a href="#g5">5 喵琴师</a>
+  <a href="#g6">6 青葱岁月</a>
+  <a href="#faq">单 TOY 与合集</a>
+</nav>
+
+<section id="g1">
+  <div class="sec-head"><span class="num">1</span><h2>哈士喵的测试屋</h2><span class="badge">新上架</span></div>
+  <p class="links">在线玩 <a href="https://www.bilibili.com/toy/hashimiao-quiz-avg/index.html">bilibili.com/toy/hashimiao-quiz-avg/index.html</a> · 工程 <a href="https://github.com/604665656/hashimiao-quiz-avg">github.com/604665656/hashimiao-quiz-avg</a></p>
+
+  <h3>玩法是什么</h3>
+  <p>一间会念题的测试屋：由「眼镜猫」念题，你做选择，最后给一段<strong>可以推翻的观察</strong>。不是标准心理测评，结果只当聊天起点。内容规模：7 条分类轴 / 48 个取值 / 7 个分区 / 18 套卷（17 套可玩 + 1 套规格说明）/ 174 道题 / 9 种卷型引擎。</p>
+
+  <h3>怎么操作</h3>
+  <ol>
+    <li><strong>主页三层</strong>：封面 → 分区书架 → 信息抽屉。点「开始 · 四象速测」走快速通道，点「全部测试 →」进书架挑卷。</li>
+    <li><strong>答题</strong>：看事件 CG 与逐字机对白，点选项作答；可开 <code>AUTO</code> 自动推进、<code>SKIP</code> 跳过、<code>LOG</code> 回看记录。</li>
+    <li><strong>表演</strong>：封面 → 章节转场 → 事件 CG 相框 → 逐字机 / 名字牌 / 立绘差分 → 结果揭晓；8 张表情姿态差分、10 张场景板、8 张情境 CG，带随机眨眼、说话抖动、结果聚光。</li>
+    <li><strong>彩蛋</strong>：哈士喵可以点、可以拖（见「拖动中」截图）。</li>
+    <li><strong>存档</strong>：localStorage 断点续玩，中途退出后封面出现「继续上次」。音频默认全关，竖屏优先也支持横屏。</li>
+  </ol>
+  <div class="note">名称说明：上架名统一为「哈士喵的测试屋」；念题角色仍叫「眼镜猫」，是角色设定，未改动。</div>
+
+  <div class="shots">
+    <figure><img src="screenshots/01_哈士喵的测试屋.png" alt="测试屋首屏"><figcaption class="cap-main">首屏 · 开始 / 全部测试 / 眼镜猫念题</figcaption></figure>
+    <figure><img src="screenshots/gameplay/01a_测试屋_分区书架.png" alt="分区书架"><figcaption>分区书架 · 挑卷</figcaption></figure>
+    <figure><img src="screenshots/gameplay/01b_测试屋_出题CG.png" alt="出题 CG"><figcaption>出题 CG · 逐字机 + 选项</figcaption></figure>
+    <figure><img src="screenshots/gameplay/01c_测试屋_拖动哈士喵.png" alt="拖动哈士喵"><figcaption>操作 · 拖动哈士喵</figcaption></figure>
+    <figure><img src="screenshots/gameplay/01d_测试屋_结果卡.png" alt="结果卡"><figcaption>结果揭晓 · 结果卡</figcaption></figure>
+    <figure><img src="screenshots/gameplay/01e_测试屋_信息抽屉.png" alt="信息抽屉"><figcaption>信息抽屉</figcaption></figure>
+  </div>
+</section>
+
+<section id="g2">
+  <div class="sec-head"><span class="num">2</span><h2>哈士喵勇闯魔法禁书目录 v0.81</h2><span class="badge">本轮更新</span></div>
+  <p class="links">在线玩 <a href="https://www.bilibili.com/toy/hsm-toaru/index.html">bilibili.com/toy/hsm-toaru/index.html</a> · 工程 <a href="https://github.com/604665656/hsm-toaru">github.com/604665656/hsm-toaru</a></p>
+
+  <h3>玩法是什么</h3>
+  <p>非官方同人 AVG，<strong>33 关</strong>。每关固定三段式：<strong>阅读对白 → 回答问题 → 查看解锁词条</strong>。答对推进剧情并解锁资料，配关卡地图、资料库与人格测试等附属页签。</p>
+
+  <h3>怎么操作</h3>
+  <ol>
+    <li>首屏点「开始冒险 / 从第一关开始」，或点「关卡地图」直接选关。</li>
+    <li><strong>推进对白</strong>：点击画面任意处，或点「下一句」。</li>
+    <li><strong>跳到选项</strong>：点 <code>⏭</code> 直接跳到本题选项，不用逐句点完。</li>
+    <li><strong>切横屏</strong>：点 <code>⛶</code>；另有「自动」「表情」「背景：开」等开关。</li>
+    <li><strong>氛围标签</strong>：设置里可切换（仅文字标签，不播放音频）；全程不请求麦克风。</li>
+    <li>顶部显示 <code>0 / 33 关卡</code>、<code>6 / 152 词条</code> 进度，资料库与素材展柜随时回看。</li>
+  </ol>
+  <div class="note">已知遗留：首屏徽章显示 <code>VERSION v0.65</code>，是上游归档遗留，与本次 v0.81 交付包不一致，不影响游玩；按「不改源文件」原则如实保留。</div>
+
+  <div class="shots">
+    <figure><img src="screenshots/02_禁书目录.png" alt="禁书目录首屏"><figcaption class="cap-main">首屏 · 开始冒险 / 关卡地图 / 资料库 / 词条进度</figcaption></figure>
+    <figure><img src="screenshots/gameplay/02a_禁书目录_第31关横屏.png" alt="第31关横屏"><figcaption>操作 · 第 31 关横屏（对白 + 立绘 + 选项）</figcaption></figure>
+    <figure><img src="screenshots/gameplay/02b_禁书目录_第31关竖屏.png" alt="第31关竖屏"><figcaption>操作 · 第 31 关竖屏</figcaption></figure>
+  </div>
+</section>
+
+<section id="g3">
+  <div class="sec-head"><span class="num">3</span><h2>杯雪 · 互动游戏集</h2><span class="badge gray">此前更新</span></div>
+  <p class="links">在线玩 <a href="https://www.bilibili.com/toy/beixue/index.html">bilibili.com/toy/beixue/index.html</a> · 工程 <a href="https://github.com/604665656/beixue">github.com/604665656/beixue</a></p>
+
+  <h3>玩法是什么</h3>
+  <p>《杯雪》同人互动游戏：<strong>二十四关 · 七卷 · 四模式 · 三档难度</strong>，单文件离线可玩。虽然名字带「游戏集」，平台侧<strong>仍是一个单 TOY</strong>，一个链接进去就是完整游戏。支持手机竖屏 / 横屏 / 桌面三种尺寸。</p>
+
+  <h3>怎么操作</h3>
+  <ol>
+    <li>进入「杯雪 · 游戏总站」大厅，点「<strong>继续上次 · 你是《杯雪》里的谁</strong>」续玩，或点「<strong>从头开始</strong>」重新开局。</li>
+    <li>点「<strong>展开全部 关卡地图 · 进度 · 模式 · 难度 · 说明</strong>」查看 24 关结构与四种模式、三档难度，再选场景首关进入。</li>
+    <li>顶部 <code>横屏</code> 切换方向，<code>★072</code> 查看收集，<code>设置</code> 调整选项。</li>
+    <li><strong>点选项会触发表演</strong>：换表情层 + 点头 / 摇头 + 名牌跟随说话人。</li>
+  </ol>
+  <div class="note">已知问题（上游 README 如实记录）：点击 / 拖动立绘<strong>没有</strong>表演（点选项才有）；轻量版不可用；音频文件为 0，当前是无声版。<code>PROC_ART</code> 的 TDZ 报错已修。</div>
+
+  <div class="shots">
+    <figure><img src="screenshots/03_杯雪.png" alt="杯雪首屏"><figcaption class="cap-main">首屏 · 游戏总站 / 继续上次 / 从头开始 / 展开全部</figcaption></figure>
+  </div>
+</section>
+
+<section id="g4">
+  <div class="sec-head"><span class="num">4</span><h2>上下五千年 · 无尽编年 v4.2 · build 33</h2><span class="badge">本轮更新</span></div>
+  <p class="links">在线玩 <a href="https://www.bilibili.com/toy/wqn/index.html">bilibili.com/toy/wqn/index.html</a> · 工程 <a href="https://github.com/604665656/wqn">github.com/604665656/wqn</a></p>
+
+  <h3>玩法是什么</h3>
+  <p>一支人、一座城、某一个人，从公元前 5000 年一路点下去的<strong>分卷编年</strong>互动叙事。你不是在读一段写好的历史，而是顺着每次选择往下走；<strong>每 12 笔汇成一卷，卷卷可收</strong>。v4.2 规模：<strong>240 层 · 29 场景板 · 129 关</strong>。</p>
+
+  <h3>怎么操作</h3>
+  <ol>
+    <li>浏览器打开即玩，<strong>不需要联网</strong>；工程里 <code>dist/wqn.html</code> 是主站，<code>wqn-review.html</code> 送审版，<code>wqn-embed.html</code> 内嵌版。</li>
+    <li>首屏点「<strong>下一句</strong>」推进，跟着猫立绘与文案一路选择。</li>
+    <li>卷轴式布局会横向展开，桌面端建议宽窗口；卷成后可回收查看。</li>
+  </ol>
+  <div class="note">状态：v4.2 可玩版已同步 GitHub；B站 Toy 新版已通过审核并正式上线（published / PUBLIC / GAME），打开链接即是 v4.2。README 原写「还没在真实浏览器里实测过」，本次已用真实 Edge 截图确认首屏正常渲染。</div>
+
+  <div class="shots">
+    <figure><img src="screenshots/04_上下五千年.png" alt="上下五千年首屏"><figcaption class="cap-main">首屏 · 标题 / 下一句 / 编年说明</figcaption></figure>
+  </div>
+</section>
+
+<section id="g5">
+  <div class="sec-head"><span class="num">5</span><h2>喵琴师 · CatKeys · 哈士喵的钢琴</h2><span class="badge gray">已上线</span></div>
+  <p class="links">在线玩 <a href="https://www.bilibili.com/toy/n6ivNJRNYEx64flD/index.html">bilibili.com/toy/n6ivNJRNYEx64flD/index.html</a> · 工程 <a href="https://github.com/604665656/catkeys">github.com/604665656/catkeys</a></p>
+
+  <h3>玩法是什么</h3>
+  <p>单文件 Web <strong>钢琴节奏跟弹</strong>游戏，主角是开源动效吉祥物哈士喵。<strong>65 首公有领域分级曲目</strong>，Lv.1~Lv.10 + 演奏级，跟弹打分给 ★，熟练度逐级解锁。带 10 项成就系统（初遇 / 全连 / 完美主义 / 百连 / 三星演奏家…），以及体力系统（上限 5 点、每 60 秒回 1 点、每日 20 局）。</p>
+
+  <h3>怎么操作</h3>
+  <ol>
+    <li><strong>选模式</strong>：<code>自由弹</code> / <code>跟弹打分</code> / <code>🎯 演练</code> / <code>🐱 跳跃</code>（哈士喵死亡跑酷）。消耗体力的只有「跟弹打分」和「跳跃」。</li>
+    <li><strong>看键位</strong>：自适应键位——手机 13 键、平板 25/37 键、电脑 61 键；可切「双手键位 / 自动分区 / 音符居中」，<code>📐</code> 锁横屏或竖屏。</li>
+    <li><strong>开练</strong>：点曲目下拉（如 <code>C 大调音阶练习</code>），调 <code>速度</code> / <code>音量</code> / <code>音色</code>，点右侧「<strong>开始练习</strong>」；音符落到判定线时按对应琴键。</li>
+    <li><strong>看结果</strong>：顶部 <code>SCORE / COMBO / ACCURACY</code> 与右上 <code>PERFECT</code> 实时更新。</li>
+    <li>真钢采样联网懒加载（CC BY 3.0），离线自动降级为合成双音色 + WebAudio 混响；6 套主题、音符彩虹模式、特效开关在「画面」里调。</li>
+  </ol>
+
+  <div class="shots">
+    <figure><img src="screenshots/05_喵琴师.png" alt="喵琴师首屏"><figcaption class="cap-main">首屏 · 琴键 / 下落音符 / 四种模式 / 分数连击 / 开始练习</figcaption></figure>
+  </div>
+</section>
+
+<section id="g6">
+  <div class="sec-head"><span class="num">6</span><h2>音乐节奏游戏：嘶恍而过的青葱岁月</h2><span class="badge gray">已上线</span></div>
+  <p class="links">在线玩 <a href="https://www.bilibili.com/toy/yyjzshegdqcsy/index.html">bilibili.com/toy/yyjzshegdqcsy/index.html</a> · 工程 <a href="https://github.com/604665656/qingcong-rhythm">github.com/604665656/qingcong-rhythm</a></p>
+
+  <h3>玩法是什么</h3>
+  <p>不依赖框架、单文件的 <strong>4 轨下落式音游</strong>，示例曲《嘶恍而过的青葱岁月》。谱面由音频分析离线生成（STFT 谱通量检测音头），跟着真实音头走，不套固定 BPM 网格。三难度、准确率评级、本机最佳分，<strong>50 连击进 FEVER ×1.5</strong>。</p>
+
+  <h3>怎么操作</h3>
+  <ol>
+    <li><strong>键位</strong>：<code>D F J K</code> 四轨，也支持方向键 / 触屏点按 / 手柄（A B X Y、十字键、左摇杆）。</li>
+    <li><strong>判定</strong>：PERFECT ±85ms · GREAT ±140ms · GOOD ±200ms · MISS ±280ms；觉得偏手可在设置里调「判定偏移」。<strong>跨轨宽容 100ms</strong>：点偏一格不算空按。</li>
+    <li><strong>长按</strong>：按住期间每 0.22s 持续得分，按满出 <code>HOLD</code> +150；中途松开只丢收尾奖励，不判 MISS、不断连。</li>
+    <li><strong>连线滑条</strong>：带箭头的相邻轨音符按住横向滑过去（间隔 ≤0.45s、跨 1~2 格、链长 ≥3）。</li>
+    <li><strong>太鼓模式</strong>：红 = 咚 / 蓝 = 咔，谱面由四轨谱自动派生，命中即敲合成鼓声。切换模式时会立刻弹出玩法说明。</li>
+    <li>4 套主题（青葱 / 樱粉 / 暮蓝 / 猫橙）、逐字卡拉 OK 歌词、预置短语弹幕、按模式分榜的排行榜、云存档、体力 / 分享得体力都在标题页与设置里。</li>
+  </ol>
+  <div class="note">提示：无音频环境下会走「静音试玩」降级（节拍与判定照常），因此首屏图采用工程内 CDP 真机截图，能完整显示标题页与玩法弹层。</div>
+
+  <div class="shots">
+    <figure><img src="screenshots/06_音乐节奏游戏.png" alt="青葱岁月标题页"><figcaption class="cap-main">首屏 · 标题页 / 三难度 / 开始游戏 / 模式 / 玩法</figcaption></figure>
+    <figure><img src="screenshots/gameplay/06b_节奏_玩法说明DFJK.png" alt="玩法弹层"><figcaption>操作 · 玩法弹层（四轨节奏 · D F J K）</figcaption></figure>
+    <figure><img src="screenshots/gameplay/06a_节奏_标题与玩法弹层.png" alt="桌面标题页"><figcaption>桌面标题页 + 玩法弹层</figcaption></figure>
+    <figure><img src="screenshots/gameplay/06e_节奏_连线滑条.png" alt="连线滑条"><figcaption>操作 · 连线滑条横滑</figcaption></figure>
+    <figure><img src="screenshots/gameplay/06d_节奏_排行榜.png" alt="排行榜"><figcaption>排行榜</figcaption></figure>
+  </div>
+</section>
+
+<div class="foot" id="faq">
+  <h2>单 TOY 与合集</h2>
+  <ul>
+    <li>上面 6 个<strong>全部是单 TOY</strong>：一个 Toy = 一个游戏入口，各有独立链接与互动统计。</li>
+    <li>账号里目前<strong>没有 <code>COLLECTION</code> 类型的合集 Toy</strong>（0 个）。</li>
+    <li>若以后想要「一个链接进全部游戏」，可新建一个游戏大厅式合集页；此项尚未做。</li>
+  </ul>
+
+  <h2>欢迎实测、提 BUG、给建议</h2>
+  <p>6 款都是打开链接就能玩，不用下载、不用装环境。最想验证：能否从开头一路玩到结尾、章节转场与结果揭晓是否连贯、刷新后「继续上次」还在不在、立绘 / CG 有无裁切错位或白屏、手机竖屏 / 平板横屏 / 电脑下的布局。</p>
+  <p>反馈直接在动态 / 专栏 / 文章评论区说即可，能带上「浏览器 + 设备 + 复现步骤」会快很多。提交 BUG 也可以用各仓库 Issues：<code>604665656/hsm-toaru</code>、<code>604665656/hashimiao-quiz-avg</code>、<code>604665656/beixue</code>、<code>604665656/wqn</code>、<code>604665656/catkeys</code>、<code>604665656/qingcong-rhythm</code>。点赞 / 评论 / 转发都会计入互动统计，哪个问题被顶得最多就先修哪个。</p>
+
+  <div class="stat">
+    <div><b>6</b><span>正式在线单 TOY</span></div>
+    <div><b>19</b><span>张真实操作截图</span></div>
+    <div><b>0</b><span>COLLECTION 合集</span></div>
+    <div><b>0</b><span>下载 / 安装步骤</span></div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
