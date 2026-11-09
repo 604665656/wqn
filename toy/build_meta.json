@@ -1,19 +1,21 @@
 {
-  "key": "wqn-play",
-  "source": "C:/Users/60466/WorkBuddy/2026-11-07-09-21-08/wqn-play/src/dist/wqn.html",
-  "source_bytes": 39957115,
-  "source_chars": 38821403,
-  "entry_bytes": 93614,
-  "scripts": 2,
-  "styles": 1,
-  "style_bytes": 84785,
-  "app_bytes": [
-    357,
-    38734910
+  "ranges": [
+    [
+      600000,
+      700000
+    ],
+    [
+      1200000,
+      1700000
+    ]
   ],
-  "asset_refs": 9,
-  "assets_copied": 47,
-  "root_abs_refs": 0,
-  "data_image": 0,
-  "url_fragment": 0
+  "replaced_cjk": 84766,
+  "distinct_chars": 2246,
+  "map_mode": "unique",
+  "total_cjk": 488891,
+  "check": {
+    "h": 1579055570,
+    "n": 38663801
+  },
+  "app2_chars": 38734911
 }
