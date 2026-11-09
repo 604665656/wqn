@@ -1,69 +1,77 @@
-#!/usr/bin/env python3
-"""把 dist/wqn.html（v2.8 · build 19）拆成 B站 Toy 上架包。
-
-原则：**零内容改动**——只做平台强制的分包，不裁剪任何数据条目、不替换词面、
-不删页签、不动外链。若内容审核驳回，再用并行探针定位最小必要改动。
-
-  * 两个内联 <script>（357 字符 + 9,358,337 字符）→ ./app1.js / ./app2.js
-  * <style>（82,329 字符）**保持内联**：只有 82KB，远低于 1MB 入口上限，
-    内联可避免外置 CSS 后 url(#...) fragment 与相对路径解析口径变化
-  * 107 个 data:image URI 都在 app2.js 里，保持原样不动
-  * 入口 index.html 只剩骨架 + 内联样式 + 相对脚本引用
-
-只写 toy/ 产物，dist/ 与 src/、data/ 源文件一个字不改。
-用法： python build_toy.py
+"""三款游戏 Toy 纯分包构建：零内容改动，只把内联 <script> 外置为 appN.js。
+<style> 一律保持内联，避免 url(#...) SVG fragment / 相对路径解析口径变化。
+源 ZIP 解压出来的文件只读，不做任何修改。
 """
-import pathlib
-import re
-import shutil
+import pathlib, re, shutil, json
 
-ROOT = pathlib.Path(__file__).resolve().parent
-SRC = ROOT / "dist" / "wqn.html"
-OUT = ROOT / "toy"
+ROOT = pathlib.Path(r"C:/Users/60466/WorkBuddy/2026-11-07-09-21-08")
 
-if not SRC.exists():
-    raise SystemExit("找不到 dist/wqn.html，请先跑 node build.js")
+JOBS = [
+    dict(key="hsm-v081", src=ROOT / "hsm-v081/src/哈士喵发布包/index.html",
+         out=ROOT / "hsm-v081/toy", assets=None),
+    dict(key="quizavg", src=ROOT / "quizavg/toy_src/index.html",
+         out=ROOT / "quizavg/toy", assets=None),
+    dict(key="wqn-play", src=ROOT / "wqn-play/src/dist/wqn.html",
+         out=ROOT / "wqn-play/toy", assets=ROOT / "wqn-play/src/assets"),
+]
 
-s = SRC.read_text(encoding="utf-8")
-print("源文件：%s / %d B" % (SRC.name, SRC.stat().st_size))
-
-if OUT.exists():
-    shutil.rmtree(OUT)
-OUT.mkdir(parents=True)
-
-# ---------- 外置内联脚本（style 保持内联，理由见文件头） ----------
-script_no = [0]
+SCRIPT_RE = re.compile(r"<script(?![^>]*\ssrc=)([^>]*)>(.*?)</script>", re.S | re.I)
+STYLE_RE = re.compile(r"<style([^>]*)>(.*?)</style>", re.S | re.I)
 
 
-def script_repl(m):
-    script_no[0] += 1
-    fn = "app%d.js" % script_no[0]
-    (OUT / fn).write_text(m.group(2), encoding="utf-8")
-    return '<script src="./%s"></script>' % fn
+def build(job):
+    src, out = job["src"], job["out"]
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
+
+    s = src.read_text(encoding="utf-8")
+    orig_len = len(s)
+    bodies = []
+
+    def repl(m):
+        attr, body = m.group(1), m.group(2)
+        if "application/json" in attr or "application/ld+json" in attr:
+            raise SystemExit("%s: 出现 JSON 类型内联脚本，需要专门处理 DATA 回填" % job["key"])
+        bodies.append(body)
+        return '<script src="./app%d.js"></script>' % len(bodies)
+
+    html, n = SCRIPT_RE.subn(repl, s)
+    if n == 0:
+        raise SystemExit("%s: 没有找到内联脚本" % job["key"])
+    if len(bodies) != n:
+        raise SystemExit("%s: 脚本计数不一致" % job["key"])
+
+    styles = STYLE_RE.findall(html)
+    for idx, body in enumerate(bodies, 1):
+        (out / ("app%d.js" % idx)).write_text(body, encoding="utf-8")
+    (out / "index.html").write_text(html, encoding="utf-8")
+
+    # 脚本里是否引用外部 assets 目录
+    joined = "\n".join(bodies)
+    asset_refs = len(re.findall(r"assets/", joined))
+    copied = 0
+    if job["assets"] and job["assets"].is_dir() and asset_refs:
+        shutil.copytree(job["assets"], out / "assets")
+        copied = sum(1 for p in (out / "assets").rglob("*") if p.is_file())
+
+    bad_abs = (html.count('src="/') + html.count('href="/')
+               + html.count("src='/") + html.count("href='/"))
+    entry_size = (out / "index.html").stat().st_size
+    meta = dict(key=job["key"], source=src.as_posix(), source_bytes=src.stat().st_size,
+                source_chars=orig_len, entry_bytes=entry_size, scripts=n,
+                styles=len(styles), style_bytes=sum(len(b) for _, b in styles),
+                app_bytes=[len(b) for b in bodies], asset_refs=asset_refs,
+                assets_copied=copied, root_abs_refs=bad_abs,
+                data_image=html.count("data:image"), url_fragment=len(re.findall(r"url\(#", html)))
+    (out / "build_meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(json.dumps(meta, ensure_ascii=False))
+    if entry_size > 1024 * 1024:
+        raise SystemExit("%s: 入口超过 1MB" % job["key"])
+    if bad_abs:
+        raise SystemExit("%s: 存在根绝对路径引用" % job["key"])
+    return meta
 
 
-s, nj = re.subn(
-    r"<script(?![^>]*\ssrc=)([^>]*)>(.*?)</script>", script_repl, s, flags=re.S | re.I
-)
-print("外置脚本块：%d" % nj)
-if nj != 2:
-    raise SystemExit("预期 2 个内联脚本，实得 %d 个，构建中止" % nj)
-
-(OUT / "index.html").write_text(s, encoding="utf-8")
-size = (OUT / "index.html").stat().st_size
-print("入口 index.html：%d B（上限 1,048,576 B）" % size)
-if size > 1048576:
-    raise SystemExit("入口超过 1MB，构建中止")
-
-# ---------- 自检 ----------
-bad_abs = re.findall(r'(?:src|href)\s*=\s*["\']/(?!/)', s)
-svg_frag = len(re.findall(r"url\(#", s))
-print("根绝对路径：%d / 保留 SVG fragment 引用：%d / 内联 data:image：%d"
-      % (len(bad_abs), svg_frag, s.count("data:image")))
-for f in sorted(OUT.rglob("*")):
-    if f.is_file():
-        print("  %-14s %10d B" % (f.name, f.stat().st_size))
-print("产物：%d 个文件 / %d B"
-      % (sum(1 for f in OUT.rglob("*") if f.is_file()),
-         sum(f.stat().st_size for f in OUT.rglob("*") if f.is_file())))
-print("内容改动：0（纯分包）")
+metas = [build(j) for j in JOBS]
+print("ALL_OK", len(metas))

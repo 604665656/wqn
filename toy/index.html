@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>上下五千年 · 无尽编年 · v2.8 · build 19 · 2026-11-08</title>
+<title>上下五千年 · 无尽编年 · v4.2 · build 33 · 2026-11-09</title>
 <style>/* 上下五千年 · 无尽编年 —— 样式表（构建时内联） */
 :root{
   --bg:#14110e; --paper:#211c16; --paper2:#2b241b; --line:#4a3c2a;
@@ -974,6 +974,39 @@ html.landscape .stage-hud{top:36px}
 .wxpick.on b,.vppick.on b{color:var(--gold)}
 .wxpick.locked,.vppick.locked{opacity:.5;cursor:not-allowed}
 
+/* v3.3 表情管理：设置页 8 组网格 + 长按面板「组 → 层」两级，不再平铺 140 层 */
+.exgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-top:8px}
+.exgrp{display:flex;flex-direction:column;gap:2px;padding:6px 4px;text-align:center;
+  border:1px solid var(--line);border-radius:9px;background:var(--paper);
+  color:var(--ink);font-family:inherit;cursor:pointer}
+.exgrp b{font-size:calc(15px * var(--fs));font-weight:600;color:var(--gold)}
+.exgrp em{font-style:normal;font-size:calc(9px * var(--fs));color:var(--dim);line-height:1.25}
+.exgrp.on{border-color:var(--gold);background:var(--paper2)}
+.exgrp.locked{opacity:.45;cursor:not-allowed}
+.pp-groups{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:8px}
+.pp-groups button{display:flex;flex-direction:column;align-items:center;gap:1px;
+  padding:5px 2px;border:1px solid var(--line);border-radius:8px;
+  background:var(--paper2);color:var(--ink);font-family:inherit;cursor:pointer}
+.pp-groups button b,.pp-groups button{font-size:calc(11px * var(--fs))}
+.pp-groups button em{font-style:normal;font-size:calc(8px * var(--fs));color:var(--dim)}
+.pp-groups button.on{border-color:var(--gold);color:var(--gold)}
+.pp-groups button[aria-disabled="true"]{opacity:.42;cursor:not-allowed}
+
+/* v3.3 极简横竖统一：只收导航／角标／速览，史实正文与选项一个字不藏。
+   旧版 applyMinimal 只在主页生效，横屏切页签后又冒出一排指示，这里补齐。 */
+html.minimal .head .era{letter-spacing:1px}
+html.minimal .stage-hud span:nth-child(n+4){display:none}
+html.minimal .st .bar,html.minimal .vbar{height:3px}
+html.minimal .artwrap .artmeta,html.minimal .guidehint{display:none}
+html.landscape.minimal .head .era{letter-spacing:0}
+html.landscape.minimal .stage-hud span:nth-child(n+4){display:none}
+html.landscape.minimal .tabs-min button{padding:6px 2px}
+html.landscape.minimal .stage-tag{font-size:calc(9px * var(--fs))}
+/* 系统偏好：深浅已由 skin-auto 跟随，再补高对比偏好；减少动效原有规则不变 */
+@media (prefers-contrast:more){
+  html.skin-auto{--ink:#fff4dc;--dim:#dcc9a4;--line:#8a7550;--gold:#ffd75e}
+}
+
 /* 沉浸全屏：铺满的底图 = 当前选中场景板，不残留旧图 */
 html.bgfull body:before{background:var(--stage-bg) center 42%/cover no-repeat}
 html.bgfull .stage-bg{position:fixed;inset:0;width:100vw;height:100vh;
@@ -1432,6 +1465,12 @@ html.landscape #landHint .lh-exit,html.landscape.rot90 #landHint .lh-exit{
 html.hint-follow.landscape.rot90 #landHint{
   position:absolute!important;right:2%!important;bottom:11%!important;
   max-width:44%!important}
+
+/* v4.5 AVG 逐句演出：下一句按钮（贴气泡右下，随精简模式隐藏） */
+.avg-next{position:absolute;right:10px;bottom:46px;z-index:6;padding:5px 11px;border-radius:999px;font-size:12px;letter-spacing:.08em;color:#4a4336;background:rgba(255,255,255,.82);border:1px solid rgba(120,110,92,.35);cursor:pointer;animation:avgIn .28s ease both;}
+.avg-next:hover{background:#fff;}
+@keyframes avgIn{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:none;}}
+@media (prefers-reduced-motion:reduce){.avg-next{animation:none;}}
 </style>
 </head>
 <body>
@@ -1445,7 +1484,7 @@ html.hint-follow.landscape.rot90 #landHint{
    · iPhone：存到「文件」App → 长按 → 共享 → 用 Safari 打开
    · 后缀若被下载器改成 .txt / .bin / 无后缀，请手动改回 .html
 ============================================================
- 版本：v2.8 · build 19 · 2026-11-08（版本号只标识这一份文件，不改史实、不影响旧存档）
+ 版本：v4.2 · build 33 · 2026-11-09（版本号只标识这一份文件，不改史实、不影响旧存档）
 -->
 <div id="app" role="main" tabindex="-1"><div style="padding:28px 16px;text-align:center;color:#e8dcc2;font-family:sans-serif;line-height:2">
 <div style="font-size:20px;letter-spacing:4px;color:#c9a227">上下五千年 · 无尽编年</div>
